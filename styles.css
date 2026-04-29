@@ -13,6 +13,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -20,6 +25,7 @@ body {
     background: linear-gradient(135deg, var(--tertiary) 0%, var(--secondary) 100%);
     min-height: 100vh;
     padding: 20px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -431,6 +437,7 @@ nav {
     flex-direction: column;
     gap: 10px;
     min-height: 300px;
+    padding: 5px;
 }
 
 .zone-title {
@@ -509,6 +516,14 @@ nav {
 .draggable.dragging {
     opacity: 0.5;
     cursor: grabbing;
+}
+
+.touch-clone {
+    pointer-events: none;
+    z-index: 9999;
+    opacity: 0.85;
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
 }
 
 .draggable.matched {
@@ -599,6 +614,10 @@ nav {
     z-index: 1000;
     display: none;
     animation: popIn 0.4s ease;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .modal-feedback.show {
@@ -703,17 +722,730 @@ nav {
     display: block;
 }
 
-@media (max-width: 600px) {
-    h1 {
-        font-size: 2rem;
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
     }
-    
-    .tab-btn {
-        padding: 12px 20px;
+
+    header {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    header::before {
+        font-size: 60px;
+        right: -10px;
+        top: -10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-shadow: 2px 2px 0 var(--tertiary);
+    }
+
+    .subtitle {
         font-size: 1rem;
     }
-    
+
+    .score-display {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 10px auto 0;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    .tab-btn {
+        padding: 12px 16px;
+        font-size: 0.95rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .card {
+        padding: 18px;
+        border-radius: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .card p, .card li {
+        font-size: 0.95rem;
+    }
+
+    .study-btn {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+
+    .quiz-container {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .question {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .question-counter {
+        font-size: 0.9rem;
+    }
+
+    .option {
+        padding: 14px 18px;
+        font-size: 1rem;
+        border-width: 2px;
+    }
+
+    .progress-bar {
+        height: 10px;
+    }
+
+    .feedback h3 {
+        font-size: 1.3rem;
+    }
+
+    .next-btn, .restart-btn {
+        padding: 14px 30px;
+        font-size: 1.1rem;
+    }
+
+    .game-container {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .game-title {
+        font-size: 1.5rem;
+    }
+
+    .game-instructions {
+        font-size: 1rem;
+    }
+
+    .zone-title {
+        font-size: 1.1rem;
+        padding: 8px;
+    }
+
+    .period-slot {
+        padding: 10px;
+        min-height: 80px;
+    }
+
+    .period-slot .slot-title strong {
+        font-size: 0.9rem;
+    }
+
+    .period-slot .slot-title p {
+        font-size: 0.7rem;
+    }
+
+    .draggable {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+        border-width: 2px;
+    }
+
+    .period-slot .draggable {
+        max-width: 100%;
+    }
+
+    .check-btn, .restart-game-btn {
+        padding: 14px 30px;
+        font-size: 1.1rem;
+    }
+
+    .game-result h3 {
+        font-size: 1.5rem;
+    }
+
+    .game-result p {
+        font-size: 1rem;
+    }
+
+    .modal-feedback {
+        padding: 25px 20px;
+        border-radius: 15px;
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .modal-feedback h2 {
+        font-size: 1.5rem;
+    }
+
+    .modal-feedback p {
+        font-size: 1rem;
+    }
+
+    .modal-feedback .emoji {
+        font-size: 3rem;
+    }
+
+    .modal-feedback .close-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+
+    .modal-feedback .stats {
+        padding: 15px;
+    }
+
+    .modal-feedback .stats div {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .score-display {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 10px auto 0;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .tab-btn {
+        padding: 14px 24px;
+        font-size: 1.1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 15px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .quiz-container, .game-container {
+        padding: 25px 20px;
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .option {
+        padding: 16px 20px;
+        font-size: 1.05rem;
+    }
+
+    .modal-feedback {
+        padding: 30px;
+        width: 85%;
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .modal-feedback {
+        width: 80%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
     .game-board {
         flex-direction: column;
+        gap: 20px;
+    }
+
+    .periods-zone, .items-zone {
+        min-width: 100%;
+    }
+
+    .items-container {
+        min-height: 200px;
+    }
+
+    .option:hover {
+        transform: none;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .tab-btn:hover {
+        transform: none;
+    }
+
+    .draggable:hover {
+        transform: none;
+    }
+
+    .next-btn:hover, .restart-btn:hover,
+    .check-btn:hover, .restart-game-btn:hover {
+        transform: none;
+    }
+
+    .modal-feedback .close-btn:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .tab-btn {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.15rem;
+    }
+
+    .card p, .card li {
+        font-size: 0.9rem;
+    }
+
+    .quiz-container, .game-container {
+        padding: 15px 12px;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .option {
+        padding: 12px 14px;
+        font-size: 0.9rem;
+    }
+
+    .modal-feedback {
+        padding: 20px 15px;
+        width: 95%;
+    }
+
+    .game-title {
+        font-size: 1.3rem;
+    }
+
+    .game-instructions {
+        font-size: 0.9rem;
+    }
+
+    .zone-title {
+        font-size: 1rem;
+    }
+
+    .draggable {
+        padding: 8px 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    header::before {
+        font-size: 60px;
+        right: -10px;
+        top: -10px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        text-shadow: 2px 2px 0 var(--tertiary);
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .score-display {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 10px auto 0;
+        display: inline-block;
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    nav {
+        gap: 8px;
+    }
+
+    .tab-btn {
+        padding: 12px 16px;
+        font-size: 0.95rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .card {
+        padding: 18px;
+        border-radius: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .card p, .card li {
+        font-size: 0.95rem;
+    }
+
+    .study-btn {
+        padding: 8px 16px;
+        font-size: 0.8rem;
+    }
+
+    .quiz-container {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .question {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .question-counter {
+        font-size: 0.9rem;
+    }
+
+    .option {
+        padding: 14px 18px;
+        font-size: 1rem;
+        border-width: 2px;
+    }
+
+    .progress-bar {
+        height: 10px;
+    }
+
+    .feedback h3 {
+        font-size: 1.3rem;
+    }
+
+    .next-btn, .restart-btn {
+        padding: 14px 30px;
+        font-size: 1.1rem;
+    }
+
+    .game-container {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    .game-title {
+        font-size: 1.5rem;
+    }
+
+    .game-instructions {
+        font-size: 1rem;
+    }
+
+    .zone-title {
+        font-size: 1.1rem;
+        padding: 8px;
+    }
+
+    .period-slot {
+        padding: 10px;
+        min-height: 80px;
+    }
+
+    .period-slot .slot-title strong {
+        font-size: 0.9rem;
+    }
+
+    .period-slot .slot-title p {
+        font-size: 0.7rem;
+    }
+
+    .draggable {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+        border-width: 2px;
+    }
+
+    .period-slot .draggable {
+        max-width: 100%;
+    }
+
+    .check-btn, .restart-game-btn {
+        padding: 14px 30px;
+        font-size: 1.1rem;
+    }
+
+    .game-result h3 {
+        font-size: 1.5rem;
+    }
+
+    .game-result p {
+        font-size: 1rem;
+    }
+
+    .modal-feedback {
+        padding: 25px 20px;
+        border-radius: 15px;
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .modal-feedback h2 {
+        font-size: 1.5rem;
+    }
+
+    .modal-feedback p {
+        font-size: 1rem;
+    }
+
+    .modal-feedback .emoji {
+        font-size: 3rem;
+    }
+
+    .modal-feedback .close-btn {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+
+    .modal-feedback .stats {
+        padding: 15px;
+    }
+
+    .modal-feedback .stats div {
+        font-size: 0.95rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    .score-display {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin: 10px auto 0;
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    .tab-btn {
+        padding: 14px 24px;
+        font-size: 1.1rem;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 15px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .quiz-container, .game-container {
+        padding: 25px 20px;
+    }
+
+    .question {
+        font-size: 1.2rem;
+    }
+
+    .option {
+        padding: 16px 20px;
+        font-size: 1.05rem;
+    }
+
+    .modal-feedback {
+        padding: 30px;
+        width: 85%;
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .modal-feedback {
+        width: 80%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 768px) {
+    .game-board {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .periods-zone, .items-zone {
+        min-width: 100%;
+    }
+
+    .items-container {
+        min-height: 200px;
+    }
+
+    .option:hover {
+        transform: none;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+
+    .tab-btn:hover {
+        transform: none;
+    }
+
+    .draggable:hover {
+        transform: none;
+    }
+
+    .next-btn:hover, .restart-btn:hover,
+    .check-btn:hover, .restart-game-btn:hover {
+        transform: none;
+    }
+
+    .modal-feedback .close-btn:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 360px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .tab-btn {
+        padding: 10px 12px;
+        font-size: 0.85rem;
+    }
+
+    nav {
+        gap: 5px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h2 {
+        font-size: 1.15rem;
+    }
+
+    .card p, .card li {
+        font-size: 0.9rem;
+    }
+
+    .quiz-container, .game-container {
+        padding: 15px 12px;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .option {
+        padding: 12px 14px;
+        font-size: 0.9rem;
+    }
+
+    .modal-feedback {
+        padding: 20px 15px;
+        width: 95%;
+    }
+
+    .game-title {
+        font-size: 1.3rem;
+    }
+
+    .game-instructions {
+        font-size: 0.9rem;
+    }
+
+    .zone-title {
+        font-size: 1rem;
+    }
+
+    .draggable {
+        padding: 8px 10px;
+        font-size: 0.8rem;
     }
 }

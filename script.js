@@ -123,7 +123,7 @@ const studyContent = {
 // Adicionar event listeners aos cards de estudo (apenas os botões)
 document.querySelectorAll('.study-btn').forEach(btn => {
     btn.addEventListener('click', (e) => {
-        e.stopPropagation(); // Prevent duplicate click
+        e.stopPropagation();
         const studyId = btn.dataset.study;
         const info = studyContent[studyId];
         
@@ -142,12 +142,9 @@ document.querySelectorAll('.study-btn').forEach(btn => {
     });
 });
 
-// Remover click dos cards (agora só os botões abrem o modal)
 document.querySelectorAll('.card[data-study]').forEach(card => {
     card.style.cursor = 'default';
 });
-
-// Função para fechar modal de estudio (reutiliza o mesmo listener)
 
 // Trocar abas
 const tabs = document.querySelectorAll('.tab-btn');
@@ -165,7 +162,6 @@ tabs.forEach(tab => {
 
 // Quiz - Banco de todas as questões
 const allQuestions = [
-    // Origem da humanidade
     {
         question: "Por que a África é chamada de 'berço da humanidade'?",
         options: ["Porque os dinossauros surgiram lá", "Porque os primeiros seres humanos surgiram na África", "Porque é o maior continente", "Porque tem mais museus"],
@@ -194,7 +190,6 @@ const allQuestions = [
         explanation: "Isso mesmo! Existem diferentes tons de pele ao redor do mundo.",
         wrongExplanation: ["Cada pessoa tem um tom diferente de pele.", "", "Existem tons claros, médios e escuros.", "Existem tons claros, médios e escuros."]
     },
-    // Pinturas rupestres
     {
         question: "O que são pinturas rupestres?",
         options: ["Pinturas em quadros", "Desenhos nas paredes das cavernas", "Pinturas em tecidos", "Livros com imagens"],
@@ -216,7 +211,6 @@ const allQuestions = [
         explanation: "Eram pintadas diretamente nas paredes das cavernas e rochas!",
         wrongExplanation: ["Papel não existia na Pré-História.", "", "Tecido também não existia.", "Algumas eram em madeira, mas o mais comum era em rochas!"]
     },
-    // Pré-História
     {
         question: "O que significa Pré-História?",
         options: ["História muito antiga", "Período antes da invenção da escrita", "História sem importância", "História dos dinossauros"],
@@ -238,7 +232,6 @@ const allQuestions = [
         explanation: "Vestígios são sinais e objetos que as pessoas deixaram no passado!",
         wrongExplanation: ["Restos de comida são um tipo de vestígio, mas não o principal.", "", "Roupas são vestígios também, mas o termo é mais amplo.", "Uma casa abandonada pode ser um vestígio."]
     },
-    // Paleolítico
     {
         question: "O que significa 'vida nômade'?",
         options: ["Viver em casas fixas", "Viver em cavernas", "Não ter moradia fixa, sempre se mudar", "Viver perto do mar"],
@@ -281,7 +274,6 @@ const allQuestions = [
         explanation: "Caçar animais era uma atividade essencial para sobreviver!",
         wrongExplanation: ["TV não existia.", "Nadar pode ter sido praticado, mas não era principal.", "", "Vídeo game é moderno."]
     },
-    // Neolítico
     {
         question: "Qual período começou a praticar a agricultura?",
         options: ["Paleolítico", "Neolítico", "Idade dos Metais", "Nenhum deles"],
@@ -324,7 +316,6 @@ const allQuestions = [
         explanation: "Cultivavam trigo e outros cereais!",
         wrongExplanation: ["Flores eram cultivadas depois.", "", "Vegetais também, mas principalmente cereais.", "Cultivavam sim!"]
     },
-    // Idade dos Metais
     {
         question: "Qual material começou a ser usado na Idade dos Metais?",
         options: ["Pedra", "Madeira", "Cobre, bronze e ferro", "Plástico"],
@@ -367,7 +358,6 @@ const allQuestions = [
         explanation: "Bronze é uma mistura de cobre e estanho!",
         wrongExplanation: ["Bronze não é ferro.", "", "Bronze tem mais de um metal.", "Aço é diferente."]
     },
-    // Características gerais
     {
         question: "Quantos períodos tem a Pré-História?",
         options: ["Um", "Três", "Cinco", "Dez"],
@@ -403,7 +393,6 @@ const allQuestions = [
         explanation: "Estudam o passado da humanidade!",
         wrongExplanation: ["Médicos tratam doenças.", "", "Professores ensinam várias matérias.", "Agricultores cultivam alimentos."]
     },
-    // Ferramentas
     {
         question: "No Paleolítico, as pessoas usavam:",
         options: ["Lanças e foices", "Apenas as mãos", "Tratores", "Computadores"],
@@ -427,7 +416,6 @@ const allQuestions = [
     }
 ];
 
-// Função para embaralhar array
 function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -436,15 +424,12 @@ function shuffleArray(array) {
     return array;
 }
 
-// Função para selecionar 10 questões aleatórias
 function getRandomQuestions(allQs, n) {
     const shuffled = shuffleArray([...allQs]);
     return shuffled.slice(0, n);
 }
 
-// Inicializa com 10 questões aleatórias
 let quizQuestions = getRandomQuestions(allQuestions, 10);
-
 let currentQuestion = 0;
 
 function loadQuestion() {
@@ -565,17 +550,14 @@ document.getElementById('close-modal-btn').addEventListener('click', () => {
     document.getElementById('modal-stats').style.display = 'none';
     document.getElementById('close-modal-btn').style.display = 'none';
     
-    // Verificar se é modal de estudo (tem stats oculto = estudo)
     if (document.getElementById('modal-stats').style.display === 'none' && 
         document.getElementById('modal-title').textContent !== 'Parabéns, Genial!' &&
         document.getElementById('modal-title').textContent !== 'Muito Bem!' &&
         document.getElementById('modal-title').textContent !== 'Continue Estudando!' &&
         !document.getElementById('modal-title').textContent.includes('Perfeito')) {
-        // É modal de estudo - apenas fechar
         return;
     }
     
-    // É modal de quiz - reiniciar
     currentQuestion = 0;
     score = 0;
     scoreEl.textContent = 0;
@@ -585,9 +567,8 @@ document.getElementById('close-modal-btn').addEventListener('click', () => {
     loadQuestion();
 });
 
-// Jogo de arrastar - Banco de itens
+// Jogo de arrastar
 const gameItemsBank = [
-    // Paleolítico (Pedra Lascada) - 8 itens
     { text: "🔪 Lança de pedra", period: "paleolitico" },
     { text: "🦌 Caça de animais", period: "paleolitico" },
     { text: "🪓 Machado de pedra", period: "paleolitico" },
@@ -596,8 +577,6 @@ const gameItemsBank = [
     { text: "🥩 Alimentação coletada", period: "paleolitico" },
     { text: "🔥 Fogo rudimentar", period: "paleolitico" },
     { text: "🎣 Armas de caça", period: "paleolitico" },
-    
-    // Neolítico (Pedra Polida / Agricultura) - 8 itens
     { text: "🌾 Plantação de trigo", period: "neolitico" },
     { text: "🏠 Casa fixa", period: "neolitico" },
     { text: "🪓 Ferramenta polida", period: "neolitico" },
@@ -606,8 +585,6 @@ const gameItemsBank = [
     { text: "🐄 Criação de animais", period: "neolitico" },
     { text: "🏡 Aldeia", period: "neolitico" },
     { text: "🪺 Artefatos trabalhados", period: "neolitico" },
-    
-    // Idade dos Metais - 8 itens
     { text: "⛏️ Ferramenta de ferro", period: "metais" },
     { text: "⚔️ Espada de bronze", period: "metais" },
     { text: "🛡️ Escudo de metal", period: "metais" },
@@ -618,7 +595,6 @@ const gameItemsBank = [
     { text: "🗡️ Armas de ferro", period: "metais" }
 ];
 
-// Função para embaralhar array
 function shuffleGameArray(array) {
     const shuffled = [...array];
     for (let i = shuffled.length - 1; i > 0; i--) {
@@ -628,18 +604,15 @@ function shuffleGameArray(array) {
     return shuffled;
 }
 
-// Função para selecionar itens aleatórios para o jogo
 function getRandomGameItems(bank, numItems = 8) {
     const shuffled = shuffleGameArray(bank);
     return shuffled.slice(0, numItems);
 }
 
-// Função para inicializar o jogo
 function initGame() {
     const items = getRandomGameItems(gameItemsBank, 8);
     const container = document.getElementById('items-container');
     
-    // Limpar container e slots
     container.innerHTML = '';
     document.querySelectorAll('.period-slot').forEach(slot => {
         const title = slot.querySelector('.slot-title');
@@ -647,7 +620,6 @@ function initGame() {
         if (title) slot.appendChild(title);
     });
     
-    // Criar elementos arrastáveis
     items.forEach(item => {
         const el = document.createElement('div');
         el.className = 'draggable';
@@ -657,23 +629,23 @@ function initGame() {
         container.appendChild(el);
     });
     
-    // Inicializar event listeners
     initDragAndDrop();
     
-    // Reset UI elements
-    document.getElementById('game-result').classList.remove('show');
-    document.getElementById('game-result').classList.remove('perfect', 'partial');
+    document.getElementById('game-result').classList.remove('show', 'perfect', 'partial');
     document.getElementById('check-game').style.display = 'block';
     document.getElementById('restart-game-btn').style.display = 'none';
     
-    // Atualizar draggables
     window.draggables = document.querySelectorAll('.draggable');
 }
 
-// Inicializar drag and drop
 function initDragAndDrop() {
     const draggables = document.querySelectorAll('.draggable');
     const slots = document.querySelectorAll('.period-slot');
+    const itemsContainer = document.getElementById('items-container');
+    let touchDraggable = null;
+    let touchClone = null;
+    let touchOffsetX = 0;
+    let touchOffsetY = 0;
 
     draggables.forEach(draggable => {
         draggable.addEventListener('dragstart', () => {
@@ -683,6 +655,78 @@ function initDragAndDrop() {
         draggable.addEventListener('dragend', () => {
             draggable.classList.remove('dragging');
         });
+
+        draggable.addEventListener('touchstart', (e) => {
+            if (draggable.classList.contains('matched')) return;
+            e.preventDefault();
+            touchDraggable = draggable;
+            const touch = e.touches[0];
+            const rect = draggable.getBoundingClientRect();
+            touchOffsetX = touch.clientX - rect.left;
+            touchOffsetY = touch.clientY - rect.top;
+            
+            touchClone = draggable.cloneNode(true);
+            touchClone.style.position = 'fixed';
+            touchClone.style.zIndex = '9999';
+            touchClone.style.pointerEvents = 'none';
+            touchClone.style.opacity = '0.85';
+            touchClone.style.width = rect.width + 'px';
+            touchClone.style.left = (touch.clientX - touchOffsetX) + 'px';
+            touchClone.style.top = (touch.clientY - touchOffsetY) + 'px';
+            touchClone.style.transform = 'scale(1.05)';
+            document.body.appendChild(touchClone);
+            
+            draggable.classList.add('dragging');
+        }, { passive: false });
+
+        draggable.addEventListener('touchmove', (e) => {
+            if (!touchClone) return;
+            e.preventDefault();
+            const touch = e.touches[0];
+            touchClone.style.left = (touch.clientX - touchOffsetX) + 'px';
+            touchClone.style.top = (touch.clientY - touchOffsetY) + 'px';
+            
+            slots.forEach(slot => {
+                const rect = slot.getBoundingClientRect();
+                if (touch.clientX >= rect.left && touch.clientX <= rect.right &&
+                    touch.clientY >= rect.top && touch.clientY <= rect.bottom) {
+                    slot.classList.add('drag-over');
+                } else {
+                    slot.classList.remove('drag-over');
+                }
+            });
+        }, { passive: false });
+
+        draggable.addEventListener('touchend', (e) => {
+            if (!touchClone || !touchDraggable) return;
+            e.preventDefault();
+            
+            const touch = e.changedTouches[0];
+            let dropped = false;
+            
+            slots.forEach(slot => {
+                slot.classList.remove('drag-over');
+                const rect = slot.getBoundingClientRect();
+                if (touch.clientX >= rect.left && touch.clientX <= rect.right &&
+                    touch.clientY >= rect.top && touch.clientY <= rect.bottom) {
+                    if (!touchDraggable.classList.contains('matched')) {
+                        slot.appendChild(touchDraggable);
+                        dropped = true;
+                    }
+                }
+            });
+            
+            if (!dropped && touchDraggable.parentElement === document.body) {
+                itemsContainer.appendChild(touchDraggable);
+            }
+            
+            if (touchClone.parentNode) {
+                touchClone.parentNode.removeChild(touchClone);
+            }
+            touchDraggable.classList.remove('dragging');
+            touchDraggable = null;
+            touchClone = null;
+        }, { passive: false });
     });
 
     slots.forEach(slot => {
@@ -704,6 +748,18 @@ function initDragAndDrop() {
                 slot.appendChild(draggable);
             }
         });
+    });
+
+    itemsContainer.addEventListener('dragover', e => {
+        e.preventDefault();
+    });
+
+    itemsContainer.addEventListener('drop', e => {
+        e.preventDefault();
+        const draggable = document.querySelector('.dragging');
+        if (draggable && !draggable.classList.contains('matched')) {
+            itemsContainer.appendChild(draggable);
+        }
     });
 }
 
@@ -743,12 +799,12 @@ function checkGame() {
     } else if (percentage >= 31) {
         resultEl.classList.add('partial', 'show');
         titleEl.textContent = '🌟 Muito Bem!';
-        textEl.textContent = `Você acertou ${correct} de ${total} itens. Continue melhorando para alcançar um melhor resultado!`;
+        textEl.textContent = `Você acertou ${correct} de ${total} itens. Continue melhorando!`;
         addScore(10);
     } else {
         resultEl.classList.add('show');
         titleEl.textContent = '📚 Continue Estudando!';
-        textEl.textContent = `Você acertou apenas ${correct} de ${total}. Estude mais os períodos para melhorar!`;
+        textEl.textContent = `Você acertou apenas ${correct} de ${total}. Estude mais os períodos!`;
         showFeedback('💪', 'Quase conseguiu!', 'Estude mais os períodos e tente novamente!');
     }
     
@@ -756,18 +812,15 @@ function checkGame() {
     document.getElementById('restart-game-btn').style.display = 'block';
 }
 
-// Botão Jogar Novamente
 document.getElementById('restart-game-btn').addEventListener('click', () => {
     initGame();
 });
 
-// Inicializar jogo quando a aba for selecionada
 const gameTabBtn = document.querySelector('[data-tab="game"]');
 gameTabBtn.addEventListener('click', () => {
     setTimeout(initGame, 100);
 });
 
-// Feedback
 function showFeedback(emoji, title, text) {
     document.getElementById('modal-emoji').textContent = emoji;
     document.getElementById('modal-title').textContent = title;
@@ -781,7 +834,6 @@ function showFeedback(emoji, title, text) {
     }, 1500);
 }
 
-// Inicializar
 document.getElementById('restart-btn').style.display = 'none';
 document.getElementById('modal-stats').style.display = 'none';
 document.getElementById('close-modal-btn').style.display = 'none';
