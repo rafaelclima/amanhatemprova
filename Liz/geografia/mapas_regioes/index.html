@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de Geografia - 4º Ano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="app-header">
+            <button class="back-button" onclick="window.history.back()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Voltar
+            </button>
+        </header>
+
+        <div class="title-section">
+            <h1 class="gradient-text">Revisão de Geografia</h1>
+            <p class="subtitle">4º Ano • Geografia</p>
+        </div>
+
+        <nav class="tabs-nav">
+            <button class="tab-button active" data-tab="resumo">
+                📚 Resumo
+            </button>
+            <button class="tab-button" data-tab="quiz">
+                🎯 Quiz
+            </button>
+            <button class="tab-button" data-tab="simulado">
+                📝 Simulado
+            </button>
+            <button class="tab-button" data-tab="gamificacao">
+                🎮 Jogo
+            </button>
+        </nav>
+
+        <main class="content-area">
+            <!-- Seção Resumo -->
+            <section id="resumo" class="tab-content active">
+                <div class="cards-grid">
+                    <div class="info-card">
+                        <div class="card-icon">🗺️</div>
+                        <h3>Tipos de Mapas e Suas Finalidades</h3>
+                        <p>Os mapas são representações da Terra em superfícies planas. Cada tipo de mapaserve para uma finalidade diferente:</p>
+                        <ul>
+                            <li><strong>Mapa político:</strong> mostra países, estados, capitais e cidades. É otipo de mapa mais usado!</li>
+                            <li><strong>Mapa físico:</strong> mostra o relevo (montanhas, planaltos, planícies),rios, lagos e oceanos.</li>
+                            <li><strong>Mapa climático:</strong> mostra os tipos de clima de uma região (quente,frio, úmido, seco).</li>
+                            <li><strong>Mapa econômico:</strong> mostra as atividades econômicas de um lugardeterminado (indústria, agricultura, comércio).</li>
+                            <li><strong>Mapa turístico:</strong> mostra pontos turísticos, hotéis, restaurantes erotas de viagem.</li>
+                            <li><strong>Mapa de vegetação:</strong> mostra os tipos de plantas de umaregião (floresta, cerrado, caatinga).</li>
+                        </ul>
+                        <p><em>📌 Curiosidade: Os mapas são usados há milhares de anos! Os antigoegípcios já faziam mapas.</em></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">📋</div>
+                        <h3>Elementos do Mapa</h3>
+                        <p>Para entender um mapa, precisamos conhecer seus elementos principais:</p>
+                        <ul>
+                            <li><strong>Título:</strong> é como o nome do mapa. Ele nos diz sobre o que omapa fala. Exemplo: "Mapa do Brasil" ou "Mapa das Regiões do Brasil".</li>
+                            <li><strong>Legenda:</strong> explica o significado de cada símbolo, cor e sinalusado no mapa. Sem ela, não conseguimos entender o mapa!</li>
+                            <li><strong>Escala:</strong> mostra a proporção entre o tamanho real e o tamanho nomapa. Exemplo: 1 cm no mapa pode representar 1 km na realidade.</li>
+                            <li><strong>Orientação:</strong> indica as direções do mapa. Geralmente, omapa é desenhado com o Norte para cima.</li>
+                            <li><strong>Coordenadas geográficas:</strong> são números que indicam a posiçãoexata de um lugar no planeta (latitude e longitude).</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🧭</div>
+                        <h3>Rosa dos Ventos e Pontos Cardeais</h3>
+                        <p>A rosa dos ventos nos ajuda a nos orientar no espaço. Ela tem 4 pontos cardeais principais e 4 pontos colaterais:</p>
+                        <ul>
+                            <li><strong>Norte (N):</strong> o ponto principal, fica para cima no mapa. Aponta para o Polo Norte.</li>
+                            <li><strong>Sul (S):</strong> o ponto oposto ao Norte, fica para baixo nomapa.</li>
+                            <li><strong>Leste (E) ou Este:</strong> onde o sol nasce, fica para a direita nomapa. Também chamado de Oriente.</li>
+                            <li><strong>Oeste (O) ou Oeste:</strong> onde o sol se põe, fica para a esquerda nomapa. Também chamado de Ocidente.</li>
+                        </ul>
+                        <p><strong>Pontos colaterais:</strong> estão entre os pontos cardeais</p>
+                        <ul>
+                            <li><strong>Nordeste (NE):</strong> entre Norte e Leste</li>
+                            <li><strong>Sudeste (SE):</strong> entre Sul e Leste</li>
+                            <li><strong>Sudoeste (SO):</strong> entre Sul e Oeste</li>
+                            <li><strong>Noroeste (NO):</strong> entre Norte e Oeste</li>
+                        </ul>
+                        <p><em>📌 Dica: Para lembrar, pense que o sol nasce no Leste (E) e se põe no Oeste (O)!</em></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🔍</div>
+                        <h3>Como Ler e Interpretar um Mapa</h3>
+                        <p>Para ler um mapa corretamente, siga estes passos:</p>
+                        <ol>
+                            <li><strong>Leia o título:</strong> assim você sabe sobre o que é o mapa</li>
+                            <li><strong>Observe a orientação:</strong> descubra onde estão o Norte, Sul,Leste e Oeste</li>
+                            <li><strong>Consulte a legenda:</strong> ela explica o significado das cores e símbolos</li>
+                            <li><strong>Use a escala:</strong> ela ajuda a calcular distâncias reais</li>
+                            <li><strong>Analise as cores:</strong> cada cor pode indicar algo diferente (relevo,clima, vegetação)</li>
+                            <li><strong>Identifique padrões:</strong> procure áreas com cores ou símbolos semelhantes</li>
+                        </ol>
+                        <p><em>💡 Dica do professor: Sempre que ver um mapa, comece pelo título e pelalegenda!</em></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🇧🇷</div>
+                        <h3>As 5 Regiões do Brasil</h3>
+                        <p>O Brasil é um país muito grande e está dividido em 5 regiões. Cada umatem características próprias:</p>
+                        <div class="regions-grid">
+                            <div class="region-item norte">
+                                <strong>🟢 Norte</strong>
+                                <span>Acre, Amazonas, Pará, Roraima, Amapá, Tocantins, Rondônia</span>
+                                <small>Maior região! Abriga a Floresta Amazônica.</small>
+                            </div>
+                            <div class="region-item nordeste">
+                                <strong>🟡 Nordeste</strong>
+                                <span>Maranhão, Piauí, Ceará, Rio Grande do Norte, Paraíba, Pernambuco, Alagoas, Sergipe, Bahia</span>
+                                <small>Conhecida por suas praias e clima quente.</small>
+                            </div>
+                            <div class="region-item centro-oeste">
+                                <strong>🟣 Centro-Oeste</strong>
+                                <span>Mato Grosso, Mato Grosso do Sul, Goiás, Distrito Federal</span>
+                                <small>Onde fica Brasília, a capital do Brasil.</small>
+                            </div>
+                            <div class="region-item sudeste">
+                                <strong>🔵 Sudeste</strong>
+                                <span>São Paulo, Rio de Janeiro, Minas Gerais, Espírito Santo</span>
+                                <small>Região mais populosa e industrializada!</small>
+                            </div>
+                            <div class="region-item sul">
+                                <strong>🔴 Sul</strong>
+                                <span>Paraná, Santa Catarina, Rio Grande do Sul</span>
+                                <small>Famosa pelo frio de inverno e serras.</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🏛️</div>
+                        <h3>Organização Política do Brasil</h3>
+                        <p>O Brasil é organizado em três níveis de governo:</p>
+                        <ul>
+                            <li><strong>Municípios:</strong> são as cidades. Cada município tem umprefeito (eleito pela população) que administra a cidade. O Brasil tem mais de 5.500 municípios!</li>
+                            <li><strong>Estados:</strong> são unidades maiores que agrupam váriosmunicípios. Cada estado tem um gobernador (eleito pela população). O Brasil tem 26 estados.</li>
+                            <li><strong>Distrito Federal:</strong> é onde está Brasília, a capital. É especialporque abriga o governo federal. Não é estado nem município.</li>
+                            <li><strong>País:</strong> o Brasil inteiro é governado pelo presidenteda República.</li>
+                        </ul>
+                        <p><strong>Total: 26 estados + 1 Distrito Federal = 27 unidades da federação</strong></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🗝️</div>
+                        <h3>Capitanias Hereditárias</h3>
+                        <p>Quando o Brasil foi descoberto (1500), o rei de Portugal dividiu as terras emgrandes faixas chamadas Capitanias Hereditárias:</p>
+                        <ul>
+                            <li>Cada capitania era dada a um donatário (nobre português)</li>
+                            <li>Ele podia explorar a terra e estabelecercolônias</li>
+                            <li>As capitanias iam do litoral até o interior</li>
+                            <li>Todas as terras pertenciam ao rei de Portugal</li>
+                        </ul>
+                        <p>Apenas duas capitanias deram certo: <strong>Pernambuco</strong> e <strong>SãoVicente</strong> (SP). As outras foram abandonadas ou invadidas.</p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">⚔️</div>
+                        <h3>Tratado de Tordesilhas e Expansão Territorial</h3>
+                        <p><strong>Tratado de Tordesilhas (1494):</strong></p>
+                        <ul>
+                            <li>Portugal e Espanha assinaram um tratado para dividir as terrasdescobertas</li>
+                            <li>Uma linha imaginária foi traçada no mapa</li>
+                            <li>As terras a leste ficavam para Portugal</li>
+                            <li>As terras a oeste ficavam para a Espanha</li>
+                        </ul>
+                        <p><strong>Expansão Territorial:</strong></p>
+                        <ul>
+                            <li>Os portugueses foram ocupando terras além da linha do tratado</li>
+                            <li>Os bandeirantes (exploradores de São Paulo) expandiram as fronteiras</li>
+                            <li>O Brasil foi crescendo para o interior</li>
+                            <li>Hoje, o Brasil tem 8,5 milhões de km²!</li>
+                        </ul>
+                        <p><em>📌 Curiosidade: O Brasil é o maior país da América do Sul e o 5ºmaior do mundo!</em></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">🌍</div>
+                        <h3>Globo Terrestre e Planisfério</h3>
+                        <p>Existem diferentes formas de representar nosso planeta:</p>
+                        <ul>
+                            <li><strong>Globo terrestre:</strong> tem formato de esfera (redondo). É aforma mais correta de representar a Terra porque mostra oscontinentes e oceanos como realmente são.</li>
+                            <li><strong>Planisfério (mapa-múndi):</strong> é um mapa plano de todo omundo. É mais prático para guardar e usar, mas distorce algns pontos.</li>
+                            <li><strong>Diferença:</strong> O globo é mais preciso, mas o planisfério é maisprático para ver todo o mundo de uma vez. Cada um tem suautilidade!</li>
+                        </ul>
+                        <p><em>💡 Dica: Pense no globo como uma bola e no planisfério como umamapa展開!</em></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">⛰️</div>
+                        <h3>Formas de Representação do Relevo</h3>
+                        <p>O relevo brasileiro tem diferentes formas que são representadas nos mapas:</p>
+                        <ul>
+                            <li><strong>Planaltos:</strong> regiões elevadas com superfície relativamenteplana. O Brasil tem muitos planaltos!</li>
+                            <li><strong>Planícies:</strong> regiões planas e baixas, geralmente próximoaos rios. O Pantanal é um exemplo!</li>
+                            <li><strong>Montanhas:</strong> elevações altas e íngremes. No Brasil,são mais comuns nas regiões Sul e Sudeste.</li>
+                        </ul>
+                        <p><strong>Como as cores representam o relevo nos mapas:</strong></p>
+                        <ul>
+                            <li><strong>Verde:</strong> regiões baixas (planícies)</li>
+                            <li><strong>Amarelo ou laranja:</strong> regiões de altitude média (planaltos)</li>
+                            <li><strong>Marrom ou vermelho:</strong> regiões altas (montanhas)</li>
+                        </ul>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">📱</div>
+                        <h3>Uso de Mapas no Dia a Dia</h3>
+                        <p>Utilizamos mapas constantemente sem perceber! Veja alguns exemplos:</p>
+                        <ul>
+                            <li><strong>GPS e aplicativos:</strong> Google Maps, Waze e Apple Maps nosajudam a chegar a lugares novos</li>
+                            <li><strong>Mapas de transporte:</strong> mapas de ônibus, metrô e trens nosajudam a nos locomover</li>
+                            <li><strong>Mapas de locais:</strong> mapas de shoppings, aeroportos,parques e escolas</li>
+                            <li><strong>Mapas de estradas:</strong> mapas de rodovias e estradasparam perencanaan viagens</li>
+                            <li><strong>Previsão do tempo:</strong> mapas meteorológicos mostram onde vai chover ou fazer sol</li>
+                            <li><strong>Esportes:</strong> mapas de corridas e provas de aventura</li>
+                        </ul>
+                        <p><em>📌 Curiosidade: O GPS usa satélites no espaço para noslocalizar com precisão!</em></p>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="card-icon">⭐</div>
+                        <h3>Resumo Final para a Prova</h3>
+                        <p><strong>Revise estes pontos importantes:</strong></p>
+                        <ol>
+                            <li>Os 4 pontos cardeais: Norte, Sul, Leste, Oeste</li>
+                            <li>Os 4 pontos colaterais: Nordeste, Sudeste, Sudoeste, Noroeste</li>
+                            <li>Os 5 elementos do mapa: título, legenda, escala, orientação, coordenadas</li>
+                            <li>As 5 regiões do Brasil e seus estados</li>
+                            <li>A diferença entre mapa político e mapa físico</li>
+                            <li>O que é a legenda e para que serve</li>
+                            <li>O que é a escala e como ela funciona</li>
+                            <li>Globo terrestre vs Planisfério</li>
+                            <li>Como ler um mapa passo a passo</li>
+                            <li>Capitanias Hereditárias e Tratado de Tordesilhas</li>
+                        </ol>
+                        <p><em>💪 Bons estudos! Você vai arrasar na prova!</em></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Quiz -->
+            <section id="quiz" class="tab-content">
+                <div class="quiz-container">
+                    <div class="quiz-progress">
+                        <span class="progress-text">Questão <span id="current-question">1</span> de 10</span>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="quiz-progress-fill"></div>
+                        </div>
+                    </div>
+
+                    <div class="question-card" id="question-card">
+                        <h3 class="question-text" id="question-text"></h3>
+                        <div class="options-container" id="options-container"></div>
+                    </div>
+
+                    <div class="feedback-container" id="feedback-container" style="display: none;">
+                        <div class="feedback-icon" id="feedback-icon"></div>
+                        <p class="feedback-text" id="feedback-text"></p>
+                        <div class="explanation-box" id="explanation-box"></div>
+                        <button class="next-button" id="next-button">Próxima Questão</button>
+                    </div>
+
+                    <div class="quiz-result" id="quiz-result" style="display: none;">
+                        <div class="result-icon">🎉</div>
+                        <h2>Quiz Completo!</h2>
+                        <div class="result-stats">
+                            <div class="stat-item correct">
+                                <span class="stat-number" id="correct-count">0</span>
+                                <span class="stat-label">Acertos</span>
+                            </div>
+                            <div class="stat-item wrong">
+                                <span class="stat-number" id="wrong-count">0</span>
+                                <span class="stat-label">Erros</span>
+                            </div>
+                            <div class="stat-item percentage">
+                                <span class="stat-number" id="percentage">0%</span>
+                                <span class="stat-label">Acertos</span>
+                            </div>
+                        </div>
+                        <p class="result-message" id="result-message"></p>
+                        <button class="restart-button" id="restart-quiz">Refazer Quiz</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Simulado -->
+            <section id="simulado" class="tab-content">
+                <div class="simulado-container">
+                    <div class="simulado-instructions">
+                        <h3>📝 Simulado com 10 Questões</h3>
+                        <p>Responda todas as questões e veja sua nota no final!</p>
+                    </div>
+
+                    <div class="simulado-questions" id="simulado-questions"></div>
+
+                    <button class="submit-simulado" id="submit-simulado">Finalizar Simulado</button>
+
+                    <div class="simulado-result" id="simulado-result" style="display: none;">
+                        <h2>Resultado do Simulado</h2>
+                        <div class="result-stats">
+                            <div class="stat-item correct">
+                                <span class="stat-number" id="simulado-correct">0</span>
+                                <span class="stat-label">Acertos</span>
+                            </div>
+                            <div class="stat-item wrong">
+                                <span class="stat-number" id="simulado-wrong">0</span>
+                                <span class="stat-label">Erros</span>
+                            </div>
+                            <div class="stat-item percentage">
+                                <span class="stat-number" id="simulado-percentage">0%</span>
+                                <span class="stat-label">Nota</span>
+                            </div>
+                        </div>
+                        <div class="simulado-review" id="simulado-review"></div>
+                        <button class="restart-button" id="restart-simulado">Refazer Simulado</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Seção Gamificação -->
+            <section id="gamificacao" class="tab-content">
+                <div class="game-container">
+                    <div class="game-header">
+                        <h2>🎮 Arraste e Conecte!</h2>
+                        <p>Arraste as palavras para o lugar correto</p>
+                    </div>
+
+                    <div class="game-board" id="game-board">
+                        <div class="game-items" id="game-items"></div>
+                        <div class="game-targets" id="game-targets"></div>
+                    </div>
+
+                    <div class="game-progress">
+                        <div class="game-progress-bar">
+                            <div class="game-progress-fill" id="game-progress-fill"></div>
+                        </div>
+                        <span class="game-progress-text"><span id="game-correct-count">0</span>/5</span>
+                    </div>
+
+                    <button class="check-answers" id="check-answers">Verificar Respostas</button>
+
+                    <div class="game-result" id="game-result" style="display: none;">
+                        <div class="result-icon">🌟</div>
+                        <h3 id="game-result-title">Muito Bem!</h3>
+                        <p id="game-result-message"></p>
+                        <button class="restart-button" id="restart-game">Jogar Novamente</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
