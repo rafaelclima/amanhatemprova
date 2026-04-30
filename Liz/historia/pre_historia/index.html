@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pré-História - Jogo Educativo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🦕Pré-História</h1>
+            <p class="subtitle">Aprenda jogando para a prova!</p>
+            <div class="score-display">⭐ Pontos: <span id="score">0</span></div>
+        </header>
+
+        <nav>
+            <button class="tab-btn active" data-tab="study">📚 Estudar</button>
+            <button class="tab-btn" data-tab="quiz">❓ Quiz</button>
+            <button class="tab-btn" data-tab="game">🎮 Jogo</button>
+        </nav>
+
+<section id="study" class="section active">
+            <div class="cards-grid">
+                <div class="card" data-study="origem">
+                    <h2>🌍 Origem da Humanidade</h2>
+                    <p>Os primeiros seres humanos surgiram na <span class="highlight">África</span>, por isso ela é chamada de <strong>"berço da humanidade"</strong>.</p>
+                    <ul>
+                        <li>👀 Todos têm olhos semelhantes</li>
+                        <li>🎨 Tons de pele variados</li>
+                        <li>🦶 Andavam sobre duas pernas</li>
+                    </ul>
+                    <button class="study-btn" data-study="origem">VER MAIS</button>
+                </div>
+
+                <div class="card" data-study="pinturas">
+                    <h2>🖼️ Pinturas Rupestres</h2>
+                    <p>Antes da escrita, os seres humanos se comunicavam por meio de <span class="highlight">desenhos nas cavernas</span>.</p>
+                    <ul>
+                        <li>Chamamos de <strong>pinturas rupestres</strong></li>
+                        <li>Contavam histórias</li>
+                        <li>Mostravam a vida diária</li>
+                    </ul>
+                    <button class="study-btn" data-study="pinturas">VER MAIS</button>
+                </div>
+
+                <div class="card" data-study="prehistoria">
+                    <h2>📜 O que é Pré-História?</h2>
+                    <p>É o período <strong>antes da invenção da escrita</strong>. Como não existiam registros escritos, os historiadores usam <span class="highlight">vestígios</span> para estudar:</p>
+                    <ul>
+                        <li>🪨 Pinturas em cavernas</li>
+                        <li>🪓 Objetos de pedra</li>
+                        <li>🦴 Ossos e utensílios</li>
+                    </ul>
+                    <button class="study-btn" data-study="prehistoria">VER MAIS</button>
+                </div>
+
+                <div class="card period-card paleo" data-study="paleolitico">
+                    <span class="period-icon">🪨</span>
+                    <h2>Paleolítico</h2>
+                    <p><span class="highlight">Idade da Pedra Lascada</span></p>
+                    <ul>
+                        <li>📢 Ferramentas de pedra lascada</li>
+                        <li>🦌 Caça e coleta de alimentos</li>
+                        <li>🚶 Vida nômade (sem moradia fixa)</li>
+                    </ul>
+                    <button class="study-btn" data-study="paleolitico">VER MAIS</button>
+                </div>
+
+                <div class="card period-card zoo" data-study="neolitico">
+                    <span class="period-icon">🌾</span>
+                    <h2>Neolítico</h2>
+                    <p><span class="highlight">Idade da Pedra Polida</span></p>
+                    <ul>
+                        <li>🌱 Desenvolvimento da agricultura</li>
+                        <li>🏠 Fixação em um lugar</li>
+                        <li>🪓 Ferramentas mais trabalhadas</li>
+                    </ul>
+                    <button class="study-btn" data-study="neolitico">VER MAIS</button>
+                </div>
+
+                <div class="card period-card metal" data-study="metais">
+                    <span class="period-icon">⚙️</span>
+                    <h2>Idade dos Metais</h2>
+                    <p><span class="highlight">Uso de metais</span></p>
+                    <ul>
+                        <li>🔩 Cobre, bronze e ferro</li>
+                        <li>⚒️ Ferramentas mais resistentes</li>
+                        <li>🏛️ Sociedades mais organizadas</li>
+                    </ul>
+                    <button class="study-btn" data-study="metais">VER MAIS</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="quiz" class="section">
+            <div class="quiz-container">
+                <div class="question-counter">Pergunta <span id="current-q">1</span> de <span id="total-q">10</span></div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress" style="width: 10%;"></div>
+                </div>
+
+                <div class="question" id="question-text">
+                    Carregando pergunta...
+                </div>
+
+                <div class="options" id="options">
+                </div>
+
+                <div class="feedback" id="feedback">
+                    <h3 id="feedback-title"></h3>
+                    <p id="feedback-text"></p>
+                </div>
+
+                <button class="next-btn" id="next-btn">Próxima Pergunta →</button>
+                <button class="restart-btn" id="restart-btn">Reiniciar Quiz 🔄</button>
+            </div>
+        </section>
+
+        <section id="game" class="section">
+            <div class="game-container">
+                <h2 class="game-title">🎮 Classifique os Períodos!</h2>
+                <p class="game-instructions">
+                    Arraste cada item para o período correto da Pré-História
+                </p>
+
+                <div class="game-board">
+                    <div class="periods-zone">
+                        <div class="zone-title">📅 Períodos</div>
+                        
+                        <div class="period-slot" id="slot-paleo" data-period="paleolitico">
+                            <div class="slot-title">
+                                <strong style="color: #8B4513;">🪨 Paleolítico</strong>
+                                <p style="font-size: 0.8rem; color: #666;">(Pedra Lascada)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="period-slot" id="slot-zoo" data-period="neolitico">
+                            <div class="slot-title">
+                                <strong style="color: var(--secondary);">🌾 Neolítico</strong>
+                                <p style="font-size: 0.8rem; color: #666;">(Pedra Polida)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="period-slot" id="slot-metal" data-period="metais">
+                            <div class="slot-title">
+                                <strong style="color: #7F8C8D;">⚙️ Idade dos Metais</strong>
+                                <p style="font-size: 0.8rem; color: #666;">(Ferro e Bronze)</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="items-zone">
+                        <div class="zone-title">🎒 Itens para classificar</div>
+                        <div id="items-container" class="items-container">
+                            <!-- Itens serão inseridos via JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <button class="check-btn" id="check-game">Verificar Respostas ✓</button>
+                <button class="restart-game-btn" id="restart-game-btn" style="display: none;">Jogar Novamente 🔄</button>
+
+                <div class="game-result" id="game-result">
+                    <h3 id="result-title"></h3>
+                    <p id="result-text"></p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="modal-feedback" id="modal-feedback">
+        <span class="emoji" id="modal-emoji">🎉</span>
+        <h2 id="modal-title">Muito Bem!</h2>
+        <p id="modal-text">Você acertou todas!</p>
+        <div class="stats" id="modal-stats" style="display: none;">
+            <div>✅ Acertos: <span class="correct-count" id="stat-correct">0</span></div>
+            <div>❌ Erros: <span class="wrong-count" id="stat-wrong">0</span></div>
+            <div>📊 Percentual: <span class="percent" id="stat-percent">0%</span></div>
+        </div>
+        <button class="close-btn" id="close-modal-btn" style="display: none;">Continuar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
