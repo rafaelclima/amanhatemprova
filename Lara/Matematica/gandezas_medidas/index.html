@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revisão interativa de Matemática — Grandezas e Medidas para o 1º Ano do Ensino Médio. Quiz, simulado e resumo completo.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📐</text></svg>">
+  <title>Revisão de Matemática — Grandezas e Medidas | 1º Ano EM</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__title">
+        <span class="header__icon">📐</span>
+        Revisão de Matemática
+      </h1>
+      <p class="header__subtitle">Grandezas e Medidas — 1º Ano do Ensino Médio</p>
+    </div>
+  </header>
+
+  <!-- ==================== NAVEGAÇÃO (TABS) ==================== -->
+  <nav class="nav">
+    <div class="nav__container">
+      <button class="nav__tab nav__tab--active" data-tab="resumo">
+        <span class="nav__tab-icon">📖</span>
+        Resumo
+      </button>
+      <button class="nav__tab" data-tab="quiz">
+        <span class="nav__tab-icon">❓</span>
+        Quiz
+      </button>
+      <button class="nav__tab" data-tab="simulado">
+        <span class="nav__tab-icon">📝</span>
+        Simulado
+      </button>
+      <button class="nav__tab" data-tab="resultados">
+        <span class="nav__tab-icon">🏆</span>
+        Resultados
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== CONTEÚDO PRINCIPAL ==================== -->
+  <main class="main">
+
+    <!-- ===== SEÇÃO: RESUMO ===== -->
+    <section class="section section--active" id="secao-resumo">
+      <div class="section__container">
+
+        <article class="resumo">
+
+          <!-- Introdução -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">O que são Grandezas e Medidas?</h2>
+            <div class="resumo__conteudo" id="resumo-intro"></div>
+          </div>
+
+          <!-- Comprimento -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Comprimento e Distância</h2>
+            <div class="resumo__conteudo" id="resumo-comprimento"></div>
+          </div>
+
+          <!-- Massa -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Massa</h2>
+            <div class="resumo__conteudo" id="resumo-massa"></div>
+          </div>
+
+          <!-- Capacidade / Volume -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Capacidade e Volume</h2>
+            <div class="resumo__conteudo" id="resumo-volume"></div>
+          </div>
+
+          <!-- Tempo -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Tempo</h2>
+            <div class="resumo__conteudo" id="resumo-tempo"></div>
+          </div>
+
+          <!-- Área -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Área</h2>
+            <div class="resumo__conteudo" id="resumo-area"></div>
+          </div>
+
+          <!-- Conversão de Unidades -->
+          <div class="resumo__bloco resumo__bloco--destaque">
+            <h2 class="resumo__titulo">Tabela de Conversão de Unidades</h2>
+            <div class="resumo__tabela-wrapper">
+              <table class="resumo__tabela" id="tabela-conversao"></table>
+            </div>
+          </div>
+
+          <!-- Exemplos Práticos -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Exemplos Práticos</h2>
+            <div class="resumo__exemplos" id="resumo-exemplos"></div>
+          </div>
+
+          <!-- Recursos Externos -->
+          <div class="resumo__bloco">
+            <h2 class="resumo__titulo">Recursos para Estudo</h2>
+            <div class="resumo__recursos" id="resumo-recursos"></div>
+          </div>
+
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ===== SEÇÃO: QUIZ ===== -->
+    <section class="section" id="secao-quiz">
+      <div class="section__container">
+
+        <!-- Tela Inicial do Quiz -->
+        <div class="quiz__inicio" id="quiz-inicio">
+          <div class="quiz__card">
+            <h2 class="quiz__card-titulo">Quiz de Revisão</h2>
+            <p class="quiz__card-descricao">
+              Teste seus conhecimentos com 10 questões aleatórias sobre grandezas e medidas.
+              Você verá o resultado de cada resposta na hora!
+            </p>
+            <div class="quiz__card-info">
+              <div class="quiz__card-info-item">
+                <span class="quiz__card-info-icon">📋</span>
+                <span>10 questões</span>
+              </div>
+              <div class="quiz__card-info-item">
+                <span class="quiz__card-info-icon">⏱️</span>
+                <span>Sem limite de tempo</span>
+              </div>
+              <div class="quiz__card-info-item">
+                <span class="quiz__card-info-icon">💡</span>
+                <span>Feedback imediato</span>
+              </div>
+            </div>
+            <button class="btn btn--primario" id="btn-iniciar-quiz">
+              Começar Quiz
+            </button>
+          </div>
+        </div>
+
+        <!-- Quiz em Andamento -->
+        <div class="quiz__andamento quiz--oculto" id="quiz-andamento">
+          <!-- Barra de Progresso -->
+          <div class="progresso">
+            <div class="progresso__info">
+              <span class="progresso__texto">Questão <span id="quiz-numero-atual">1</span> de 10</span>
+              <span class="progresso__texto"><span id="quiz-acertos-parciais">0</span> acertos</span>
+            </div>
+            <div class="progresso__barra">
+              <div class="progresso__preenchimento" id="quiz-barra-progresso"></div>
+            </div>
+          </div>
+
+          <!-- Card da Questão -->
+          <div class="questao" id="quiz-questao">
+            <div class="questao__cabecalho">
+              <span class="questao__numero" id="quiz-questao-numero">1</span>
+              <span class="questao__tipo">Múltipla Escolha</span>
+            </div>
+            <p class="questao__enunciado" id="quiz-enunciado"></p>
+            <div class="questao__alternativas" id="quiz-alternativas"></div>
+            <div class="questao__feedback questao__feedback--oculto" id="quiz-feedback"></div>
+            <button class="btn btn--primario questao__btn-proximo questao__btn--oculto" id="quiz-btn-proximo">
+              Próxima Questão
+            </button>
+          </div>
+        </div>
+
+        <!-- Resultado Final do Quiz -->
+        <div class="quiz__resultado quiz--oculto" id="quiz-resultado-final">
+          <div class="resultado-card" id="quiz-resultado-card"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== SEÇÃO: SIMULADO ===== -->
+    <section class="section" id="secao-simulado">
+      <div class="section__container">
+
+        <!-- Tela Inicial do Simulado -->
+        <div class="simulado__inicio" id="simulado-inicio">
+          <div class="simulado__card">
+            <h2 class="simulado__card-titulo">Simulado</h2>
+            <p class="simulado__card-descricao">
+              Modo prova! Responda 10 questões sem ver o gabarito até o final.
+              Gerencie seu tempo e confira seu desempenho.
+            </p>
+            <div class="simulado__card-info">
+              <div class="simulado__card-info-item">
+                <span class="simulado__card-info-icon">📋</span>
+                <span>10 questões</span>
+              </div>
+              <div class="simulado__card-info-item">
+                <span class="simulado__card-info-icon">⏱️</span>
+                <span>Tempo sugerido: 20 min</span>
+              </div>
+              <div class="simulado__card-info-item">
+                <span class="simulado__card-info-icon">🔒</span>
+                <span>Correção apenas ao final</span>
+              </div>
+            </div>
+            <button class="btn btn--primario" id="btn-iniciar-simulado">
+              Iniciar Simulado
+            </button>
+          </div>
+        </div>
+
+        <!-- Simulado em Andamento -->
+        <div class="simulado__andamento simulado--oculto" id="simulado-andamento">
+          <!-- Barra de Progresso -->
+          <div class="progresso">
+            <div class="progresso__info">
+              <span class="progresso__texto">Questão <span id="simulado-numero-atual">1</span> de 10</span>
+              <span class="progresso__texto progresso__timer" id="simulado-timer">00:00</span>
+            </div>
+            <div class="progresso__barra">
+              <div class="progresso__preenchimento" id="simulado-barra-progresso"></div>
+            </div>
+          </div>
+
+          <!-- Card da Questão -->
+          <div class="questao" id="simulado-questao">
+            <div class="questao__cabecalho">
+              <span class="questao__numero" id="simulado-questao-numero">1</span>
+              <span class="questao__tipo">Múltipla Escolha</span>
+            </div>
+            <p class="questao__enunciado" id="simulado-enunciado"></p>
+            <div class="questao__alternativas" id="simulado-alternativas"></div>
+            <div class="questao__botoes">
+              <button class="btn btn--secundario" id="simulado-btn-anterior" disabled>
+                ← Anterior
+              </button>
+              <button class="btn btn--primario" id="simulado-btn-proximo">
+                Próxima →
+              </button>
+            </div>
+          </div>
+
+          <!-- Navegação rápida entre questões -->
+          <div class="simulado__navegacao" id="simulado-navegacao"></div>
+
+          <!-- Botão Finalizar -->
+          <button class="btn btn--finalizar" id="btn-finalizar-simulado">
+            Finalizar Simulado
+          </button>
+        </div>
+
+        <!-- Modal de Confirmação -->
+        <div class="modal modal--oculto" id="modal-confirmacao">
+          <div class="modal__conteudo">
+            <h3 class="modal__titulo">Tem certeza?</h3>
+            <p class="modal__texto">
+              Você ainda possui <span id="modal-questoes-faltantes">0</span> questão(ões) não respondida(s).
+              Deseja finalizar o simulado mesmo assim?
+            </p>
+            <div class="modal__botoes">
+              <button class="btn btn--secundario" id="modal-btn-cancelar">Continuar Respondendo</button>
+              <button class="btn btn--primario" id="modal-btn-confirmar">Finalizar</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resultado Final do Simulado -->
+        <div class="simulado__resultado simulado--oculto" id="simulado-resultado-final">
+          <div class="resultado-card resultado-card--simulado" id="simulado-resultado-card"></div>
+          <div class="simulado__gabarito" id="simulado-gabarito"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== SEÇÃO: RESULTADOS ===== -->
+    <section class="section" id="secao-resultados">
+      <div class="section__container">
+
+        <div class="resultados__vazio" id="resultados-vazio">
+          <div class="resultados__vazio-card">
+            <span class="resultados__vazio-icon">📊</span>
+            <h2 class="resultados__vazio-titulo">Nenhum resultado ainda</h2>
+            <p class="resultados__vazio-texto">
+              Complete o Quiz ou o Simulado para ver seu desempenho aqui.
+            </p>
+            <button class="btn btn--primario" id="btn-ir-quiz">Ir para o Quiz</button>
+          </div>
+        </div>
+
+        <div class="resultados__historico resultados--oculto" id="resultados-historico">
+          <h2 class="resultados__titulo">Histórico de Resultados</h2>
+          <div class="resultados__cards" id="resultados-cards"></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <p class="footer__texto">
+      Revisão de Matemática — Grandezas e Medidas | 1º Ano do Ensino Médio
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
