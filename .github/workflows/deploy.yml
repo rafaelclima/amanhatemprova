@@ -16,6 +16,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  env:
+    FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
   deploy:
     runs-on: ubuntu-latest
     steps:
