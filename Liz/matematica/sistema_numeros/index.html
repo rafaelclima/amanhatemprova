@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão de Matemática - 4º Ano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="main-header">
+            <a href="../../index.html" class="btn-back" title="Voltar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Voltar</span>
+            </a>
+            <h1 class="main-title">Revisão de Matemática 🎯</h1>
+            <p class="subtitle">4º Ano - Sistemas de Numeração e Números</p>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="tabs-nav" role="tablist">
+            <button class="tab-btn active" data-tab="resumo" role="tab" aria-selected="true">
+                📚 Resumo
+            </button>
+            <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false">
+                ❓ Quiz (10)
+            </button>
+            <button class="tab-btn" data-tab="simulado" role="tab" aria-selected="false">
+                📝 Simulado (10)
+            </button>
+            <button class="tab-btn" data-tab="gamificacao" role="tab" aria-selected="false">
+                🎮 Jogo
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="content-area">
+            <!-- Tab: Resumo -->
+            <section class="tab-content active" id="resumo" role="tabpanel" aria-labelledby="btn-resumo">
+                <div class="card summary-card fade-in-up">
+                    <h2>📖 O que vamos revisar?</h2>
+                    
+                    <div class="topic-section">
+                        <h3>🌍 Sistemas de Numeração</h3>
+                        <p>Vamos conhecer diferentes formas de escrever números ao longo da história!</p>
+                        
+                        <div class="system-cards">
+                            <!-- Sistema Egípcio -->
+                            <div class="system-card">
+                                <span class="system-icon">🏛️</span>
+                                <h4>Egípcio (Antigo Egito)</h4>
+                                <p><strong>Como funcionava:</strong> Usavam símbolos para potências de 10</p>
+                                
+                                <div class="egipto-examples">
+                                    <p>🔹 <strong>1 unidade:</strong> | (traço vertical)</p>
+                                    <p>🔹 <strong>10 unidades:</strong> ∩ (arco)</p>
+                                    <p>🔹 <strong>100 unidades:</strong> ⌓ (laço)</p>
+                                    <p>🔹 <strong>1.000 unidades:</strong> 🐍 (cobra)</p>
+                                </div>
+                                
+                                <div class="egipto-examples">
+                                    <p>🔸 <strong>5.000:</strong> 5 cobras 🐍🐍🐍🐍🐍</p>
+                                    <p>🔸 <strong>123:</strong> 1 laço + 2 arcos + 3 traços ⌓∩∩|||</p>
+                                </div>
+                                
+                                <p class="dica">💡 Curiosidade: Os egípcios não tinham símbolo para zero!</p>
+                            </div>
+                            
+                            <!-- Sistema Maia -->
+                            <div class="system-card">
+                                <span class="system-icon">🏺</span>
+                                <h4>Maia (América Central)</h4>
+                                <p><strong>Como funcionava:</strong> Base 20 (vigesimal) - usavam os dedos das mãos e pés!</p>
+                                
+                                <div class="maia-examples">
+                                    <p>🔹 <strong>1 unidade:</strong> • (ponto)</p>
+                                    <p>🔹 <strong>5 unidades:</strong> ╌ (barra horizontal)</p>
+                                    <p>🔹 <strong>0 unidades:</strong> 🕸️ (espiral - o zero maia!)</p>
+                                </div>
+                                
+                                <div class="maia-examples">
+                                    <p>🔸 <strong>6:</strong> •••••╌ (5 + 1)</p>
+                                    <p>🔸 <strong>20:</strong> 🕸️ (um círculo, representa uma volta completa)</p>
+                                </div>
+                                
+                                <p class="dica">💡 Curiosidade: Os maias descobriram o zero mil anos antes dos europeus!</p>
+                            </div>
+                            
+                            <!-- Sistema Romano -->
+                            <div class="system-card">
+                                <span class="system-icon">🗿</span>
+                                <h4>Romano (Roma Antiga)</h4>
+                                <p><strong>Como funcionava:</strong> Usavam letras do alfabeto latino</p>
+                                
+                                <div class="roman-table">
+                                    <table>
+                                        <tr><th>Letra</th><th>Valor</th><th>Exemplo</th></tr>
+                                        <tr><td>I</td><td>1</td><td>1 pessoa</td></tr>
+                                        <tr><td>V</td><td>5</td><td>5 dedos da mão</td></tr>
+                                        <tr><td>X</td><td>10</td><td>10 dedos (2 mãos)</td></tr>
+                                        <tr><td>L</td><td>50</td><td>50 soldados</td></tr>
+                                        <tr><td>C</td><td>100</td><td>100 moedas</td></tr>
+                                        <tr><td>D</td><td>500</td><td>500 anos (meio milênio)</td></tr>
+                                        <tr><td>M</td><td>1.000</td><td>1.000 legionários</td></tr>
+                                    </table>
+                                </div>
+                                
+                                <div class="roman-examples">
+                                    <p>🔸 <strong>Regra de soma:</strong> I + V = VI (5 + 1 = 6)</p>
+                                    <p>🔸 <strong>Regra de subtração:</strong> IV = 4 (antes do maior, subtrai: 5 - 1)</p>
+                                </div>
+                                
+                                <p class="dica">💡 Curiosidade: Usamos números romanos para relógios e anos!</p>
+                            </div>
+                            
+                            <!-- Sistema Indo-arábico -->
+                            <div class="system-card">
+                                <span class="system-icon">📊</span>
+                                <h4>Indo-arábico (Atual)</h4>
+                                <p><strong>Como funcionava:</strong> O sistema que usamos hoje! Criado na Índia, aperfeiçoado na Árabia.</p>
+                                
+                                <div class="indiarabico-examples">
+                                    <p>🔹 <strong>Vantagens:</strong></p>
+                                    <ul>
+                                        <li>✅ Tem símbolo para zero (0)</li>
+                                        <li>✅ É posicional (o valor depende da posição)</li>
+                                        <li>✅ Fácil de fazer contas</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="indiarabico-examples">
+                                    <p>🔸 <strong>Exemplo:</strong> 345</p>
+                                    <p>   → 3 está na centena (300)</p>
+                                    <p>   → 4 está na dezena (40)</p>
+                                    <p>   → 5 está na unidade (5)</p>
+                                </div>
+                                
+                                <p class="dica">💡 Curiosidade: O zero foi inventado pelos indianos por volta de 600 d.C.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>📏 Ordens e Classes</h3>
+                        <p>Vamos aprender a organizar números grandes como os matemáticos!</p>
+                        
+                        <div class="orders-explanation">
+                            <p><strong>O que é Classe?</strong> Um grupo de 3 ordens (Unidades, Dezenas, Centenas)</p>
+                            <p><strong>O que é Ordem?</strong> A posição do algarismo dentro da classe</p>
+                        </div>
+                        
+                        <div class="orders-table">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Classe das Unidades</th>
+                                        <th>Classe dos Milhares</th>
+                                        <th>Classe dos Milhões</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="unidades">
+                                        <td><strong>Unidades</strong></td>
+                                        <td><strong>Milhares</strong></td>
+                                        <td><strong>Milhões</strong></td>
+                                    </tr>
+                                    <tr class="dezenas">
+                                        <td><strong>Dezenas</strong></td>
+                                        <td><strong>Dezenas de milhar</strong></td>
+                                        <td><strong>Dezenas de milhão</strong></td>
+                                    </tr>
+                                    <tr class="centenas">
+                                        <td><strong>Centenas</strong></td>
+                                        <td><strong>Centenas de milhar</strong></td>
+                                        <td><strong>Centenas de milhão</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="exemplos-ordem">
+                            <h4>🎯 Exemplos Práticos:</h4>
+                            
+                            <div class="numero-exemplo">
+                                <p><strong>345</strong></p>
+                                <ul>
+                                    <li>Classe das Unidades: 345</li>
+                                    <li>3 = centenas, 4 = dezenas, 5 = unidades</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="numero-exemplo">
+                                <p><strong>12.345</strong></p>
+                                <ul>
+                                    <li>Classe das Unidades: 345</li>
+                                    <li>Classe dos Milhares: 12</li>
+                                    <li>1 = dezenas de milhar, 2 = unidades de milhar</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="numero-exemplo">
+                                <p><strong>567.890</strong></p>
+                                <ul>
+                                    <li>Classe das Unidades: 890</li>
+                                    <li>Classe dos Milhares: 567</li>
+                                    <li>5 = centenas de milhar, 6 = dezenas de milhar, 7 = unidades de milhar</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <p class="dica">💡 Dica: Separe números grandes por grupos de 3 algarismos (milhares, milhões...)</p>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🔢 Decomposição Numérica</h3>
+                        <p>Vamos separar cada algarismo para entender seu valor real!</p>
+                        
+                        <div class="decomposicao-examples">
+                            <!-- Exemplo 1 -->
+                            <div class="numero-decompor">
+                                <h4><strong>2.456</strong></h4>
+                                
+                                <table class="decomposicao-table">
+                                    <tr>
+                                        <td><strong>2</strong></td>
+                                        <td>× 1.000</td>
+                                        <td>= 2.000</td>
+                                        <td>(duas mil)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>4</strong></td>
+                                        <td>× 100</td>
+                                        <td>= 400</td>
+                                        <td>(quatro centenas)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>5</strong></td>
+                                        <td>× 10</td>
+                                        <td>= 50</td>
+                                        <td>(cinco dezenas)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>6</strong></td>
+                                        <td>× 1</td>
+                                        <td>= 6</td>
+                                        <td>(seis unidades)</td>
+                                    </tr>
+                                </table>
+                                
+                                <p class="resultado">📊 Resultado: 2.000 + 400 + 50 + 6 = 2.456</p>
+                            </div>
+                            
+                            <!-- Exemplo 2 -->
+                            <div class="numero-decompor">
+                                <h4><strong>789</strong></h4>
+                                
+                                <table class="decomposicao-table">
+                                    <tr>
+                                        <td><strong>7</strong></td>
+                                        <td>× 100</td>
+                                        <td>= 700</td>
+                                        <td>(sete centenas)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>8</strong></td>
+                                        <td>× 10</td>
+                                        <td>= 80</td>
+                                        <td>(oito dezenas)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>9</strong></td>
+                                        <td>× 1</td>
+                                        <td>= 9</td>
+                                        <td>(nove unidades)</td>
+                                    </tr>
+                                </table>
+                                
+                                <p class="resultado">📊 Resultado: 700 + 80 + 9 = 789</p>
+                            </div>
+                            
+                            <!-- Exemplo 3 -->
+                            <div class="numero-decompor">
+                                <h4><strong>15.203</strong></h4>
+                                
+                                <table class="decomposicao-table">
+                                    <tr>
+                                        <td><strong>1</strong></td>
+                                        <td>× 10.000</td>
+                                        <td>= 10.000</td>
+                                        <td>(dez mil)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>5</strong></td>
+                                        <td>× 1.000</td>
+                                        <td>= 5.000</td>
+                                        <td>(cinco mil)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>2</strong></td>
+                                        <td>× 100</td>
+                                        <td>= 200</td>
+                                        <td>(duzentas)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>0</strong></td>
+                                        <td>× 10</td>
+                                        <td>= 0</td>
+                                        <td>(zero dezenas)</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>3</strong></td>
+                                        <td>× 1</td>
+                                        <td>= 3</td>
+                                        <td>(três unidades)</td>
+                                    </tr>
+                                </table>
+                                
+                                <p class="resultado">📊 Resultado: 10.000 + 5.000 + 200 + 0 + 3 = 15.203</p>
+                            </div>
+                        </div>
+                        
+                        <p class="dica">💡 Dica: Para decompor, identifique a posição de cada algarismo e multiplique pelo seu valor!</p>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🔁 Sequência Numérica</h3>
+                        <p>Vamos praticar contar em progressão!</p>
+                        
+                        <div class="sequencia-examples">
+                            <!-- Progressão de 1 -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">🐌</span>
+                                <h4>Progressão de 1 (Contar normalmente)</h4>
+                                <p>Vamos contar um por um:</p>
+                                <div class="sequencia-numeros">
+                                    <span>1, 2, 3, 4, 5, 6, 7, 8, 9, 10...</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Progressão de 2 -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">🐢</span>
+                                <h4>Progressão de 2 (Pares)</h4>
+                                <p>Vamos contar de dois em dois:</p>
+                                <div class="sequencia-numeros">
+                                    <span>2, 4, 6, 8, 10, 12, 14, 16, 18, 20...</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Progressão de 5 -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">🖐️</span>
+                                <h4>Progressão de 5 (Contar com os dedos)</h4>
+                                <p>Vamos contar de cinco em cinco:</p>
+                                <div class="sequencia-numeros">
+                                    <span>5, 10, 15, 20, 25, 30, 35, 40, 45, 50...</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Progressão de 10 -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">📊</span>
+                                <h4>Progressão de 10 (Contar de dez em dez)</h4>
+                                <p>Vamos contar de dez em dez:</p>
+                                <div class="sequencia-numeros">
+                                    <span>10, 20, 30, 40, 50, 60, 70, 80, 90, 100...</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Progressão de 100 -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">🏠</span>
+                                <h4>Progressão de 100 (Contar de cem em cem)</h4>
+                                <p>Vamos contar de cem em cem:</p>
+                                <div class="sequencia-numeros">
+                                    <span>100, 200, 300, 400, 500, 600, 700, 800, 900, 1.000...</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Progressão decrescente -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">📉</span>
+                                <h4>Contando para trás (Decrescente)</h4>
+                                <p>Vamos contar de 100 para baixo:</p>
+                                <div class="sequencia-numeros">
+                                    <span>100, 99, 98, 97, 96, 95, 94, 93, 92, 91...</span>
+                                </div>
+                            </div>
+                            
+                            <!-- Progressão de 100 decrescente -->
+                            <div class="progressao-card">
+                                <span class="progressao-icon">📉</span>
+                                <h4>Contando mil para trás (Decrescente)</h4>
+                                <p>Vamos contar de 1.000 para baixo:</p>
+                                <div class="sequencia-numeros">
+                                    <span>1.000, 999, 998, 997, 996, 995, 994, 993, 992, 991...</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="dica">💡 Dica: Para encontrar o sucessor (próximo número), some 1. Para encontrar o antecessor (anterior), subtraia 1!</p>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🏛️ Números Romanos - Guia Completo</h3>
+                        <p>Vamos dominar os números romanos para a prova!</p>
+                        
+                        <div class="roman-guide">
+                            <!-- Símbolos básicos -->
+                            <div class="roman-section">
+                                <h4>🔤 Símbolos Básicos</h4>
+                                <table class="roman-table">
+                                    <tr><th>Símbolo</th><th>Valor</th><th>Representação Visual</th></tr>
+                                    <tr><td>I</td><td>1</td><td>| (um traço)</td></tr>
+                                    <tr><td>V</td><td>5</td><td>↵ (forma de mão aberta)</td></tr>
+                                    <tr><td>X</td><td>10</td><td>✖️ (duas mãos juntas)</td></tr>
+                                    <tr><td>L</td><td>50</td><td>⚔️ (espadas cruzadas)</td></tr>
+                                    <tr><td>C</td><td>100</td><td>💰 (moeda romana)</td></tr>
+                                    <tr><td>D</td><td>500</td><td>🏛️ (templo romano)</td></tr>
+                                    <tr><td>M</td><td>1.000</td><td>👥 (mil soldados)</td></tr>
+                                </table>
+                            </div>
+                            
+                            <!-- Regras -->
+                            <div class="roman-section">
+                                <h4>⚡ Regras Importantes</h4>
+                                
+                                <div class="regra-card">
+                                    <span class="regra-icon">➕</span>
+                                    <strong>Soma:</strong> Quando os símbolos estão em ordem crescente, somamos!
+                                    <p><em>Exemplo: VI = 5 + 1 = 6</em></p>
+                                </div>
+                                
+                                <div class="regra-card">
+                                    <span class="regra-icon">➖</span>
+                                    <strong>Subtração:</strong> Quando um símbolo menor vem antes de um maior, subtraímos!
+                                    <p><em>Exemplo: IV = 5 - 1 = 4</em></p>
+                                </div>
+                                
+                                <div class="regra-card">
+                                    <span class="regra-icon">🚫</span>
+                                    <strong>Não repita mais de 3 vezes:</strong> Use subtração em vez de repetir!
+                                    <p><em>Exemplo: Em vez de IIII, use IV para 4</em></p>
+                                </div>
+                            </div>
+                            
+                            <!-- Tabela completa -->
+                            <div class="roman-section">
+                                <h4>📋 Conversão Rápida</h4>
+                                
+                                <table class="conversao-table">
+                                    <tr><th>Número Indo-arábico</th><th>Romano</th><th>Explicação</th></tr>
+                                    <tr><td>1</td><td>I</td><td>Um traço</td></tr>
+                                    <tr><td>2</td><td>II</td><td>Dois traços (1+1)</td></tr>
+                                    <tr><td>3</td><td>III</td><td>Tres traços (1+1+1)</td></tr>
+                                    <tr><td>4</td><td>IV</td><td>5-1 = 4</td></tr>
+                                    <tr><td>5</td><td>V</td><td>Mão aberta</td></tr>
+                                    <tr><td>6</td><td>VI</td><td>5+1 = 6</td></tr>
+                                    <tr><td>9</td><td>IX</td><td>10-1 = 9</td></tr>
+                                    <tr><td>10</td><td>X</td><td>Duas mãos</td></tr>
+                                    <tr><td>40</td><td>XL</td><td>50-10 = 40</td></tr>
+                                    <tr><td>50</td><td>L</td><td>Espadas cruzadas</td></tr>
+                                    <tr><td>90</td><td>XL</td><td>50+40 = 90</td></tr>
+                                    <tr><td>100</td><td>C</td><td>Moeda romana</td></tr>
+                                    <tr><td>400</td><td>CD</td><td>500-100 = 400</td></tr>
+                                    <tr><td>500</td><td>D</td><td>Templo romano</td></tr>
+                                    <tr><td>900</td><td>CM</td><td>1.000-100 = 900</td></tr>
+                                    <tr><td>1.000</td><td>M</td><td>Mil soldados</td></tr>
+                                </table>
+                            </div>
+                            
+                            <!-- Exemplos práticos -->
+                            <div class="roman-section">
+                                <h4>🎯 Exercícios Práticos</h4>
+                                
+                                <div class="exercicios-romanos">
+                                    <p><strong>1. Escreva em algarismos romanos:</strong></p>
+                                    
+                                    <div class="exercicio-item">
+                                        <span>15 = </span>
+                                        <span class="resposta">XV</span>
+                                        <span>(10 + 5)</span>
+                                    </div>
+                                    
+                                    <div class="exercicio-item">
+                                        <span>24 = </span>
+                                        <span class="resposta">XXIV</span>
+                                        <span>(10 + 10 + 4)</span>
+                                    </div>
+                                    
+                                    <div class="exercicio-item">
+                                        <span>39 = </span>
+                                        <span class="resposta">XXXIX</span>
+                                        <span>(10 + 10 + 10 + 9)</span>
+                                    </div>
+                                    
+                                    <div class="exercicio-item">
+                                        <span>45 = </span>
+                                        <span class="resposta">XLV</span>
+                                        <span>(50 - 10 + 5)</span>
+                                    </div>
+                                    
+                                    <div class="exercicio-item">
+                                        <span>99 = </span>
+                                        <span class="resposta">XCIX</span>
+                                        <span>(100 - 10 + 10 - 1)</span>
+                                    </div>
+                                    
+                                    <div class="exercicio-item">
+                                        <span>2024 = </span>
+                                        <span class="resposta">MMXXIV</span>
+                                        <span>(1.000 + 1.000 + 10 + 10 + 4)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p class="dica">💡 Dica: Para converter, decompose o número primeiro e depois use os símbolos romanos!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Quiz -->
+            <section class="tab-content" id="quiz" role="tabpanel" aria-labelledby="btn-quiz">
+                <div class="card quiz-card fade-in-up">
+                    <h2>❓ Quiz de Conhecimento</h2>
+                    <p>Teste seus conhecimentos com 10 questões!</p>
+                    
+                    <div id="quiz-container">
+                        <!-- Questões serão carregadas via JavaScript -->
+                    </div>
+
+                    <button class="btn" onclick="finalizarQuiz()">Verificar Respostas</button>
+
+                    <div id="quiz-result" class="hidden">
+                        <div class="result-card">
+                            <h3>🎉 Resultado do Quiz!</h3>
+                            <p class="score-text"></p>
+                            <p class="message-text"></p>
+                            <button class="btn-retry" id="btnRetryQuiz">Tentar Novamente</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Simulado -->
+            <section class="tab-content" id="simulado" role="tabpanel" aria-labelledby="btn-simulado">
+                <div class="card simulated-card fade-in-up">
+                    <h2>📝 Simulado de Avaliação</h2>
+                    <p>Avaliação completa com 10 questões para preparar para a prova!</p>
+                    
+                    <div id="simulado-container">
+                        <!-- Questões do simulado serão carregadas via JavaScript -->
+                    </div>
+
+                    <button class="btn" onclick="finalizarSimulado()">Corrigir Simulado</button>
+
+                    <div id="simulado-result" class="hidden">
+                        <div class="result-card simulated-result">
+                            <h3>📊 Resultado do Simulado</h3>
+                            <p class="score-text"></p>
+                            <p class="message-text"></p>
+                            <button class="btn-retry" id="btnRetrySimulado">Fazer Novamente</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Gamificação -->
+            <section class="tab-content" id="gamificacao" role="tabpanel" aria-labelledby="btn-gamificacao">
+                <div class="card gamification-card fade-in-up">
+                    <h2>🎮 Jogo de Associação</h2>
+                    <p>Clique no sistema de numeração e depois na sua descrição correspondente!</p>
+                    
+                    <div id="gamification-container">
+                        <!-- Jogo será carregado via JavaScript -->
+                    </div>
+
+                    <div id="jogo-progress" class="jogo-progress">
+                        <span>Acertos: <strong id="acertos-jogo">0</strong></span>
+                        <span>Pontos: <strong id="pontos-jogo">0</strong></span>
+                    </div>
+
+                    <button class="btn" onclick="finalizarJogo()">Verificar Respostas</button>
+
+                    <div id="gamification-result" class="hidden">
+                        <div class="result-card gamification-result">
+                            <h3>🏆 Pontuação Final</h3>
+                            <p class="score-text"></p>
+                            <p class="message-text"></p>
+                            <button class="btn-retry" id="btnRetryGame">Jogar Novamente</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <p>🎓 Preparação para prova - 4º Ano do Fundamental I</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
