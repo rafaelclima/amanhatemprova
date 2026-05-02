@@ -55,7 +55,7 @@
                             <div class="system-card">
                                 <span class="system-icon">🏛️</span>
                                 <h4>Egípcio (Antigo Egito)</h4>
-                                <p><strong>Como funcionava:</strong> Usavam símbolos para potências de 10</p>
+                                <p><strong>Como funcionava:</strong> Usavam símbolos para representar unidades, dezenas, centenas e milhares</p>
                                 
                                 <div class="egipto-examples">
                                     <p>🔹 <strong>1 unidade:</strong> | (traço vertical)</p>
@@ -76,7 +76,7 @@
                             <div class="system-card">
                                 <span class="system-icon">🏺</span>
                                 <h4>Maia (América Central)</h4>
-                                <p><strong>Como funcionava:</strong> Base 20 (vigesimal) - usavam os dedos das mãos e pés!</p>
+                                <p><strong>Como funcionava:</strong> Usavam o sistema de base 20, contando com os dedos das mãos e dos pés</p>
                                 
                                 <div class="maia-examples">
                                     <p>🔹 <strong>1 unidade:</strong> • (ponto)</p>
@@ -113,7 +113,7 @@
                                 
                                 <div class="roman-examples">
                                     <p>🔸 <strong>Regra de soma:</strong> I + V = VI (5 + 1 = 6)</p>
-                                    <p>🔸 <strong>Regra de subtração:</strong> IV = 4 (antes do maior, subtrai: 5 - 1)</p>
+                                    <p>🔸 <strong>Regra de subtração:</strong> IV = 4 (um símbolo menor antes do maior, então subtraímos: 5 - 1)</p>
                                 </div>
                                 
                                 <p class="dica">💡 Curiosidade: Usamos números romanos para relógios e anos!</p>
@@ -129,7 +129,7 @@
                                     <p>🔹 <strong>Vantagens:</strong></p>
                                     <ul>
                                         <li>✅ Tem símbolo para zero (0)</li>
-                                        <li>✅ É posicional (o valor depende da posição)</li>
+                                        <li>✅ O valor muda dependendo de onde o número está (unidade, dezena, centena…)</li>
                                         <li>✅ Fácil de fazer contas</li>
                                     </ul>
                                 </div>
@@ -433,7 +433,7 @@
                                 
                                 <div class="regra-card">
                                     <span class="regra-icon">➕</span>
-                                    <strong>Soma:</strong> Quando os símbolos estão em ordem crescente, somamos!
+                                    <strong>Soma:</strong> Quando os símbolos ficam do menor para o maior, a gente soma!
                                     <p><em>Exemplo: VI = 5 + 1 = 6</em></p>
                                 </div>
                                 
@@ -445,7 +445,7 @@
                                 
                                 <div class="regra-card">
                                     <span class="regra-icon">🚫</span>
-                                    <strong>Não repita mais de 3 vezes:</strong> Use subtração em vez de repetir!
+                                    <strong>Não repita mais de 3 vezes:</strong> Quando precisar de quatro iguais, troque o último por subtração!
                                     <p><em>Exemplo: Em vez de IIII, use IV para 4</em></p>
                                 </div>
                             </div>
@@ -477,51 +477,57 @@
                             
                             <!-- Exemplos práticos -->
                             <div class="roman-section">
-                                <h4>🎯 Exercícios Práticos</h4>
+                                <h4>🎯 Exemplos Práticos</h4>
                                 
                                 <div class="exercicios-romanos">
                                     <p><strong>1. Escreva em algarismos romanos:</strong></p>
                                     
                                     <div class="exercicio-item">
                                         <span>15 = </span>
-                                        <span class="resposta">XV</span>
+                                        <span class="resposta hidden">XV</span>
                                         <span>(10 + 5)</span>
+                                        <button class="btn" onclick="toggleResposta(this)">Mostrar resposta</button>
                                     </div>
                                     
                                     <div class="exercicio-item">
                                         <span>24 = </span>
-                                        <span class="resposta">XXIV</span>
+                                        <span class="resposta hidden">XXIV</span>
                                         <span>(10 + 10 + 4)</span>
+                                        <button class="btn" onclick="toggleResposta(this)">Mostrar resposta</button>
                                     </div>
                                     
                                     <div class="exercicio-item">
                                         <span>39 = </span>
-                                        <span class="resposta">XXXIX</span>
+                                        <span class="resposta hidden">XXXIX</span>
                                         <span>(10 + 10 + 10 + 9)</span>
+                                        <button class="btn" onclick="toggleResposta(this)">Mostrar resposta</button>
                                     </div>
                                     
                                     <div class="exercicio-item">
                                         <span>45 = </span>
-                                        <span class="resposta">XLV</span>
+                                        <span class="resposta hidden">XLV</span>
                                         <span>(50 - 10 + 5)</span>
+                                        <button class="btn" onclick="toggleResposta(this)">Mostrar resposta</button>
                                     </div>
                                     
                                     <div class="exercicio-item">
                                         <span>99 = </span>
-                                        <span class="resposta">XCIX</span>
+                                        <span class="resposta hidden">XCIX</span>
                                         <span>(100 - 10 + 10 - 1)</span>
+                                        <button class="btn" onclick="toggleResposta(this)">Mostrar resposta</button>
                                     </div>
                                     
                                     <div class="exercicio-item">
                                         <span>2024 = </span>
-                                        <span class="resposta">MMXXIV</span>
+                                        <span class="resposta hidden">MMXXIV</span>
                                         <span>(1.000 + 1.000 + 10 + 10 + 4)</span>
+                                        <button class="btn" onclick="toggleResposta(this)">Mostrar resposta</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         
-                        <p class="dica">💡 Dica: Para converter, decompose o número primeiro e depois use os símbolos romanos!</p>
+                        <p class="dica">💡 Dica: Para converter, decomponha o número primeiro e depois use os símbolos romanos!</p>
                     </div>
                 </div>
             </section>

@@ -557,7 +557,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Inicializar com a primeira aba
   tabBtns[0].click();
+
+
 });
+
+// Função para alternar a visualização da resposta nos exemplos
+function toggleResposta(btn){
+  const resposta = btn.parentNode.querySelector('.resposta');
+  resposta.classList.toggle('hidden');
+  btn.textContent = resposta.classList.contains('hidden') ? 'Mostrar resposta' : 'Esconder resposta';
+}
 
 // =====================================================
 // QUIZ - 10 QUESTÕES ALEATÓRIAS
@@ -847,7 +856,9 @@ function handleCardClick(card) {
       setTimeout(() => {
         container.querySelectorAll('.jogo-card').forEach(c => {
           c.classList.remove('incorreta', 'selecionado');
-        });
+});
+
+
       }, 800);
     }
     
