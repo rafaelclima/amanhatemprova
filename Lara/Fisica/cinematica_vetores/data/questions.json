@@ -1,0 +1,787 @@
+{
+  "serie": "Primeiro Ano do ensino médio",
+  "disciplina": "Física",
+  "assuntos": ["MRU", "MRUV", "Movimento vertical", "Vetores"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "MRU",
+      "enunciado": "Um carro trafega em uma rodovia com velocidade constante de 90 km/h. Em quanto tempo ele percorrerá uma distância de 225 km?",
+      "alternativas": [
+        { "letra": "A", "texto": "2,0 h", "correta": false },
+        { "letra": "B", "texto": "2,5 h", "correta": true },
+        { "letra": "C", "texto": "3,0 h", "correta": false },
+        { "letra": "D", "texto": "3,5 h", "correta": false },
+        { "letra": "E", "texto": "4,0 h", "correta": false }
+      ],
+      "explicacao": "No MRU, a velocidade é constante e vale v = ΔS/Δt. Assim, Δt = ΔS/v = 225 km / 90 km/h = 2,5 h."
+    },
+    {
+      "id": 2,
+      "assunto": "MRU",
+      "enunciado": "A função horária da posição de um móvel é S = 20 + 5t (no SI). Qual a posição do móvel no instante t = 8 s?",
+      "alternativas": [
+        { "letra": "A", "texto": "40 m", "correta": false },
+        { "letra": "B", "texto": "50 m", "correta": false },
+        { "letra": "C", "texto": "60 m", "correta": true },
+        { "letra": "D", "texto": "70 m", "correta": false },
+        { "letra": "E", "texto": "80 m", "correta": false }
+      ],
+      "explicacao": "Substituindo t = 8 s na função S = 20 + 5t: S = 20 + 5·8 = 20 + 40 = 60 m."
+    },
+    {
+      "id": 3,
+      "assunto": "MRU",
+      "enunciado": "Dois móveis A e B partem simultaneamente de pontos opostos de uma pista retilínea de 400 m. A velocidade de A é 15 m/s e a de B é 10 m/s. Em quanto tempo eles se encontrarão?",
+      "alternativas": [
+        { "letra": "A", "texto": "10 s", "correta": false },
+        { "letra": "B", "texto": "12 s", "correta": false },
+        { "letra": "C", "texto": "16 s", "correta": true },
+        { "letra": "D", "texto": "20 s", "correta": false },
+        { "letra": "E", "texto": "25 s", "correta": false }
+      ],
+      "explicacao": "A velocidade relativa de aproximação é 15 + 10 = 25 m/s. O tempo de encontro é t = distância / velocidade relativa = 400 / 25 = 16 s."
+    },
+    {
+      "id": 4,
+      "assunto": "MRU",
+      "enunciado": "No gráfico da posição em função do tempo (S x t) de um MRU, a inclinação da reta representa:",
+      "alternativas": [
+        { "letra": "A", "texto": "A aceleração do móvel", "correta": false },
+        { "letra": "B", "texto": "A posição inicial do móvel", "correta": false },
+        { "letra": "C", "texto": "A velocidade do móvel", "correta": true },
+        { "letra": "D", "texto": "O deslocamento do móvel", "correta": false },
+        { "letra": "E", "texto": "O tempo total do percurso", "correta": false }
+      ],
+      "explicacao": "No gráfico S x t do MRU, a reta tem equação S = S₀ + v·t. O coeficiente angular da reta é a velocidade (v = ΔS/Δt), que corresponde à inclinação da reta."
+    },
+    {
+      "id": 5,
+      "assunto": "MRU",
+      "enunciado": "Um trem de 200 m de comprimento atravessa completamente um túnel de 300 m com velocidade constante de 20 m/s. Quanto tempo dura a travessia?",
+      "alternativas": [
+        { "letra": "A", "texto": "15 s", "correta": false },
+        { "letra": "B", "texto": "20 s", "correta": false },
+        { "letra": "C", "texto": "25 s", "correta": true },
+        { "letra": "D", "texto": "30 s", "correta": false },
+        { "letra": "E", "texto": "35 s", "correta": false }
+      ],
+      "explicacao": "A distância total percorrida é o comprimento do trem mais o túnel: 200 + 300 = 500 m. Com v = 20 m/s: t = 500/20 = 25 s."
+    },
+    {
+      "id": 6,
+      "assunto": "MRU",
+      "enunciado": "Um atleta corre 100 m em 10 s mantendo velocidade constante. Qual é sua velocidade em km/h?",
+      "alternativas": [
+        { "letra": "A", "texto": "10 km/h", "correta": false },
+        { "letra": "B", "texto": "18 km/h", "correta": false },
+        { "letra": "C", "texto": "24 km/h", "correta": false },
+        { "letra": "D", "texto": "30 km/h", "correta": false },
+        { "letra": "E", "texto": "36 km/h", "correta": true }
+      ],
+      "explicacao": "v = ΔS/Δt = 100 m / 10 s = 10 m/s. Para converter m/s em km/h, multiplica-se por 3,6: 10 × 3,6 = 36 km/h."
+    },
+    {
+      "id": 7,
+      "assunto": "MRU",
+      "enunciado": "A função horária S = 50 - 8t (SI) descreve o movimento de um móvel. Podemos afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "O movimento é progressivo e a posição inicial é 50 m", "correta": false },
+        { "letra": "B", "texto": "O movimento é retrógrado e a posição inicial é -8 m", "correta": false },
+        { "letra": "C", "texto": "O movimento é retrógrado e a posição inicial é 50 m", "correta": true },
+        { "letra": "D", "texto": "O movimento é progressivo e a velocidade é -8 m/s", "correta": false },
+        { "letra": "E", "texto": "O movimento é acelerado e a posição inicial é 50 m", "correta": false }
+      ],
+      "explicacao": "Na função S = 50 - 8t, S₀ = 50 m e v = -8 m/s. A velocidade negativa indica movimento retrógrado (sentido contrário ao da trajetória)."
+    },
+    {
+      "id": 8,
+      "assunto": "MRU",
+      "enunciado": "Uma pessoa caminha 3 km para o norte e, em seguida, 4 km para o leste, sempre com velocidade constante. A distância total percorrida e o módulo do deslocamento vetorial são, respectivamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "7 km e 5 km", "correta": true },
+        { "letra": "B", "texto": "5 km e 7 km", "correta": false },
+        { "letra": "C", "texto": "7 km e 7 km", "correta": false },
+        { "letra": "D", "texto": "5 km e 5 km", "correta": false },
+        { "letra": "E", "texto": "12 km e 5 km", "correta": false }
+      ],
+      "explicacao": "A distância percorrida é a soma dos percursos: 3 + 4 = 7 km. O módulo do deslocamento vetorial é a hipotenusa: √(3² + 4²) = √25 = 5 km."
+    },
+    {
+      "id": 9,
+      "assunto": "MRU",
+      "enunciado": "Qual das situações abaixo caracteriza um Movimento Retilíneo Uniforme?",
+      "alternativas": [
+        { "letra": "A", "texto": "Um carro freando antes de um semáforo", "correta": false },
+        { "letra": "B", "texto": "Uma pedra caindo em queda livre", "correta": false },
+        { "letra": "C", "texto": "Um satélite em órbita circular ao redor da Terra", "correta": false },
+        { "letra": "D", "texto": "Uma escada rolante em funcionamento normal", "correta": true },
+        { "letra": "E", "texto": "Um elevador partindo do térreo", "correta": false }
+      ],
+      "explicacao": "A escada rolante em funcionamento normal move-se em linha reta com velocidade aproximadamente constante, caracterizando um MRU. As demais opções envolvem aceleração ou trajetória curva."
+    },
+    {
+      "id": 10,
+      "assunto": "MRU",
+      "enunciado": "Dois móveis, A e B, movem-se na mesma trajetória com funções horárias Sₐ = 10 + 6t e S_b = 70 - 4t (SI). O instante e a posição de encontro são:",
+      "alternativas": [
+        { "letra": "A", "texto": "t = 4 s e S = 34 m", "correta": false },
+        { "letra": "B", "texto": "t = 5 s e S = 50 m", "correta": false },
+        { "letra": "C", "texto": "t = 6 s e S = 46 m", "correta": true },
+        { "letra": "D", "texto": "t = 8 s e S = 58 m", "correta": false },
+        { "letra": "E", "texto": "t = 10 s e S = 70 m", "correta": false }
+      ],
+      "explicacao": "No encontro, Sₐ = S_b. Logo: 10 + 6t = 70 - 4t → 10t = 60 → t = 6 s. Substituindo: S = 10 + 6·6 = 46 m."
+    },
+    {
+      "id": 11,
+      "assunto": "MRU",
+      "enunciado": "Um móvel percorre 120 m com velocidade de 8 m/s e, em seguida, mais 180 m com velocidade de 12 m/s. A velocidade média no percurso total é, aproximadamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "8,0 m/s", "correta": false },
+        { "letra": "B", "texto": "9,0 m/s", "correta": false },
+        { "letra": "C", "texto": "10,0 m/s", "correta": true },
+        { "letra": "D", "texto": "11,0 m/s", "correta": false },
+        { "letra": "E", "texto": "12,0 m/s", "correta": false }
+      ],
+      "explicacao": "Tempo no 1º trecho: t₁ = 120/8 = 15 s. Tempo no 2º trecho: t₂ = 180/12 = 15 s. vₘ = ΔS_total/Δt_total = 300/30 = 10 m/s."
+    },
+    {
+      "id": 12,
+      "assunto": "MRU",
+      "enunciado": "No gráfico da velocidade em função do tempo (v x t) de um MRU, a área sob a reta entre dois instantes representa:",
+      "alternativas": [
+        { "letra": "A", "texto": "A aceleração do móvel", "correta": false },
+        { "letra": "B", "texto": "A velocidade média", "correta": false },
+        { "letra": "C", "texto": "O deslocamento do móvel", "correta": true },
+        { "letra": "D", "texto": "A posição final do móvel", "correta": false },
+        { "letra": "E", "texto": "O tempo total de percurso", "correta": false }
+      ],
+      "explicacao": "No gráfico v x t, a área sob a curva (que é um retângulo no MRU) é numericamente igual ao deslocamento: ΔS = v × Δt."
+    },
+    {
+      "id": 13,
+      "assunto": "MRU",
+      "enunciado": "Um barco sobe um rio com velocidade de 4 m/s em relação à água. A correnteza tem velocidade de 3 m/s em sentido contrário. A velocidade do barco em relação às margens é:",
+      "alternativas": [
+        { "letra": "A", "texto": "7 m/s rio acima", "correta": false },
+        { "letra": "B", "texto": "7 m/s rio abaixo", "correta": false },
+        { "letra": "C", "texto": "1 m/s rio acima", "correta": true },
+        { "letra": "D", "texto": "1 m/s rio abaixo", "correta": false },
+        { "letra": "E", "texto": "4 m/s rio acima", "correta": false }
+      ],
+      "explicacao": "Como o barco sobe o rio (contra a correnteza), as velocidades se subtraem: v_resultante = 4 - 3 = 1 m/s no sentido rio acima."
+    },
+    {
+      "id": 14,
+      "assunto": "MRU",
+      "enunciado": "Um móvel em MRU obedece à função horária S = -30 + 5t (SI). O instante em que o móvel passa pela origem da trajetória é:",
+      "alternativas": [
+        { "letra": "A", "texto": "2 s", "correta": false },
+        { "letra": "B", "texto": "4 s", "correta": false },
+        { "letra": "C", "texto": "5 s", "correta": false },
+        { "letra": "D", "texto": "6 s", "correta": true },
+        { "letra": "E", "texto": "8 s", "correta": false }
+      ],
+      "explicacao": "O móvel passa pela origem quando S = 0: 0 = -30 + 5t → 5t = 30 → t = 6 s."
+    },
+    {
+      "id": 15,
+      "assunto": "MRU",
+      "enunciado": "A luz solar demora aproximadamente 8 minutos para chegar à Terra. Sabendo que a velocidade da luz é 3,0 × 10⁸ m/s, a distância aproximada entre o Sol e a Terra é:",
+      "alternativas": [
+        { "letra": "A", "texto": "1,44 × 10⁸ km", "correta": true },
+        { "letra": "B", "texto": "1,44 × 10⁹ km", "correta": false },
+        { "letra": "C", "texto": "2,40 × 10⁸ km", "correta": false },
+        { "letra": "D", "texto": "3,00 × 10⁸ km", "correta": false },
+        { "letra": "E", "texto": "5,76 × 10⁸ km", "correta": false }
+      ],
+      "explicacao": "d = v × t = 3,0×10⁸ × (8×60) = 3,0×10⁸ × 480 = 1,44×10¹¹ m = 1,44×10⁸ km."
+    },
+    {
+      "id": 16,
+      "assunto": "MRUV",
+      "enunciado": "Um corpo parte do repouso com aceleração constante de 4 m/s². Sua velocidade após 5 segundos será:",
+      "alternativas": [
+        { "letra": "A", "texto": "10 m/s", "correta": false },
+        { "letra": "B", "texto": "15 m/s", "correta": false },
+        { "letra": "C", "texto": "20 m/s", "correta": true },
+        { "letra": "D", "texto": "25 m/s", "correta": false },
+        { "letra": "E", "texto": "40 m/s", "correta": false }
+      ],
+      "explicacao": "Usando v = v₀ + a·t, com v₀ = 0: v = 0 + 4·5 = 20 m/s."
+    },
+    {
+      "id": 17,
+      "assunto": "MRUV",
+      "enunciado": "A função horária da velocidade de um móvel é v = 10 + 2t (SI). A aceleração do móvel e sua classificação são:",
+      "alternativas": [
+        { "letra": "A", "texto": "2 m/s² e movimento retardado", "correta": false },
+        { "letra": "B", "texto": "2 m/s² e movimento acelerado progressivo", "correta": true },
+        { "letra": "C", "texto": "10 m/s² e movimento acelerado", "correta": false },
+        { "letra": "D", "texto": "10 m/s² e movimento progressivo", "correta": false },
+        { "letra": "E", "texto": "5 m/s² e movimento retardado", "correta": false }
+      ],
+      "explicacao": "Da função v = 10 + 2t, a = 2 m/s². Como v₀ = 10 m/s (positiva) e a = 2 m/s² (positiva), velocidade e aceleração têm mesmo sinal: movimento acelerado progressivo."
+    },
+    {
+      "id": 18,
+      "assunto": "MRUV",
+      "enunciado": "Um veículo se move com velocidade de 30 m/s quando começa a frear uniformemente, parando em 6 s. A distância percorrida durante a frenagem é:",
+      "alternativas": [
+        { "letra": "A", "texto": "60 m", "correta": false },
+        { "letra": "B", "texto": "75 m", "correta": false },
+        { "letra": "C", "texto": "90 m", "correta": true },
+        { "letra": "D", "texto": "120 m", "correta": false },
+        { "letra": "E", "texto": "180 m", "correta": false }
+      ],
+      "explicacao": "A aceleração é a = (v - v₀)/t = (0 - 30)/6 = -5 m/s². A distância: ΔS = v₀·t + a·t²/2 = 30·6 + (-5)·36/2 = 180 - 90 = 90 m."
+    },
+    {
+      "id": 19,
+      "assunto": "MRUV",
+      "enunciado": "O gráfico v x t de um MRUV é uma reta inclinada. A aceleração do móvel é numericamente igual:",
+      "alternativas": [
+        { "letra": "A", "texto": "À área sob a reta", "correta": false },
+        { "letra": "B", "texto": "À inclinação da reta", "correta": true },
+        { "letra": "C", "texto": "Ao coeficiente linear da reta", "correta": false },
+        { "letra": "D", "texto": "À área do triângulo formado", "correta": false },
+        { "letra": "E", "texto": "À distância percorrida", "correta": false }
+      ],
+      "explicacao": "No gráfico v x t do MRUV (v = v₀ + a·t), a aceleração é o coeficiente angular da reta, ou seja, sua inclinação: a = Δv/Δt."
+    },
+    {
+      "id": 20,
+      "assunto": "MRUV",
+      "enunciado": "Um corpo parte do repouso com aceleração de 2 m/s². A distância percorrida nos primeiros 4 segundos é:",
+      "alternativas": [
+        { "letra": "A", "texto": "8 m", "correta": false },
+        { "letra": "B", "texto": "12 m", "correta": false },
+        { "letra": "C", "texto": "16 m", "correta": true },
+        { "letra": "D", "texto": "24 m", "correta": false },
+        { "letra": "E", "texto": "32 m", "correta": false }
+      ],
+      "explicacao": "Com v₀ = 0: ΔS = a·t²/2 = 2·4²/2 = 2·16/2 = 16 m."
+    },
+    {
+      "id": 21,
+      "assunto": "MRUV",
+      "enunciado": "A equação de Torricelli para o MRUV é v² = v₀² + 2aΔS. Ela é particularmente útil quando:",
+      "alternativas": [
+        { "letra": "A", "texto": "A velocidade inicial é nula", "correta": false },
+        { "letra": "B", "texto": "O problema não fornece o tempo", "correta": true },
+        { "letra": "C", "texto": "O problema não fornece a aceleração", "correta": false },
+        { "letra": "D", "texto": "A aceleração é nula", "correta": false },
+        { "letra": "E", "texto": "O movimento é retrógrado", "correta": false }
+      ],
+      "explicacao": "A equação de Torricelli relaciona velocidades, aceleração e deslocamento sem envolver o tempo. É usada principalmente quando o tempo não é dado ou não é solicitado."
+    },
+    {
+      "id": 22,
+      "assunto": "MRUV",
+      "enunciado": "A função horária da posição de um móvel é S = 8 + 6t + t² (SI). A velocidade inicial e a aceleração são, respectivamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "8 m/s e 1 m/s²", "correta": false },
+        { "letra": "B", "texto": "6 m/s e 1 m/s²", "correta": false },
+        { "letra": "C", "texto": "6 m/s e 2 m/s²", "correta": true },
+        { "letra": "D", "texto": "8 m/s e 6 m/s²", "correta": false },
+        { "letra": "E", "texto": "8 m/s e 2 m/s²", "correta": false }
+      ],
+      "explicacao": "Comparando com S = S₀ + v₀·t + (a/2)·t², temos S₀ = 8 m, v₀ = 6 m/s, e a/2 = 1 → a = 2 m/s²."
+    },
+    {
+      "id": 23,
+      "assunto": "MRUV",
+      "enunciado": "Um móvel em MRUV tem sua velocidade variando de 10 m/s para 30 m/s em 5 segundos. A aceleração média nesse intervalo é:",
+      "alternativas": [
+        { "letra": "A", "texto": "2 m/s²", "correta": false },
+        { "letra": "B", "texto": "3 m/s²", "correta": false },
+        { "letra": "C", "texto": "4 m/s²", "correta": true },
+        { "letra": "D", "texto": "5 m/s²", "correta": false },
+        { "letra": "E", "texto": "6 m/s²", "correta": false }
+      ],
+      "explicacao": "aₘ = Δv/Δt = (30 - 10)/5 = 20/5 = 4 m/s²."
+    },
+    {
+      "id": 24,
+      "assunto": "MRUV",
+      "enunciado": "Um corpo em MRUV percorre 100 m em 5 s, partindo do repouso. Sua aceleração é:",
+      "alternativas": [
+        { "letra": "A", "texto": "4 m/s²", "correta": false },
+        { "letra": "B", "texto": "6 m/s²", "correta": false },
+        { "letra": "C", "texto": "8 m/s²", "correta": true },
+        { "letra": "D", "texto": "10 m/s²", "correta": false },
+        { "letra": "E", "texto": "20 m/s²", "correta": false }
+      ],
+      "explicacao": "ΔS = a·t²/2 → 100 = a·25/2 → a = 200/25 = 8 m/s²."
+    },
+    {
+      "id": 25,
+      "assunto": "MRUV",
+      "enunciado": "No MRUV, quando a velocidade e a aceleração têm sinais opostos, o movimento é classificado como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Progressivo acelerado", "correta": false },
+        { "letra": "B", "texto": "Retrógrado acelerado", "correta": false },
+        { "letra": "C", "texto": "Uniforme", "correta": false },
+        { "letra": "D", "texto": "Retardado", "correta": true },
+        { "letra": "E", "texto": "Repouso", "correta": false }
+      ],
+      "explicacao": "Quando v e a têm sinais opostos, a aceleração age contra o movimento, reduzindo o módulo da velocidade. O movimento é classificado como retardado."
+    },
+    {
+      "id": 26,
+      "assunto": "MRUV",
+      "enunciado": "Um móvel tem velocidade de 15 m/s e aceleração constante de -3 m/s². Após quanto tempo ele para?",
+      "alternativas": [
+        { "letra": "A", "texto": "3 s", "correta": false },
+        { "letra": "B", "texto": "5 s", "correta": true },
+        { "letra": "C", "texto": "6 s", "correta": false },
+        { "letra": "D", "texto": "8 s", "correta": false },
+        { "letra": "E", "texto": "10 s", "correta": false }
+      ],
+      "explicacao": "v = v₀ + a·t → 0 = 15 + (-3)·t → 3t = 15 → t = 5 s."
+    },
+    {
+      "id": 27,
+      "assunto": "MRUV",
+      "enunciado": "A distância percorrida por um corpo em MRUV durante o 3º segundo de movimento é 10 m. Sabendo que partiu do repouso, sua aceleração vale:",
+      "alternativas": [
+        { "letra": "A", "texto": "2 m/s²", "correta": false },
+        { "letra": "B", "texto": "4 m/s²", "correta": true },
+        { "letra": "C", "texto": "5 m/s²", "correta": false },
+        { "letra": "D", "texto": "6 m/s²", "correta": false },
+        { "letra": "E", "texto": "8 m/s²", "correta": false }
+      ],
+      "explicacao": "No MRUV com v₀ = 0, a distância percorrida no n-ésimo segundo é ΔSₙ = (a/2)(2n-1). Para n = 3: 10 = (a/2)·5 → a = 4 m/s²."
+    },
+    {
+      "id": 28,
+      "assunto": "MRUV",
+      "enunciado": "Um foguete parte do repouso e acelera uniformemente a 20 m/s² durante 3 segundos, quando o combustível acaba. A velocidade máxima atingida é:",
+      "alternativas": [
+        { "letra": "A", "texto": "20 m/s", "correta": false },
+        { "letra": "B", "texto": "30 m/s", "correta": false },
+        { "letra": "C", "texto": "40 m/s", "correta": false },
+        { "letra": "D", "texto": "60 m/s", "correta": true },
+        { "letra": "E", "texto": "90 m/s", "correta": false }
+      ],
+      "explicacao": "v = v₀ + a·t = 0 + 20·3 = 60 m/s. Esta é a velocidade máxima, atingida no momento em que o combustível acaba."
+    },
+    {
+      "id": 29,
+      "assunto": "MRUV",
+      "enunciado": "Em um gráfico da aceleração em função do tempo (a x t) para um MRUV, a figura obtida é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Uma reta inclinada", "correta": false },
+        { "letra": "B", "texto": "Uma parábola", "correta": false },
+        { "letra": "C", "texto": "Uma reta horizontal", "correta": true },
+        { "letra": "D", "texto": "Uma hipérbole", "correta": false },
+        { "letra": "E", "texto": "Uma curva exponencial", "correta": false }
+      ],
+      "explicacao": "No MRUV, a aceleração é constante. Portanto, o gráfico a x t é uma reta horizontal (paralela ao eixo do tempo)."
+    },
+    {
+      "id": 30,
+      "assunto": "MRUV",
+      "enunciado": "Um automóvel aumenta sua velocidade de 36 km/h para 108 km/h em 10 segundos. Sua aceleração média em m/s² é:",
+      "alternativas": [
+        { "letra": "A", "texto": "1,0 m/s²", "correta": false },
+        { "letra": "B", "texto": "2,0 m/s²", "correta": true },
+        { "letra": "C", "texto": "3,6 m/s²", "correta": false },
+        { "letra": "D", "texto": "7,2 m/s²", "correta": false },
+        { "letra": "E", "texto": "10,8 m/s²", "correta": false }
+      ],
+      "explicacao": "Convertendo: 36 km/h ÷ 3,6 = 10 m/s; 108 km/h ÷ 3,6 = 30 m/s. a = Δv/Δt = (30-10)/10 = 20/10 = 2 m/s²."
+    },
+    {
+      "id": 31,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma pedra é abandonada do alto de um prédio de 80 m de altura. Desprezando a resistência do ar e considerando g = 10 m/s², o tempo de queda é:",
+      "alternativas": [
+        { "letra": "A", "texto": "2 s", "correta": false },
+        { "letra": "B", "texto": "3 s", "correta": false },
+        { "letra": "C", "texto": "4 s", "correta": true },
+        { "letra": "D", "texto": "5 s", "correta": false },
+        { "letra": "E", "texto": "8 s", "correta": false }
+      ],
+      "explicacao": "Na queda livre, h = g·t²/2. Logo: 80 = 10·t²/2 → 80 = 5t² → t² = 16 → t = 4 s."
+    },
+    {
+      "id": 32,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma bola é lançada verticalmente para cima com velocidade de 30 m/s. Desprezando a resistência do ar e adotando g = 10 m/s², a altura máxima atingida é:",
+      "alternativas": [
+        { "letra": "A", "texto": "30 m", "correta": false },
+        { "letra": "B", "texto": "45 m", "correta": true },
+        { "letra": "C", "texto": "60 m", "correta": false },
+        { "letra": "D", "texto": "90 m", "correta": false },
+        { "letra": "E", "texto": "120 m", "correta": false }
+      ],
+      "explicacao": "Na altura máxima, v = 0. Usando Torricelli: v² = v₀² - 2g·h → 0 = 900 - 20h → h = 45 m."
+    },
+    {
+      "id": 33,
+      "assunto": "Movimento vertical",
+      "enunciado": "Em relação ao movimento de queda livre, desprezando a resistência do ar, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Corpos mais pesados caem mais rápido que corpos mais leves", "correta": false },
+        { "letra": "B", "texto": "A velocidade de queda depende da massa do corpo", "correta": false },
+        { "letra": "C", "texto": "Todos os corpos caem com a mesma aceleração, independentemente da massa", "correta": true },
+        { "letra": "D", "texto": "A aceleração da gravidade diminui durante a queda", "correta": false },
+        { "letra": "E", "texto": "A velocidade do corpo é constante durante a queda", "correta": false }
+      ],
+      "explicacao": "Na queda livre (sem resistência do ar), todos os corpos caem com a mesma aceleração g, independentemente de suas massas."
+    },
+    {
+      "id": 34,
+      "assunto": "Movimento vertical",
+      "enunciado": "Um corpo é lançado verticalmente para cima e retorna ao ponto de partida após 8 s (g = 10 m/s²). A velocidade de lançamento foi:",
+      "alternativas": [
+        { "letra": "A", "texto": "20 m/s", "correta": false },
+        { "letra": "B", "texto": "30 m/s", "correta": false },
+        { "letra": "C", "texto": "40 m/s", "correta": true },
+        { "letra": "D", "texto": "50 m/s", "correta": false },
+        { "letra": "E", "texto": "80 m/s", "correta": false }
+      ],
+      "explicacao": "O tempo total é 8 s, então o tempo de subida é 4 s. Na altura máxima v = 0: v = v₀ - g·t → 0 = v₀ - 10·4 → v₀ = 40 m/s."
+    },
+    {
+      "id": 35,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma pedra é abandonada do alto de uma ponte e atinge a água 2 segundos depois (g = 10 m/s²). A altura da ponte é:",
+      "alternativas": [
+        { "letra": "A", "texto": "10 m", "correta": false },
+        { "letra": "B", "texto": "15 m", "correta": false },
+        { "letra": "C", "texto": "20 m", "correta": true },
+        { "letra": "D", "texto": "40 m", "correta": false },
+        { "letra": "E", "texto": "60 m", "correta": false }
+      ],
+      "explicacao": "h = g·t²/2 = 10·2²/2 = 10·4/2 = 20 m."
+    },
+    {
+      "id": 36,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma bola é lançada verticalmente para cima com velocidade de 20 m/s (g = 10 m/s²). Sua velocidade após 3 segundos será:",
+      "alternativas": [
+        { "letra": "A", "texto": "50 m/s para cima", "correta": false },
+        { "letra": "B", "texto": "10 m/s para cima", "correta": false },
+        { "letra": "C", "texto": "0 m/s", "correta": false },
+        { "letra": "D", "texto": "10 m/s para baixo", "correta": true },
+        { "letra": "E", "texto": "30 m/s para baixo", "correta": false }
+      ],
+      "explicacao": "v = v₀ - g·t = 20 - 10·3 = 20 - 30 = -10 m/s. O sinal negativo indica que a bola está descendo com velocidade de 10 m/s."
+    },
+    {
+      "id": 37,
+      "assunto": "Movimento vertical",
+      "enunciado": "No ponto mais alto da trajetória de um lançamento vertical para cima, pode-se afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "A velocidade e a aceleração são nulas", "correta": false },
+        { "letra": "B", "texto": "A velocidade é nula e a aceleração é g para baixo", "correta": true },
+        { "letra": "C", "texto": "A velocidade é máxima e a aceleração é nula", "correta": false },
+        { "letra": "D", "texto": "A velocidade e a aceleração são máximas", "correta": false },
+        { "letra": "E", "texto": "A velocidade é nula e a aceleração é zero", "correta": false }
+      ],
+      "explicacao": "No ponto mais alto, a velocidade é momentaneamente nula (v = 0), mas a aceleração da gravidade continua atuando (g = 10 m/s² para baixo)."
+    },
+    {
+      "id": 38,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma pedra é lançada do solo verticalmente para cima com velocidade v₀. Desprezando a resistência do ar, o gráfico da velocidade em função do tempo é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Uma reta horizontal", "correta": false },
+        { "letra": "B", "texto": "Uma parábola com concavidade para baixo", "correta": false },
+        { "letra": "C", "texto": "Uma reta decrescente que cruza o eixo do tempo", "correta": true },
+        { "letra": "D", "texto": "Uma reta crescente", "correta": false },
+        { "letra": "E", "texto": "Uma parábola com concavidade para cima", "correta": false }
+      ],
+      "explicacao": "A função v = v₀ - g·t é uma função linear decrescente. O gráfico é uma reta que cruza o eixo do tempo no ponto mais alto."
+    },
+    {
+      "id": 39,
+      "assunto": "Movimento vertical",
+      "enunciado": "Dois corpos de massas diferentes são abandonados simultaneamente da mesma altura, no vácuo. Pode-se afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "O corpo mais pesado atinge o solo primeiro", "correta": false },
+        { "letra": "B", "texto": "O corpo mais leve atinge o solo primeiro", "correta": false },
+        { "letra": "C", "texto": "Ambos atingem o solo ao mesmo tempo", "correta": true },
+        { "letra": "D", "texto": "O tempo de queda depende da forma dos corpos", "correta": false },
+        { "letra": "E", "texto": "A velocidade final depende da massa de cada corpo", "correta": false }
+      ],
+      "explicacao": "No vácuo, sem resistência do ar, a aceleração da gravidade é igual para todos os corpos, independentemente da massa."
+    },
+    {
+      "id": 40,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma bola é lançada para cima do alto de um prédio de 25 m com velocidade inicial de 20 m/s (g = 10 m/s²). A altura máxima em relação ao solo é:",
+      "alternativas": [
+        { "letra": "A", "texto": "25 m", "correta": false },
+        { "letra": "B", "texto": "35 m", "correta": false },
+        { "letra": "C", "texto": "45 m", "correta": true },
+        { "letra": "D", "texto": "55 m", "correta": false },
+        { "letra": "E", "texto": "65 m", "correta": false }
+      ],
+      "explicacao": "Altura adicional: v² = v₀² - 2g·h → 0 = 400 - 20h → h = 20 m. Altura total em relação ao solo: H = 25 + 20 = 45 m."
+    },
+    {
+      "id": 41,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma pedra é abandonada de uma altura de 45 m. Desprezando a resistência do ar e adotando g = 10 m/s², a velocidade com que ela atinge o solo é:",
+      "alternativas": [
+        { "letra": "A", "texto": "15 m/s", "correta": false },
+        { "letra": "B", "texto": "20 m/s", "correta": false },
+        { "letra": "C", "texto": "25 m/s", "correta": false },
+        { "letra": "D", "texto": "30 m/s", "correta": true },
+        { "letra": "E", "texto": "45 m/s", "correta": false }
+      ],
+      "explicacao": "Por Torricelli: v² = v₀² + 2g·h = 0 + 2·10·45 = 900 → v = 30 m/s."
+    },
+    {
+      "id": 42,
+      "assunto": "Movimento vertical",
+      "enunciado": "No lançamento vertical para cima, o tempo de subida e o tempo de descida (até o ponto de lançamento) são:",
+      "alternativas": [
+        { "letra": "A", "texto": "O tempo de subida é maior que o de descida", "correta": false },
+        { "letra": "B", "texto": "O tempo de descida é maior que o de subida", "correta": false },
+        { "letra": "C", "texto": "Os tempos são iguais", "correta": true },
+        { "letra": "D", "texto": "Depende da massa do corpo", "correta": false },
+        { "letra": "E", "texto": "Depende da altura máxima atingida", "correta": false }
+      ],
+      "explicacao": "Desprezando a resistência do ar, o movimento é simétrico: o tempo de subida é igual ao tempo de descida. t_subida = v₀/g = t_descida."
+    },
+    {
+      "id": 43,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma bola é lançada verticalmente para cima. Desprezando a resistência do ar, a aceleração da bola no ponto mais alto da trajetória é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Zero", "correta": false },
+        { "letra": "B", "texto": "g, dirigida para cima", "correta": false },
+        { "letra": "C", "texto": "g, dirigida para baixo", "correta": true },
+        { "letra": "D", "texto": "g/2, dirigida para baixo", "correta": false },
+        { "letra": "E", "texto": "Variável, dependendo da altura", "correta": false }
+      ],
+      "explicacao": "A aceleração da gravidade é constante durante todo o movimento (g para baixo). Mesmo no ponto mais alto, onde v = 0, a aceleração continua sendo g para baixo."
+    },
+    {
+      "id": 44,
+      "assunto": "Movimento vertical",
+      "enunciado": "Um corpo é lançado do solo verticalmente para cima com velocidade de 50 m/s (g = 10 m/s²). A altura do corpo após 7 segundos é:",
+      "alternativas": [
+        { "letra": "A", "texto": "70 m", "correta": false },
+        { "letra": "B", "texto": "85 m", "correta": false },
+        { "letra": "C", "texto": "105 m", "correta": true },
+        { "letra": "D", "texto": "125 m", "correta": false },
+        { "letra": "E", "texto": "150 m", "correta": false }
+      ],
+      "explicacao": "h = v₀·t - g·t²/2 = 50·7 - 10·49/2 = 350 - 245 = 105 m."
+    },
+    {
+      "id": 45,
+      "assunto": "Movimento vertical",
+      "enunciado": "Uma gota de chuva cai de uma nuvem a 500 m de altura. Desprezando a resistência do ar (g = 10 m/s²), o tempo que ela levaria para atingir o solo é:",
+      "alternativas": [
+        { "letra": "A", "texto": "5 s", "correta": false },
+        { "letra": "B", "texto": "8 s", "correta": false },
+        { "letra": "C", "texto": "10 s", "correta": true },
+        { "letra": "D", "texto": "15 s", "correta": false },
+        { "letra": "E", "texto": "20 s", "correta": false }
+      ],
+      "explicacao": "h = g·t²/2 → 500 = 10·t²/2 → 500 = 5t² → t² = 100 → t = 10 s."
+    },
+    {
+      "id": 46,
+      "assunto": "Vetores",
+      "enunciado": "Duas forças perpendiculares entre si, de módulos 6 N e 8 N, atuam sobre um corpo. O módulo da força resultante é:",
+      "alternativas": [
+        { "letra": "A", "texto": "2 N", "correta": false },
+        { "letra": "B", "texto": "6 N", "correta": false },
+        { "letra": "C", "texto": "8 N", "correta": false },
+        { "letra": "D", "texto": "10 N", "correta": true },
+        { "letra": "E", "texto": "14 N", "correta": false }
+      ],
+      "explicacao": "Para vetores perpendiculares, o módulo da resultante é dado pelo Teorema de Pitágoras: R = √(6² + 8²) = √(36 + 64) = √100 = 10 N."
+    },
+    {
+      "id": 47,
+      "assunto": "Vetores",
+      "enunciado": "Um vetor de módulo 10 unidades forma um ângulo de 60° com a horizontal. Sua componente horizontal vale:",
+      "alternativas": [
+        { "letra": "A", "texto": "10 unidades", "correta": false },
+        { "letra": "B", "texto": "8,66 unidades", "correta": false },
+        { "letra": "C", "texto": "5 unidades", "correta": true },
+        { "letra": "D", "texto": "7,07 unidades", "correta": false },
+        { "letra": "E", "texto": "0 unidades", "correta": false }
+      ],
+      "explicacao": "Componente horizontal: Vx = V·cos(60°) = 10·0,5 = 5 unidades."
+    },
+    {
+      "id": 48,
+      "assunto": "Vetores",
+      "enunciado": "A soma de dois vetores de mesmo módulo V, que formam entre si um ângulo de 120°, tem módulo igual a:",
+      "alternativas": [
+        { "letra": "A", "texto": "Zero", "correta": false },
+        { "letra": "B", "texto": "V", "correta": true },
+        { "letra": "C", "texto": "V·√2", "correta": false },
+        { "letra": "D", "texto": "V·√3", "correta": false },
+        { "letra": "E", "texto": "2V", "correta": false }
+      ],
+      "explicacao": "Pela lei dos cossenos: R² = V² + V² + 2·V·V·cos(120°) = 2V² + 2V²·(-0,5) = 2V² - V² = V². Logo, R = V."
+    },
+    {
+      "id": 49,
+      "assunto": "Vetores",
+      "enunciado": "Um vetor A tem componentes Ax = 3 e Ay = 4. O módulo desse vetor é:",
+      "alternativas": [
+        { "letra": "A", "texto": "3", "correta": false },
+        { "letra": "B", "texto": "4", "correta": false },
+        { "letra": "C", "texto": "5", "correta": true },
+        { "letra": "D", "texto": "7", "correta": false },
+        { "letra": "E", "texto": "12", "correta": false }
+      ],
+      "explicacao": "|A| = √(Ax² + Ay²) = √(3² + 4²) = √(9 + 16) = √25 = 5."
+    },
+    {
+      "id": 50,
+      "assunto": "Vetores",
+      "enunciado": "Dois vetores de módulos 5 e 12 atuam na mesma direção e no mesmo sentido. A resultante tem módulo:",
+      "alternativas": [
+        { "letra": "A", "texto": "7", "correta": false },
+        { "letra": "B", "texto": "13", "correta": false },
+        { "letra": "C", "texto": "17", "correta": true },
+        { "letra": "D", "texto": "60", "correta": false },
+        { "letra": "E", "texto": "8,5", "correta": false }
+      ],
+      "explicacao": "Vetores na mesma direção e mesmo sentido: a resultante é a soma dos módulos. R = 5 + 12 = 17."
+    },
+    {
+      "id": 51,
+      "assunto": "Vetores",
+      "enunciado": "O vetor oposto a um vetor v é caracterizado por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mesma direção, mesmo sentido e mesmo módulo", "correta": false },
+        { "letra": "B", "texto": "Mesma direção, sentido oposto e mesmo módulo", "correta": true },
+        { "letra": "C", "texto": "Direção perpendicular, mesmo sentido e mesmo módulo", "correta": false },
+        { "letra": "D", "texto": "Mesma direção, mesmo sentido e módulo diferente", "correta": false },
+        { "letra": "E", "texto": "Direção diferente, sentido oposto e módulo diferente", "correta": false }
+      ],
+      "explicacao": "O vetor oposto (-v) possui a mesma direção, o mesmo módulo e sentido contrário ao vetor original v."
+    },
+    {
+      "id": 52,
+      "assunto": "Vetores",
+      "enunciado": "Um homem caminha 40 m para o norte e depois 30 m para o leste. O módulo do deslocamento resultante é:",
+      "alternativas": [
+        { "letra": "A", "texto": "10 m", "correta": false },
+        { "letra": "B", "texto": "35 m", "correta": false },
+        { "letra": "C", "texto": "50 m", "correta": true },
+        { "letra": "D", "texto": "70 m", "correta": false },
+        { "letra": "E", "texto": "100 m", "correta": false }
+      ],
+      "explicacao": "Os deslocamentos são perpendiculares. Pelo Teorema de Pitágoras: d = √(40² + 30²) = √(1600 + 900) = √2500 = 50 m."
+    },
+    {
+      "id": 53,
+      "assunto": "Vetores",
+      "enunciado": "A diferença entre dois vetores A e B (A - B) pode ser interpretada como:",
+      "alternativas": [
+        { "letra": "A", "texto": "A soma de A com B", "correta": false },
+        { "letra": "B", "texto": "A soma de A com o oposto de B", "correta": true },
+        { "letra": "C", "texto": "O produto escalar de A por B", "correta": false },
+        { "letra": "D", "texto": "A subtração dos módulos de A e B", "correta": false },
+        { "letra": "E", "texto": "A multiplicação de A pelo inverso de B", "correta": false }
+      ],
+      "explicacao": "A subtração vetorial A - B é equivalente à soma do vetor A com o vetor oposto de B: A + (-B)."
+    },
+    {
+      "id": 54,
+      "assunto": "Vetores",
+      "enunciado": "Um vetor de módulo 20 é decomposto em duas componentes ortogonais. Se uma das componentes tem módulo 12, a outra componente tem módulo:",
+      "alternativas": [
+        { "letra": "A", "texto": "8", "correta": false },
+        { "letra": "B", "texto": "14", "correta": false },
+        { "letra": "C", "texto": "16", "correta": true },
+        { "letra": "D", "texto": "18", "correta": false },
+        { "letra": "E", "texto": "32", "correta": false }
+      ],
+      "explicacao": "V² = Vx² + Vy² → 20² = 12² + Vy² → 400 = 144 + Vy² → Vy² = 256 → Vy = 16."
+    },
+    {
+      "id": 55,
+      "assunto": "Vetores",
+      "enunciado": "Para dois vetores de módulos 6 e 8, o valor máximo possível para o módulo da resultante é:",
+      "alternativas": [
+        { "letra": "A", "texto": "2", "correta": false },
+        { "letra": "B", "texto": "10", "correta": false },
+        { "letra": "C", "texto": "14", "correta": true },
+        { "letra": "D", "texto": "28", "correta": false },
+        { "letra": "E", "texto": "48", "correta": false }
+      ],
+      "explicacao": "O módulo máximo da resultante ocorre quando os vetores estão na mesma direção e sentido: R_max = 6 + 8 = 14."
+    },
+    {
+      "id": 56,
+      "assunto": "Vetores",
+      "enunciado": "Um vetor deslocamento tem componente horizontal de 9 km e componente vertical de 12 km. A direção desse vetor em relação à horizontal é aproximadamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "37°", "correta": false },
+        { "letra": "B", "texto": "45°", "correta": false },
+        { "letra": "C", "texto": "53°", "correta": true },
+        { "letra": "D", "texto": "60°", "correta": false },
+        { "letra": "E", "texto": "90°", "correta": false }
+      ],
+      "explicacao": "tg(θ) = Vy/Vx = 12/9 = 4/3 ≈ 1,333. O ângulo cuja tangente é 4/3 é aproximadamente 53°."
+    },
+    {
+      "id": 57,
+      "assunto": "Vetores",
+      "enunciado": "Três vetores de mesmo módulo V formam entre si ângulos de 120°. A resultante desses três vetores tem módulo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Zero", "correta": true },
+        { "letra": "B", "texto": "V", "correta": false },
+        { "letra": "C", "texto": "V·√2", "correta": false },
+        { "letra": "D", "texto": "V·√3", "correta": false },
+        { "letra": "E", "texto": "3V", "correta": false }
+      ],
+      "explicacao": "Três vetores de mesmo módulo separados por 120° formam um triângulo equilátero fechado. A resultante é nula."
+    },
+    {
+      "id": 58,
+      "assunto": "Vetores",
+      "enunciado": "O produto escalar entre dois vetores perpendiculares é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Igual ao produto dos módulos", "correta": false },
+        { "letra": "B", "texto": "Igual à soma dos módulos", "correta": false },
+        { "letra": "C", "texto": "Zero", "correta": true },
+        { "letra": "D", "texto": "Igual a 1", "correta": false },
+        { "letra": "E", "texto": "Igual ao módulo do menor vetor", "correta": false }
+      ],
+      "explicacao": "O produto escalar é A·B = |A|·|B|·cos(θ). Para vetores perpendiculares, θ = 90° e cos(90°) = 0. Portanto, A·B = 0."
+    },
+    {
+      "id": 59,
+      "assunto": "Vetores",
+      "enunciado": "Uma grandeza vetorial se diferencia de uma grandeza escalar por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ter apenas valor numérico", "correta": false },
+        { "letra": "B", "texto": "Ser sempre positiva", "correta": false },
+        { "letra": "C", "texto": "Necessitar de módulo, direção e sentido para ser completamente definida", "correta": true },
+        { "letra": "D", "texto": "Ter apenas direção", "correta": false },
+        { "letra": "E", "texto": "Não poder ser medida", "correta": false }
+      ],
+      "explicacao": "Grandezas vetoriais (como força, velocidade, deslocamento) precisam de módulo, direção e sentido para sua completa definição."
+    },
+    {
+      "id": 60,
+      "assunto": "Vetores",
+      "enunciado": "Quatro vetores de mesmo módulo V partem de um mesmo ponto e estão separados por ângulos de 90° entre si, apontando para norte, sul, leste e oeste. A resultante é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Zero", "correta": true },
+        { "letra": "B", "texto": "V", "correta": false },
+        { "letra": "C", "texto": "2V", "correta": false },
+        { "letra": "D", "texto": "V·√2", "correta": false },
+        { "letra": "E", "texto": "4V", "correta": false }
+      ],
+      "explicacao": "Os vetores norte e sul se cancelam. O mesmo ocorre com leste e oeste. A resultante total é zero."
+    }
+  ]
+}

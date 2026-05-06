@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../../index.html" class="back-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+        Voltar
+      </a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <nav aria-label="Navegação principal">
+        <ul class="ds-nav__list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <div class="ds-progress-bar ds-progress-bar--visible" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="ds-progress-bar__fill"></div>
+    </div>
+
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Física — Cinemática e Vetores</h1>
+        <p class="ds-lead">Revisão completa de Cinemática e Vetores para o Primeiro Ano do Ensino Médio. Estude os conceitos, fórmulas e evite os erros mais comuns.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+          <section class="ds-study-block">
+            <h2>MRU — Movimento Retilíneo Uniforme</h2>
+            <p>No MRU, o corpo se desloca em linha reta com <strong>velocidade constante</strong> (não há aceleração). Percorre distâncias iguais em intervalos de tempo iguais. A função horária é uma reta: <strong>S = S₀ + v·t</strong>.</p>
+            <div class="ds-highlight ds-highlight--formula">v = ΔS/Δt (constante) | S = S₀ + vt | Unidades no SI: S em metros (m), v em m/s, t em segundos (s) | 1 m/s = 3,6 km/h</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir velocidade média com velocidade instantânea no MRU: como v é constante, elas são iguais. Outro erro frequente: usar km/h e horas na mesma fórmula sem converter. Sempre converta km/h para m/s (divida por 3,6) quando o tempo estiver em segundos. Atenção ao sinal: velocidade negativa indica movimento no sentido oposto ao referencial, mas NÃO significa aceleração.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Um móvel na posição 10 m se move a 4 m/s. Em t = 3 s: S = 10 + 4·3 = 22 m. Em gráfico S×t, a inclinação da reta é a velocidade. Em gráfico v×t, a área sob a reta horizontal é o deslocamento (ΔS = v·Δt).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>MRUV — Movimento Retilíneo Uniformemente Variado</h2>
+            <p>No MRUV, a <strong>aceleração é constante</strong> e diferente de zero. A velocidade varia de forma uniforme ao longo do tempo. As funções horárias são: <strong>S = S₀ + v₀t + (a/2)t²</strong> e <strong>v = v₀ + a·t</strong>. A equação de Torricelli (v² = v₀² + 2a·ΔS) é usada quando o tempo não é fornecido.</p>
+            <div class="ds-highlight ds-highlight--formula">v = v₀ + at | S = S₀ + v₀t + (a/2)t² | v² = v₀² + 2aΔS (Torricelli) | a em m/s² | Movimento acelerado: v e a têm mesmo sinal. Movimento retardado: v e a têm sinais opostos.</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">O erro mais comum é usar a fórmula do MRU (S = S₀ + vt) no MRUV. Se há aceleração, a velocidade muda e você precisa de v₀t + at²/2. Outro erro: confundir movimento retardado com aceleração negativa. Um corpo pode estar subindo (v positivo) com aceleração negativa (retardado) ou descendo (v negativo) com aceleração negativa (acelerado para baixo). Na equação de Torricelli, o ΔS leva o sinal do deslocamento.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Um carro parte do repouso (v₀ = 0) com a = 2 m/s². Em 5 s: v = 0 + 2·5 = 10 m/s. Posição: S = 0 + 0·5 + (2/2)·5² = 25 m. No gráfico v×t, a inclinação da reta é a aceleração e a área é o deslocamento.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Movimento Vertical — Queda Livre e Lançamento</h2>
+            <p>No vácuo, todos os corpos caem com a mesma <strong>aceleração da gravidade (g = 9,8 m/s²)</strong>, independentemente da massa. A queda livre parte do repouso (v₀ = 0). No lançamento vertical para cima, o corpo sobe com movimento retardado (v positiva, g negativa) até o ponto mais alto, onde <strong>v = 0 mas a = g</strong>, e depois desce em queda livre.</p>
+            <div class="ds-highlight ds-highlight--formula">Queda livre: v = gt | h = (g/2)t² | v² = 2gh | Lançamento para cima: v = v₀ − gt | h = v₀t − (g/2)t² | v² = v₀² − 2gh | Tempo de subida: t_sub = v₀/g | Altura máxima: h_max = v₀²/(2g)</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro crítico: achar que no ponto mais alto a aceleração é zero. No topo, v = 0 mas a gravidade continua atuando (a = g = 9,8 m/s² para baixo). Outro erro: usar g = 10 m/s² sem verificar se o problema permite essa aproximação. Na queda livre, não confunda massa com tempo de queda: no vácuo, pena e martelo caem juntos. Para corpos lançados para cima, o tempo total de voo é o dobro do tempo de subida (t_total = 2v₀/g).</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Uma pedra é lançada para cima com v₀ = 20 m/s (g = 10 m/s²). Tempo de subida: t = 20/10 = 2 s. Altura máxima: h = 400/20 = 20 m. Tempo total até retornar ao solo: 4 s. Na descida, volta ao ponto de partida com a mesma velocidade de 20 m/s (sentido oposto).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Vetores — Decomposição e Operações</h2>
+            <p>Grandezas vetoriais possuem <strong>módulo, direção e sentido</strong> (ex: velocidade, força, deslocamento). Um vetor pode ser decomposto em componentes ortogonais (x e y): <strong>Vx = V·cos θ</strong> e <strong>Vy = V·sen θ</strong>. A resultante de dois vetores depende do ângulo entre eles: mesma direção (soma/subtração), perpendiculares (Pitágoras) e caso geral (Lei dos Cossenos).</p>
+            <div class="ds-highlight ds-highlight--formula">Componentes: Vx = V·cos θ, Vy = V·sen θ | Módulo: V = √(Vx² + Vy²) | Direção: tg θ = Vy/Vx | Resultante: R² = A² + B² + 2AB·cos θ (Lei dos Cossenos) | Mesma direção: R = A + B (mesmo sentido) ou R = |A − B| (sentidos opostos) | Perpendiculares: R = √(A² + B²)</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir grandeza escalar com vetorial: massa é escalar, peso é vetorial. Na decomposição, o erro mais frequente é trocar seno por cosseno. Lembre-se: o componente adjacente ao ângulo leva cosseno. Outro erro: somar módulos como escalares quando os vetores não estão na mesma direção (ex: 3 N + 4 N perpendiculares não dá 7 N, mas 5 N). Na Lei dos Cossenos, o sinal do termo 2AB·cos θ depende do ângulo entre os vetores.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Um vetor de 10 N forma 30° com a horizontal. Vx = 10·cos 30° = 10·0,87 = 8,7 N. Vy = 10·sen 30° = 10·0,5 = 5,0 N. Para dois vetores de 3 N e 4 N perpendiculares: R = √(9 + 16) = 5 N.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei diferenciar MRU de MRUV pela presença de aceleração</li>
+              <li>Domino as funções horárias: S = S₀ + vt (MRU) e S = S₀ + v₀t + at²/2 (MRUV)</li>
+              <li>Compreendo a equação de Torricelli e quando usá-la</li>
+              <li>Entendo que na queda livre todos os corpos caem com mesma aceleração g</li>
+              <li>Sei que no ponto mais alto do lançamento vertical a velocidade é zero mas a aceleração é g</li>
+              <li>Consigo decompor vetores em componentes ortogonais</li>
+              <li>Sei calcular resultante de vetores (mesma direção, perpendiculares e caso geral)</li>
+              <li>Consigo interpretar gráficos S×t, v×t e a×t para todos os movimentos</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Sempre verifique as unidades! Converta km/h para m/s dividindo por 3,6. E atenção ao sinal da velocidade e aceleração para classificar o movimento corretamente.
+            </div>
+          </section>
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>
