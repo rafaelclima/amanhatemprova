@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../../index.html" aria-label="Voltar para matérias" style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;font-size:var(--fs-sm);font-weight:600;color:var(--ds-text-light);background:var(--ds-surface);border:1px solid var(--ds-border);border-radius:var(--radius-xl);text-decoration:none;transition:all 0.2s;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar
+      </a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <nav aria-label="Navegação principal">
+        <ul class="ds-nav__list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="ds-progress-bar__fill"></div>
+      </div>
+
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Biologia — Fungos, Algas e Protozoários</h1>
+        <p class="ds-lead">Revisão completa de Fungos, Algas e Protozoários para o Primeiro Ano do Ensino Médio. Estude as características, classificação, reprodução, importância ecológica e as principais doenças causadas por esses organismos.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+
+          <section class="ds-study-block">
+            <h2>Características Gerais dos Fungos</h2>
+            <p>Os fungos são organismos <strong>eucarióticos, heterótrofos</strong> (não realizam fotossíntese), podendo ser unicelulares (leveduras) ou pluricelulares (cogumelos, bolores). Sua parede celular é composta de <strong>quitina</strong> (diferente da celulose vegetal) e sua energia é armazenada na forma de <strong>glicogênio</strong> (como nos animais). O corpo dos fungos pluricelulares é formado por filamentos microscópicos chamados <strong>hifas</strong>, cujo conjunto constitui o <strong>micélio</strong>.</p>
+            <div class="ds-highlight ds-highlight--formula">Eucarióticos | Heterótrofos (absorção/osmotrofia) | Parede celular: quitina | Armazenamento: glicogênio | Unicelulares (leveduras) ou pluricelulares | Digestão extracelular (enzimas + absorção)</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Não confunda fungos com plantas: fungos são heterótrofos (não fotossintetizantes) e possuem quitina (não celulose) na parede celular. Outro erro comum é pensar que fungos "ingerem" alimento — na verdade, realizam digestão extracelular e depois absorvem os nutrientes (osmotrofia). Bolor, mofo e cogumelos são todos fungos.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Classificação dos Fungos (Filos)</h2>
+            <p>Os fungos são classificados em filos com base principalmente em suas estruturas reprodutivas sexuadas: <strong>Ascomycota</strong> (ascos/sacos — leveduras, Penicillium), <strong>Basidiomycota</strong> (basídios — cogumelos, orelhas-de-pau), <strong>Zygomycota</strong> (zigósporos — bolor negro do pão/Rhizopus), <strong>Chytridiomycota</strong> (zoósporos flagelados — os únicos com flagelo) e <strong>Glomeromycota</strong> (micorrizas arbusculares). O grupo <strong>Deuteromycota</strong> (fungos imperfeitos) reúne fungos sem fase sexuada conhecida.</p>
+            <div class="ds-highlight ds-highlight--formula">Ascomycota: ascos (leveduras, Penicillium, Aspergillus) | Basidiomycota: basídios (cogumelos, orelhas-de-pau) | Zygomycota: zigósporos (Rhizopus — bolor do pão) | Chytridiomycota: zoósporos flagelados (aquáticos) | Deuteromycota: apenas fase assexuada conhecida</div>
+            <p><strong>Exemplo rápido:</strong> Cogumelo comestível = Basidiomycota. Bolor do pão = Zygomicota (Rhizopus). Penicilina = Ascomycota (Penicillium). Levedura do pão = Ascomycota (Saccharomyces).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Reprodução dos Fungos</h2>
+            <p>A reprodução dos fungos pode ser <strong>assexuada</strong> ou <strong>sexuada</strong>. Na reprodução assexuada, destacam-se os <strong>conídios</strong> (esporos assexuados em conidióforos), o <strong>brotamento/gemulação</strong> (em leveduras) e a <strong>fragmentação</strong> do micélio. Na reprodução sexuada, há fusão de hifas compatíveis, cariogamia e meiose, produzindo esporos sexuados (ascósporos, basidiósporos, zigósporos). Muitos fungos produzem esporos por ambos os processos, garantindo dispersão e variabilidade genética.</p>
+            <div class="ds-highlight ds-highlight--formula">Assexuada: conídios, brotamento (leveduras), fragmentação | Sexuada: fusão de hifas → cariogamia → meiose → esporos sexuados | Ciclo diplobionte (fase haploide predominante) | Dispersão por esporos pelo vento, água ou animais</div>
+            <p><strong>Exemplo rápido:</strong> Ao fazer pão, a levedura Saccharomyces fermenta e cresce por brotamento. Ao ver um cogumelo, as "linhas" sob o chapéu são basídios produzindo milhares de basidiósporos.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Importância Ecológica e Econômica dos Fungos</h2>
+            <p>Os fungos desempenham papéis ecológicos fundamentais como <strong>decompositores</strong> (reciclagem de nutrientes), em associações mutualísticas como <strong>micorrizas</strong> (fungo + raízes de plantas: maior absorção de nutrientes) e <strong>líquens</strong> (fungo + alga/cianobactéria: um pioneiro na colonização de ambientes). Economicamente, são usados na produção de <strong>alimentos</strong> (pão, cerveja, vinho, queijos como gorgonzola/roquefort), <strong>antibióticos</strong> (penicilina do Penicillium), <strong>imunossupressores</strong> (ciclosporina) e <strong>ácido cítrico</strong> (Aspergillus niger).</p>
+            <div class="ds-highlight ds-highlight--formula">Decompositores: reciclagem de C e N | Micorrizas: fungo + raiz (mutualismo) | Líquens: fungo + alga/cianobactéria | Alimentos: fermentação (pão, cerveja), queijos | Medicamentos: penicilina, ciclosporina | Riscos: micoses, aflatoxinas</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Micorriza NÃO é parasitismo — é mutualismo (ambos se beneficiam: fungo fornece nutrientes minerais, planta fornece açúcares). Líquen NÃO é um organismo só — é a associação de dois organismos. Líquens são bioindicadores de poluição: não sobrevivem em ar muito poluído.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Doenças Causadas por Fungos (Micoses)</h2>
+            <p>Os fungos patogênicos causam doenças chamadas <strong>micoses</strong>, que podem ser superficiais (pele, unhas) ou profundas (órgãos internos). Exemplos: <strong>candidíase</strong> (Candida albicans — boca, genitais), <strong>pé de atleta</strong> (Tinea pedis — dermatófitos que digerem queratina), <strong>esporotricose</strong> (Sporothrix schenckii — por ferimentos na pele, transmissão por gatos), <strong>aspergilose</strong> (Aspergillus — pulmões) e <strong>tinha/dermatofitose</strong> (dermatófitos — lesões circulares na pele). Fungos também produzem toxinas como <strong>aflatoxinas</strong> (Aspergillus flavus — cancerígenas em grãos).</p>
+            <div class="ds-highlight ds-highlight--formula">Candidíase: Candida albicans | Pé de atleta: dermatófitos (Tinea) | Esporotricose: Sporothrix (gatos) | Tinha: dermatófitos (lesões circulares) | Aflatoxinas: Aspergillus flavus (grãos) | Tratamento: antifúngicos (azol, anfotericina B)</div>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Características Gerais das Algas</h2>
+            <p>As algas são organismos <strong>fotossintetizantes, eucarióticos</strong>, podendo ser unicelulares (fitoplâncton) ou pluricelulares (algas marinhas). São classificadas como <strong>protistas</strong> (não são plantas por não possuírem tecidos e órgãos diferenciados). A classificação em grupos leva em conta os <strong>pigmentos</strong> acessórios: <strong>Chlorophyta</strong> (verdes — clorofila a e b), <strong>Phaeophyta</strong> (pardas — fucoxantina), <strong>Rhodophyta</strong> (vermelhas — ficobilinas: ficoeritrina e ficocianina), <strong>Chrysophyta</strong> (douradas — diatomáceas com carapaça de sílica) e <strong>Pyrophyta</strong> (dinoflagelados).</p>
+            <div class="ds-highlight ds-highlight--formula">Verdes (Chlorophyta): clorofila a e b | Pardas (Phaeophyta): fucoxantina | Vermelhas (Rhodophyta): ficobilinas (ficoeritrina, ficocianina) | Douradas (Chrysophyta): diatomáceas (sílica) | Dinoflagelados (Pyrophyta): maré vermelha | Fitoplâncton: base da cadeia alimentar aquática + produção de O₂</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Algas NÃO são plantas! Não possuem raiz, caule, folha, vasos condutores nem sementes. São protistas fotossintetizantes. A "maré vermelha" é causada por dinoflagelados (não algas vermelhas). Diatomáceas têm carapaça de sílica (SiO2), não de carbonato de cálcio.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Importância Ecológica e Econômica das Algas</h2>
+            <p>As algas são responsáveis por grande parte da <strong>produção primária</strong> nos ambientes aquáticos e pela liberação de <strong>oxigênio</strong> na atmosfera (o fitoplâncton produz cerca de 50% do O₂ global). Economicamente, são fontes de <strong>ágar</strong> (extraído de algas vermelhas — meio de cultura bacteriana), <strong>carragenano</strong> (algas vermelhas — espessante alimentício), <strong>alginato</strong> (algas pardas — indústria alimentícia e têxtil) e são consumidas diretamente como alimento (nori, kombu). A <strong>eutrofização</strong> (excesso de nutrientes) causa floração excessiva de algas (algal bloom), reduzindo o oxigênio na água.</p>
+            <div class="ds-highlight ds-highlight--formula">Fitoplâncton: ~50% do O₂ global | Ágar: algas vermelhas (Gelidium) | Carragenano: algas vermelhas (Chondrus) | Alginato: algas pardas | Eutrofização → floração de algas → hipóxia | Maré vermelha: dinoflagelados → toxinas → morte de peixes</div>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Características Gerais dos Protozoários</h2>
+            <p>Os protozoários são organismos <strong>eucarióticos, unicelulares e heterótrofos</strong>, classificados no reino Protista. A classificação tradicional baseia-se no tipo de <strong>locomoção</strong>: <strong>Rizópodes/Sarcodíneos</strong> (pseudópodes — amebas), <strong>Flagelados/Zoomastiginos</strong> (flagelos — Trypanosoma, Trichomonas), <strong>Ciliados/Cilióforos</strong> (cílios — Paramecium) e <strong>Esporozoários/Sporozoa</strong> (sem locomoção própria — Plasmodium). Alimentam-se por fagocitose, e muitos são parasitas de humanos e outros animais.</p>
+            <div class="ds-highlight ds-highlight--formula">Rizópodes: pseudópodes (amebas) | Flagelados: flagelos (Trypanosoma, Giardia, Trichomonas) | Ciliados: cílios (Paramecium) | Esporozoários: sem locomoção (Plasmodium, Toxoplasma) | Alimentação: fagocitose | Reprodução: fissão binária (assexuada), conjugação (sexuada em ciliados)</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Protozoários NÃO são bactérias — são eucarióticos (possuem núcleo definido e organelas membranosas). Euglena tem cloroplastos e pode fazer fotossíntese (mixotrófica). O vacúolo contrátil regula a osmose em protozoários de água doce (elimina excesso de água).</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Principais Doenças Causadas por Protozoários</h2>
+            <p>Os protozoários parasitas causam diversas doenças de importância em saúde pública: <strong>Malária</strong> (Plasmodium — mosquito Anopheles — febre cíclica, anemia), <strong>Doença de Chagas</strong> (Trypanosoma cruzi — barbeiro — cardiopatia e megacólon), <strong>Amebíase</strong> (Entamoeba histolytica — água/alimentos contaminados — diarreia com sangue), <strong>Giardíase</strong> (Giardia lamblia — água contaminada — diarreia e má absorção), <strong>Leishmaniose</strong> (Leishmania — mosquito-palha — feridas cutâneas ou visceral), <strong>Toxoplasmose</strong> (Toxoplasma gondii — gatos/carne mal cozida — risco em gestantes), <strong>Tricomoníase</strong> (Trichomonas vaginalis — IST) e <strong>Doença do sono</strong> (Trypanosoma brucei — mosca tsé-tsé).</p>
+            <div class="ds-highlight ds-highlight--formula">Malária: Plasmodium / Anopheles | Chagas: T. cruzi / barbeiro | Amebíase: E. histolytica / água | Giardíase: G. lamblia / água | Leishmaniose: Leishmania / mosquito-palha | Toxoplasmose: T. gondii / gatos | Tricomoníase: T. vaginalis / IST | Doença do sono: T. brucei / mosca tsé-tsé</div>
+            <p><strong>Dica de memorização:</strong> Para lembrar os vetores: malária = Anopheles (mosquito-prego), Chagas = barbeiro (triatomíneo), leishmaniose = mosquito-palha (Lutzomyia), doença do sono = mosca tsé-tsé (Glossina).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei que fungos são heterótrofos, eucarióticos, com parede celular de quitina</li>
+              <li>Conheço os principais filos de fungos (Ascomycota, Basidiomycota, Zygomycota, Chytridiomycota)</li>
+              <li>Entendo a diferença entre conídios (assexuados) e esporos sexuados (ascósporos, basidiósporos, zigósporos)</li>
+              <li>Sei a diferença entre micorriza (fungo + raiz) e líquen (fungo + alga/cianobactéria)</li>
+              <li>Conheço as principais micoses (candidíase, pé de atleta, esporotricose, tinha)</li>
+              <li>Sei que algas são protistas fotossintetizantes (não são plantas)</li>
+              <li>Conheço os pigmentos das algas verdes (clorofila a e b), pardas (fucoxantina) e vermelhas (ficobilinas)</li>
+              <li>Entendo a importância do fitoplâncton (produção de O₂ e base da cadeia alimentar aquática)</li>
+              <li>Sei a classificação dos protozoários por locomoção (rizópodes, flagelados, ciliados, esporozoários)</li>
+              <li>Conheço as principais doenças protozoárias e seus vetores (malária/Anopheles, Chagas/barbeiro, leishmaniose/mosquito-palha)</li>
+              <li>Entendo o papel do vacúolo contrátil na regulação osmótica</li>
+              <li>Sei que eutrofização causa floração de algas e redução de oxigênio na água</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Para as doenças protozoárias, monte um quadro com 3 colunas — agente etiológico, vetor/transmissão e sintomas. Isso facilita a memorização e evita confusões entre doenças com sintomas semelhantes.
+            </div>
+          </section>
+
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

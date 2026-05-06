@@ -1,0 +1,787 @@
+{
+  "serie": "Primeiro ano do ensino médio",
+  "disciplina": "Biologia",
+  "assuntos": ["Fungos", "Algas e protozoários"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Fungos",
+      "enunciado": "Os fungos são organismos eucarióticos que se distinguem das plantas por não realizarem fotossíntese. Essa característica os classifica como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Autótrofos fotossintetizantes", "correta": false },
+        { "letra": "B", "texto": "Autótrofos quimiossintetizantes", "correta": false },
+        { "letra": "C", "texto": "Heterótrofos", "correta": true },
+        { "letra": "D", "texto": "Mixótrofos", "correta": false },
+        { "letra": "E", "texto": "Autótrofos heterofílicos", "correta": false }
+      ],
+      "explicacao": "Os fungos são heterótrofos porque não produzem seu próprio alimento. Como não possuem clorofila, não realizam fotossíntese e precisam obter matéria orgânica do ambiente, sendo decompositores, parasitas ou mutualísticos."
+    },
+    {
+      "id": 2,
+      "assunto": "Fungos",
+      "enunciado": "A parede celular dos fungos é composta principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Celulose", "correta": false },
+        { "letra": "B", "texto": "Quitina", "correta": true },
+        { "letra": "C", "texto": "Peptidoglicano", "correta": false },
+        { "letra": "D", "texto": "Amido", "correta": false },
+        { "letra": "E", "texto": "Silica", "correta": false }
+      ],
+      "explicacao": "A parede celular dos fungos é composta por quitina, um polissacarídeo também encontrado no exoesqueleto de artrópodes. A celulose é o componente da parede celular vegetal, e o peptidoglicano é o componente da parede celular bacteriana."
+    },
+    {
+      "id": 3,
+      "assunto": "Fungos",
+      "enunciado": "O corpo de um fungo multicelular é formado por filamentos microscópicos denominados:",
+      "alternativas": [
+        { "letra": "A", "texto": "Cistos", "correta": false },
+        { "letra": "B", "texto": "Esporângios", "correta": false },
+        { "letra": "C", "texto": "Hifas", "correta": true },
+        { "letra": "D", "texto": "Tubos polínicos", "correta": false },
+        { "letra": "E", "texto": "Estômatos", "correta": false }
+      ],
+      "explicacao": "As hifas são filamentos microscópicos que formam o corpo dos fungos multicelulares. O conjunto de hifas é chamado de micélio. Esporângios são estruturas produtoras de esporos, tubos polínicos pertencem às plantas e estômatos são estruturas de folhas vegetais."
+    },
+    {
+      "id": 4,
+      "assunto": "Fungos",
+      "enunciado": "O conjunto de hifas que forma o corpo vegetativo de um fungo é chamado de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Corpo de frutificação", "correta": false },
+        { "letra": "B", "texto": "Micélio", "correta": true },
+        { "letra": "C", "texto": "Talo", "correta": false },
+        { "letra": "D", "texto": "Rizóide", "correta": false },
+        { "letra": "E", "texto": "Esporófito", "correta": false }
+      ],
+      "explicacao": "O micélio é o conjunto de hifas que forma o corpo vegetativo do fungo, responsável pela absorção de nutrientes. O corpo de frutificação é a estrutura visível (como o cogumelo) que produz esporos."
+    },
+    {
+      "id": 5,
+      "assunto": "Fungos",
+      "enunciado": "Os fungos se alimentam por absorção. Sobre esse processo, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ingerem partículas de alimento por fagocitose", "correta": false },
+        { "letra": "B", "texto": "Produzem seu alimento por quimiossíntese", "correta": false },
+        { "letra": "C", "texto": "Liberam enzimas que degradam matéria orgânica externa e depois absorvem os nutrientes", "correta": true },
+        { "letra": "D", "texto": "Capturam alimento por meio de estômatos especializados", "correta": false },
+        { "letra": "E", "texto": "Realizam fotossíntese em ambientes úmidos", "correta": false }
+      ],
+      "explicacao": "Os fungos realizam digestão extracelular: liberam enzimas digestivas que quebram moléculas orgânicas complexas no ambiente e, em seguida, absorvem as moléculas menores resultantes. Esse processo é chamado de absorção por osmotrofia."
+    },
+    {
+      "id": 6,
+      "assunto": "Fungos",
+      "enunciado": "A reprodução dos fungos pode ser sexuada ou assexuada. Na reprodução assexuada, os esporos produzidos são chamados de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Zigotos", "correta": false },
+        { "letra": "B", "texto": "Esporângios", "correta": false },
+        { "letra": "C", "texto": "Conídios", "correta": true },
+        { "letra": "D", "texto": "Gametas", "correta": false },
+        { "letra": "E", "texto": "Zoósporos", "correta": false }
+      ],
+      "explicacao": "Os conídios são esporos assexuados produzidos em estruturas especializadas chamadas conidióforos. Zigotos resultam da fecundação (reprodução sexuada), gametas são células reprodutivas e zoósporos são esporos flagelados de alguns fungos."
+    },
+    {
+      "id": 7,
+      "assunto": "Fungos",
+      "enunciado": "Os fungos do filo Ascomycota são caracterizados pela produção de esporos em estruturas em forma de saco, denominadas:",
+      "alternativas": [
+        { "letra": "A", "texto": "Basídios", "correta": false },
+        { "letra": "B", "texto": "Ascos", "correta": true },
+        { "letra": "C", "texto": "Esporângios", "correta": false },
+        { "letra": "D", "texto": "Conidióforos", "correta": false },
+        { "letra": "E", "texto": "Zigósporos", "correta": false }
+      ],
+      "explicacao": "Os ascomicetos produzem esporos sexuados (ascósporos) no interior de estruturas em forma de saco chamadas ascos. Os basídios são estruturas dos basidiomicetos, e os esporângios são estruturas de outros grupos."
+    },
+    {
+      "id": 8,
+      "assunto": "Fungos",
+      "enunciado": "Os cogumelos comestíveis, como o champignon, pertencem ao filo dos:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ascomycota", "correta": false },
+        { "letra": "B", "texto": "Zygomycota", "correta": false },
+        { "letra": "C", "texto": "Basidiomycota", "correta": true },
+        { "letra": "D", "texto": "Chytridiomycota", "correta": false },
+        { "letra": "E", "texto": "Glomeromycota", "correta": false }
+      ],
+      "explicacao": "Os cogumelos comestíveis pertencem ao filo Basidiomycota, que produz esporos sexuados em estruturas chamadas basídios, localizadas na parte inferior do chapéu do cogumelo."
+    },
+    {
+      "id": 9,
+      "assunto": "Fungos",
+      "enunciado": "As leveduras, como Saccharomyces cerevisiae, são fungos unicelulares que se reproduzem por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Fissão binária", "correta": false },
+        { "letra": "B", "texto": "Brotamento (gemulação)", "correta": true },
+        { "letra": "C", "texto": "Esporulação exclusiva", "correta": false },
+        { "letra": "D", "texto": "Fragmentação", "correta": false },
+        { "letra": "E", "texto": "Conjugação", "correta": false }
+      ],
+      "explicacao": "As leveduras se reproduzem assexuadamente por brotamento (gemulação), no qual uma pequena protuberância surge na célula-mãe, cresce e eventualmente se desprende. A fissão binária é típica de bactérias."
+    },
+    {
+      "id": 10,
+      "assunto": "Fungos",
+      "enunciado": "O fermento biológico utilizado na fabricação de pão contém leveduras que, na ausência de oxigênio, realizam:",
+      "alternativas": [
+        { "letra": "A", "texto": "Respiração aeróbia", "correta": false },
+        { "letra": "B", "texto": "Fermentação alcoólica", "correta": true },
+        { "letra": "C", "texto": "Fermentação lática", "correta": false },
+        { "letra": "D", "texto": "Fotossíntese", "correta": false },
+        { "letra": "E", "texto": "Quimiossíntese", "correta": false }
+      ],
+      "explicacao": "As leveduras realizam fermentação alcoólica em condições anaeróbicas, convertendo glicose em etanol e CO2. O CO2 liberado é responsável pelo crescimento da massa do pão."
+    },
+    {
+      "id": 11,
+      "assunto": "Fungos",
+      "enunciado": "A penicilina, um dos antibióticos mais importantes da história, foi descoberta a partir de um fungo do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Saccharomyces", "correta": false },
+        { "letra": "B", "texto": "Rhizopus", "correta": false },
+        { "letra": "C", "texto": "Penicillium", "correta": true },
+        { "letra": "D", "texto": "Aspergillus", "correta": false },
+        { "letra": "E", "texto": "Candida", "correta": false }
+      ],
+      "explicacao": "A penicilina foi descoberta por Alexander Fleming em 1928 a partir do fungo Penicillium notatum (atualmente P. chrysogenum). Esse fungo produz a substância que inibe o crescimento bacteriano."
+    },
+    {
+      "id": 12,
+      "assunto": "Fungos",
+      "enunciado": "Os fungos que decompõem matéria orgânica morta desempenham o papel ecológico de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Produtores", "correta": false },
+        { "letra": "B", "texto": "Consumidores primários", "correta": false },
+        { "letra": "C", "texto": "Decompositores", "correta": true },
+        { "letra": "D", "texto": "Consumidores secundários", "correta": false },
+        { "letra": "E", "texto": "Autótrofos", "correta": false }
+      ],
+      "explicacao": "Os fungos decompositores degradam matéria orgânica morta, reciclando nutrientes como carbono e nitrogênio de volta ao ambiente. São essenciais para a ciclagem de nutrientes nos ecossistemas."
+    },
+    {
+      "id": 13,
+      "assunto": "Fungos",
+      "enunciado": "A associação mutualística entre fungos e raízes de plantas, em que ambos se beneficiam, é denominada:",
+      "alternativas": [
+        { "letra": "A", "texto": "Líquen", "correta": false },
+        { "letra": "B", "texto": "Micorriza", "correta": true },
+        { "letra": "C", "texto": "Parasitismo", "correta": false },
+        { "letra": "D", "texto": "Comensalismo", "correta": false },
+        { "letra": "E", "texto": "Epifitismo", "correta": false }
+      ],
+      "explicacao": "A micorriza é uma associação mutualística entre fungos e raízes de plantas. O fungo aumenta a absorção de água e minerais pela planta, e a planta fornece ao fungo compostos orgânicos produzidos na fotossíntese."
+    },
+    {
+      "id": 14,
+      "assunto": "Fungos",
+      "enunciado": "Os líquens são associações simbióticas entre fungos e:",
+      "alternativas": [
+        { "letra": "A", "texto": "Bactérias", "correta": false },
+        { "letra": "B", "texto": "Vírus", "correta": false },
+        { "letra": "C", "texto": "Algas ou cianobactérias", "correta": true },
+        { "letra": "D", "texto": "Protozoários", "correta": false },
+        { "letra": "E", "texto": "Plantas vasculares", "correta": false }
+      ],
+      "explicacao": "Os líquens resultam da associação mutualística entre um fungo (geralmente ascomiceto) e um organismo fotossintetizante (alga verde ou cianobactéria). O fungo fornece proteção e a alga/cianobactéria fornece alimento."
+    },
+    {
+      "id": 15,
+      "assunto": "Fungos",
+      "enunciado": "A candidíase, infecção comum na boca e região genital, é causada por um fungo do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Penicillium", "correta": false },
+        { "letra": "B", "texto": "Rhizopus", "correta": false },
+        { "letra": "C", "texto": "Candida", "correta": true },
+        { "letra": "D", "texto": "Aspergillus", "correta": false },
+        { "letra": "E", "texto": "Saccharomyces", "correta": false }
+      ],
+      "explicacao": "A candidíase é causada principalmente por Candida albicans, um fungo que habita normalmente o corpo humano, mas pode causar infecção quando há desequilíbrio da microbiota ou queda da imunidade."
+    },
+    {
+      "id": 16,
+      "assunto": "Fungos",
+      "enunciado": "O bolor que aparece em alimentos, como pão e frutas, é formado por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Colônias de bactérias", "correta": false },
+        { "letra": "B", "texto": "Micélios de fungos", "correta": true },
+        { "letra": "C", "texto": "Colônias de protozoários", "correta": false },
+        { "letra": "D", "texto": "Esporos de plantas", "correta": false },
+        { "letra": "E", "texto": "Cistos de algas", "correta": false }
+      ],
+      "explicacao": "O bolor é formado por micélios de fungos que crescem sobre os alimentos. Os filamentos (hifas) formam uma rede visível a olho nu, e as estruturas coloridas contêm esporos para reprodução."
+    },
+    {
+      "id": 17,
+      "assunto": "Fungos",
+      "enunciado": "O fungo Rhizopus stolonifer, conhecido como bolor negro do pão, pertence ao filo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ascomycota", "correta": false },
+        { "letra": "B", "texto": "Basidiomycota", "correta": false },
+        { "letra": "C", "texto": "Zygomycota", "correta": true },
+        { "letra": "D", "texto": "Chytridiomycota", "correta": false },
+        { "letra": "E", "texto": "Glomeromycota", "correta": false }
+      ],
+      "explicacao": "O Rhizopus stolonifer pertence ao filo Zygomycota, caracterizado pela formação de zigósporos na reprodução sexuada e pela presença de hifas sem septos (cenocíticas)."
+    },
+    {
+      "id": 18,
+      "assunto": "Fungos",
+      "enunciado": "A ferrugem do café, causada pelo fungo Hemileia vastatrix, é um exemplo de relação ecológica do tipo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mutualismo", "correta": false },
+        { "letra": "B", "texto": "Comensalismo", "correta": false },
+        { "letra": "C", "texto": "Parasitismo", "correta": true },
+        { "letra": "D", "texto": "Inquilinismo", "correta": false },
+        { "letra": "E", "texto": "Competição", "correta": false }
+      ],
+      "explicacao": "A ferrugem do café é uma relação parasitária em que o fungo Hemileia vastatrix se nutre do cafeeiro, causando danos às folhas e prejuízo à produção. O fungo é o parasita e a planta é o hospedeiro."
+    },
+    {
+      "id": 19,
+      "assunto": "Fungos",
+      "enunciado": "Na fabricação de bebidas alcoólicas, como a cerveja, as leveduras convertem açúcares em álcool etílico por meio de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Respiração aeróbia", "correta": false },
+        { "letra": "B", "texto": "Fermentação lática", "correta": false },
+        { "letra": "C", "texto": "Fermentação alcoólica", "correta": true },
+        { "letra": "D", "texto": "Fermentação acética", "correta": false },
+        { "letra": "E", "texto": "Fotossíntese", "correta": false }
+      ],
+      "explicacao": "Na fabricação de cerveja, as leveduras realizam fermentação alcoólica em condições anaeróbicas, convertendo glicose em etanol e CO2. O etanol é a bebida alcoólica e o CO2 contribui para a carbonatação."
+    },
+    {
+      "id": 20,
+      "assunto": "Fungos",
+      "enunciado": "A produção de queijos como gorgonzola e roquefort envolve a utilização de fungos do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Saccharomyces", "correta": false },
+        { "letra": "B", "texto": "Rhizopus", "correta": false },
+        { "letra": "C", "texto": "Penicillium", "correta": true },
+        { "letra": "D", "texto": "Candida", "correta": false },
+        { "letra": "E", "texto": "Aspergillus", "correta": false }
+      ],
+      "explicacao": "Queijos como roquefort e gorgonzola utilizam espécies de Penicillium (P. roqueforti) em sua maturação. O fungo confere sabor, aroma e a coloração azulada característica desses queijos."
+    },
+    {
+      "id": 21,
+      "assunto": "Fungos",
+      "enunciado": "A micose de pele, como a 'pé de atleta', é causada por fungos que se alimentam de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Glicose do sangue", "correta": false },
+        { "letra": "B", "texto": "Queratina da pele", "correta": true },
+        { "letra": "C", "texto": "Clorofila das células", "correta": false },
+        { "letra": "D", "texto": "Hemoglobina", "correta": false },
+        { "letra": "E", "texto": "Colágeno ósseo", "correta": false }
+      ],
+      "explicacao": "Os fungos dermatófitos causadores de micoses superficiais, como o 'pé de atleta' (Tinea pedis), alimentam-se de queratina, proteína presente na pele, unhas e cabelos."
+    },
+    {
+      "id": 22,
+      "assunto": "Fungos",
+      "enunciado": "Os fungos do filo Chytridiomycota são os únicos que possuem:",
+      "alternativas": [
+        { "letra": "A", "texto": "Hifas septadas", "correta": false },
+        { "letra": "B", "texto": "Esporos flagelados (zoósporos)", "correta": true },
+        { "letra": "C", "texto": "Corpos de frutificação complexos", "correta": false },
+        { "letra": "D", "texto": "Quitina na parede celular", "correta": false },
+        { "letra": "E", "texto": "Associação com algas", "correta": false }
+      ],
+      "explicacao": "Os quitridiomicetos (Chytridiomycota) são os únicos fungos que produzem esporos flagelados (zoósporos), uma característica que sugere ancestralidade com organismos protistas flagelados."
+    },
+    {
+      "id": 23,
+      "assunto": "Fungos",
+      "enunciado": "A doença conhecida como 'mal do Panamá', que afeta bananeiras, é causada por um fungo do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Penicillium", "correta": false },
+        { "letra": "B", "texto": "Fusarium", "correta": true },
+        { "letra": "C", "texto": "Rhizopus", "correta": false },
+        { "letra": "D", "texto": "Saccharomyces", "correta": false },
+        { "letra": "E", "texto": "Candida", "correta": false }
+      ],
+      "explicacao": "O 'mal do Panamá' é causado pelo fungo Fusarium oxysporum f. sp. cubense, que infecta o sistema vascular da bananeira, causando murcha e morte da planta. É uma das doenças mais devastadoras para a bananicultura."
+    },
+    {
+      "id": 24,
+      "assunto": "Fungos",
+      "enunciado": "A produção de ácido cítrico em escala industrial é realizada pelo fungo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Saccharomyces cerevisiae", "correta": false },
+        { "letra": "B", "texto": "Penicillium chrysogenum", "correta": false },
+        { "letra": "C", "texto": "Aspergillus niger", "correta": true },
+        { "letra": "D", "texto": "Candida albicans", "correta": false },
+        { "letra": "E", "texto": "Rhizopus stolonifer", "correta": false }
+      ],
+      "explicacao": "O Aspergillus niger é amplamente utilizado na indústria para produção de ácido cítrico, que é empregado como conservante e aromatizante em alimentos e bebidas."
+    },
+    {
+      "id": 25,
+      "assunto": "Fungos",
+      "enunciado": "A aflatoxina, substância cancerígena encontrada em grãos mal armazenados, é produzida por fungos do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Penicillium", "correta": false },
+        { "letra": "B", "texto": "Aspergillus", "correta": true },
+        { "letra": "C", "texto": "Saccharomyces", "correta": false },
+        { "letra": "D", "texto": "Rhizopus", "correta": false },
+        { "letra": "E", "texto": "Mucor", "correta": false }
+      ],
+      "explicacao": "As aflatoxinas são toxinas produzidas principalmente por Aspergillus flavus e A. parasiticus, que contaminam grãos como amendoim, milho e castanhas em condições de armazenamento inadequado."
+    },
+    {
+      "id": 26,
+      "assunto": "Fungos",
+      "enunciado": "Na classificação dos fungos em filos, a estrutura reprodutiva é um critério importante. Os fungos que produzem esporos em basídios pertencem ao filo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ascomycota", "correta": false },
+        { "letra": "B", "texto": "Zygomycota", "correta": false },
+        { "letra": "C", "texto": "Basidiomycota", "correta": true },
+        { "letra": "D", "texto": "Deuteromycota", "correta": false },
+        { "letra": "E", "texto": "Chytridiomycota", "correta": false }
+      ],
+      "explicacao": "Os basidiomicetos (Basidiomycota) produzem esporos sexuados (basidiósporos) em estruturas chamadas basídios. Cogumelos, orelhas-de-pau e bolores de cereais são exemplos desse grupo."
+    },
+    {
+      "id": 27,
+      "assunto": "Fungos",
+      "enunciado": "O grupo Deuteromycota (fungos imperfeitos) reúne fungos que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Não possuem parede celular", "correta": false },
+        { "letra": "B", "texto": "Não possuem fase sexuada conhecida", "correta": true },
+        { "letra": "C", "texto": "São exclusivamente aquáticos", "correta": false },
+        { "letra": "D", "texto": "São todos unicelulares", "correta": false },
+        { "letra": "E", "texto": "Não produzem esporos", "correta": false }
+      ],
+      "explicacao": "Os deuteromicetos, ou fungos imperfeitos, são aqueles em que apenas a fase assexuada (conídios) é conhecida. Quando a fase sexuada é descoberta, o fungo é reclassificado em outro filo."
+    },
+    {
+      "id": 28,
+      "assunto": "Fungos",
+      "enunciado": "A ciclosporina, substância utilizada como imunossupressor em transplantes, é produzida por um fungo do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Penicillium", "correta": false },
+        { "letra": "B", "texto": "Tolypocladium", "correta": true },
+        { "letra": "C", "texto": "Saccharomyces", "correta": false },
+        { "letra": "D", "texto": "Candida", "correta": false },
+        { "letra": "E", "texto": "Rhizopus", "correta": false }
+      ],
+      "explicacao": "A ciclosporina é produzida pelo fungo Tolypocladium inflatum. Essa substância revolucionou a medicina de transplantes ao reduzir a rejeição de órgãos ao suprimir a resposta imunológica do receptor."
+    },
+    {
+      "id": 29,
+      "assunto": "Fungos",
+      "enunciado": "A associação entre fungos e cianobactérias ou algas verdes, formando uma entidade biológica distinta, é chamada de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Micorriza", "correta": false },
+        { "letra": "B", "texto": "Líquen", "correta": true },
+        { "letra": "C", "texto": "Biofilme", "correta": false },
+        { "letra": "D", "texto": "Endossimbionte", "correta": false },
+        { "letra": "E", "texto": "Plasmódio", "correta": false }
+      ],
+      "explicacao": "O líquen é a associação mutualística entre um fungo e um organismo fotossintetizante (alga ou cianobactéria). O fungo fornece proteção e umidade; a alga fornece alimento por fotossíntese."
+    },
+    {
+      "id": 30,
+      "assunto": "Fungos",
+      "enunciado": "A esporotricose, doença que acomete humanos e gatos, é causada por um fungo do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Candida", "correta": false },
+        { "letra": "B", "texto": "Aspergillus", "correta": false },
+        { "letra": "C", "texto": "Sporothrix", "correta": true },
+        { "letra": "D", "texto": "Penicillium", "correta": false },
+        { "letra": "E", "texto": "Rhizopus", "correta": false }
+      ],
+      "explicacao": "A esporotricose é causada pelo fungo Sporothrix schenckii, encontrado no solo e em matéria orgânica em decomposição. A infecção ocorre por inoculação traumática (feridas na pele) e tem apresentado surtos associados a gatos infectados."
+    },
+    {
+      "id": 31,
+      "assunto": "Algas e protozoários",
+      "enunciado": "As algas são organismos fotossintetizantes que podem ser unicelulares ou pluricelulares. Em relação à sua classificação, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "São classificadas como plantas vasculares", "correta": false },
+        { "letra": "B", "texto": "São protistas fotossintetizantes", "correta": true },
+        { "letra": "C", "texto": "São classificadas como fungos", "correta": false },
+        { "letra": "D", "texto": "São organismos procariontes", "correta": false },
+        { "letra": "E", "texto": "São exclusivamente pluricelulares", "correta": false }
+      ],
+      "explicacao": "As algas são eucarióticas e fotossintetizantes, sendo classificadas como protistas. Não são plantas porque não possuem tecidos e órgãos diferenciados (raiz, caule, folha). Podem ser unicelulares ou pluricelulares."
+    },
+    {
+      "id": 32,
+      "assunto": "Algas e protozoários",
+      "enunciado": "As algas verdes (Chlorophyta) possuem como pigmento principal a:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ficoeritrina", "correta": false },
+        { "letra": "B", "texto": "Fucoxantina", "correta": false },
+        { "letra": "C", "texto": "Clorofila a e b", "correta": true },
+        { "letra": "D", "texto": "Caroteno exclusivamente", "correta": false },
+        { "letra": "E", "texto": "Ficocianina", "correta": false }
+      ],
+      "explicacao": "As algas verdes possuem clorofila a e b como pigmentos principais, assim como as plantas vasculares. A ficoeritrina é das algas vermelhas, a fucoxantina das pardas e a ficocianina das cianobactérias."
+    },
+    {
+      "id": 33,
+      "assunto": "Algas e protozoários",
+      "enunciado": "As algas diatomáceas possuem parede celular rica em sílica. Elas são importantes porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "São as principais causadoras de marés vermelhas", "correta": false },
+        { "letra": "B", "texto": "São importantes produtoras primárias no fitoplâncton marinho", "correta": true },
+        { "letra": "C", "texto": "Produzem a maior parte do oxigênio das florestas tropicais", "correta": false },
+        { "letra": "D", "texto": "São utilizadas na produção de antibióticos", "correta": false },
+        { "letra": "E", "texto": "São parasitas de peixes", "correta": false }
+      ],
+      "explicacao": "As diatomáceas são algas unicelulares que constituem uma parte significativa do fitoplâncton, sendo responsáveis por grande parte da produção primária nos oceanos e pela liberação de oxigênio."
+    },
+    {
+      "id": 34,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A maré vermelha é um fenômeno causado pela proliferação excessiva de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Diatomáceas", "correta": false },
+        { "letra": "B", "texto": "Dinoflagelados", "correta": true },
+        { "letra": "C", "texto": "Cianobactérias exclusivamente", "correta": false },
+        { "letra": "D", "texto": "Algas verdes", "correta": false },
+        { "letra": "E", "texto": "Euglenoides", "correta": false }
+      ],
+      "explicacao": "A maré vermelha é causada pela proliferação excessiva de dinoflagelados (como Alexandrium), que liberam toxinas na água, podendo causar morte de peixes e intoxicação em humanos que consomem frutos do mar contaminados."
+    },
+    {
+      "id": 35,
+      "assunto": "Algas e protozoários",
+      "enunciado": "As algas pardas (Phaeophyta) devem sua coloração marrom à presença do pigmento:",
+      "alternativas": [
+        { "letra": "A", "texto": "Clorofila c", "correta": false },
+        { "letra": "B", "texto": "Fucoxantina", "correta": true },
+        { "letra": "C", "texto": "Ficoeritrina", "correta": false },
+        { "letra": "D", "texto": "Antocianina", "correta": false },
+        { "letra": "E", "texto": "Licopeno", "correta": false }
+      ],
+      "explicacao": "A fucoxantina é o pigmento carotenoides que confere a coloração marrom-dourada às algas pardas. Esse pigmento mascara a cor verde da clorofila e auxilia na captação de luz em maiores profundidades."
+    },
+    {
+      "id": 36,
+      "assunto": "Algas e protozoários",
+      "enunciado": "O ágar, substância utilizada em laboratórios como meio de cultura para microrganismos, é extraído de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Algas verdes", "correta": false },
+        { "letra": "B", "texto": "Diatomáceas", "correta": false },
+        { "letra": "C", "texto": "Algas vermelhas", "correta": true },
+        { "letra": "D", "texto": "Dinoflagelados", "correta": false },
+        { "letra": "E", "texto": "Cianobactérias", "correta": false }
+      ],
+      "explicacao": "O ágar é extraído principalmente de algas vermelhas dos gêneros Gelidium e Gracilaria. É amplamente utilizado como agente gelificante em meios de cultura microbiológicos e na culinária."
+    },
+    {
+      "id": 37,
+      "assunto": "Algas e protozoários",
+      "enunciado": "O carragenano, espessante utilizado na indústria alimentícia, é obtido de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Algas pardas", "correta": false },
+        { "letra": "B", "texto": "Algas vermelhas", "correta": true },
+        { "letra": "C", "texto": "Algas verdes", "correta": false },
+        { "letra": "D", "texto": "Diatomáceas", "correta": false },
+        { "letra": "E", "texto": "Dinoflagelados", "correta": false }
+      ],
+      "explicacao": "O carragenano é extraído de algas vermelhas (como Chondrus crispus e Kappaphycus). É utilizado como espessante, estabilizante e emulsificante em alimentos como sorvetes e leites vegetais."
+    },
+    {
+      "id": 38,
+      "assunto": "Algas e protozoários",
+      "enunciado": "Os protozoários são organismos eucarióticos, unicelulares e heterótrofos. A locomoção dos protozoários pode ocorrer por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Exclusivamente por flagelos", "correta": false },
+        { "letra": "B", "texto": "Exclusivamente por cílios", "correta": false },
+        { "letra": "C", "texto": "Pseudópodes, flagelos ou cílios", "correta": true },
+        { "letra": "D", "texto": "Exclusivamente por pseudópodes", "correta": false },
+        { "letra": "E", "texto": "Contração muscular", "correta": false }
+      ],
+      "explicacao": "Os protozoários podem se locomover por pseudópodes (ameboides), flagelos ou cílios, dependendo do grupo. Os rizópodes usam pseudópodes, os flagelados usam flagelos e os ciliados usam cílios."
+    },
+    {
+      "id": 39,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A amebíase, doença causada pelo protozoário Entamoeba histolytica, é transmitida principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Picada de mosquito", "correta": false },
+        { "letra": "B", "texto": "Ingestão de cistos presentes em água ou alimentos contaminados", "correta": true },
+        { "letra": "C", "texto": "Contato sexual", "correta": false },
+        { "letra": "D", "texto": "Inalação de esporos", "correta": false },
+        { "letra": "E", "texto": "Picada de carrapato", "correta": false }
+      ],
+      "explicacao": "A amebíase é transmitida pela via fecal-oral, pela ingestão de cistos do protozoário presentes em água ou alimentos contaminados com fezes humanas infectadas."
+    },
+    {
+      "id": 40,
+      "assunto": "Algas e protozoários",
+      "enunciado": "O protozoário Trypanosoma cruzi, agente causador da doença de Chagas, é transmitido ao ser humano pelo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mosquito Aedes aegypti", "correta": false },
+        { "letra": "B", "texto": "Caramujo Biomphalaria", "correta": false },
+        { "letra": "C", "texto": "Inseto barbeiro (Triatominae)", "correta": true },
+        { "letra": "D", "texto": "Mosquito-palha (Lutzomyia)", "correta": false },
+        { "letra": "E", "texto": "Água contaminada", "correta": false }
+      ],
+      "explicacao": "O Trypanosoma cruzi é transmitido pelo barbeiro (triatomíneo). O inseto defeca durante o sangue, e as fezes contendo o protozoário entram pelo ferimento da picada ou mucosas quando a pessoa coça o local."
+    },
+    {
+      "id": 41,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A malária é causada por protozoários do gênero Plasmodium, transmitidos pela picada da fêmea do mosquito:",
+      "alternativas": [
+        { "letra": "A", "texto": "Aedes aegypti", "correta": false },
+        { "letra": "B", "texto": "Anopheles", "correta": true },
+        { "letra": "C", "texto": "Culex", "correta": false },
+        { "letra": "D", "texto": "Lutzomyia", "correta": false },
+        { "letra": "E", "texto": "Triatoma", "correta": false }
+      ],
+      "explicacao": "A malária é transmitida pela picada da fêmea do mosquito Anopheles (mosquito-prego), que carrega esporozoítos do Plasmodium. O Aedes aegypti transmite dengue, zika e chikungunya."
+    },
+    {
+      "id": 42,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A doença de Chagas, causada pelo Trypanosoma cruzi, afeta principalmente quais órgãos na fase crônica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Pulmões e rins", "correta": false },
+        { "letra": "B", "texto": "Coração e tubo digestório", "correta": true },
+        { "letra": "C", "texto": "Fígado e baço", "correta": false },
+        { "letra": "D", "texto": "Cérebro e medula espinhal", "correta": false },
+        { "letra": "E", "texto": "Pele e articulações", "correta": false }
+      ],
+      "explicacao": "Na fase crônica, a doença de Chagas causa cardiopatia chagásica (aumento do coração, arritmias) e megaesômegacolon (dilatação do esôfago e cólon), afetando principalmente o coração e o tubo digestório."
+    },
+    {
+      "id": 43,
+      "assunto": "Algas e protozoários",
+      "enunciado": "Os protozoários ciliados, como o Paramecium, se locomovem por meio de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pseudópodes", "correta": false },
+        { "letra": "B", "texto": "Flagelos", "correta": false },
+        { "letra": "C", "texto": "Cílios", "correta": true },
+        { "letra": "D", "texto": "Contração do citoesqueleto", "correta": false },
+        { "letra": "E", "texto": "Deslizamento ameboide", "correta": false }
+      ],
+      "explicacao": "Os ciliados possuem cílios curtos e numerosos que batem de forma coordenada para locomoção e captura de alimento. O Paramecium é o exemplo clássico de protozoário ciliado."
+    },
+    {
+      "id": 44,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A giardíase, doença intestinal causada por Giardia lamblia, é transmitida por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Picada de mosquito", "correta": false },
+        { "letra": "B", "texto": "Ingestão de cistos em água ou alimentos contaminados", "correta": true },
+        { "letra": "C", "texto": "Contato com sangue infectado", "correta": false },
+        { "letra": "D", "texto": "Inalação de esporos", "correta": false },
+        { "letra": "E", "texto": "Relação sexual", "correta": false }
+      ],
+      "explicacao": "A giardíase é transmitida pela ingestão de cistos de Giardia lamblia presentes em água ou alimentos contaminados com fezes infectadas. Causa diarreia, cólicas abdominais e má absorção de nutrientes."
+    },
+    {
+      "id": 45,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A leishmaniose tegumentar (cutânea) é causada por protozoários do gênero Leishmania e transmitida pela picada do:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mosquito Anopheles", "correta": false },
+        { "letra": "B", "texto": "Inseto barbeiro", "correta": false },
+        { "letra": "C", "texto": "Mosquito-palha (Lutzomyia)", "correta": true },
+        { "letra": "D", "texto": "Mosquito Aedes aegypti", "correta": false },
+        { "letra": "E", "texto": "Carrapato", "correta": false }
+      ],
+      "explicacao": "A leishmaniose é transmitida pela picada da fêmea do mosquito-palha (Lutzomyia), que inocula promastigotas de Leishmania na pele. A forma tegumentar causa feridas cutâneas e mucosas."
+    },
+    {
+      "id": 46,
+      "assunto": "Algas e protozoários",
+      "enunciado": "As algas vermelhas (Rhodophyta) possuem como pigmento acessório principal a:",
+      "alternativas": [
+        { "letra": "A", "texto": "Clorofila c", "correta": false },
+        { "letra": "B", "texto": "Fucoxantina", "correta": false },
+        { "letra": "C", "texto": "Ficoeritrina e ficocianina", "correta": true },
+        { "letra": "D", "texto": "Caroteno", "correta": false },
+        { "letra": "E", "texto": "Xantofila", "correta": false }
+      ],
+      "explicacao": "As algas vermelhas possuem ficobilinas (ficoeritrina e ficocianina) como pigmentos acessórios, que permitem absorver luz azul e verde em maiores profundidades oceânicas."
+    },
+    {
+      "id": 47,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A toxoplasmose é causada pelo protozoário Toxoplasma gondii. A principal forma de transmissão para humanos é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Picada de mosquito", "correta": false },
+        { "letra": "B", "texto": "Ingestão de oocistos presentes em fezes de gatos ou carne mal cozida", "correta": true },
+        { "letra": "C", "texto": "Contato com água contaminada", "correta": false },
+        { "letra": "D", "texto": "Inalação de esporos", "correta": false },
+        { "letra": "E", "texto": "Transfusão sanguínea exclusivamente", "correta": false }
+      ],
+      "explicacao": "A toxoplasmose é transmitida principalmente pela ingestão de oocistos de fezes de gatos infectados (contato com areia de gatos) ou pela ingestão de carne mal cozida contendo cistos do parasita."
+    },
+    {
+      "id": 48,
+      "assunto": "Algas e protozoários",
+      "enunciado": "Os euglenoides, como a Euglena, são protozoários que podem realizar fotossíntese porque possuem:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mitocôndrias modificadas", "correta": false },
+        { "letra": "B", "texto": "Cloroplastos", "correta": true },
+        { "letra": "C", "texto": "Ribossomos especiais", "correta": false },
+        { "letra": "D", "texto": "Vacúolos contráteis", "correta": false },
+        { "letra": "E", "texto": "Parede celular de celulose", "correta": false }
+      ],
+      "explicacao": "A Euglena possui cloroplastos e pode realizar fotossíntese (autotrofia), mas também pode se alimentar de forma heterotrófica na ausência de luz. Por isso, é considerada um organismo mixotrófico."
+    },
+    {
+      "id": 49,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A esquistossomose (barriga d'água) é causada por um platelminto, mas seu ciclo envolve um hospedeiro intermediário que é um:",
+      "alternativas": [
+        { "letra": "A", "texto": "Inseto", "correta": false },
+        { "letra": "B", "texto": "Crustáceo", "correta": false },
+        { "letra": "C", "texto": "Molusco (caramujo do gênero Biomphalaria)", "correta": true },
+        { "letra": "D", "texto": "Peixe", "correta": false },
+        { "letra": "E", "texto": "Anfíbio", "correta": false }
+      ],
+      "explicacao": "A esquistossomose é causada pelo platelminto Schistosoma mansoni, que tem como hospedeiro intermediário o caramujo do gênero Biomphalaria. As cercárias liberadas pelo caramujo penetram na pele humana."
+    },
+    {
+      "id": 50,
+      "assunto": "Algas e protozoários",
+      "enunciado": "O fenômeno conhecido como 'floração de algas' (algal bloom) em lagos e reservatórios está relacionado ao:",
+      "alternativas": [
+        { "letra": "A", "texto": "Aumento da salinidade da água", "correta": false },
+        { "letra": "B", "texto": "Processo de eutrofização", "correta": true },
+        { "letra": "C", "texto": "Resfriamento das águas", "correta": false },
+        { "letra": "D", "texto": "Diminuição da luminosidade", "correta": false },
+        { "letra": "E", "texto": "Aumento da velocidade da correnteza", "correta": false }
+      ],
+      "explicacao": "A floração de algas ocorre pelo processo de eutrofização, quando excesso de nutrientes (nitrogênio e fósforo) de esgoto e fertilizantes provoca proliferação excessiva de algas, reduzindo o oxigênio dissolvido."
+    },
+    {
+      "id": 51,
+      "assunto": "Algas e protozoários",
+      "enunciado": "Os foraminíferos são protozoários marinos que possuem uma carapaça de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Quitina", "correta": false },
+        { "letra": "B", "texto": "Carbonato de cálcio", "correta": true },
+        { "letra": "C", "texto": "Celulose", "correta": false },
+        { "letra": "D", "texto": "Silica", "correta": false },
+        { "letra": "E", "texto": "Fosfato de magnésio", "correta": false }
+      ],
+      "explicacao": "Os foraminíferos possuem carapaças (testas) de carbonato de cálcio. Seus fósseis são importantes indicadores geológicos para datação de rochas e prospecção de petróleo."
+    },
+    {
+      "id": 52,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A tricomoníase, infecção sexualmente transmissível, é causada pelo protozoário:",
+      "alternativas": [
+        { "letra": "A", "texto": "Trypanosoma cruzi", "correta": false },
+        { "letra": "B", "texto": "Trichomonas vaginalis", "correta": true },
+        { "letra": "C", "texto": "Giardia lamblia", "correta": false },
+        { "letra": "D", "texto": "Entamoeba histolytica", "correta": false },
+        { "letra": "E", "texto": "Plasmodium vivax", "correta": false }
+      ],
+      "explicacao": "A tricomoníase é causada por Trichomonas vaginalis, um protozoário flagelado que parasita o trato urogenital. É transmitida principalmente por contato sexual e causa corrimento e irritação."
+    },
+    {
+      "id": 53,
+      "assunto": "Algas e protozoários",
+      "enunciado": "Os radiolários são protozoários marinos que se caracterizam por possuírem:",
+      "alternativas": [
+        { "letra": "A", "texto": "Carapaça de celulose", "correta": false },
+        { "letra": "B", "texto": "Esqueleto interno de sílica", "correta": true },
+        { "letra": "C", "texto": "Parede celular de quitina", "correta": false },
+        { "letra": "D", "texto": "Concha de carbonato de cálcio", "correta": false },
+        { "letra": "E", "texto": "Teca proteica", "correta": false }
+      ],
+      "explicacao": "Os radiolários possuem um esqueleto interno de sílica (SiO2) com formas geométricas complexas. São organismos planctônicos marinhos e seus fósseis são usados em estudos geológicos."
+    },
+    {
+      "id": 54,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A tripanossomíase africana (doença do sono) é causada pelo Trypanosoma brucei e transmitida pela picada da:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mosquito Anopheles", "correta": false },
+        { "letra": "B", "texto": "Mosca tsé-tsé (Glossina)", "correta": true },
+        { "letra": "C", "texto": "Mosquito-palha", "correta": false },
+        { "letra": "D", "texto": "Barbeiro", "correta": false },
+        { "letra": "E", "texto": "Carrapato", "correta": false }
+      ],
+      "explicacao": "A doença do sono é transmitida pela picada da mosca tsé-tsé (gênero Glossina), encontrada na África subsaariana. O Trypanosoma brucei atinge o sistema nervoso central, causando sonolência e podendo ser fatal."
+    },
+    {
+      "id": 55,
+      "assunto": "Algas e protozoários",
+      "enunciado": "As algas douradas (Chrysophyta) incluem as diatomáceas e outras algas que armazenam energia na forma de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Amido", "correta": false },
+        { "letra": "B", "texto": "Lipídeos e crisaminarina", "correta": true },
+        { "letra": "C", "texto": "Glicogênio", "correta": false },
+        { "letra": "D", "texto": "Paramilo", "correta": false },
+        { "letra": "E", "texto": "Florideano", "correta": false }
+      ],
+      "explicacao": "As algas douradas armazenam energia na forma de lipídeos e crisaminarina (um carboidrato). O amido é de plantas, o glicogênio de animais/fungos, o paramilo de euglenoides e o florideano de algas vermelhas."
+    },
+    {
+      "id": 56,
+      "assunto": "Algas e protozoários",
+      "enunciado": "O vacúolo contrátil encontrado em protozoários de água doce, como a ameba e o Paramecium, tem a função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Digestão intracelular", "correta": false },
+        { "letra": "B", "texto": "Regulação osmótica (eliminação do excesso de água)", "correta": true },
+        { "letra": "C", "texto": "Armazenamento de nutrientes", "correta": false },
+        { "letra": "D", "texto": "Locomoção", "correta": false },
+        { "letra": "E", "texto": "Reprodução", "correta": false }
+      ],
+      "explicacao": "O vacúolo contrátil (ou pulsátil) regula o equilíbrio hídrico em protozoários de água doce. Como o meio é hipotônico, a água entra por osmose e o vacúolo a elimina periodicamente."
+    },
+    {
+      "id": 57,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A doença causada pelo protozoário Naegleria fowleri, conhecida como 'ameba comedora de cérebro', é adquirida por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ingestão de água contaminada", "correta": false },
+        { "letra": "B", "texto": "Contato nasal com água contaminada em lagos e piscinas", "correta": true },
+        { "letra": "C", "texto": "Picada de mosquito", "correta": false },
+        { "letra": "D", "texto": "Consumo de carne mal cozida", "correta": false },
+        { "letra": "E", "texto": "Contato sexual", "correta": false }
+      ],
+      "explicacao": "A Naegleria fowleri entra pelo nariz quando a pessoa mergulha em água doce contaminada (lagos, rios, piscinas sem tratamento). Atinge o sistema nervoso central pela via olfativa, causando meningoencefalite amebiana primária."
+    },
+    {
+      "id": 58,
+      "assunto": "Algas e protozoários",
+      "enunciado": "Os mixozoários são parasitas microscópicos que já foram considerados protozoários, mas atualmente são classificados como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Fungos", "correta": false },
+        { "letra": "B", "texto": "Cnidários (animais) altamente reduzidos", "correta": true },
+        { "letra": "C", "texto": "Algas", "correta": false },
+        { "letra": "D", "texto": "Bactérias", "correta": false },
+        { "letra": "E", "texto": "Vírus", "correta": false }
+      ],
+      "explicacao": "Estudos moleculares recentes reclassificaram os mixozoários como cnidários (mesmo grupo das águas-vivas e corais) altamente reduzidos e adaptados ao parasitismo, e não como protozoários."
+    },
+    {
+      "id": 59,
+      "assunto": "Algas e protozoários",
+      "enunciado": "O fitoplâncton, composto por algas microscópicas fotossintetizantes, é fundamental para os ecossistemas aquáticos porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "É o principal consumidor primário das cadeias alimentares aquáticas", "correta": false },
+        { "letra": "B", "texto": "É a base da cadeia alimentar e responsável por grande parte da produção de oxigênio", "correta": true },
+        { "letra": "C", "texto": "Decompõe a matéria orgânica morta nos oceanos", "correta": false },
+        { "letra": "D", "texto": "Parasita organismos maiores, controlando suas populações", "correta": false },
+        { "letra": "E", "texto": "Produz toxinas que eliminam bactérias patogênicas", "correta": false }
+      ],
+      "explicacao": "O fitoplâncton é composto por algas microscópicas que são produtores primários, formando a base da cadeia alimentar aquática e sendo responsáveis por cerca de 50% da produção global de oxigênio."
+    },
+    {
+      "id": 60,
+      "assunto": "Algas e protozoários",
+      "enunciado": "A criptosporidíase, causada pelo protozoário Cryptosporidium, é uma doença diarreica transmitida principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Picada de mosquito", "correta": false },
+        { "letra": "B", "texto": "Ingestão de oocistos em água ou alimentos contaminados", "correta": true },
+        { "letra": "C", "texto": "Contato sexual", "correta": false },
+        { "letra": "D", "texto": "Inalação de esporos", "correta": false },
+        { "letra": "E", "texto": "Picada de carrapato", "correta": false }
+      ],
+      "explicacao": "A criptosporidíase é transmitida pela via fecal-oral, pela ingestão de oocistos resistentes presentes em água ou alimentos contaminados. É especialmente grave em imunossuprimidos (pacientes com HIV)."
+    }
+  ]
+}
