@@ -73,15 +73,17 @@
 
 /* Reset & Base */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; min-height: 100%; }
 body {
   font-family: var(--ds-font);
   background: var(--bg-gradient);
   background-attachment: fixed;
+  background-size: cover;
   color: var(--ds-text);
   line-height: var(--lh-body);
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
+  min-height: 100dvh;
 }
 img, svg { display: block; max-width: 100%; }
 button, input, select, textarea { font: inherit; color: inherit; background: transparent; border: none; cursor: pointer; }

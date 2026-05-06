@@ -20,13 +20,25 @@
         Voltar
       </a>
       <span class="ds-nav__brand">Estuda+</span>
-      <nav aria-label="Navegação principal">
+      <nav aria-label="Navegação principal" class="ds-nav__desktop">
         <ul class="ds-nav__list" role="list">
           <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
           <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
           <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
         </ul>
       </nav>
+      <button class="ds-hamburger" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <span class="ds-hamburger__bar"></span>
+        <span class="ds-hamburger__bar"></span>
+        <span class="ds-hamburger__bar"></span>
+      </button>
+    </div>
+    <div class="ds-mobile-menu" id="mobile-menu" hidden>
+      <ul class="ds-mobile-menu__list" role="list">
+        <li><a href="#resumo" class="ds-mobile-menu__link" data-section="resumo">Resumo</a></li>
+        <li><a href="#quiz" class="ds-mobile-menu__link" data-section="quiz">Quiz</a></li>
+        <li><a href="#simulado" class="ds-mobile-menu__link" data-section="simulado">Simulado</a></li>
+      </ul>
     </div>
   </header>
 

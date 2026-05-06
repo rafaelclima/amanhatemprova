@@ -14,6 +14,7 @@ const DS = {
     this.setupRouter();
     this.setupReadingProgress();
     this.setupExamTimer();
+    this.setupMobileMenu();
     this.restoreProgress();
     this.initQuiz();
     this.initExam();
@@ -30,7 +31,7 @@ const DS = {
     this.state.currentSection = sectionId;
 
     document.querySelectorAll('.ds-section').forEach(sec => sec.hidden = sec.id !== sectionId);
-    document.querySelectorAll('.ds-nav__link').forEach(link => {
+    document.querySelectorAll('.ds-nav__link, .ds-mobile-menu__link').forEach(link => {
       const isActive = link.dataset.section === sectionId;
       link.classList.toggle('active', isActive);
       link.setAttribute('aria-current', isActive ? 'page' : 'false');
@@ -68,6 +69,45 @@ const DS = {
     };
     window.addEventListener('scroll', update, { passive: true });
     update();
+  },
+
+  setupMobileMenu() {
+    const toggle = document.getElementById('menu-toggle');
+    const menu = document.getElementById('mobile-menu');
+    if (!toggle || !menu) return;
+
+    const openMenu = () => {
+      menu.hidden = false;
+      toggle.setAttribute('aria-expanded', 'true');
+      toggle.setAttribute('aria-label', 'Fechar menu');
+      document.body.style.overflow = 'hidden';
+    };
+
+    const closeMenu = () => {
+      menu.hidden = true;
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Abrir menu');
+      document.body.style.overflow = '';
+    };
+
+    toggle.addEventListener('click', () => {
+      menu.hidden ? openMenu() : closeMenu();
+    });
+
+    menu.querySelectorAll('.ds-mobile-menu__link').forEach(link => {
+      link.addEventListener('click', () => {
+        this.navigateTo(link.dataset.section);
+        closeMenu();
+      });
+    });
+
+    menu.addEventListener('click', (e) => {
+      if (e.target === menu) closeMenu();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !menu.hidden) closeMenu();
+    });
   },
 
   setupExamTimer() {
