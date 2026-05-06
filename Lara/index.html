@@ -289,6 +289,16 @@
       padding: 3rem;
     }
 
+    .subjects-grid--subjects {
+      flex-direction: column;
+      max-width: 400px;
+    }
+
+    .subject-card--large {
+      width: 100%;
+      min-width: unset;
+    }
+
     @media (max-width: 600px) {
       .subjects-grid {
         flex-direction: column;
@@ -298,6 +308,10 @@
       .subject-card {
         width: 100%;
         max-width: 300px;
+      }
+
+      .subject-card--large {
+        max-width: 100%;
       }
 
       .student-name {
@@ -332,12 +346,12 @@
 
     <p class="section-title">Escolha uma matéria para estudar</p>
 
-    <div class="subjects-grid">
-      <a href="Matematica/gandezas_medidas/" class="subject-card">
+    <div class="subjects-grid subjects-grid--subjects">
+      <a href="Matematica/" class="subject-card subject-card--large">
         <div class="subject-icon">📐</div>
         <div class="subject-info">
           <h3>Matemática</h3>
-          <p>Grandezas e Medidas</p>
+          <p>1 assunto disponível</p>
         </div>
         <div class="subject-arrow">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -345,11 +359,11 @@
           </svg>
         </div>
       </a>
-      <a href="Fisica/cinematica_vetores/" class="subject-card">
+      <a href="Fisica/" class="subject-card subject-card--large">
         <div class="subject-icon">🧪</div>
         <div class="subject-info">
           <h3>Física</h3>
-          <p>Cinemática e Vetores</p>
+          <p>1 assunto disponível</p>
         </div>
         <div class="subject-arrow">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -357,23 +371,11 @@
           </svg>
         </div>
       </a>
-      <a href="Biologia/nucleo_fotossintese_respiracao/" class="subject-card">
+      <a href="Biologia/" class="subject-card subject-card--large">
         <div class="subject-icon">🧬</div>
         <div class="subject-info">
           <h3>Biologia</h3>
-          <p>Núcleo, Fotossíntese e Respiração</p>
-        </div>
-        <div class="subject-arrow">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
-          </svg>
-        </div>
-      </a>
-      <a href="Biologia/fungos_algas_protozoarios/" class="subject-card">
-        <div class="subject-icon">🦠</div>
-        <div class="subject-info">
-          <h3>Biologia</h3>
-          <p>Fungos, Algas e Protozoários</p>
+          <p>2 assuntos disponíveis</p>
         </div>
         <div class="subject-arrow">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
