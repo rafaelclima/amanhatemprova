@@ -1,0 +1,1024 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "facil",
+      "enunciado": "A respiracao celular e o processo pelo qual as celulas obtem energia a partir da oxidacao da glicose. Em qual organela celular ocorre a maior parte desse processo?",
+      "alternativas": [
+        {"id": "A", "texto": "Ribossomo"},
+        {"id": "B", "texto": "Mitocondria"},
+        {"id": "C", "texto": "Complexo de Golgi"},
+        {"id": "D", "texto": "Reticulo endoplasmatico"}
+      ],
+      "correta": "B",
+      "explicacao": "A mitocondria e a organela responsavel pela respiracao celular, onde ocorre o ciclo de Krebs e a cadeia transportadora de eletrons, produzindo a maior parte do ATP. Ribossomos sintetizam proteinas, Golgi empacota substancias e o RE participa de sintese de lipidios e proteinas.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Lembre-se: a mitocondria e conhecida como a 'usina de energia' da celula.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q002",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "Na respiracao aerobica, a glicose (C6H12O6) e completamente oxidada a CO2 e H2O. Considerando a equacao geral, quantas moleculas de CO2 sao liberadas por molecula de glicose?",
+      "alternativas": [
+        {"id": "A", "texto": "2 moleculas"},
+        {"id": "B", "texto": "4 moleculas"},
+        {"id": "C", "texto": "6 moleculas"},
+        {"id": "D", "texto": "8 moleculas"}
+      ],
+      "correta": "C",
+      "explicacao": "A equacao da respiracao aerobica e C6H12O6 + 6O2 -> 6CO2 + 6H2O + energia. Cada atomo de carbono da glicose (6 carbonos) e liberado na forma de uma molecula de CO2, totalizando 6 moleculas de CO2 por molecula de glicose.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Conte os atomos de carbono na glicose: C6 significa 6 carbonos, e cada um vira uma molecula de CO2.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q003",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "facil",
+      "enunciado": "A fermentacao e um processo alternativo de obtencao de energia que ocorre na ausencia de oxigenio. Qual e o principal tipo de fermentacao realizado por celulas musculares humanas durante exercicios intensos?",
+      "alternativas": [
+        {"id": "A", "texto": "Fermentacao alcoolica"},
+        {"id": "B", "texto": "Fermentacao acetica"},
+        {"id": "C", "texto": "Fermentacao lactica"},
+        {"id": "D", "texto": "Fermentacao butirica"}
+      ],
+      "correta": "C",
+      "explicacao": "Durante exercicios intensos, quando o oxigenio e insuficiente, as celulas musculares realizam fermentacao lactica, convertendo acido piruvico em acido lactico. A fermentacao alcoolica e realizada por leveduras, a acetica por bacterias e a butirica por outros micro-organismos.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "O acido lactico acumulado nos musculos causa a sensacao de cansaco e dor apos exercicio intenso.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q004",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "A glicolise e a primeira etapa da respiracao celular, ocorrendo no citoplasma. Sobre essa etapa, e correto afirmar que:",
+      "alternativas": [
+        {"id": "A", "texto": "Libera CO2 e produz 36 ATPs"},
+        {"id": "B", "texto": "Ocorre na matriz mitocondrial e consome oxigenio"},
+        {"id": "C", "texto": "Quebra a glicose em duas moleculas de acido piruvico, gerando 2 ATPs"},
+        {"id": "D", "texto": "Utiliza diretamente o oxigenio como aceptor final de eletrons"}
+      ],
+      "correta": "C",
+      "explicacao": "A glicolise ocorre no citoplasma e consiste na quebra de uma molecula de glicose (6C) em duas moleculas de acido piruvico (3C cada), gerando 2 ATPs e 2 NADH. Nao libera CO2, nao ocorre na mitocondria e nao utiliza oxigenio diretamente.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Glicolise = citoplasma. Ciclo de Krebs e cadeia respiratoria = mitocondria. Separe as etapas por localizacao.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q005",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "dificil",
+      "enunciado": "Na cadeia transportadora de eletrons, os eletrons removidos da glicose sao transferidos entre complexos proteicos na membrana interna da mitocondria. O oxigenio molecular (O2) atua nesse processo como:",
+      "alternativas": [
+        {"id": "A", "texto": "Doador de eletrons para o NADH"},
+        {"id": "B", "texto": "Aceptor final de eletrons, formando agua"},
+        {"id": "C", "texto": "Cofator da enzima glicoletica"},
+        {"id": "D", "texto": "Substrato direto do ciclo de Krebs"}
+      ],
+      "correta": "B",
+      "explicacao": "O oxigenio e o aceptor final de eletrons na cadeia respiratoria, combinando-se com eletrons e protons (H+) para formar agua (H2O). Sem oxigenio, a cadeia para e a producao de ATP cessa. Ele nao doa eletrons, nao participa da glicolise nem e substrato direto do ciclo de Krebs.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Pense na cadeia como uma escada: os eletrons descem e, no ultimo degrau, o oxigeno os recebe e forma agua.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q006",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "facil",
+      "enunciado": "Leveduras (Saccharomyces cerevisiae) realizam fermentacao alcoolica em condicoes anaerobicas. Quais sao os produtos finais desse processo?",
+      "alternativas": [
+        {"id": "A", "texto": "Acido lactico e ATP"},
+        {"id": "B", "texto": "Etanol, CO2 e ATP"},
+        {"id": "C", "texto": "Acido acetico e H2O"},
+        {"id": "D", "texto": "Acido citrico e O2"}
+      ],
+      "correta": "B",
+      "explicacao": "Na fermentacao alcoolica, o acido piruvico e convertido em etanol (alcool etilico) e CO2, com producao de apenas 2 ATPs. Esse processo e utilizado na producao de pao (o CO2 faz a massa crescer) e bebidas alcoolicas.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Fermentacao alcoolica = alcool + CO2. Lembre-se do pao crescendo e da producao de cerveja.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q007",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "Comparando a respiracao aerobica e a fermentacao lactica, ambas partem da glicolise. A diferenca fundamental entre elas e que na respiracao aerobica:",
+      "alternativas": [
+        {"id": "A", "texto": "O acido piruvico e convertido em etanol"},
+        {"id": "B", "texto": "Ocorre apenas no citoplasma da celula"},
+        {"id": "C", "texto": "O acido piruvico entra na mitocondria, onde e completamente oxidado, gerando muito mais ATP"},
+        {"id": "D", "texto": "Nao ha producao de ATP"}
+      ],
+      "correta": "C",
+      "explicacao": "Na respiracao aerobica, o acido piruvico entra na mitocondria e e oxidado no ciclo de Krebs e na cadeia respiratoria, gerando ate 36-38 ATPs por glicose. Na fermentacao, o piruvico e reduzido a lactico (ou etanol), gerando apenas 2 ATPs. A opcao A descreve fermentacao alcoolica, B e incorreta pois a respiracao vai alem do citoplasma, e D e falsa.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Respiracao aerobica = muito ATP (36-38). Fermentacao = pouco ATP (2). A diferenca esta no que acontece com o piruvico depois da glicolise.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q008",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "dificil",
+      "enunciado": "O ciclo de Krebs (ou ciclo do acido citrico) ocorre na matriz mitocondrial. Sobre esse ciclo, assinale a alternativa correta:",
+      "alternativas": [
+        {"id": "A", "texto": "O ciclo de Krebs consome oxigenio diretamente como substrato de suas reacoes"},
+        {"id": "B", "texto": "Para cada molecula de glicose, o ciclo gira uma vez, liberando 2 CO2"},
+        {"id": "C", "texto": "O acetil-CoA entra no ciclo e, a cada volta, sao liberados 2 CO2, 3 NADH, 1 FADH2 e 1 GTP"},
+        {"id": "D", "texto": "O ciclo de Krebs produz a maior quantidade de ATP diretamente por fosforilacao ao nivel do substrato"}
+      ],
+      "correta": "C",
+      "explicacao": "Para cada glicose, duas moleculas de acetil-CoA entram no ciclo (2 voltas). A cada volta: 2 CO2, 3 NADH, 1 FADH2 e 1 GTP. O oxigenio nao e substrato direto do ciclo (participa na cadeia respiratoria). A maior producao de ATP vem da cadeia respiratoria, nao do ciclo de Krebs.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "O ciclo de Krebs nao usa O2 diretamente. O O2 so entra na cadeia respiratoria. O ciclo gera carreadores de eletrons (NADH, FADH2) que alimentam a cadeia.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q009",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "facil",
+      "enunciado": "A fermentacao e um processo menos eficiente que a respiracao aerobica em termos de producao de ATP. Isso ocorre porque na fermentacao:",
+      "alternativas": [
+        {"id": "A", "texto": "A glicose nao e quebrada"},
+        {"id": "B", "texto": "Ocorre na mitocondria"},
+        {"id": "C", "texto": "A glicose e apenas parcialmente oxidada, sem ciclo de Krebs nem cadeia respiratoria"},
+        {"id": "D", "texto": "O oxigenio e consumido em excesso"}
+      ],
+      "correta": "C",
+      "explicacao": "Na fermentacao, apenas a glicolise ocorre (2 ATPs). O acido piruvico nao e oxidado completamente na mitocondria, mas sim reduzido a lactico ou etanol. Como nao ha ciclo de Krebs nem cadeia respiratoria, a maior parte da energia permanece nos produtos da fermentacao.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Fermentacao = so glicolise. Sem mitocondria, sem ciclo de Krebs, sem cadeia respiratoria. Por isso, menos ATP.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q010",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "Na industria alimenticia, diferentes tipos de fermentacao sao explorados. A producao de iogurte envolve bacterias que convertem a lactose do leite em acido lactico. Esse processo e um exemplo de:",
+      "alternativas": [
+        {"id": "A", "texto": "Fermentacao alcoolica"},
+        {"id": "B", "texto": "Fermentacao acetica"},
+        {"id": "C", "texto": "Fermentacao lactica"},
+        {"id": "D", "texto": "Respiracao aerobica"}
+      ],
+      "correta": "C",
+      "explicacao": "A producao de iogurte utiliza bacterias Lactobacillus que realizam fermentacao lactica, convertendo lactose em acido lactico. Esse acido coagula as proteinas do leite, dando ao iogurte sua textura e sabor caracteristicos.",
+      "competencia_bncc": "EM13CNT301",
+      "dica_pedagogica": "Iogurte = lactico (Lactobacillus). Vinho/cerveja = alcoolica (leveduras). Vinagre = acetica (Acetobacter).",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q011",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "dificil",
+      "enunciado": "A quimiosmese e o mecanismo que acopla o transporte de eletrons na cadeia respiratoria a sintese de ATP. Segundo a teoria quimiosmotica de Mitchell, a energia para sintetizar ATP provm de:",
+      "alternativas": [
+        {"id": "A", "texto": "Transferencia direta de eletrons do NADH para o ADP"},
+        {"id": "B", "texto": "Um gradiente de protons (H+) atraves da membrana interna da mitocondria"},
+        {"id": "C", "texto": "A hidrolise do CO2 liberado no ciclo de Krebs"},
+        {"id": "D", "texto": "A oxidacao direta do oxigeno na matriz mitocondrial"}
+      ],
+      "correta": "B",
+      "explicacao": "A teoria quimiosmotica estabelece que a cadeia transportadora bombea protons (H+) da matriz para o espaco intermembranas, criando um gradiente eletroquimico. Os protons retornam a matriz pela enzima ATP sintase, e a energia desse fluxo e usada para converter ADP + Pi em ATP.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Pense na quimiosmese como uma represa: os protons acumulados de um lado 'querem' passar para o outro, e essa passagem gera energia (ATP).",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q012",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "O veneno cianeto bloqueia o complexo IV (citocromo c oxidase) da cadeia transportadora de eletrons. Uma celula exposta ao cianeto:",
+      "alternativas": [
+        {"id": "A", "texto": "Aumenta a producao de ATP pela fermentacao"},
+        {"id": "B", "texto": "Para a cadeia respiratoria, interrompe a formacao de agua e reduz drasticamente a producao de ATP"},
+        {"id": "C", "texto": "Continua a respiracao normalmente, pois o cianeto nao afeta a mitocondria"},
+        {"id": "D", "texto": "Passa a produzir mais NADH na glicolise"}
+      ],
+      "correta": "B",
+      "explicacao": "O cianeto bloqueia o complexo IV, impedindo a transferencia de eletrons para o oxigeno (aceptor final). Com a cadeia bloqueada, os protons nao sao bombeados, o gradiente colapsa, a ATP sintase para e a producao de ATP cai drasticamente, levando a morte celular.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Se a cadeia respiratoria para, a quimiosmese para, e a producao de ATP cai. A celula sobrevive apenas com a glicolise (2 ATP).",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q013",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "facil",
+      "enunciado": "A glicose nao e a unica molecula que pode ser utilizada na respiracao celular. Lipideos e aminoacidos tambem podem ser oxidados para produzir energia. Quando um acido graxo e oxidado na mitocondria, ele e convertido em:",
+      "alternativas": [
+        {"id": "A", "texto": "Glicose"},
+        {"id": "B", "texto": "Acetil-CoA"},
+        {"id": "C", "texto": "Acido lactico"},
+        {"id": "D", "texto": "Etanol"}
+      ],
+      "correta": "B",
+      "explicacao": "Na beta-oxidacao, os acidos graxos sao quebrados em unidades de dois carbonos, gerando acetil-CoA, que entra diretamente no ciclo de Krebs. Um acido graxo de 16 carbonos (palmitato) gera 8 acetil-CoA, produzindo mais ATP que uma molecula de glicose.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Lipideos -> beta-oxidacao -> acetil-CoA -> ciclo de Krebs. Gordura e uma reserva energetica muito eficiente.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q014",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "Durante a fermentacao alcoolica realizada por leveduras, o CO2 liberado e responsavel por qual aplicacao pratica?",
+      "alternativas": [
+        {"id": "A", "texto": "A acidificacao do leite na producao de queijo"},
+        {"id": "B", "texto": "O crescimento da massa de pao"},
+        {"id": "C", "texto": "A conservacao de alimentos em vinagre"},
+        {"id": "D", "texto": "A producao de acido citrico em frutas"}
+      ],
+      "correta": "B",
+      "explicacao": "Na panificacao, leveduras adicionadas a massa realizam fermentacao alcoolica. O CO2 produzido forma bolhas que fazem a massa crescer (aeracao). O etanol evapora durante o cozimento. A acidificacao do leite e fermentacao lactica, e o vinagre e fermentacao acetica.",
+      "competencia_bncc": "EM13CNT301",
+      "dica_pedagogica": "CO2 da fermentacao alcoolica = bolhas = pao crescendo. Etanol evapora no forno.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q015",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "dificil",
+      "enunciado": "Considere a seguinte afirmacao: 'A fermentacao e um processo exclusivamente anaerobico.' Essa afirmacao e:",
+      "alternativas": [
+        {"id": "A", "texto": "Correta, pois a fermentacao so ocorre na ausencia total de oxigenio"},
+        {"id": "B", "texto": "Incorreta, pois a fermentacao pode ocorrer mesmo na presenca de oxigenio, dependendo do organismo e das condicoes metabolicas"},
+        {"id": "C", "texto": "Correta, pois o oxigenio inibe todas as enzimas da fermentacao"},
+        {"id": "D", "texto": "Incorreta, pois a fermentacao requer oxigenio como cofator"}
+      ],
+      "correta": "B",
+      "explicacao": "A fermentacao nao e exclusivamente anaerobica. Alguns organismos realizam fermentacao mesmo na presenca de oxigeno (efeito Crabtree em leveduras). Alem disso, celulas musculares humanas fazem fermentacao lactica durante exercicio intenso, mesmo com oxigenio disponivel nos pulmoes. A fermentacao e definida pela ausencia de cadeia respiratoria, nao necessariamente pela ausencia de O2.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Fermentacao = sem cadeia respiratoria, nao necessariamente sem O2. Celulas musculares fazem lactato mesmo com O2 disponivel.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q016",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "facil",
+      "enunciado": "O ATP (adenosina trifosfato) e considerado a 'moeda energetica' da celula. A energia liberada pela hidrolise do ATP e utilizada para:",
+      "alternativas": [
+        {"id": "A", "texto": "Apenas a contracao muscular"},
+        {"id": "B", "texto": "Apenas o transporte ativo de substancias"},
+        {"id": "C", "texto": "Diversos processos celulares, incluindo transporte ativo, sintese de moleculas e contracao muscular"},
+        {"id": "D", "texto": "Apenas a sintese de proteinas"}
+      ],
+      "correta": "C",
+      "explicacao": "O ATP e a principal fonte de energia para praticamente todos os processos celulares que requerem energia: transporte ativo (bombas de sodio-potassio), sintese de macromoleculas (proteinas, acidos nucleicos), contracao muscular, divisao celular, sinalizacao celular, entre outros.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "ATP = moeda energetica universal. Qualquer processo que gaste energia na celula provavelmente usa ATP.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q017",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "O NAD+ e o FAD sao coenzimas que atuam como carreadores de eletrons na respiracao celular. Durante a glicolise e o ciclo de Krebs, eles sao:",
+      "alternativas": [
+        {"id": "A", "texto": "Oxidados, perdendo eletrons e protons"},
+        {"id": "B", "texto": "Reduzidos, ganhando eletrons e protons"},
+        {"id": "C", "texto": "Fosforilados, ganhando grupos fosfato"},
+        {"id": "D", "texto": "Hidrolisados, liberando agua"}
+      ],
+      "correta": "B",
+      "explicacao": "NAD+ e FAD sao formas oxidadas que aceitam eletrons (e protons) durante a glicolise e o ciclo de Krebs, transformando-se em NADH e FADH2 (formas reduzidas). Esses carreadores levam os eletrons para a cadeia transportadora de eletrons, onde sao reoxidados.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "NAD+ (oxidado) + eletrons -> NADH (reduzido). Quem ganha eletrons e reduzido. Quem perde e oxidado.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q018",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "dificil",
+      "enunciado": "Em qual situacao fisiologica ha aumento da taxa de respiracao celular no organismo humano?",
+      "alternativas": [
+        {"id": "A", "texto": "Durante o sono profundo, quando o metabolismo esta no minimo"},
+        {"id": "B", "texto": "Durante exercicio fisico intenso, quando a demanda de ATP pelos musculos aumenta"},
+        {"id": "C", "texto": "Durante a digestao de alimentos, quando o estomago esta em repouso"},
+        {"id": "D", "texto": "Em estado de hipotermia, quando o corpo reduz a producao de calor"}
+      ],
+      "correta": "B",
+      "explicacao": "Durante exercicio intenso, a demanda de ATP pelas fibras musculares aumenta drasticamente, elevando a taxa de respiracao celular (e consequentemente a frequencia cardiaca e respiratoria). No sono profundo, o metabolismo basal e menor. A digestao aumenta levemente o metabolismo, mas nao tanto quanto o exercicio.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Mais exercicio = mais ATP necessario = mais respiracao celular = respiracao mais rapida e coracao mais acelerado.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q019",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "medio",
+      "enunciado": "A fermentacao mista, realizada por certas bacterias do genero Streptococcus, produz diversos produtos, incluindo acido lactico, acido acetico e etanol. Essa fermentacao e utilizada na producao de:",
+      "alternativas": [
+        {"id": "A", "texto": "Apenas bebidas alcoolicas"},
+        {"id": "B", "texto": "Apenas iogurte"},
+        {"id": "C", "texto": "Alimentos como chucrute (repolho fermentado) e alguns tipos de queijo"},
+        {"id": "D", "texto": "Apenas vinagre"}
+      ],
+      "correta": "C",
+      "explicacao": "A fermentacao mista, que produz acido lactico, acetico, etanol e CO2, e utilizada na producao de alimentos fermentados como chucrute, silagem e alguns queijos. A diversidade de produtos confere sabores caracteristicos a esses alimentos.",
+      "competencia_bncc": "EM13CNT301",
+      "dica_pedagogica": "Fermentacao mista = varios produtos. Chucrute e um exemplo classico de fermentacao mista.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q020",
+      "assunto": "Respiracao celular e fermentacao",
+      "dificuldade": "dificil",
+      "enunciado": "Um pesquisador adicionou a uma suspensao de leveduras um inibidor da enzima alcool desidrogenase. Mantendo as condicoes anaerobicas, o que acontecera com o processo fermentativo?",
+      "alternativas": [
+        {"id": "A", "texto": "A fermentacao alcoolica prosseguira normalmente"},
+        {"id": "B", "texto": "O acido piruvico nao sera convertido em etanol, acumulando-se ou sendo desviado para outras vias"},
+        {"id": "C", "texto": "A glicolise sera bloqueada, parando toda a producao de ATP"},
+        {"id": "D", "texto": "A respiracao aerobica sera ativada automaticamente"}
+      ],
+      "correta": "B",
+      "explicacao": "A alcool desidrogenase converde acetaldeido em etanol na fermentacao alcoolica. Se essa enzima for inibida, o acetaldeido (ou o acido piruvico) se acumulara, e a regeneracao do NAD+ sera comprometida, podendo interromper a glicolise. A respiracao aerobica nao e 'ativada' por um inibidor enzimatico.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Inibir uma enzima especifica bloqueia aquela etapa. Pense na via metabolica como uma linha de montagem: se uma maquina para, o produto daquela etapa nao e feito.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q021",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "facil",
+      "enunciado": "A fotossintese e o processo pelo qual organismos autotrofos convertem energia luminosa em energia quimica. A equacao geral da fotossintese pode ser resumida como:",
+      "alternativas": [
+        {"id": "A", "texto": "6CO2 + 6H2O -> C6H12O6 + 6O2 (na presenca de luz)"},
+        {"id": "B", "texto": "C6H12O6 + 6O2 -> 6CO2 + 6H2O + energia"},
+        {"id": "C", "texto": "6CO2 + 6O2 -> C6H12O6 + 6H2O"},
+        {"id": "D", "texto": "C6H12O6 + 6H2O -> 6CO2 + 6O2 + energia"}
+      ],
+      "correta": "A",
+      "explicacao": "A fotossintese utiliza CO2 e H2O, na presenca de luz e clorofila, para produzir glicose (C6H12O6) e oxigenio (O2). A opcao B descreve a respiracao celular. As opcoes C e D nao representam processos biologicos conhecidos.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Fotossintese: CO2 + H2O + luz -> glicose + O2. E o contrario da respiracao.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q022",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "A fotossintese ocorre em duas etapas principais: a fase clara (fotoquimica) e a fase escura (ciclo de Calvin). Na fase clara, que ocorre nos tilacoides dos cloroplastos, acontece:",
+      "alternativas": [
+        {"id": "A", "texto": "A fixacao do CO2 em moleculas organicas"},
+        {"id": "B", "texto": "A fotolise da agua, liberando O2, e a producao de ATP e NADPH"},
+        {"id": "C", "texto": "A sintese direta de glicose a partir de CO2"},
+        {"id": "D", "texto": "A oxidacao da glicose para produzir energia"}
+      ],
+      "correta": "B",
+      "explicacao": "Na fase clara, a luz e absorvida pelos pigmentos fotossinteticos, a agua e quebrada (fotolise), liberando O2, protons e eletrons. A energia luminosa e convertida em ATP e NADPH, que serao usados no ciclo de Calvin. A fixacao do CO2 ocorre na fase escura.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Fase clara = tilacoides = luz + agua -> O2 + ATP + NADPH. Fase escura = estroma = CO2 + ATP + NADPH -> glicose.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q023",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "facil",
+      "enunciado": "A clorofila e o principal pigmento fotossintetico das plantas. Ela absorve principalmente luz nas regioes do espectro eletromagnetico correspondentes as cores:",
+      "alternativas": [
+        {"id": "A", "texto": "Verde e amarela"},
+        {"id": "B", "texto": "Azul e vermelha"},
+        {"id": "C", "texto": "Verde e azul"},
+        {"id": "D", "texto": "Amarela e vermelha"}
+      ],
+      "correta": "B",
+      "explicacao": "A clorofila a e a clorofila b absorvem principalmente luz azul (400-450 nm) e vermelha (650-700 nm). A luz verde e refletida, por isso as plantas aparentam ser verdes. A regiao amarela e parcialmente absorvida por carotenoides.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Plantas sao verdes porque a clorofila REFLETE a luz verde. Ela absorve azul e vermelho.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q024",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "O ciclo de Calvin (fase escura da fotossintese) ocorre no estroma do cloroplasto. Nessa etapa, o CO2 e fixado em moleculas organicas com a ajuda de:",
+      "alternativas": [
+        {"id": "A", "texto": "ATP e NADPH produzidos na fase clara"},
+        {"id": "B", "texto": "Oxigenio liberado na fotolise da agua"},
+        {"id": "C", "texto": "Glicose proveniente da respiracao celular"},
+        {"id": "D", "texto": "Agua absorvida pelas raizes"}
+      ],
+      "correta": "A",
+      "explicacao": "O ciclo de Calvin utiliza o ATP e o NADPH (produzidos na fase clara) para fixar o CO2 e sintetizar glicose. O oxigenio e um subproduto da fase clara, nao e usado no ciclo de Calvin. A glicose e o produto final, nao o insumo.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Fase clara produz 'combustivel' (ATP e NADPH). Fase escura usa esse combustivel para 'construir' glicose a partir de CO2.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q025",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "dificil",
+      "enunciado": "A enzima RuBisCO (ribulose-1,5-bisfosfato carboxilase/oxigenase) e a enzima mais abundante do planeta. Em condicoes de alta concentracao de O2 e baixa de CO2, ela pode catalisar a oxigenacao do RuBP, iniciando um processo chamado:",
+      "alternativas": [
+        {"id": "A", "texto": "Fotofosforilacao"},
+        {"id": "B", "texto": "Fotorrespiracao"},
+        {"id": "C", "texto": "Fermentacao vegetal"},
+        {"id": "D", "texto": "Gliconeogenese"}
+      ],
+      "correta": "B",
+      "explicacao": "A fotorrespiracao ocorre quando a RuBisCO oxigena o RuBP em vez de carboxila-lo, um processo que consome O2 e libera CO2, reduzindo a eficiencia da fotossintese. E acentuada em dias quentes e secos, quando os estomatos se fecham para conservar agua, reduzindo o CO2 interno.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "RuBisCO pode agir como carboxilase (fixa CO2) ou oxigenase (usa O2). Quando usa O2, temos fotorrespiracao, que e desperdicio.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q026",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "facil",
+      "enunciado": "A quimiossintese e um processo de sintese de materia organica realizado por certos procariontes que obtem energia da oxidacao de substancias inorganicas. Organismos quimiossinteticos sao classificados como:",
+      "alternativas": [
+        {"id": "A", "texto": "Heterotrofos"},
+        {"id": "B", "texto": "Autotrofos"},
+        {"id": "C", "texto": "Decompositores"},
+        {"id": "D", "texto": "Parasitas"}
+      ],
+      "correta": "B",
+      "explicacao": "Organismos quimiossinteticos sao autotrofos porque produzem seu propio alimento (materia organica) a partir de substancias inorganicas, usando energia quimica (nao luminosa). Sao a base de cadeias alimentares em ecossistemas como fontes hidrotermais no fundo do oceano.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Autotrofos = produzem proprio alimento. Fotossintese usa luz; quimiossintese usa quimica. Ambos sao autotroficos.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q027",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "Bacterias nitrificantes, como Nitrosomonas e Nitrobacter, realizam quimiossintese oxidando compostos de nitrogenio. A Nitrosomonas oxida amonia (NH3) a nitrito (NO2-), enquanto a Nitrobacter oxida:",
+      "alternativas": [
+        {"id": "A", "texto": "Nitrito (NO2-) a nitrato (NO3-)"},
+        {"id": "B", "texto": "Nitrato (NO3-) a nitrogenio gasoso (N2)"},
+        {"id": "C", "texto": "Nitrogenio gasoso (N2) a amonia (NH3)"},
+        {"id": "D", "texto": "Amonia (NH3) diretamente a nitrato (NO3-)"}
+      ],
+      "correta": "A",
+      "explicacao": "A Nitrobacter oxida nitrito (NO2-) a nitrato (NO3-), completando o processo de nitrificacao. Juntas, Nitrosomonas e Nitrobacter convertem amonia em nitrato, forma de nitrogenio mais facilmente absorvida pelas plantas. A opcao C descreve a fixacao de nitrogenio, e B a desnitrificacao.",
+      "competencia_bncc": "EM13CNT304",
+      "dica_pedagogica": "Nitrificacao: NH3 -> NO2- (Nitrosomonas) -> NO3- (Nitrobacter). Sao duas etapas com bacterias diferentes.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q028",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "dificil",
+      "enunciado": "Em ecossistemas de fontes hidrotermais oceânicas, onde nao ha luz solar, bacterias quimiossinteticas oxidam sulfeto de hidrogenio (H2S) para obter energia. Essas bacterias:",
+      "alternativas": [
+        {"id": "A", "texto": "Sao heterotrofos que se alimentam de organismos mortos"},
+        {"id": "B", "texto": "Sao autotrofos quimiossinteticos que formam a base da cadeia alimentar local"},
+        {"id": "C", "texto": "Sao fototrofos adaptados a ambientes sem luz"},
+        {"id": "D", "texto": "Sao decompositores que reciclam materia organica"}
+      ],
+      "correta": "B",
+      "explicacao": "Nas fontes hidrotermais, bacterias quimiossinteticas oxidam H2S (ou outros compostos inorganicos) para obter energia e fixar CO2 em materia organica. Elas sao autotrofos e formam a base da cadeia alimentar, sustentando vermes tubulares, moluscos e outros organismos desse ecossistema unico.",
+      "competencia_bncc": "EM13CNT304",
+      "dica_pedagogica": "Sem luz = sem fotossintese. Mas quimiossintese funciona! Fontes hidrotermais provam que vida pode existir sem sol.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q029",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "A fotossintese C4 e uma adaptacao encontrada em certas plantas (como milho e cana-de-acucar) que aumenta a eficiencia da fixacao de CO2 em condicoes de alta temperatura e luminosidade. Nessa adaptacao:",
+      "alternativas": [
+        {"id": "A", "texto": "O CO2 e fixado diretamente no ciclo de Calvin sem etapas previas"},
+        {"id": "B", "texto": "O CO2 e inicialmente fixado em um composto de 4 carbonos (oxaloacetato) nas celulas do mesofilo"},
+        {"id": "C", "texto": "A planta realiza fotossintese apenas durante a noite"},
+        {"id": "D", "texto": "A planta nao realiza o ciclo de Calvin"}
+      ],
+      "correta": "B",
+      "explicacao": "Nas plantas C4, o CO2 e inicialmente fixado pela enzima PEP carboxilase, formando oxaloacetato (4C) nas celulas do mesofilo. Esse composto e transportado para as celulas da bainha do feixe, onde o CO2 e liberado e entra no ciclo de Calvin. Isso concentra CO2 e minimiza a fotorrespiracao.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "C4 = composto de 4 carbonos. E uma 'bomba de CO2' que concentra carbono para o ciclo de Calvin, reduzindo fotorrespiracao.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q030",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "facil",
+      "enunciado": "A fotolise da agua e uma reacao fundamental da fase clara da fotossintese. Nessa reacao, a molecula de agua e quebrada, liberando:",
+      "alternativas": [
+        {"id": "A", "texto": "CO2 e eletrons"},
+        {"id": "B", "texto": "Oxigenio, protons (H+) e eletrons"},
+        {"id": "C", "texto": "Glicose e oxigenio"},
+        {"id": "D", "texto": "Hidrogenio molecular (H2) e agua"}
+      ],
+      "correta": "B",
+      "explicacao": "Na fotolise da agua (2H2O -> 4H+ + 4e- + O2), a molecula de agua e quebrada pela energia luminosa. O oxigenio e liberado como subproduto, os protons contribuem para o gradiente quimiosmotico e os eletrons repoem os perdidos pelo fotossistema II.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "O O2 que respiramos vem da quebra da agua na fotossintese, nao do CO2. Agua -> O2 + H+ + eletrons.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q031",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "As plantas CAM (metabolismo acido das crassulaceas), como cactos e abacaxis, apresentam uma adaptacao para ambientes aridos. Nessa adaptacao:",
+      "alternativas": [
+        {"id": "A", "texto": "Os estomatos se abrem durante o dia para absorver CO2"},
+        {"id": "B", "texto": "Os estomatos se abrem durante a noite para absorver CO2, que e armazenado como acido malico, e a fotossintese ocorre durante o dia"},
+        {"id": "C", "texto": "A fotossintese ocorre apenas durante a noite"},
+        {"id": "D", "texto": "A planta nao realiza fotossintese"}
+      ],
+      "correta": "B",
+      "explicacao": "Plantas CAM abrem os estomatos a noite (quando a temperatura e menor e a perda de agua e reduzida), fixando CO2 em acido malico. Durante o dia, com os estomatos fechados, o CO2 e liberado do acido malico e usado no ciclo de Calvin. Isso minimiza a perda de agua por transpiracao.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "CAM = estomatos abrem a noite (economia de agua). CO2 e guardado de noite e usado de dia.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q032",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "dificil",
+      "enunciado": "Comparando fotossintese e quimiossintese, ambas produzem materia organica a partir de substancias inorganicas. A diferenca fundamental entre esses processos e:",
+      "alternativas": [
+        {"id": "A", "texto": "A fotossintese usa energia luminosa e a quimiossintese usa energia quimica da oxidacao de compostos inorganicos"},
+        {"id": "B", "texto": "A fotossintese ocorre apenas em plantas e a quimiossintese apenas em animais"},
+        {"id": "C", "texto": "A fotossintese libera O2 e a quimiossintese consome O2"},
+        {"id": "D", "texto": "A fotossintese e aerobica e a quimiossintese e anaerobica"}
+      ],
+      "correta": "A",
+      "explicacao": "A diferenca central e a fonte de energia: fotossintese usa luz solar; quimiossintese usa energia da oxidacao de substancias inorganicas (H2S, NH3, Fe2+, etc.). Ambas sao autotroficas e fixam CO2. A opcao B e incorreta pois quimiossintese ocorre em bacterias, nao animais.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Ambas sao autotroficas. A diferenca e a 'fonte de energia': luz vs. quimica inorganica.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q033",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "facil",
+      "enunciado": "Os cloroplastos sao as organelas onde ocorre a fotossintese em celulas vegetais. Internamente, os cloroplastos possuem um sistema de membranas chamado:",
+      "alternativas": [
+        {"id": "A", "texto": "Cristas"},
+        {"id": "B", "texto": "Tilacoides"},
+        {"id": "C", "texto": "Lamela"},
+        {"id": "D", "texto": "Cisternas"}
+      ],
+      "correta": "B",
+      "explicacao": "Os tilacoides sao sacos membranosos achatados no interior dos cloroplastos, onde se localizam os pigmentos fotossinteticos e ocorrem as reacoes da fase clara. As cristas sao da mitocondria. Lamela e um tecido vegetal, e cisternas sao do reticulo endoplasmatico/Golgi.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Cloroplasto -> tilacoides (fase clara). Mitocondria -> critas (cadeia respiratoria). Nao confunda!",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q034",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "O ponto de compensacao luminoso e a intensidade de luz na qual a taxa de fotossintese iguala a taxa de respiracao. Abaixo desse ponto, a planta:",
+      "alternativas": [
+        {"id": "A", "texto": "Acumula mais materia organica do que consome"},
+        {"id": "B", "texto": "Consome mais materia organica do que produz, tendo saldo negativo"},
+        {"id": "C", "texto": "Para completamente a fotossintese"},
+        {"id": "D", "texto": "Aumenta a taxa de fotossintese"}
+      ],
+      "correta": "B",
+      "explicacao": "Abaixo do ponto de compensacao luminoso, a fotossintese e menor que a respiracao, ou seja, a planta consome mais glicose do que produz. Em consequencia, ha perda de materia organica. Acima desse ponto, a fotossintese supera a respiracao e ha acumulo.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Ponto de compensacao = fotossintese = respiracao. Abaixo: perde peso. Acima: ganha peso.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q035",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "dificil",
+      "enunciado": "Bacterias do genero Thiobacillus realizam quimiossintese oxidando compostos de enxofre. Em uma cadeia alimentar baseada em quimiossintese, essas bacterias ocupam o nivel de:",
+      "alternativas": [
+        {"id": "A", "texto": "Consumidores primarios"},
+        {"id": "B", "texto": "Decompositores"},
+        {"id": "C", "texto": "Produtores"},
+        {"id": "D", "texto": "Consumidores secundarios"}
+      ],
+      "correta": "C",
+      "explicacao": "Bacterias quimiossinteticas como Thiobacillus sao produtores, pois sintetizam materia organica a partir de substancias inorganicas, usando energia quimica. Em qualquer cadeia alimentar, os organismos autotrofos (fotossinteticos ou quimiossinteticos) ocupam o nivel dos produtores.",
+      "competencia_bncc": "EM13CNT304",
+      "dica_pedagogica": "Produtor = faz materia organica. Pode ser por luz (fotossintese) ou quimica (quimiossintese). Ambos sao produtores.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q036",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "Os fotossistemas I e II sao complexos proteicos localizados nos tilacoides. Sobre eles, e correto afirmar que:",
+      "alternativas": [
+        {"id": "A", "texto": "O fotossistema II absorve luz e realiza a fotolise da agua, liberando O2"},
+        {"id": "B", "texto": "O fotossistema I atua antes do fotossistema II na cadeia de transporte de eletrons"},
+        {"id": "C", "texto": "Ambos os fotossistemas atuam independentemente, sem conexao entre si"},
+        {"id": "D", "texto": "O fotossistema II produz NADPH diretamente"}
+      ],
+      "correta": "A",
+      "explicacao": "O fotossistema II (PSII) absorve luz a 680 nm e realiza a fotolise da agua, liberando O2. Os eletrons passam do PSII ao PSI pela cadeia transportadora intermediaria. O PSI (700 nm) repassa os eletrons para o NADP+ redutase, que produz NADPH. A ordem e PSII -> cadeia -> PSI -> NADPH.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Ordem: PSII (fotolise da agua, libera O2) -> cadeia -> PSI -> NADPH. PSII vem primeiro na cadeia.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q037",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "facil",
+      "enunciado": "A quimiossintese e essencial em ecossistemas extremos, como fontes hidrotermais e cavernas. Alem de bacterias do enxofre, outros organismos quimiossinteticos podem oxidar:",
+      "alternativas": [
+        {"id": "A", "texto": "Apenas glicose"},
+        {"id": "B", "texto": "Compostos de ferro, hidrogenio e nitrogenio, entre outros"},
+        {"id": "C", "texto": "Apenas proteinas"},
+        {"id": "D", "texto": "Apenas lipidios"}
+      ],
+      "correta": "B",
+      "explicacao": "Diversos compostos inorganicos podem ser oxidados por organismos quimiossinteticos: H2S (bacterias do enxofre), NH3 (bacterias nitrificantes), Fe2+ (bacterias do ferro), H2 (bacterias do hidrogenio), entre outros. Essa diversidade permite a vida em ambientes extremos sem luz solar.",
+      "competencia_bncc": "EM13CNT304",
+      "dica_pedagogica": "Quimiossintese nao e so com enxofre. Ferro, hidrogenio, nitrogenio... varios compostos inorganicos podem ser usados.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q038",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "dificil",
+      "enunciado": "Um experimento classico de fotossintese utiliza a alga aquatica Elodea em agua com indicador de pH (azul de bromotimol). Sobre luz, a alga realiza fotossintese e o pH da solucao tende a aumentar. Isso ocorre porque:",
+      "alternativas": [
+        {"id": "A", "texto": "A alga libera CO2 durante a fotossintese, acidificando o meio"},
+        {"id": "B", "texto": "A alga absorve CO2 da solucao, deslocando o equilibrio do acido carbonico e reduzindo a concentracao de H+"},
+        {"id": "C", "texto": "A alga absorve O2 da solucao, aumentando o pH"},
+        {"id": "D", "texto": "A luz aquece a solucao, aumentando o pH"}
+      ],
+      "correta": "B",
+      "explicacao": "Na fotossintese, a alga absorve CO2 dissolvido na agua. O CO2 em agua forma acido carbonico (H2CO3), que se dissocia em H+ e HCO3-. Ao remover CO2, o equilibrio se desloca, reduzindo H+ e aumentando o pH (meio mais basico). O azul de bromotimol fica azul em meio basico.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "CO2 + H2O <-> H2CO3 <-> H+ + HCO3-. Menos CO2 = menos H+ = pH mais alto (mais basico).",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q039",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "medio",
+      "enunciado": "Os carotenoides sao pigmentos acessorios presentes nos cloroplastos. Sua funcao principal na fotossintese e:",
+      "alternativas": [
+        {"id": "A", "texto": "Substituir a clorofila em condicoes de escuridao"},
+        {"id": "B", "texto": "Absorver luz em comprimentos de onda diferentes da clorofila e transferir energia a ela, alem de proteger contra fotooxidacao"},
+        {"id": "C", "texto": "Realizar a fotolise da agua"},
+        {"id": "D", "texto": "Fixar o CO2 no ciclo de Calvin"}
+      ],
+      "correta": "B",
+      "explicacao": "Os carotenoides (carotenos e xantofilas) absorvem luz na regiao azul-violeta (400-500 nm), transferindo a energia para a clorofila. Tambem atuam como antioxidantes, protegendo os cloroplastos contra danos por excesso de luz (fotooxidacao). Nao substituem a clorofila no escuro, nao realizam fotolise nem fixam CO2.",
+      "competencia_bncc": "EM13CNT104",
+      "dica_pedagogica": "Carotenoides = pigmentos auxiliares. Ampliam o espectro de luz utilizado e protegem a clorofila.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q040",
+      "assunto": "Fotossintese e quimiossintese",
+      "dificuldade": "dificil",
+      "enunciado": "Em um ecossistema aquatico, a zona fotica (eufotica) e a camada superficial onde ha luz suficiente para a fotossintese. Abaixo dessa zona, organismos quimiossinteticos podem existir proximos a fontes hidrotermais submarinas. A relacao entre fotossintese e quimiossintese nesse contexto e:",
+      "alternativas": [
+        {"id": "A", "texto": "Competicao direta pelos mesmos recursos"},
+        {"id": "B", "texto": "Ambas sao vias autotroficas que sustentam cadeias alimentares em diferentes ambientes"},
+        {"id": "C", "texto": "A quimiossintese depende dos produtos da fotossintese"},
+        {"id": "D", "texto": "A fotossintese e um subproduto da quimiossintese"}
+      ],
+      "correta": "B",
+      "explicacao": "Fotossintese e quimiossintese sao ambas vias autotroficas (produzem materia organica a partir de CO2), mas em ambientes diferentes: a fotossintese na zona fotica (com luz) e a quimiossintese em ambientes sem luz (fontes hidrotermais, cavernas). Ambas sustentam cadeias alimentares como produtores.",
+      "competencia_bncc": "EM13CNT304",
+      "dica_pedagogica": "Duas formas de ser autotrofo: com luz (fotossintese) ou sem luz (quimiossintese). Ambas sustentam vida.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q041",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "facil",
+      "enunciado": "O nucleo celular e a organela que abriga o material genetico (DNA) nas celulas eucarioticas. A membrana que envolve o nucleo e chamada de:",
+      "alternativas": [
+        {"id": "A", "texto": "Membrana plasmatica"},
+        {"id": "B", "texto": "Carioteca (envoltario nuclear)"},
+        {"id": "C", "texto": "Membrana nuclear interna"},
+        {"id": "D", "texto": "Cromatina"}
+      ],
+      "correta": "B",
+      "explicacao": "A carioteca (ou envoltario nuclear) e a membrana dupla que envolve o nucleo das celulas eucarioticas, separando o conteudo nuclear do citoplasma. Possui poros nucleares que permitem a troca de substancias entre nucleo e citoplasma. A membrana plasmatica envolve a celula, e a cromatina e o material genetico.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Carioteca = membrana do nucleo. Membrana plasmatica = membrana da celula. Nao confunda!",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q042",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "A cromatina e o complexo de DNA e proteinas (histonas) encontrado no nucleo. Durante a divisao celular, a cromatina se condensa formando:",
+      "alternativas": [
+        {"id": "A", "texto": "Cromossomos"},
+        {"id": "B", "texto": "Ribossomos"},
+        {"id": "C", "texto": "Centriolos"},
+        {"id": "D", "texto": "Microtubulos"}
+      ],
+      "correta": "A",
+      "explicacao": "Quando a celula se prepara para dividir, a cromatina (forma dispersa do DNA) se condensa e espiraliza, formando cromossomos visiveis ao microscopio. Cada cromossomo consiste em duas cromatides-irmas unidas pelo centromero. Ribossomos, centriolos e microtubulos nao sao formados pela condensacao da cromatina.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Cromatina (dispersa) -> condensa -> cromossomo (visivel). E como um fio de lã que se enrola numa bobina.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q043",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "facil",
+      "enunciado": "O nucleolo e uma estrutura presente no interior do nucleo celular. Sua principal funcao e:",
+      "alternativas": [
+        {"id": "A", "texto": "Armazenar o DNA da celula"},
+        {"id": "B", "texto": "Produzir RNA ribossomico e montar subunidades de ribossomos"},
+        {"id": "C", "texto": "Realizar a fotossintese"},
+        {"id": "D", "texto": "Digerir substancias no nucleo"}
+      ],
+      "correta": "B",
+      "explicacao": "O nucleolo e responsavel pela transcricao do RNA ribossomico (rRNA) e pela montagem das subunidades dos ribossomos, que depois sao exportados para o citoplasma. O DNA esta na cromatina (nucleo inteiro), a fotossintese ocorre nos cloroplastos e a digestao nos lisossomos.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Nucleolo = fabrica de ribossomos. Produz rRNA e monta as pecas do ribossomo.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q044",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "A mitose e o tipo de divisao celular que produz duas celulas-filhas geneticamente identicas a celula-mae. A mitose e dividida em quatro fases. A ordem correta e:",
+      "alternativas": [
+        {"id": "A", "texto": "Profase -> Anafase -> Metafase -> Telofase"},
+        {"id": "B", "texto": "Profase -> Metafase -> Anafase -> Telofase"},
+        {"id": "C", "texto": "Metafase -> Profase -> Anafase -> Telofase"},
+        {"id": "D", "texto": "Telofase -> Anafase -> Metafase -> Profase"}
+      ],
+      "correta": "B",
+      "explicacao": "A ordem correta da mitose e: Profase (condensacao dos cromossomos, desintegracao da carioteca), Metafase (cromossomos no plano equatorial), Anafase (separacao das cromatides-irmas) e Telofase (descondensacao, reformacao da carioteca). Use o mnemonico: P-M-A-T.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Mnemonico: P-M-A-T (Profase, Metafase, Anafase, Telofase). 'Por Meio As Telhas' ou crie o seu!",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q045",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "dificil",
+      "enunciado": "Na profase da mitose, uma serie de eventos ocorre. Assinale a alternativa que descreve corretamente um evento dessa fase:",
+      "alternativas": [
+        {"id": "A", "texto": "As cromatides-irmas se migram para polos opostos da celula"},
+        {"id": "B", "texto": "Os cromossomos se condensam, a carioteca se desintegra e o fuso mitotico comeca a se formar"},
+        {"id": "C", "texto": "Os cromossomos se alinham no plano equatorial da celula"},
+        {"id": "D", "texto": "A carioteca se reforma e os cromossomos se descondensam"}
+      ],
+      "correta": "B",
+      "explicacao": "Na profase, os cromossomos se tornam visiveis (condensacao), a carioteca se desintegra e o fuso mitotico comeca a se formar a partir dos centrossomos. A opcao A descreve a anafase, C a metafase e D a telofase.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Profase = preparacao. Cromossomos aparecem, carioteca some, fuso se forma. Cada fase tem eventos especificos.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q046",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "facil",
+      "enunciado": "A meiose e o tipo de divisao celular que produz gametas (ou esporos). Diferente da mitose, a meiose produz celulas com:",
+      "alternativas": [
+        {"id": "A", "texto": "O mesmo numero de cromossomos da celula-mae"},
+        {"id": "B", "texto": "A metade do numero de cromossomos da celula-mae"},
+        {"id": "C", "texto": "O dobro do numero de cromossomos da celula-mae"},
+        {"id": "D", "texto": "Quatro vezes o numero de cromossomos da celula-mae"}
+      ],
+      "correta": "B",
+      "explicacao": "A meiose e uma divisao reducional: uma celula diploide (2n) origina quatro celulas haploides (n), com metade do numero de cromossomos. Isso e essencial para que, na fecundacao, os gametas se combinem e restaure o numero diploide da especie.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Meiose = divisao reducional (2n -> n). Mitose = divisao equacional (2n -> 2n). Gametas sao haploides.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q047",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "A meiose ocorre em duas divisoes sucessivas: meiose I e meiose II. Na meiose I, o evento mais importante e a separacao de:",
+      "alternativas": [
+        {"id": "A", "texto": "Cromatides-irmas"},
+        {"id": "B", "texto": "Cromossomos homólogos"},
+        {"id": "C", "texto": "Cromossomos nao-homologos aleatorios"},
+        {"id": "D", "texto": "Centromeros"}
+      ],
+      "correta": "B",
+      "explicacao": "Na meiose I (divisao reducional), os cromossomos homólogos se separam, reduzindo o numero de cromossomos pela metade. Na meiose II (divisao equacional), as cromatides-irmas se separam, de forma semelhante a mitose. A separacao de homologos na meiose I e o que garante a reducao do numero de cromossomos.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Meiose I = homologos se separam (reduz de 2n para n). Meiose II = cromatides-irmas se separem (como na mitose).",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q048",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "dificil",
+      "enunciado": "O crossing-over (permutacao) e um evento que ocorre durante a meiose I, especificamente na profase I. Esse processo consiste em:",
+      "alternativas": [
+        {"id": "A", "texto": "A separacao das cromatides-irmas dos cromossomos"},
+        {"id": "B", "texto": "A troca de segmentos entre cromatides de cromossomos homólogos, aumentando a variabilidade genetica"},
+        {"id": "C", "texto": "A duplicacao do DNA antes da divisao celular"},
+        {"id": "D", "texto": "A formacao do fuso mitotico"}
+      ],
+      "correta": "B",
+      "explicacao": "O crossing-over ocorre na profase I da meiose, quando cromossomos homólogos pareados (bivalentes) trocam segmentos de DNA entre cromatides nao-irmas. Isso cria novas combinacoes de alelos nos cromossomos, gerando variabilidade genetica. Nao ocorre na mitose.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Crossing-over = troca de pedacos entre homologos = mais variabilidade. Ocorre so na meiose, nunca na mitose.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q049",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "O ciclo celular compreende a interfase e a divisao celular. A interfase e dividida em tres periodos: G1, S e G2. No periodo S, ocorre:",
+      "alternativas": [
+        {"id": "A", "texto": "Crescimento celular e sintese de proteinas"},
+        {"id": "B", "texto": "Duplicacao do DNA (replicacao)"},
+        {"id": "C", "texto": "Condensacao dos cromossomos"},
+        {"id": "D", "texto": "Divisao do citoplasma (citocinese)"}
+      ],
+      "correta": "B",
+      "explicacao": "No periodo S (sintese) da interfase, o DNA e replicado, de modo que cada cromossomo passa a ter duas cromatides-irmas. Em G1, ha crescimento e sintese de proteinas. Em G2, ha preparacao para a divisao. A condensacao dos cromossomos ocorre na profase, e a citocinese na telofase.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "S = Sintese = duplicacao do DNA. G1 = crescimento. G2 = preparacao para divisao.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q050",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "facil",
+      "enunciado": "A citocinese e a divisao do citoplasma que geralmente acompanha a divisao do nucleo. Em celulas animais, a citocinese ocorre por:",
+      "alternativas": [
+        {"id": "A", "texto": "Formacao de uma placa celular no centro da celula"},
+        {"id": "B", "texto": "Estrangulamento (constricao) da membrana plasmatica de fora para dentro"},
+        {"id": "C", "texto": "Formacao de novos centriolos"},
+        {"id": "D", "texto": "Duplicacao do DNA"}
+      ],
+      "correta": "B",
+      "explicacao": "Em celulas animais, a citocinese ocorre por estrangulamento: um anel de filamentos de actina e miosina contrai a membrana plasmatica no plano equatorial, dividindo a celula em duas. Em celulas vegetais, ocorre formacao de placa celular (de dentro para fora), devido a presenca da parede celular rigida.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Animal = estrangulamento (de fora). Vegetal = placa celular (de dentro). A parede celular vegetal impede o estrangulamento.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q051",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "dificil",
+      "enunciado": "Uma celula humana possui 46 cromossomos (2n=46). Ao final da meiose, cada celula produzida tera:",
+      "alternativas": [
+        {"id": "A", "texto": "46 cromossomos, como a celula-mae"},
+        {"id": "B", "texto": "23 cromossomos, sendo cada um com uma cromatide"},
+        {"id": "C", "texto": "92 cromossomos"},
+        {"id": "D", "texto": "23 cromossomos, sendo cada um com duas cromatides"}
+      ],
+      "correta": "B",
+      "explicacao": "A meiose reduz o numero de cromossomos pela metade: de 46 (2n) para 23 (n). Ao final da meiose II, cada cromossomo e formado por apenas uma cromatide (apos a separacao na anafase II). Os gametas humanos (espermatozoides e ovulos) possuem 23 cromossomos.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Meiose: 2n -> n. Humano: 46 -> 23. Ao final da meiose II, cada cromossomo tem 1 cromatide.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q052",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "Os centrossomos (ou centros organizadores de microtubulos) sao estruturas celulares importantes na divisao celular. Sua funcao principal e:",
+      "alternativas": [
+        {"id": "A", "texto": "Armazenar o DNA"},
+        {"id": "B", "texto": "Organizar o fuso mitotico, formando os polos do fuso"},
+        {"id": "C", "texto": "Sintetizar proteinas"},
+        {"id": "D", "texto": "Realizar a fotossintese"}
+      ],
+      "correta": "B",
+      "explicacao": "Os centrossomos organizam os microtubulos do fuso mitotico, formando os polos da divisao celular. Eles migram para lados opostos da celula durante a profase e emitem os microtubulos que se conectam aos cromossomos. Estao presentes em celulas animais, mas ausentes na maioria das celulas vegetais superiores.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Centrossomo = organizador do fuso. Emite os 'cabos' (microtubulos) que puxam os cromossomos.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q053",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "dificil",
+      "enunciado": "A nao-disjuncao e um erro na divisao celular em que cromossomos nao se separam corretamente. Se a nao-disjuncao ocorrer na meiose I, o resultado sera:",
+      "alternativas": [
+        {"id": "A", "texto": "Todas as celulas-filhas com o numero correto de cromossomos"},
+        {"id": "B", "texto": "Duas celulas com um cromossomo a mais e duas com um cromossomo a menos"},
+        {"id": "C", "texto": "Apenas uma celula afetada e tres normais"},
+        {"id": "D", "texto": "Todas as celulas-filhas com o dobro de cromossomos"}
+      ],
+      "correta": "B",
+      "explicacao": "Na nao-disjuncao da meiose I, um par de cromossomos homologos nao se separa, indo inteiro para o mesmo polo. Isso produz duas celulas com n+1 cromossomos e duas com n-1. Na sindrome de Down (trissomia do 21), ha 47 cromossomos devido a nao-disjuncao.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Nao-disjuncao = cromossomo nao separa. Meiose I: 2 celulas com +1 e 2 com -1. Pode causar trissomias.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q054",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "facil",
+      "enunciado": "Os cromossomos podem ser classificados de acordo com a posicao do centromero. Um cromossomo metacentrico possui o centromero:",
+      "alternativas": [
+        {"id": "A", "texto": "Em uma das extremidades"},
+        {"id": "B", "texto": "No meio, formando dois braços de tamanho igual"},
+        {"id": "C", "texto": "Ligeiramente deslocado do centro, formando dois braços de tamanhos diferentes"},
+        {"id": "D", "texto": "Ausente"}
+      ],
+      "correta": "B",
+      "explicacao": "Cromossomos metacentricos possuem o centromero no meio, com dois braços de tamanho igual. Submetacentricos tem o centromero levemente deslocado (braços desiguais). Acrocentricos tem o centromero proximo a uma extremidade. Telocentricos (centromero na ponta) nao ocorrem em humanos.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Metacentrico = meio (braços iguais). Submetacentrico = quase no meio. Acrocentrico = perto da ponta.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q055",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "A interfase e o periodo entre duas divisoes celulares consecutivas. Sobre a interfase, e correto afirmar que:",
+      "alternativas": [
+        {"id": "A", "texto": "E um periodo de repouso, sem atividade metabolica"},
+        {"id": "B", "texto": "E um periodo de intensa atividade, incluindo crescimento, duplicacao do DNA e preparacao para a divisao"},
+        {"id": "C", "texto": "Ocorre apenas em celulas que nao se dividem"},
+        {"id": "D", "texto": "E mais curta que a fase mitotica em todos os tipos celulares"}
+      ],
+      "correta": "B",
+      "explicacao": "A interfase e um periodo de intensa atividade metabolica: a celula cresce (G1), duplica seu DNA (S) e se prepara para a divisao (G2). Nao e um periodo de repouso. A interfase ocupa cerca de 90% do ciclo celular, sendo muito mais longa que a fase mitotica.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Interfase = trabalho intenso (crescimento + duplicacao do DNA). Nao e 'descanso'. E a fase mais longa do ciclo.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q056",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "dificil",
+      "enunciado": "Na metafase da mitose, os cromossomos se alinham no plano equatorial da celula. Essa organizacao e possivel porque:",
+      "alternativas": [
+        {"id": "A", "texto": "Os cromossomos se movem espontaneamente para o centro"},
+        {"id": "B", "texto": "Microtubulos do fuso, ligados aos cinetocoros dos cromossomos, exercem forcas iguais e opostas, posicionando-os no centro"},
+        {"id": "C", "texto": "A membrana nuclear empurra os cromossomos para o centro"},
+        {"id": "D", "texto": "Os centriolos se fundem no centro da celula"}
+      ],
+      "correta": "B",
+      "explicacao": "Na metafase, cada cromossomo (com duas cromatides) esta ligado a microtubulos de polos opostos do fuso, conectados aos cinetocoros. As forcas de tracao opostas dos microtubulos posicionam os cromossomos no plano equatorial (placa metafasica). A carioteca ja se desintegrou na profase.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Metafase = cromossomos no meio. Microtubulos de lados opostos 'puxam' igualmente, equilibrando no centro.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q057",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "A comparacao entre mitose e meiose revela diferencas fundamentais. Assinale a alternativa que apresenta uma diferenca correta entre esses processos:",
+      "alternativas": [
+        {"id": "A", "texto": "A mitose ocorre apenas em celulas haploides e a meiose em celulas diploides"},
+        {"id": "B", "texto": "A mitose produz duas celulas geneticamente identicas; a meiose produz quatro celulas geneticamente diferentes"},
+        {"id": "C", "texto": "A mitose ocorre apenas em animais e a meiose apenas em plantas"},
+        {"id": "D", "texto": "A mitose envolve duas divisoes e a meiose apenas uma"}
+      ],
+      "correta": "B",
+      "explicacao": "A mitose produz 2 celulas-filhas geneticamente identicas a celula-mae (clones). A meiose produz 4 celulas geneticamente diferentes entre si e da celula-mae, devido ao crossing-over e a segregacao independente de homologos. A mitose ocorre em celulas somaticas (2n ou n), e a meiose em celulas diploides.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Mitose = 2 celulas iguais. Meiose = 4 celulas diferentes. Variabilidade genetica so na meiose.",
+      "tempo_estimado_seg": 60
+    },
+    {
+      "id": "q058",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "facil",
+      "enunciado": "Os poros nucleares sao estruturas presentes na carioteca que permitem a comunicacao entre o nucleo e o citoplasma. Atraves deles, sao transportados:",
+      "alternativas": [
+        {"id": "A", "texto": "Apenas moleculas de DNA"},
+        {"id": "B", "texto": "RNA (mRNA, tRNA, rRNA) do nucleo para o citoplasma, e proteinas do citoplasma para o nucleo"},
+        {"id": "C", "texto": "Apenas proteinas"},
+        {"id": "D", "texto": "Apenas lipidios"}
+      ],
+      "correta": "B",
+      "explicacao": "Os poros nucleares permitem o transporte seletivo de moleculas: RNAs (mensageiro, transportador e ribossomico) sao exportados do nucleo para o citoplasma, enquanto proteinas (como histonas, fatores de transcricao e enzimas) sao importadas do citoplasma para o nucleo. O DNA geralmente nao atravessa os poros.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Poros nucleares = portas seletivas. RNA sai do nucleo, proteinas entram. DNA geralmente fica no nucleo.",
+      "tempo_estimado_seg": 45
+    },
+    {
+      "id": "q059",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "dificil",
+      "enunciado": "A telomerase e uma enzima que adiciona sequencias repetitivas de DNA as extremidades dos cromossomos (telomeros), impedindo seu encurtamento durante as divisoes celulares. Celulas cancerosas frequentemente apresentam alta atividade de telomerase, o que contribui para:",
+      "alternativas": [
+        {"id": "A", "texto": "A morte celular programada (apoptose)"},
+        {"id": "B", "texto": "A capacidade de se dividirem indefinidamente (imortalidade celular)"},
+        {"id": "C", "texto": "A reducao da taxa de divisao celular"},
+        {"id": "D", "texto": "A diminuicao da variabilidade genetica"}
+      ],
+      "correta": "B",
+      "explicacao": "A telomerase mantem os telomeros longos, impedindo o encurtamento que normalmente limitaria o numero de divisoes celulares. Em celulas cancerosas, a alta atividade de telomerase permite divisoes indefinidas, contribuindo para o crescimento tumoral descontrolado. Na maioria das celulas somaticas normais, a telomerase e inativa.",
+      "competencia_bncc": "EM13CNT310",
+      "dica_pedagogica": "Telomerase = mantem telomeros longos = celula pode dividir indefinidamente. Cancer = telomerase ativa.",
+      "tempo_estimado_seg": 75
+    },
+    {
+      "id": "q060",
+      "assunto": "Núcleo e divisão celular",
+      "dificuldade": "medio",
+      "enunciado": "O cariotipo e o conjunto de cromossomos de um organismo, organizado por tamanho e morfologia. Em humanos, o cariotipo normal de uma celula somatica feminina e representado por:",
+      "alternativas": [
+        {"id": "A", "texto": "44 autossomos + XY"},
+        {"id": "B", "texto": "44 autossomos + XX"},
+        {"id": "C", "texto": "46 autossomos + XX"},
+        {"id": "D", "texto": "22 autossomos + XX"}
+      ],
+      "correta": "B",
+      "explicacao": "O cariotipo humano possui 46 cromossomos: 44 autossomos (22 pares) + 2 cromossomos sexuais. Mulheres possuem XX e homens possuem XY. A opcao A descreve o cariotipo masculino. A opcao C esta errada pois os 46 incluem os sexuais. A opcao D tem numero incorreto de autossomos.",
+      "competencia_bncc": "EM13CNT103",
+      "dica_pedagogica": "Humano: 46 total = 44 autossomos + 2 sexuais. Mulher = XX. Homem = XY.",
+      "tempo_estimado_seg": 45
+    }
+  ]
+}

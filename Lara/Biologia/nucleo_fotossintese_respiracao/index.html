@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../../index.html" aria-label="Voltar para matérias" style="display:inline-flex;align-items:center;gap:6px;padding:6px 14px;font-size:var(--fs-sm);font-weight:600;color:var(--ds-text-light);background:var(--ds-surface);border:1px solid var(--ds-border);border-radius:var(--radius-xl);text-decoration:none;transition:all 0.2s;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Voltar
+      </a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <nav aria-label="Navegação principal">
+        <ul class="ds-nav__list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <!-- 📘 SESSÃO: RESUMO -->
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="ds-progress-bar__fill"></div>
+      </div>
+      
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Biologia - Primeiro Ano do Ensino Médio</h1>
+        <p class="ds-lead">Estudo integrado sobre respiração celular, fotossíntese e núcleo/divisão celular — processos fundamentais que conectam o fluxo de energia e a continuidade da vida.</p>
+
+        <!-- 🤖 APP-BUILDER: INJETE OS BLOCOS DE ASSUNTOS AQUI -->
+        <div class="ds-summary-content" id="summary-content">
+
+          <section class="ds-study-block">
+            <h2>📖 Respiração Celular e Fermentação</h2>
+            <p>A respiração celular é o processo pelo qual as células oxidam moléculas orgânicas (principalmente glicose) para produzir ATP, a "moeda energética" universal. Ocorre em três etapas principais: glicolise (citoplasma), ciclo de Krebs (matriz mitocondrial) e cadeia transportadora de elétrons (membrana interna da mitocôndria).</p>
+            <div class="ds-highlight ds-highlight--formula">🔹 Equação geral: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~36-38 ATP<br>🔹 Glicolise: 1 glicose → 2 piruvato + 2 ATP + 2 NADH (citoplasma)<br>🔹 Ciclo de Krebs: 2 acetil-CoA → 4CO₂ + 6NADH + 2FADH₂ + 2GTP (matriz mitocondrial)<br>🔹 Cadeia respiratória: NADH/FADH₂ → gradiente de H⁺ → ATP sintase → ~34 ATP<br>🔹 Quimiosmose: bombeamento de H⁺ cria gradiente eletroquímico que impulsiona a síntese de ATP</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns &amp; pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">• A glicolise NÃO libera CO2 e NÃO usa oxigenio — isso é cobrado com frequência.<br>• O oxigenio NÃO é substrato do ciclo de Krebs; ele atua como aceptor final de elétrons na cadeia respiratória.<br>• A maior parte do ATP vem da cadeia respiratória (fosforilação oxidativa), não do ciclo de Krebs.<br>• Fermentação NÃO é exclusivamente anaeróbica — leveduras podem fermentar mesmo com O₂ (efeito Crabtree).<br>• NAD⁺ ganha elétrons (é reduzido) → vira NADH. Quem ganha elétrons é reduzido.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Na respiração aeróbica de 1 glicose: glicolise produz 2 ATP, ciclo de Krebs produz 2 GTP (≈2 ATP) e a cadeia respiratória produz ~34 ATP. Total: ~36-38 ATP. Na fermentação lática, só a glicolise ocorre: total = 2 ATP.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>📖 Fotossíntese e Quimiossíntese</h2>
+            <p>A fotossíntese é o processo autotrófico em que energia luminosa é convertida em energia química (glicose), ocorrendo em duas fases nos cloroplastos. A quimiossíntese é um processo análogo realizado por procariontes que usam energia da oxidação de compostos inorgânicos, sendo a base de cadeias alimentares em ambientes sem luz.</p>
+            <div class="ds-highlight ds-highlight--formula">🔹 Equação geral: 6CO₂ + 6H₂O + luz → C₆H₁₂O₆ + 6O₂<br>🔹 Fase clara (tilacoides): fotólise da H₂O → O₂ + H⁺ + e⁻; produção de ATP e NADPH<br>🔹 Fase escura/Calvin (estroma): CO₂ + ATP + NADPH → glicose (via RuBisCO)<br>🔹 Fotossistema II (680 nm): fotólise da água, libera O₂<br>🔹 Fotossistema I (700 nm): produção de NADPH<br>🔹 Plantas C4: fixação inicial em composto de 4C (milho, cana) — minimiza fotorrespiração<br>🔹 Plantas CAM: estômatos abrem à noite (cactos, abacaxi) — economia de água<br>🔹 Quimiossíntese: H₂S, NH₃, Fe²⁺ oxidados → energia para fixar CO₂</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns &amp; pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">• O O₂ liberado na fotossíntese vem da H₂O (fotólise), NÃO do CO2 — clássico em provas.<br>• A RuBisCO pode agir como oxigenase (fotorrespiração) quando O₂ está alto e CO2 baixo — é desperdício.<br>• Fase "escura" NÃO ocorre no escuro — precisa de ATP e NADPH da fase clara.<br>• Clorofila absorve azul e vermelho; reflete verde (por isso plantas são verdes).<br>• Quimiossíntese ≠ fotossíntese: ambas são autotróficas, mas a fonte de energia difere (química vs. luz).<br>• Bactérias quimiossintéticas são PRODUTORAS, não decompositoras.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> No experimento com Elodea e azul de bromotimol: sob luz, a alga absorve CO₂, reduzindo H⁺ na solução → pH sobe → indicador fica azul (básico). Isso prova que a fotossíntese consome CO₂.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>📖 Núcleo e Divisão Celular</h2>
+            <p>O núcleo celular abriga o material genético (DNA) organizado em cromossomos. A divisão celular ocorre por mitose (crescimento/reparação, produz células idênticas) e meiose (produção de gametas, reduz o número de cromossomos pela metade). O ciclo celular inclui interfase (G1, S, G2) e a fase mitótica.</p>
+            <div class="ds-highlight ds-highlight--formula">🔹 Carioteca: membrana dupla com poros nucleares (transporte seletivo de RNA e proteínas)<br>🔹 Cromatina → condensa → cromossomos (visíveis na divisão)<br>🔹 Nucleolo: produção de rRNA e montagem de ribossomos<br>🔹 Mitose (2n→2n): Prófase → Metáfase → Anáfase → Telófase (P-M-A-T)<br>🔹 Meiose I (2n→n): separação de homólogos + crossing-over (Prófase I)<br>🔹 Meiose II (n→n): separação de cromátides-irmas (como mitose)<br>🔹 Citocinese animal: estrangulamento (de fora); vegetal: placa celular (de dentro)<br>🔹 Cariótipo humano: 46 = 44 autossomos + XX (mulher) ou XY (homem)<br>🔹 Não-disjuncão: erro de separação → trissomias (ex.: Down = trissomia do 21)</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns &amp; pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">• Mitose produz 2 células IDÊNTICAS; meiose produz 4 células DIFERENTES geneticamente.<br>• Na meiose I separam-se HOMÓLOGOS; na meiose II separam-se CROMÁTIDES-IRMÃS.<br>• Crossing-over ocorre na Prófase I da MEIOSE, nunca na mitose.<br>• Interfase NÃO é "repouso" — é a fase mais longa e metabolicamente mais ativa (crescimento + replicação do DNA).<br>• Centrossomos organizam o fuso, mas a maioria das células vegetais superiores NÃO possui centrossomos.<br>• Telomerase ativa = células que se dividem indefinidamente (células-tronco e cancerosas).</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Uma célula humana (2n=46) após a meiose produz 4 células com 23 cromossomos cada. Na fecundação, dois gametas (n=23) se fundem → zigoto (2n=46), restaurando o número diploide da espécie.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>📋 Checklist de Preparação</h2>
+            <p>Antes de iniciar o quiz e o simulado, certifique-se de que domina os seguintes tópicos:</p>
+            <ul>
+              <li>Etapas da respiração celular (glicolise, ciclo de Krebs, cadeia respiratória) e seus locais</li>
+              <li>Equação geral da respiração aeróbica e da fermentação (láctica e alcoólica)</li>
+              <li>Quimiosmose e o papel do oxigênio como aceptor final de elétrons</li>
+              <li>Fase clara (fotólise, fotossistemas I e II) e fase escura (ciclo de Calvin, RuBisCO)</li>
+              <li>Adaptações C4 e CAM em plantas</li>
+              <li>Diferenças entre fotossíntese e quimiossíntese</li>
+              <li>Estrutura do núcleo (carioteca, cromatina, nucléolo, poros nucleares)</li>
+              <li>Fases da mitose (P-M-A-T) e eventos de cada fase</li>
+              <li>Meiose I vs. Meiose II: o que se separa em cada uma</li>
+              <li>Crossing-over e sua importância para a variabilidade genética</li>
+              <li>Ciclo celular: interfase (G1, S, G2) e fase mitótica</li>
+              <li>Cariótipo humano e consequências da não-disjuncão</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--warning">💡 Dica: Use o Quiz para testar seus conhecimentos de forma rápida (10 questões aleatórias) e o Simulado para uma experiência completa com cronômetro de 45 minutos. Ao final do simulado, você verá seu desempenho por competência BNCC.</div>
+          </section>
+
+        </div>
+        <!-- 🤖 FIM DA INJEÇÃO -->
+      </article>
+    </section>
+
+    <!-- 📝 SESSÃO: QUIZ -->
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+            <!-- 🤖 LLM INJECTION POINT: Botões .ds-option-btn gerados via JS -->
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 📄 SESSÃO: SIMULADO -->
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+          <!-- 🤖 LLM INJECTION POINT: Questão do simulado renderizada via JS -->
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>
