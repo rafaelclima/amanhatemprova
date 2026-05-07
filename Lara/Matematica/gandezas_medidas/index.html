@@ -3,315 +3,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Revisão interativa de Matemática — Grandezas e Medidas para o 1º Ano do Ensino Médio. Quiz, simulado e resumo completo.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📐</text></svg>">
-  <title>Revisão de Matemática — Grandezas e Medidas | 1º Ano EM</title>
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
 </head>
 <body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
 
-  <!-- ==================== HEADER ==================== -->
-  <header class="header">
-    <div class="header__container">
-      <h1 class="header__title">
-        <span class="header__icon">📐</span>
-        Revisão de Matemática
-      </h1>
-      <p class="header__subtitle">Grandezas e Medidas — 1º Ano do Ensino Médio</p>
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../index.html" class="ds-nav__back" aria-label="Voltar para Matemática">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        <span>Voltar</span>
+      </a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <nav aria-label="Navegação principal">
+        <ul class="ds-nav__list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <!-- ==================== NAVEGAÇÃO (TABS) ==================== -->
-  <nav class="nav">
-    <div class="nav__container">
-      <button class="nav__tab nav__tab--active" data-tab="resumo">
-        <span class="nav__tab-icon">📖</span>
-        Resumo
-      </button>
-      <button class="nav__tab" data-tab="quiz">
-        <span class="nav__tab-icon">❓</span>
-        Quiz
-      </button>
-      <button class="nav__tab" data-tab="simulado">
-        <span class="nav__tab-icon">📝</span>
-        Simulado
-      </button>
-      <button class="nav__tab" data-tab="resultados">
-        <span class="nav__tab-icon">🏆</span>
-        Resultados
-      </button>
-    </div>
-  </nav>
+  <main id="main-content" class="container">
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="ds-progress-bar__fill"></div>
+      </div>
 
-  <!-- ==================== CONTEÚDO PRINCIPAL ==================== -->
-  <main class="main">
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Matemática — Grandezas e Medidas</h1>
+        <p class="ds-lead">Revisão completa de Grandezas e Medidas para o Primeiro Ano do Ensino Médio. Estude as unidades do Sistema International (SI), conversões, escalas e cálculos de área e volume.</p>
 
-    <!-- ===== SEÇÃO: RESUMO ===== -->
-    <section class="section section--active" id="secao-resumo">
-      <div class="section__container">
+        <div class="ds-summary-content" id="summary-content">
+          <section class="ds-study-block">
+            <h2>📖 Grandezas e Medidas</h2>
+            <p>Grandezas são atributos dos objetos que podem ser medidos. No <strong>Sistema Internacional (SI)</strong>, cada grandeza possui uma unidade-padrão: metro (comprimento), quilograma (massa), segundo (tempo), litro (capacidade) e metro quadrado (área). Grandezas <strong>escalares</strong> precisam apenas de valor e unidade (ex: massa, temperatura). Grandezas <strong>vetoriais</strong> precisam também de direção e sentido (ex: velocidade, força).</p>
+            <div class="ds-highlight ds-highlight--formula">Unidades SI: comprimento → metro (m) | massa → quilograma (kg) | tempo → segundo (s) | capacidade → litro (L) | área → metro quadrado (m²) | volume → metro cúbico (m³)</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir grandezas escalares com vetoriais é o erro mais frequente. Massa é escalar (não tem direção), mas peso é vetorial (tem direção e sentido). Outro erro: achar que o grama é a unidade-padrão de massa do SI — na verdade é o quilograma. Em problemas com mapas e escalas, sempre verifique se as unidades estão antes de calcular.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Uma caixa tem massa de 2,5 kg. Isso equivale a 2.500 g. A unidade SI de massa é o kg, mas no dia a dia usamos muito o grama. Para converter kg → g, multiplique por 1.000.</p>
+          </section>
 
-        <article class="resumo">
+          <section class="ds-study-block">
+            <h2>📏 Comprimento e Distância</h2>
+            <p>Comprimento é a distância entre dois pontos. A unidade-padrão no SI é o <strong>metro (m)</strong>. Seus múltiplos e submúltiplos são usados conforme a escala: milímetro (mm) para objetos pequenos, quilômetro (km) para distâncias geográficas. Em mapas, a <strong>escala</strong> indica a proporção entre a distância no mapa e a distância real.</p>
+            <div class="ds-highlight ds-highlight--formula">Conversões: 1 km = 1.000 m | 1 m = 100 cm | 1 cm = 10 mm | 1 km = 100.000 cm Escala: distância real = distância no mapa × denominador da escala</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">O erro mais comum é não unificar as unidades antes de calcular. Se uma medida está em km e outra em m, converta tudo para a mesma unidade primeiro. Em escalas, muitos alunos dividem em vez de multiplicar: se a escala é 1:50.000, 1 cm no mapa = 50.000 cm na realidade (multiplica!). Outro erro: converter cm para km dividindo por 1.000 em vez de 100.000.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Em um mapa na escala 1:25.000, duas cidades estão a 12 cm de distância. Distância real = 12 × 25.000 = 300.000 cm = 3 km.</p>
+          </section>
 
-          <!-- Introdução -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">O que são Grandezas e Medidas?</h2>
-            <div class="resumo__conteudo" id="resumo-intro"></div>
-          </div>
+          <section class="ds-study-block">
+            <h2>⚖️ Massa</h2>
+            <p>Mede a quantidade de matéria de um corpo. A unidade-padrão no SI é o <strong>quilograma (kg)</strong>. A tonelada (t) é usada para grandes massas (1 t = 1.000 kg) e o grama (g) para pequenas (1 kg = 1.000 g). Em problemas com porcentagem de massa (ligas metálicas, soluções), calcule a fração de cada componente.</p>
+            <div class="ds-highlight ds-highlight--formula">Conversões: 1 t = 1.000 kg | 1 kg = 1.000 g | 1 t = 1.000.000 g Porcentagem de massa: massa do componente = (porcentual/100) × massa total</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Muitos alunos confundem 1 tonelada com 100 kg (esquecer que 1 t = 1.000 kg). Em problemas com razão de massas (ex: liga 70% ferro e 30% carbono), um erro frequente é confundir a massa do componente com a do complemento (calcular 30% em vez de 70%). Lembre-se: embarque todas as massas para a mesma unidade antes de somar ou subtrair.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Para produzir 500 kg de uma liga com 70% de ferro: ferro = 0,70 × 500 = 350 kg. O restante (150 kg) é carbono.</p>
+          </section>
 
-          <!-- Comprimento -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Comprimento e Distância</h2>
-            <div class="resumo__conteudo" id="resumo-comprimento"></div>
-          </div>
+          <section class="ds-study-block">
+            <h2>🧪 Capacidade e Volume</h2>
+            <p>Capacidade refere-se ao espaço interno de um recipiente, medida em <strong>litros (L)</strong>. Volume é o espaço ocupado por um sólido. A relação entre eles é: <strong>1 L = 1.000 cm³ = 1 dm³</strong>. Para sólidos, a unidade-padrão de volume é o m³. A conversão m³ → L é direta: 1 m³ = 1.000 L.</p>
+            <div class="ds-highlight ds-highlight--formula">Conversões: 1 L = 1.000 mL | 1 m³ = 1.000 L | 1 L = 1.000 cm³ Volume do paralelepípedo: V = c × l × h | Volume do cilindro: V = π × r² × h</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir m³ com litros (1 m³ = 1.000 L, não 1 L!) é o erro mais grave. Em cilindros, muitos usam o diâmetro como raio — lembre-se: raio = diâmetro ÷ 2, sempre. Em problemas de piscina/reservatório com "metros cúbicos de água", converta para litros dividindo por 1.000. Outro erro: calcular volume multiplicando área da base por altura só quando o sólido é prisma ou cilindro.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Uma piscina de 10 m × 5 m × 2 m tem volume = 100 m³ = 100.000 L. Se estiver 80% cheia, contém 80.000 litros de água.</p>
+          </section>
 
-          <!-- Massa -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Massa</h2>
-            <div class="resumo__conteudo" id="resumo-massa"></div>
-          </div>
+          <section class="ds-study-block">
+            <h2>⏱️ Tempo</h2>
+            <p>A unidade-padrão de tempo no SI é o <strong>segundo (s)</strong>. No cotidiano usamos minutos (1 min = 60 s) e horas (1 h = 3.600 s). Cálculos com intervalos de tempo requerem atenção com a base 60 (não decimal) e com mudanças de dia. Em problemas de fusos horários, cada 15° de longitude correspondem a 1 hora de diferença.</p>
+            <div class="ds-highlight ds-highlight--formula">Conversões: 1 h = 60 min | 1 min = 60 s | 1 h = 3.600 s Velocidade média: v = distância / tempo (unidades devem ser compatíveis!) Fuso horário: diferença em horas = diferença em longitudes / 15</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">O erro clássico é tratar tempo como base decimal: 1h30min ≠ 1,3 horas e sim 1,5 horas! Para converter minutos em horas, divida por 60. Em cálculos que atravessam a meia-noidedo, calcule o tempo até meia-noite e depois some o restante. Em fusos horários, cuidado: leste = horário adiantado (+), oeste = atrasado (−).</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Um voo parte às 22h50 e chega às 01h25 do dia seguinte. Duração: de 22h50 a 00h00 = 1h10 + de 00h00 a 01h25 = 1h25. Total = 2h35min.</p>
+          </section>
 
-          <!-- Capacidade / Volume -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Capacidade e Volume</h2>
-            <div class="resumo__conteudo" id="resumo-volume"></div>
-          </div>
+          <section class="ds-study-block">
+            <h2>📐 Área</h2>
+            <p>Área mede a superfície de uma figura plana, expressa em <strong>metros quadrados (m²)</strong>. Para terras e campos, usa-se o hectare (1 ha = 10.000 m²). As fórmulas variam conforme a figura geométrica. Para figuras compostas (terreno com piscina, jardim com caminho), calcule a área total e subtraia as partes removidas.</p>
+            <div class="ds-highlight ds-highlight--formula">Retângulo: A = base × altura | Triângulo: A = (base × altura) / 2 | Círculo: A = π × r² Trapézio: A = ((B + b) / 2) × h | Losango: A = (D × d) / 2 | 1 ha = 10.000 m²</div>
+            <details class="ds-collapsible">
+              <summary>⚠️ Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Esquecer de dividir por 2 na área do triângulo é o erro #1. Em círculos, confundir diâmetro com raio (use r = d/2, nunca d diretamente). Em hectare, lembrar divide por 10.000 (não 1.000). Para áreas de caminhos ao redor de figuras, calcule a área externa maior e subtraia a interna — não multiplique π pela largura do caminho!</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Um jardim quadrado com lado de 12 m tem caminho de 2 m ao redor. Área do jardim: 12² = 144 m². Lado total com caminho: 12 + 2 + 2 = 16 m. Área total: 16² = 256 m². Área do caminho: 256 − 144 = 112 m².</p>
+          </section>
 
-          <!-- Tempo -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Tempo</h2>
-            <div class="resumo__conteudo" id="resumo-tempo"></div>
-          </div>
-
-          <!-- Área -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Área</h2>
-            <div class="resumo__conteudo" id="resumo-area"></div>
-          </div>
-
-          <!-- Conversão de Unidades -->
-          <div class="resumo__bloco resumo__bloco--destaque">
-            <h2 class="resumo__titulo">Tabela de Conversão de Unidades</h2>
-            <div class="resumo__tabela-wrapper">
-              <table class="resumo__tabela" id="tabela-conversao"></table>
+          <section class="ds-study-block">
+            <h2>✅ Checklist de Preparação</h2>
+            <ul>
+              <li>Conheço as unidades do SI para comprimento, massa, tempo, capacidade e área</li>
+              <li>Sei converter entre múltiplos e submúltiplos (km↔m↔cm↔mm, kg↔g, L↔mL, h↔min↔s)</li>
+              <li>Sei calcular distancias reais a partir de escalas em mapas</li>
+              <li>Sei calcular volumes de paralelepípedos e cilindros e converter m³ para litros</li>
+              <li>Sei calcular intervalos de tempo, inclusive atravessando a meia-noite</li>
+              <li>Sei calcular áreas de retângulos, triângulos, círculos, trapézios e losangos</li>
+              <li>Sei converter m² para hectares (dividir por 10.000)</li>
+              <li>Sei resolver problemas com figuras compostas (área de caminho, terreno com piscina)</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Em TODOS os problemas de medidas, o primeiro passo é unificar as unidades. Converta tudo para a mesma unidade antes de calcular. E lembre-se: 1 m³ = 1.000 L, 1 km = 1.000 m, 1 h = 3.600 s.
             </div>
-          </div>
+          </section>
+        </div>
+      </article>
+    </section>
 
-          <!-- Exemplos Práticos -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Exemplos Práticos</h2>
-            <div class="resumo__exemplos" id="resumo-exemplos"></div>
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
           </div>
-
-          <!-- Recursos Externos -->
-          <div class="resumo__bloco">
-            <h2 class="resumo__titulo">Recursos para Estudo</h2>
-            <div class="resumo__recursos" id="resumo-recursos"></div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
           </div>
-
         </article>
-
       </div>
     </section>
 
-    <!-- ===== SEÇÃO: QUIZ ===== -->
-    <section class="section" id="secao-quiz">
-      <div class="section__container">
-
-        <!-- Tela Inicial do Quiz -->
-        <div class="quiz__inicio" id="quiz-inicio">
-          <div class="quiz__card">
-            <h2 class="quiz__card-titulo">Quiz de Revisão</h2>
-            <p class="quiz__card-descricao">
-              Teste seus conhecimentos com 10 questões aleatórias sobre grandezas e medidas.
-              Você verá o resultado de cada resposta na hora!
-            </p>
-            <div class="quiz__card-info">
-              <div class="quiz__card-info-item">
-                <span class="quiz__card-info-icon">📋</span>
-                <span>10 questões</span>
-              </div>
-              <div class="quiz__card-info-item">
-                <span class="quiz__card-info-icon">⏱️</span>
-                <span>Sem limite de tempo</span>
-              </div>
-              <div class="quiz__card-info-item">
-                <span class="quiz__card-info-icon">💡</span>
-                <span>Feedback imediato</span>
-              </div>
-            </div>
-            <button class="btn btn--primario" id="btn-iniciar-quiz">
-              Começar Quiz
-            </button>
-          </div>
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
         </div>
-
-        <!-- Quiz em Andamento -->
-        <div class="quiz__andamento quiz--oculto" id="quiz-andamento">
-          <!-- Barra de Progresso -->
-          <div class="progresso">
-            <div class="progresso__info">
-              <span class="progresso__texto">Questão <span id="quiz-numero-atual">1</span> de 10</span>
-              <span class="progresso__texto"><span id="quiz-acertos-parciais">0</span> acertos</span>
-            </div>
-            <div class="progresso__barra">
-              <div class="progresso__preenchimento" id="quiz-barra-progresso"></div>
-            </div>
-          </div>
-
-          <!-- Card da Questão -->
-          <div class="questao" id="quiz-questao">
-            <div class="questao__cabecalho">
-              <span class="questao__numero" id="quiz-questao-numero">1</span>
-              <span class="questao__tipo">Múltipla Escolha</span>
-            </div>
-            <p class="questao__enunciado" id="quiz-enunciado"></p>
-            <div class="questao__alternativas" id="quiz-alternativas"></div>
-            <div class="questao__feedback questao__feedback--oculto" id="quiz-feedback"></div>
-            <button class="btn btn--primario questao__btn-proximo questao__btn--oculto" id="quiz-btn-proximo">
-              Próxima Questão
-            </button>
-          </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
         </div>
+      </div>
 
-        <!-- Resultado Final do Quiz -->
-        <div class="quiz__resultado quiz--oculto" id="quiz-resultado-final">
-          <div class="resultado-card" id="quiz-resultado-card"></div>
-        </div>
-
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
       </div>
     </section>
-
-    <!-- ===== SEÇÃO: SIMULADO ===== -->
-    <section class="section" id="secao-simulado">
-      <div class="section__container">
-
-        <!-- Tela Inicial do Simulado -->
-        <div class="simulado__inicio" id="simulado-inicio">
-          <div class="simulado__card">
-            <h2 class="simulado__card-titulo">Simulado</h2>
-            <p class="simulado__card-descricao">
-              Modo prova! Responda 10 questões sem ver o gabarito até o final.
-              Gerencie seu tempo e confira seu desempenho.
-            </p>
-            <div class="simulado__card-info">
-              <div class="simulado__card-info-item">
-                <span class="simulado__card-info-icon">📋</span>
-                <span>10 questões</span>
-              </div>
-              <div class="simulado__card-info-item">
-                <span class="simulado__card-info-icon">⏱️</span>
-                <span>Tempo sugerido: 20 min</span>
-              </div>
-              <div class="simulado__card-info-item">
-                <span class="simulado__card-info-icon">🔒</span>
-                <span>Correção apenas ao final</span>
-              </div>
-            </div>
-            <button class="btn btn--primario" id="btn-iniciar-simulado">
-              Iniciar Simulado
-            </button>
-          </div>
-        </div>
-
-        <!-- Simulado em Andamento -->
-        <div class="simulado__andamento simulado--oculto" id="simulado-andamento">
-          <!-- Barra de Progresso -->
-          <div class="progresso">
-            <div class="progresso__info">
-              <span class="progresso__texto">Questão <span id="simulado-numero-atual">1</span> de 10</span>
-              <span class="progresso__texto progresso__timer" id="simulado-timer">00:00</span>
-            </div>
-            <div class="progresso__barra">
-              <div class="progresso__preenchimento" id="simulado-barra-progresso"></div>
-            </div>
-          </div>
-
-          <!-- Card da Questão -->
-          <div class="questao" id="simulado-questao">
-            <div class="questao__cabecalho">
-              <span class="questao__numero" id="simulado-questao-numero">1</span>
-              <span class="questao__tipo">Múltipla Escolha</span>
-            </div>
-            <p class="questao__enunciado" id="simulado-enunciado"></p>
-            <div class="questao__alternativas" id="simulado-alternativas"></div>
-            <div class="questao__botoes">
-              <button class="btn btn--secundario" id="simulado-btn-anterior" disabled>
-                ← Anterior
-              </button>
-              <button class="btn btn--primario" id="simulado-btn-proximo">
-                Próxima →
-              </button>
-            </div>
-          </div>
-
-          <!-- Navegação rápida entre questões -->
-          <div class="simulado__navegacao" id="simulado-navegacao"></div>
-
-          <!-- Botão Finalizar -->
-          <button class="btn btn--finalizar" id="btn-finalizar-simulado">
-            Finalizar Simulado
-          </button>
-        </div>
-
-        <!-- Modal de Confirmação -->
-        <div class="modal modal--oculto" id="modal-confirmacao">
-          <div class="modal__conteudo">
-            <h3 class="modal__titulo">Tem certeza?</h3>
-            <p class="modal__texto">
-              Você ainda possui <span id="modal-questoes-faltantes">0</span> questão(ões) não respondida(s).
-              Deseja finalizar o simulado mesmo assim?
-            </p>
-            <div class="modal__botoes">
-              <button class="btn btn--secundario" id="modal-btn-cancelar">Continuar Respondendo</button>
-              <button class="btn btn--primario" id="modal-btn-confirmar">Finalizar</button>
-            </div>
-          </div>
-        </div>
-
-        <!-- Resultado Final do Simulado -->
-        <div class="simulado__resultado simulado--oculto" id="simulado-resultado-final">
-          <div class="resultado-card resultado-card--simulado" id="simulado-resultado-card"></div>
-          <div class="simulado__gabarito" id="simulado-gabarito"></div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- ===== SEÇÃO: RESULTADOS ===== -->
-    <section class="section" id="secao-resultados">
-      <div class="section__container">
-
-        <div class="resultados__vazio" id="resultados-vazio">
-          <div class="resultados__vazio-card">
-            <span class="resultados__vazio-icon">📊</span>
-            <h2 class="resultados__vazio-titulo">Nenhum resultado ainda</h2>
-            <p class="resultados__vazio-texto">
-              Complete o Quiz ou o Simulado para ver seu desempenho aqui.
-            </p>
-            <button class="btn btn--primario" id="btn-ir-quiz">Ir para o Quiz</button>
-          </div>
-        </div>
-
-        <div class="resultados__historico resultados--oculto" id="resultados-historico">
-          <h2 class="resultados__titulo">Histórico de Resultados</h2>
-          <div class="resultados__cards" id="resultados-cards"></div>
-        </div>
-
-      </div>
-    </section>
-
   </main>
 
-  <!-- ==================== FOOTER ==================== -->
-  <footer class="footer">
-    <p class="footer__texto">
-      Revisão de Matemática — Grandezas e Medidas | 1º Ano do Ensino Médio
-    </p>
-  </footer>
-
-  <script src="script.js"></script>
+  <script src="assets/js/app.js" type="module"></script>
 </body>
 </html>

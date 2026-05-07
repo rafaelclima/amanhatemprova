@@ -1,0 +1,727 @@
+{
+  "serie": "Primeiro Ano do Ensino Médio",
+  "disciplina": "Matemática",
+  "assuntos": ["Grandezas e medidas", "Comprimento e distância", "Massa", "Capacidade e volume", "Tempo", "Área"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "O Sistema Internacional de Unidades (SI) define unidades padronizadas para diversas grandezas. A unidade de comprimento no SI é o metro (m). Qual é a unidade fundamental de massa nesse sistema?",
+      "alternativas": [
+        { "letra": "A", "texto": "Grama (g)", "correta": false },
+        { "letra": "B", "texto": "Quilograma (kg)", "correta": true },
+        { "letra": "C", "texto": "Libra (lb)", "correta": false },
+        { "letra": "D", "texto": "Tonelada (t)", "correta": false }
+      ],
+      "explicacao": "No SI, a unidade fundamental de massa é o quilograma (kg). O grama é um submúltiplo (1 kg = 1.000 g). A libra pertence ao sistema imperial britânico e a tonelada é um múltiplo (1 t = 1.000 kg)."
+    },
+    {
+      "id": 2,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Um atleta corre uma maratona de 42 quilômetros. Essa distância é equivalente a quantos metros?",
+      "alternativas": [
+        { "letra": "A", "texto": "420 m", "correta": false },
+        { "letra": "B", "texto": "4.200 m", "correta": false },
+        { "letra": "C", "texto": "42.000 m", "correta": true },
+        { "letra": "D", "texto": "420.000 m", "correta": false }
+      ],
+      "explicacao": "Para converter quilômetros em metros, multiplicamos por 1.000: 42 km x 1.000 = 42.000 m. A alternativa B corresponde a 4,2 km (divisão por 10 em vez de multiplicação) e a D a 420 km."
+    },
+    {
+      "id": 3,
+      "assunto": "Massa",
+      "enunciado": "Uma receita de bolo pede 500 gramas de farinha de trigo. Essa mesma quantidade pode ser expressa como:",
+      "alternativas": [
+        { "letra": "A", "texto": "50 kg", "correta": false },
+        { "letra": "B", "texto": "0,05 kg", "correta": false },
+        { "letra": "C", "texto": "5 kg", "correta": false },
+        { "letra": "D", "texto": "0,5 kg", "correta": true }
+      ],
+      "explicacao": "Para converter gramas em quilogramas, dividimos por 1.000: 500 g / 1.000 = 0,5 kg. A alternativa C equivale a 5.000 g e a B equivale a 50 g."
+    },
+    {
+      "id": 4,
+      "assunto": "Tempo",
+      "enunciado": "Uma aula tem duração de 1 hora e 30 minutos. Essa duração total, em minutos, é de:",
+      "alternativas": [
+        { "letra": "A", "texto": "60 minutos", "correta": false },
+        { "letra": "B", "texto": "90 minutos", "correta": true },
+        { "letra": "C", "texto": "130 minutos", "correta": false },
+        { "letra": "D", "texto": "150 minutos", "correta": false }
+      ],
+      "explicacao": "1 hora = 60 minutos. Somando os 30 minutos adicionais: 60 + 30 = 90 minutos. A alternativa C resulta de somar 1 + 30 = 31 e anexar o zero, um erro comum."
+    },
+    {
+      "id": 5,
+      "assunto": "Área",
+      "enunciado": "Um terreno retangular mede 12 metros de comprimento por 8 metros de largura. Qual é a área desse terreno?",
+      "alternativas": [
+        { "letra": "A", "texto": "40 m²", "correta": false },
+        { "letra": "B", "texto": "20 m²", "correta": false },
+        { "letra": "C", "texto": "96 m²", "correta": true },
+        { "letra": "D", "texto": "48 m²", "correta": false }
+      ],
+      "explicacao": "A área de um retângulo = comprimento x largura = 12 m x 8 m = 96 m². A alternativa A corresponde ao perímetro dividido por 2 (2x12 + 2x8 = 40, mas esse é o semiperímetro). A D resultaria da média entre 12 e 8 multiplicada por 12."
+    },
+    {
+      "id": 6,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Uma garrafa de refrigerante tem capacidade de 2,5 litros. Essa medida é equivalente a:",
+      "alternativas": [
+        { "letra": "A", "texto": "250 mL", "correta": false },
+        { "letra": "B", "texto": "2.500 mL", "correta": true },
+        { "letra": "C", "texto": "25 mL", "correta": false },
+        { "letra": "D", "texto": "25.000 mL", "correta": false }
+      ],
+      "explicacao": "1 litro = 1.000 mililitros. Logo, 2,5 litros = 2,5 x 1.000 = 2.500 mL. A alternativa A equivale a 0,25 L (uma garrafa pequena de água)."
+    },
+    {
+      "id": 7,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "Considere as seguintes grandezas: I) Massa II) Força III) Temperatura IV) Velocidade. Quais dessas são grandezas escalares (precisam apenas de valor numérico e unidade para serem completamente definidas)?",
+      "alternativas": [
+        { "letra": "A", "texto": "Apenas I e II", "correta": false },
+        { "letra": "B", "texto": "Apenas II e III", "correta": false },
+        { "letra": "C", "texto": "Apenas I e III", "correta": true },
+        { "letra": "D", "texto": "I, III e IV", "correta": false }
+      ],
+      "explicacao": "Massa (I) e Temperatura (III) são grandezas escalares, pois ficam completamente definidas com um valor numérico e unidade. Força (II) e Velocidade (IV) são vetoriais, pois além do módulo precisam de direção e sentido."
+    },
+    {
+      "id": 8,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Em um mapa na escala 1:25.000, duas cidades estão a 12 centímetros de distância. Qual é a distância real entre essas cidades em quilômetros?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,3 km", "correta": false },
+        { "letra": "B", "texto": "3 km", "correta": true },
+        { "letra": "C", "texto": "30 km", "correta": false },
+        { "letra": "D", "texto": "300 km", "correta": false }
+      ],
+      "explicacao": "Escala 1:25.000 significa que 1 cm no mapa = 25.000 cm na realidade. Logo, 12 cm = 12 x 25.000 = 300.000 cm. Convertendo para km: 300.000 / 100.000 = 3 km. A alternativa A resulta de dividir por 1.000.000 em vez de 100.000."
+    },
+    {
+      "id": 9,
+      "assunto": "Massa",
+      "enunciado": "Um caminhão transporta 3 toneladas e meia de arroz. Essa quantidade, expressa em quilogramas, é de:",
+      "alternativas": [
+        { "letra": "A", "texto": "305 kg", "correta": false },
+        { "letra": "B", "texto": "350 kg", "correta": false },
+        { "letra": "C", "texto": "3.050 kg", "correta": false },
+        { "letra": "D", "texto": "3.500 kg", "correta": true }
+      ],
+      "explicacao": "1 tonelada = 1.000 kg. Logo, 3,5 toneladas = 3,5 x 1.000 = 3.500 kg. A alternativa C corresponde a 3 toneladas e 50 kg. A B corresponde a apenas 350 kg (erro na tabela de conversão)."
+    },
+    {
+      "id": 10,
+      "assunto": "Tempo",
+      "enunciado": "Um voo partiu de São Paulo às 22h50min e chegou a Recife às 01h25min do dia seguinte. Qual foi a duração total do voo?",
+      "alternativas": [
+        { "letra": "A", "texto": "1 hora e 25 minutos", "correta": false },
+        { "letra": "B", "texto": "2 horas e 25 minutos", "correta": false },
+        { "letra": "C", "texto": "2 horas e 35 minutos", "correta": true },
+        { "letra": "D", "texto": "3 horas e 35 minutos", "correta": false }
+      ],
+      "explicacao": "De 22h50 até 00h00 = 1h10. De 00h00 até 01h25 = 1h25. Total = 1h10 + 1h25 = 2h35min. Outra forma: se o voo durasse exatamente até 01h50 seria 3h00; como chegou 25 min antes, subtraindo 25 min de 3h temos 2h35min."
+    },
+    {
+      "id": 11,
+      "assunto": "Área",
+      "enunciado": "Um triângulo tem base de 15 cm e altura de 10 cm. Qual é a área desse triângulo?",
+      "alternativas": [
+        { "letra": "A", "texto": "150 cm²", "correta": false },
+        { "letra": "B", "texto": "75 cm²", "correta": true },
+        { "letra": "C", "texto": "25 cm²", "correta": false },
+        { "letra": "D", "texto": "50 cm²", "correta": false }
+      ],
+      "explicacao": "Área do triângulo = (base x altura) / 2 = (15 x 10) / 2 = 150 / 2 = 75 cm². A alternativa A resulta de esquecer de dividir por 2 (cálculo do retângulo). A C é a soma de base e altura dividida por 2."
+    },
+    {
+      "id": 12,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Uma caixa d'água tem formato de paralelepípedo com medidas 2 m x 1,5 m x 1 m. Qual é a capacidade máxima dessa caixa em litros?",
+      "alternativas": [
+        { "letra": "A", "texto": "3.000 litros", "correta": true },
+        { "letra": "B", "texto": "3 litros", "correta": false },
+        { "letra": "C", "texto": "300 litros", "correta": false },
+        { "letra": "D", "texto": "30.000 litros", "correta": false }
+      ],
+      "explicacao": "Volume = 2 x 1,5 x 1 = 3 m³. Como 1 m³ = 1.000 litros temos 3 x 1.000 = 3.000 litros. A alternativa B confunde m³ com litros diretamente. A C resulta de supor 1 m³ = 100 L."
+    },
+    {
+      "id": 13,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Uma pista de corrida tem 400 metros de comprimento. Quantas voltas completas um corredor deve dar para percorrer 10 quilômetros?",
+      "alternativas": [
+        { "letra": "A", "texto": "4 voltas", "correta": false },
+        { "letra": "B", "texto": "20 voltas", "correta": false },
+        { "letra": "C", "texto": "25 voltas", "correta": true },
+        { "letra": "D", "texto": "40 voltas", "correta": false }
+      ],
+      "explicacao": "10 km = 10.000 m. Dividindo pelo comprimento da pista: 10.000 / 400 = 25 voltas. A alternativa A resulta de 10 / 400 = 0,025 (não converteu km para m). A B resulta de 10.000 / 500."
+    },
+    {
+      "id": 14,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "Um cubo tem aresta de 2 cm. Qual é o volume desse cubo, expresso em milímetros cúbicos (mm³)?",
+      "alternativas": [
+        { "letra": "A", "texto": "8 mm³", "correta": false },
+        { "letra": "B", "texto": "80 mm³", "correta": false },
+        { "letra": "C", "texto": "800 mm³", "correta": false },
+        { "letra": "D", "texto": "8.000 mm³", "correta": true }
+      ],
+      "explicacao": "Volume do cubo = aresta³. Convertendo a aresta para mm: 2 cm = 20 mm. Volume = 20³ = 8.000 mm³. A alternativa A calcula 2³ sem converter. A C resulta de 20² x 2 (confusão entre área e volume)."
+    },
+    {
+      "id": 15,
+      "assunto": "Massa",
+      "enunciado": "Uma liga metálica é composta por 70% de ferro e 30% de carbono em massa. Para produzir 500 kg dessa liga, quantos quilogramas de ferro são necessários?",
+      "alternativas": [
+        { "letra": "A", "texto": "150 kg", "correta": false },
+        { "letra": "B", "texto": "350 kg", "correta": true },
+        { "letra": "C", "texto": "300 kg", "correta": false },
+        { "letra": "D", "texto": "200 kg", "correta": false }
+      ],
+      "explicacao": "Ferro representa 70% da massa total: 70% de 500 kg = 0,70 x 500 = 350 kg. A alternativa A corresponde à massa de carbono (30% de 500 = 150 kg), um distrator comum."
+    },
+    {
+      "id": 16,
+      "assunto": "Tempo",
+      "enunciado": "Um fuso horário corresponde a uma diferença de 1 hora a cada 15 graus de longitude. Se em Brasília (fuso -3 UTC) são 14 horas, que horas são em Tóquio (fuso +9 UTC)?",
+      "alternativas": [
+        { "letra": "A", "texto": "2 horas do mesmo dia", "correta": false },
+        { "letra": "B", "texto": "23 horas do mesmo dia", "correta": false },
+        { "letra": "C", "texto": "2 horas do dia seguinte", "correta": true },
+        { "letra": "D", "texto": "23 horas do dia anterior", "correta": false }
+      ],
+      "explicacao": "A diferença entre o fuso -3 e o fuso +9 é de 12 horas. Como Tóquio está a leste de Brasília, o horário é adiantado: 14h + 12h = 26h, que equivale a 2 horas do dia seguinte (26 - 24 = 2)."
+    },
+    {
+      "id": 17,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um reservatório cilíndrico tem diâmetro da base de 6 metros e altura de 4 metros. Considerando pi = 3,14, qual é a capacidade desse reservatório em litros?",
+      "alternativas": [
+        { "letra": "A", "texto": "113.040 litros", "correta": true },
+        { "letra": "B", "texto": "37.680 litros", "correta": false },
+        { "letra": "C", "texto": "75.360 litros", "correta": false },
+        { "letra": "D", "texto": "150.720 litros", "correta": false }
+      ],
+      "explicacao": "Raio = 6/2 = 3 m. Volume do cilindro = pi x r² x h = 3,14 x 3² x 4 = 3,14 x 9 x 4 = 113,04 m³. Convertendo para litros: 113,04 x 1.000 = 113.040 litros. A alternativa B usa raio = 2 m (erro ao calcular o raio)."
+    },
+    {
+      "id": 18,
+      "assunto": "Área",
+      "enunciado": "Um jardim tem formato circular com diâmetro de 20 metros. Considerando pi = 3,14, qual é a área do jardim em metros quadrados?",
+      "alternativas": [
+        { "letra": "A", "texto": "62,8 m²", "correta": false },
+        { "letra": "B", "texto": "125,6 m²", "correta": false },
+        { "letra": "C", "texto": "314 m²", "correta": true },
+        { "letra": "D", "texto": "628 m²", "correta": false }
+      ],
+      "explicacao": "Raio = 20/2 = 10 m. Área do círculo = pi x r² = 3,14 x 10² = 3,14 x 100 = 314 m². A alternativa D usa o diâmetro ao quadrado (3,14 x 20² = 1.256) e divide por 2. A B resulta de pi x d (3,14 x 20 = 62,8) x 2."
+    },
+    {
+      "id": 19,
+      "assunto": "Área",
+      "enunciado": "Um trapézio tem base maior de 18 cm, base menor de 10 cm e altura de 6 cm. Qual é a área desse trapézio?",
+      "alternativas": [
+        { "letra": "A", "texto": "168 cm²", "correta": false },
+        { "letra": "B", "texto": "84 cm²", "correta": true },
+        { "letra": "C", "texto": "48 cm²", "correta": false },
+        { "letra": "D", "texto": "108 cm²", "correta": false }
+      ],
+      "explicacao": "Área do trapézio = (base maior + base menor) / 2 x altura = (18 + 10) / 2 x 6 = 28 / 2 x 6 = 14 x 6 = 84 cm². A alternativa A resulta de não dividir a soma das bases por 2. A C resulta de (18 - 10) x 6 / 2."
+    },
+    {
+      "id": 20,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um tanque de combustível tem formato de um cilindro com 80 cm de comprimento e 30 cm de diâmetro. Considerando pi = 3,14, qual é a capacidade desse tanque em litros, arredondada para o litro mais próximo?",
+      "alternativas": [
+        { "letra": "A", "texto": "56 litros", "correta": false },
+        { "letra": "B", "texto": "57 litros", "correta": true },
+        { "letra": "C", "texto": "113 litros", "correta": false },
+        { "letra": "D", "texto": "226 litros", "correta": false }
+      ],
+      "explicacao": "Raio = 30/2 = 15 cm. Volume = pi x r² x h = 3,14 x 15² x 80 = 3,14 x 225 x 80 = 56.520 cm³. Como 1 litro = 1.000 cm³, temos 56.520 / 1.000 = 56,52 litros, que arredondado é 57 litros. A alternativa A é o valor truncado. A C usa diâmetro em vez do raio."
+    },
+    {
+      "id": 21,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "O prefixo 'mega' no Sistema Internacional de Unidades representa qual potência de 10?",
+      "alternativas": [
+        { "letra": "A", "texto": "10³ (mil)", "correta": false },
+        { "letra": "B", "texto": "10⁶ (um milhão)", "correta": true },
+        { "letra": "C", "texto": "10⁹ (um bilhão)", "correta": false },
+        { "letra": "D", "texto": "10¹² (um trilhão)", "correta": false }
+      ],
+      "explicacao": "O prefixo 'mega' representa 10⁶, ou seja, um milhão. Exemplo: 1 MHz = 1.000.000 Hz. O prefixo quilo (k) representa 10³, giga (G) representa 10⁹ e tera (T) representa 10¹²."
+    },
+    {
+      "id": 22,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Uma estrada tem 450 km de comprimento. Em uma maquete, essa estrada é representada por 90 cm. Qual é a escala utilizada?",
+      "alternativas": [
+        { "letra": "A", "texto": "1:500.000", "correta": true },
+        { "letra": "B", "texto": "1:50.000", "correta": false },
+        { "letra": "C", "texto": "1:5.000", "correta": false },
+        { "letra": "D", "texto": "1:5.000.000", "correta": false }
+      ],
+      "explicacao": "450 km = 450.000 m = 45.000.000 cm. Escala = 90 cm / 45.000.000 cm = 1 / 500.000. Logo, a escala é 1:500.000. A alternativa B resulta de não converter corretamente km para cm."
+    },
+    {
+      "id": 23,
+      "assunto": "Massa",
+      "enunciado": "Um pacote de café tem massa de 250 gramas. Quantos pacotes desse tipo são necessários para completar 2 quilogramas?",
+      "alternativas": [
+        { "letra": "A", "texto": "4 pacotes", "correta": false },
+        { "letra": "B", "texto": "6 pacotes", "correta": false },
+        { "letra": "C", "texto": "8 pacotes", "correta": true },
+        { "letra": "D", "texto": "10 pacotes", "correta": false }
+      ],
+      "explicacao": "2 kg = 2.000 g. Dividindo: 2.000 / 250 = 8 pacotes. A alternativa A resulta de dividir 2 por 0,25 sem converter unidades corretamente (ou 1.000/250). A B resulta de 2.000/333 (arredondamento incorreto)."
+    },
+    {
+      "id": 24,
+      "assunto": "Tempo",
+      "enunciado": "Um filme tem duração de 2 horas e 45 minutos. Se começou às 19h30min, a que horas terminou?",
+      "alternativas": [
+        { "letra": "A", "texto": "21h15min", "correta": false },
+        { "letra": "B", "texto": "22h05min", "correta": false },
+        { "letra": "C", "texto": "22h15min", "correta": true },
+        { "letra": "D", "texto": "22h30min", "correta": false }
+      ],
+      "explicacao": "19h30min + 2h = 21h30min. 21h30min + 45min = 22h15min. A alternativa A resulta de somar apenas 45 minutos. A B subtrai 10 minutos por erro de cálculo."
+    },
+    {
+      "id": 25,
+      "assunto": "Área",
+      "enunciado": "Um losango tem diagonal maior de 16 cm e diagonal menor de 12 cm. Qual é a área desse losango?",
+      "alternativas": [
+        { "letra": "A", "texto": "96 cm²", "correta": true },
+        { "letra": "B", "texto": "192 cm²", "correta": false },
+        { "letra": "C", "texto": "48 cm²", "correta": false },
+        { "letra": "D", "texto": "56 cm²", "correta": false }
+      ],
+      "explicacao": "Área do losango = (diagonal maior x diagonal menor) / 2 = (16 x 12) / 2 = 192 / 2 = 96 cm². A alternativa B resulta de não dividir por 2. A C divide por 4 em vez de 2. A D soma as diagonais e divide por 2."
+    },
+    {
+      "id": 26,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Uma piscina olímpica tem dimensões de 50 m x 25 m x 2 m. Qual é a capacidade dessa piscina em litros?",
+      "alternativas": [
+        { "letra": "A", "texto": "250.000 litros", "correta": false },
+        { "letra": "B", "texto": "2.500.000 litros", "correta": true },
+        { "letra": "C", "texto": "25.000 litros", "correta": false },
+        { "letra": "D", "texto": "25.000.000 litros", "correta": false }
+      ],
+      "explicacao": "Volume = 50 x 25 x 2 = 2.500 m³. Como 1 m³ = 1.000 litros: 2.500 x 1.000 = 2.500.000 litros. A alternativa A usa 1 m³ = 100 L. A C resulta de 50 x 25 x 2 = 2.500 L sem converter."
+    },
+    {
+      "id": 27,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "A unidade de área 'hectare' é muito utilizada em medições de terras. Um hectare equivale a:",
+      "alternativas": [
+        { "letra": "A", "texto": "100 m²", "correta": false },
+        { "letra": "B", "texto": "1.000 m²", "correta": false },
+        { "letra": "C", "texto": "10.000 m²", "correta": true },
+        { "letra": "D", "texto": "100.000 m²", "correta": false }
+      ],
+      "explicacao": "Um hectare (ha) equivale a 10.000 m², que é a área de um quadrado de 100 m de lado. O prefixo 'hecto' significa 100, mas como é área (metro quadrado), temos 100² = 10.000 m²."
+    },
+    {
+      "id": 28,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Uma formiga percorre 3,6 metros em 2 minutos. Qual a velocidade média dessa formiga em centímetros por segundo?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,3 cm/s", "correta": false },
+        { "letra": "B", "texto": "3 cm/s", "correta": true },
+        { "letra": "C", "texto": "30 cm/s", "correta": false },
+        { "letra": "D", "texto": "180 cm/s", "correta": false }
+      ],
+      "explicacao": "3,6 m = 360 cm. 2 minutos = 120 segundos. Velocidade = 360 / 120 = 3 cm/s. A alternativa A divide 3,6 por 120 sem converter para cm. A C multiplica por 10 em vez de 100 na conversão."
+    },
+    {
+      "id": 29,
+      "assunto": "Massa",
+      "enunciado": "Um caminhão tem capacidade máxima de 5 toneladas. Quantas caixas de 25 kg cada podem ser transportadas sem exceder a capacidade?",
+      "alternativas": [
+        { "letra": "A", "texto": "20 caixas", "correta": false },
+        { "letra": "B", "texto": "200 caixas", "correta": true },
+        { "letra": "C", "texto": "2.000 caixas", "correta": false },
+        { "letra": "D", "texto": "500 caixas", "correta": false }
+      ],
+      "explicacao": "5 toneladas = 5.000 kg. Dividindo: 5.000 / 25 = 200 caixas. A alternativa A resulta de 5 / 0,025 = 200 mas com erro de posicionamento da vírgula. A C resulta de 5.000 / 2,5."
+    },
+    {
+      "id": 30,
+      "assunto": "Tempo",
+      "enunciado": "Um semáforo alterna entre verde (45 segundos), amarelo (5 segundos) e vermelho (30 segundos). Qual é o tempo total de um ciclo completo?",
+      "alternativas": [
+        { "letra": "A", "texto": "1 minuto e 10 segundos", "correta": false },
+        { "letra": "B", "texto": "1 minuto e 20 segundos", "correta": true },
+        { "letra": "C", "texto": "1 minuto e 30 segundos", "correta": false },
+        { "letra": "D", "texto": "2 minutos", "correta": false }
+      ],
+      "explicacao": "Tempo total = 45 + 5 + 30 = 80 segundos = 1 minuto e 20 segundos. A alternativa A soma 45 + 30 = 75s (esqueceu o amarelo). A C soma 45 + 15 + 30 (valor errado para o amarelo)."
+    },
+    {
+      "id": 31,
+      "assunto": "Área",
+      "enunciado": "Um quadrado tem perímetro de 36 cm. Qual é a área desse quadrado?",
+      "alternativas": [
+        { "letra": "A", "texto": "36 cm²", "correta": false },
+        { "letra": "B", "texto": "72 cm²", "correta": false },
+        { "letra": "C", "texto": "81 cm²", "correta": true },
+        { "letra": "D", "texto": "144 cm²", "correta": false }
+      ],
+      "explicacao": "Perímetro do quadrado = 4 x lado. Logo, lado = 36 / 4 = 9 cm. Área = lado² = 9² = 81 cm². A alternativa A confunde perímetro com área. B usa 36 x 2. D usa 12² (metade do perímetro ao quadrado)."
+    },
+    {
+      "id": 32,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um aquário em formato de cubo tem aresta de 40 cm. Quantos litros de água são necessários para enchê-lo completamente?",
+      "alternativas": [
+        { "letra": "A", "texto": "6,4 litros", "correta": false },
+        { "letra": "B", "texto": "64 litros", "correta": true },
+        { "letra": "C", "texto": "640 litros", "correta": false },
+        { "letra": "D", "texto": "6.400 litros", "correta": false }
+      ],
+      "explicacao": "Volume do cubo = aresta³ = 40³ = 64.000 cm³. Como 1 litro = 1.000 cm³: 64.000 / 1.000 = 64 litros. A alternativa A divide por 10.000. C multiplica por 10."
+    },
+    {
+      "id": 33,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "O prefixo 'nano' no SI representa qual potência de 10?",
+      "alternativas": [
+        { "letra": "A", "texto": "10⁻³", "correta": false },
+        { "letra": "B", "texto": "10⁻⁶", "correta": false },
+        { "letra": "C", "texto": "10⁻⁹", "correta": true },
+        { "letra": "D", "texto": "10⁻¹²", "correta": false }
+      ],
+      "explicacao": "O prefixo 'nano' representa 10⁻⁹ (bilionésimo). Exemplo: 1 nanômetro = 0,000000001 m. O prefixo mili representa 10⁻³, micro representa 10⁻⁶ e pico representa 10⁻¹²."
+    },
+    {
+      "id": 34,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Dois amigos partem do mesmo ponto. Um caminha 5 km para o norte e o outro caminha 12 km para o leste. Qual a distância em linha reta entre eles ao final?",
+      "alternativas": [
+        { "letra": "A", "texto": "7 km", "correta": false },
+        { "letra": "B", "texto": "13 km", "correta": true },
+        { "letra": "C", "texto": "17 km", "correta": false },
+        { "letra": "D", "texto": "60 km", "correta": false }
+      ],
+      "explicacao": "Os caminhos são perpendiculares. Pelo Teorema de Pitágoras: d = √(5² + 12²) = √(25 + 144) = √169 = 13 km. A alternativa A subtrai 12 - 5. C soma 5 + 12. D multiplica 5 x 12."
+    },
+    {
+      "id": 35,
+      "assunto": "Massa",
+      "enunciado": "Um medicamento deve ser administrado na dose de 0,5 mg por quilograma de massa corporal. Qual a dose correta para um paciente de 70 kg?",
+      "alternativas": [
+        { "letra": "A", "texto": "3,5 mg", "correta": false },
+        { "letra": "B", "texto": "35 mg", "correta": true },
+        { "letra": "C", "texto": "350 mg", "correta": false },
+        { "letra": "D", "texto": "140 mg", "correta": false }
+      ],
+      "explicacao": "Dose = 0,5 mg/kg x 70 kg = 35 mg. A alternativa A divide 70 por 20 em vez de multiplicar por 0,5. C multiplica por 5 em vez de 0,5. D divide 70 por 0,5 (operação inversa)."
+    },
+    {
+      "id": 36,
+      "assunto": "Tempo",
+      "enunciado": "Uma máquina produz 120 peças por hora. Quantos minutos ela leva para produzir 30 peças?",
+      "alternativas": [
+        { "letra": "A", "texto": "10 minutos", "correta": false },
+        { "letra": "B", "texto": "15 minutos", "correta": true },
+        { "letra": "C", "texto": "20 minutos", "correta": false },
+        { "letra": "D", "texto": "30 minutos", "correta": false }
+      ],
+      "explicacao": "120 peças/hora = 2 peças/minuto. Para 30 peças: 30 / 2 = 15 minutos. A alternativa A calcula 120/12. C calcula 60/3. D usa proporção direta incorreta."
+    },
+    {
+      "id": 37,
+      "assunto": "Área",
+      "enunciado": "Um retângulo tem área de 48 m² e largura de 6 m. Qual é o comprimento desse retângulo?",
+      "alternativas": [
+        { "letra": "A", "texto": "6 m", "correta": false },
+        { "letra": "B", "texto": "8 m", "correta": true },
+        { "letra": "C", "texto": "12 m", "correta": false },
+        { "letra": "D", "texto": "42 m", "correta": false }
+      ],
+      "explicacao": "Área = comprimento x largura. Logo, comprimento = Área / largura = 48 / 6 = 8 m. A alternativa A confunde largura com comprimento. C multiplica 6 x 8 e confunde com a resposta. D subtrai 48 - 6."
+    },
+    {
+      "id": 38,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um copo tem capacidade de 200 mL. Quantos copos cheios são necessários para encher uma garrafa de 1,6 litros?",
+      "alternativas": [
+        { "letra": "A", "texto": "4 copos", "correta": false },
+        { "letra": "B", "texto": "6 copos", "correta": false },
+        { "letra": "C", "texto": "8 copos", "correta": true },
+        { "letra": "D", "texto": "16 copos", "correta": false }
+      ],
+      "explicacao": "1,6 litros = 1.600 mL. Dividindo: 1.600 / 200 = 8 copos. A alternativa A divide 1,6 por 0,4. B divide 1,6 por 0,27 (erro). D divide 1.600 por 100 (confunde mL com cL)."
+    },
+    {
+      "id": 39,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "A velocidade da luz no vácuo é aproximadamente 300.000 km/s. Essa velocidade, em metros por segundo, é de:",
+      "alternativas": [
+        { "letra": "A", "texto": "3 x 10⁵ m/s", "correta": false },
+        { "letra": "B", "texto": "3 x 10⁶ m/s", "correta": false },
+        { "letra": "C", "texto": "3 x 10⁸ m/s", "correta": true },
+        { "letra": "D", "texto": "3 x 10¹⁰ m/s", "correta": false }
+      ],
+      "explicacao": "300.000 km/s = 300.000 x 1.000 m/s = 300.000.000 m/s = 3 x 10⁸ m/s. A alternativa A converte apenas para metros sem multiplicar por 1.000. B multiplica por 100 em vez de 1.000."
+    },
+    {
+      "id": 40,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Uma pessoa caminha 2 km em 25 minutos. Qual a velocidade média dessa pessoa em metros por segundo?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,8 m/s", "correta": false },
+        { "letra": "B", "texto": "1,33 m/s", "correta": true },
+        { "letra": "C", "texto": "1,5 m/s", "correta": false },
+        { "letra": "D", "texto": "2,0 m/s", "correta": false }
+      ],
+      "explicacao": "2 km = 2.000 m. 25 minutos = 1.500 segundos. Velocidade = 2.000 / 1.500 = 1,33 m/s. A alternativa A divide 2.000 por 2.500 (erro na conversão de minutos). C divide 2.000 por 1.333. D divide 2.000 por 1.000."
+    },
+    {
+      "id": 41,
+      "assunto": "Massa",
+      "enunciado": "Um saco de arroz pesa 5 kg e custa R$ 25,00. Qual é o preço por quilograma?",
+      "alternativas": [
+        { "letra": "A", "texto": "R$ 4,00/kg", "correta": false },
+        { "letra": "B", "texto": "R$ 5,00/kg", "correta": true },
+        { "letra": "C", "texto": "R$ 6,00/kg", "correta": false },
+        { "letra": "D", "texto": "R$ 20,00/kg", "correta": false }
+      ],
+      "explicacao": "Preço por kg = R$ 25,00 / 5 kg = R$ 5,00/kg. A alternativa A divide 25 por 6,25 (erro). C soma 25 + 5 e divide por 5. D subtrai 25 - 5."
+    },
+    {
+      "id": 42,
+      "assunto": "Tempo",
+      "enunciado": "Um relógio atrasa 3 minutos por dia. Quantos minutos ele atrasará em 2 semanas?",
+      "alternativas": [
+        { "letra": "A", "texto": "21 minutos", "correta": false },
+        { "letra": "B", "texto": "42 minutos", "correta": true },
+        { "letra": "C", "texto": "36 minutos", "correta": false },
+        { "letra": "D", "texto": "60 minutos", "correta": false }
+      ],
+      "explicacao": "2 semanas = 14 dias. Atraso total = 3 x 14 = 42 minutos. A alternativa A multiplica 3 x 7 (1 semana). C multiplica 3 x 12. D multiplica 3 x 20."
+    },
+    {
+      "id": 43,
+      "assunto": "Área",
+      "enunciado": "Um campo de futebol tem 100 m de comprimento por 68 m de largura. Qual é a área do campo em hectares?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,068 ha", "correta": false },
+        { "letra": "B", "texto": "0,68 ha", "correta": true },
+        { "letra": "C", "texto": "6,8 ha", "correta": false },
+        { "letra": "D", "texto": "68 ha", "correta": false }
+      ],
+      "explicacao": "Área = 100 x 68 = 6.800 m². Como 1 ha = 10.000 m²: 6.800 / 10.000 = 0,68 ha. A alternativa A divide por 100.000. C divide por 1.000. D não divide."
+    },
+    {
+      "id": 44,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um prisma retangular tem dimensões 30 cm x 20 cm x 15 cm. Qual é o seu volume em litros?",
+      "alternativas": [
+        { "letra": "A", "texto": "9 litros", "correta": true },
+        { "letra": "B", "texto": "90 litros", "correta": false },
+        { "letra": "C", "texto": "900 litros", "correta": false },
+        { "letra": "D", "texto": "9.000 litros", "correta": false }
+      ],
+      "explicacao": "Volume = 30 x 20 x 15 = 9.000 cm³. Como 1 litro = 1.000 cm³: 9.000 / 1.000 = 9 litros. A alternativa B multiplica por 10. C multiplica por 100. D não faz a conversão."
+    },
+    {
+      "id": 45,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "A temperatura de 100°C corresponde a quantos Kelvin?",
+      "alternativas": [
+        { "letra": "A", "texto": "173 K", "correta": false },
+        { "letra": "B", "texto": "273 K", "correta": false },
+        { "letra": "C", "texto": "373 K", "correta": true },
+        { "letra": "D", "texto": "473 K", "correta": false }
+      ],
+      "explicacao": "A conversão de Celsius para Kelvin é: K = °C + 273. Logo, 100°C + 273 = 373 K. A alternativa A subtrai 100 - 273 (erro de sinal). B é o valor de 0°C em Kelvin. D soma 273 + 200."
+    },
+    {
+      "id": 46,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Em um mapa na escala 1:50.000, qual distância real em quilômetros corresponde a 8 cm no mapa?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,4 km", "correta": false },
+        { "letra": "B", "texto": "4 km", "correta": true },
+        { "letra": "C", "texto": "40 km", "correta": false },
+        { "letra": "D", "texto": "400 km", "correta": false }
+      ],
+      "explicacao": "Escala 1:50.000 significa que 1 cm = 50.000 cm na realidade. Logo, 8 cm = 8 x 50.000 = 400.000 cm = 4 km. A alternativa A divide por 1.000 em vez de 100.000. C divide por 10.000. D não converte."
+    },
+    {
+      "id": 47,
+      "assunto": "Massa",
+      "enunciado": "Uma receita para 6 pessoas leva 360 g de farinha. Quanta farinha é necessária para 15 pessoas?",
+      "alternativas": [
+        { "letra": "A", "texto": "600 g", "correta": false },
+        { "letra": "B", "texto": "720 g", "correta": false },
+        { "letra": "C", "texto": "900 g", "correta": true },
+        { "letra": "D", "texto": "1.200 g", "correta": false }
+      ],
+        "explicacao": "Regra de três: 6 pessoas / 360 g = 15 pessoas / x. x = 360 x 15 / 6 = 900 g. A alternativa A usa proporção 1:100. B multiplica 360 x 2. D multiplica 360 x 15 / 4,5."
+    },
+    {
+      "id": 48,
+      "assunto": "Tempo",
+      "enunciado": "Um torneio de xadrez estabelece o tempo de 90 minutos para cada jogador. Se uma partida começou às 14h e o jogador A usou 1h20min, quanto tempo sobrou para ele?",
+      "alternativas": [
+        { "letra": "A", "texto": "5 minutos", "correta": false },
+        { "letra": "B", "texto": "10 minutos", "correta": true },
+        { "letra": "C", "texto": "20 minutos", "correta": false },
+        { "letra": "D", "texto": "30 minutos", "correta": false }
+      ],
+      "explicacao": "90 minutos - 80 minutos (1h20min) = 10 minutos restantes. A alternativa A subtrai 90 - 85. C subtrai 90 - 70. D subtrai 90 - 60 (confunde 1h20min com 1h)."
+    },
+    {
+      "id": 49,
+      "assunto": "Área",
+      "enunciado": "Um paralelogramo tem base de 20 cm e altura de 7 cm. Qual é a sua área?",
+      "alternativas": [
+        { "letra": "A", "texto": "70 cm²", "correta": false },
+        { "letra": "B", "texto": "140 cm²", "correta": true },
+        { "letra": "C", "texto": "27 cm²", "correta": false },
+        { "letra": "D", "texto": "34 cm²", "correta": false }
+      ],
+      "explicacao": "Área do paralelogramo = base x altura = 20 x 7 = 140 cm². A alternativa A calcula metade (confunde com triângulo). C soma 20 + 7. D calcula o perímetro (2 x 20 - 6)."
+    },
+    {
+      "id": 50,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um tanque contém 5.000 litros de água. Se a água for transferida para garrafas de 750 mL cada, quantas garrafas serão necessárias?",
+      "alternativas": [
+        { "letra": "A", "texto": "6.667 garrafas", "correta": true },
+        { "letra": "B", "texto": "6.500 garrafas", "correta": false },
+        { "letra": "C", "texto": "7.000 garrafas", "correta": false },
+        { "letra": "D", "texto": "7.500 garrafas", "correta": false }
+      ],
+      "explicacao": "5.000 litros = 5.000.000 mL. Dividindo: 5.000.000 / 750 = 6.666,67, que arredondado para cima é 6.667 garrafas. A alternativa B trunca o valor. C arredonda para cima de forma excessiva. D divide 5.000 / 0,75 e arredonda incorretamente."
+    },
+    {
+      "id": 51,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "Qual das seguintes grandezas é uma grandeza escalar?",
+      "alternativas": [
+        { "letra": "A", "texto": "Força", "correta": false },
+        { "letra": "B", "texto": "Velocidade", "correta": false },
+        { "letra": "C", "texto": "Deslocamento", "correta": false },
+        { "letra": "D", "texto": "Temperatura", "correta": true }
+      ],
+      "explicacao": "Temperatura é uma grandeza escalar, pois fica completamente definida com um valor numérico e unidade. Força, velocidade e deslocamento são grandezas vetoriais, pois além do módulo precisam de direção e sentido."
+    },
+    {
+      "id": 52,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Uma tira de barbante com 2,5 metros é cortada em pedaços de 50 cm cada. Quantos pedaços foram obtidos?",
+      "alternativas": [
+        { "letra": "A", "texto": "4 pedaços", "correta": false },
+        { "letra": "B", "texto": "5 pedaços", "correta": true },
+        { "letra": "C", "texto": "6 pedaços", "correta": false },
+        { "letra": "D", "texto": "10 pedaços", "correta": false }
+      ],
+      "explicacao": "2,5 m = 250 cm. Dividindo: 250 / 50 = 5 pedaços. A alternativa A divide 200 / 50. C divide 300 / 50. D divide 500 / 50 (não converteu metros para centímetros)."
+    },
+    {
+      "id": 53,
+      "assunto": "Massa",
+      "enunciado": "Um objeto tem massa de 2,5 kg na Terra. Qual será a massa desse objeto na Lua?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,4 kg", "correta": false },
+        { "letra": "B", "texto": "2,5 kg", "correta": true },
+        { "letra": "C", "texto": "15 kg", "correta": false },
+        { "letra": "D", "texto": "1,25 kg", "correta": false }
+      ],
+      "explicacao": "A massa de um objeto é uma propriedade intrínseca e não varia com a localização. O que muda é o peso (força gravitacional), que na Lua é aproximadamente 1/6 do peso na Terra. A massa permanece 2,5 kg."
+    },
+    {
+      "id": 54,
+      "assunto": "Tempo",
+      "enunciado": "Um corredor completa uma volta de 400 m em 50 segundos. Quantas voltas ele completa em 1 hora, mantendo o mesmo ritmo?",
+      "alternativas": [
+        { "letra": "A", "texto": "60 voltas", "correta": false },
+        { "letra": "B", "texto": "72 voltas", "correta": true },
+        { "letra": "C", "texto": "80 voltas", "correta": false },
+        { "letra": "D", "texto": "90 voltas", "correta": false }
+      ],
+      "explicacao": "1 hora = 3.600 segundos. Número de voltas = 3.600 / 50 = 72 voltas. A alternativa A divide 3.600 por 60. C divide 3.600 por 45. D divide 3.600 por 40."
+    },
+    {
+      "id": 55,
+      "assunto": "Área",
+      "enunciado": "Um triângulo equilátero tem lado de 12 cm. Se a altura de um triângulo equilátero vale (lado x √3) / 2, qual é a área aproximada desse triângulo? (Use √3 ≈ 1,73)",
+      "alternativas": [
+        { "letra": "A", "texto": "62,28 cm²", "correta": true },
+        { "letra": "B", "texto": "72 cm²", "correta": false },
+        { "letra": "C", "texto": "124,56 cm²", "correta": false },
+        { "letra": "D", "texto": "144 cm²", "correta": false }
+      ],
+      "explicacao": "Altura = (12 x 1,73) / 2 = 10,38 cm. Área = (base x altura) / 2 = (12 x 10,38) / 2 = 62,28 cm². A alternativa B usa 12 x 12 / 2 (confunde com triângulo retângulo). C não divide por 2. D calcula 12²."
+    },
+    {
+      "id": 56,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Um cone tem raio da base de 5 cm e altura de 12 cm. Considerando pi = 3,14, qual é o volume desse cone em cm³?",
+      "alternativas": [
+        { "letra": "A", "texto": "314 cm³", "correta": true },
+        { "letra": "B", "texto": "942 cm³", "correta": false },
+        { "letra": "C", "texto": "1.256 cm³", "correta": false },
+        { "letra": "D", "texto": "3.768 cm³", "correta": false }
+      ],
+      "explicacao": "Volume do cone = (pi x r² x h) / 3 = (3,14 x 25 x 12) / 3 = 942 / 3 = 314 cm³. A alternativa B não divide por 3. C usa diâmetro em vez do raio. D multiplica tudo sem dividir."
+    },
+    {
+      "id": 57,
+      "assunto": "Grandezas e medidas",
+      "enunciado": "Um terreno retangular mede 30 m por 50 m. Qual é a área desse terreno em hectares?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,15 ha", "correta": true },
+        { "letra": "B", "texto": "1,5 ha", "correta": false },
+        { "letra": "C", "texto": "15 ha", "correta": false },
+        { "letra": "D", "texto": "150 ha", "correta": false }
+      ],
+      "explicacao": "Área = 30 x 50 = 1.500 m². Como 1 ha = 10.000 m²: 1.500 / 10.000 = 0,15 ha. A alternativa B divide por 1.000. C divide por 100. D não divide."
+    },
+    {
+      "id": 58,
+      "assunto": "Comprimento e distância",
+      "enunciado": "Uma escada tem 10 degraus, cada um com 25 cm de altura. Qual a altura total da escada em metros?",
+      "alternativas": [
+        { "letra": "A", "texto": "0,25 m", "correta": false },
+        { "letra": "B", "texto": "2,5 m", "correta": true },
+        { "letra": "C", "texto": "25 m", "correta": false },
+        { "letra": "D", "texto": "250 m", "correta": false }
+      ],
+      "explicacao": "Altura total = 10 x 25 cm = 250 cm = 2,5 m. A alternativa A usa apenas 1 degrau. C não converte cm para m. D multiplica por 10 sem converter."
+    },
+    {
+      "id": 59,
+      "assunto": "Massa",
+      "enunciado": "Um caminhão carregado pesa 8 toneladas. Se o caminhão vazio pesa 3,5 toneladas, qual é a massa da carga transportada?",
+      "alternativas": [
+        { "letra": "A", "texto": "4.500 kg", "correta": true },
+        { "letra": "B", "texto": "5.500 kg", "correta": false },
+        { "letra": "C", "texto": "11.500 kg", "correta": false },
+        { "letra": "D", "texto": "4.000 kg", "correta": false }
+      ],
+      "explicacao": "Massa da carga = 8 t - 3,5 t = 4,5 t = 4.500 kg. A alternativa B soma em vez de subtrair (erro de sinal). C soma 8 + 3,5. D arredonda 4,5 t para 4 t."
+    },
+    {
+      "id": 60,
+      "assunto": "Capacidade e volume",
+      "enunciado": "Uma esfera tem raio de 6 cm. Considerando pi = 3,14, qual é o volume dessa esfera em cm³? (V = 4/3 x pi x r³)",
+      "alternativas": [
+        { "letra": "A", "texto": "904,32 cm³", "correta": true },
+        { "letra": "B", "texto": "678,24 cm³", "correta": false },
+        { "letra": "C", "texto": "1.356,48 cm³", "correta": false },
+        { "letra": "D", "texto": "2.712,96 cm³", "correta": false }
+      ],
+      "explicacao": "Volume = (4/3) x 3,14 x 6³ = (4/3) x 3,14 x 216 = 4 x 3,14 x 72 = 904,32 cm³. A alternativa B usa r² em vez de r³. C multiplica por 2 a mais. D multiplica por 3 a mais."
+    }
+  ]
+}
