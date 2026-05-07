@@ -14,10 +14,50 @@ const DS = {
     this.setupRouter();
     this.setupReadingProgress();
     this.setupExamTimer();
+    this.setupMobileMenu();
     this.restoreProgress();
     this.initQuiz();
     this.initExam();
     window.addEventListener('hashchange', () => this.handleRouteChange());
+  },
+
+  setupMobileMenu() {
+    const btn = document.getElementById('mobile-menu-btn');
+    const panel = document.getElementById('mobile-nav-panel');
+    const overlay = document.getElementById('mobile-nav-overlay');
+    const closeBtn = document.getElementById('mobile-nav-close');
+    if (!btn || !panel || !overlay) return;
+
+    const open = () => {
+      panel.hidden = false;
+      overlay.hidden = false;
+      btn.setAttribute('aria-expanded', 'true');
+      document.body.style.overflow = 'hidden';
+      closeBtn?.focus();
+    };
+    const close = () => {
+      panel.hidden = true;
+      overlay.hidden = true;
+      btn.setAttribute('aria-expanded', 'false');
+      document.body.style.overflow = '';
+      btn.focus();
+    };
+
+    btn.addEventListener('click', () => {
+      panel.hidden ? open() : close();
+    });
+    closeBtn?.addEventListener('click', close);
+    overlay.addEventListener('click', close);
+
+    // Close on nav link click
+    panel.querySelectorAll('.ds-nav__link').forEach(link => {
+      link.addEventListener('click', close);
+    });
+
+    // Close on Escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !panel.hidden) close();
+    });
   },
 
   setupRouter() {
