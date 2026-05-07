@@ -46,9 +46,8 @@
 .ds-nav__overlay {
   display: none; position: fixed; inset: 0; z-index: 150;
   background: rgba(0,0,0,0.4); backdrop-filter: blur(4px);
-  animation: fadeIn var(--dur-fast) var(--ease-out);
 }
-.ds-nav__overlay.open { display: flex; }
+.ds-nav__overlay.open { display: flex; animation: fadeIn var(--dur-fast) var(--ease-out); }
 
 /* Mobile nav panel */
 .ds-nav__mobile {
@@ -57,9 +56,8 @@
   background: var(--ds-surface-card); border-left: 1px solid var(--ds-border);
   box-shadow: var(--shadow-lg);
   flex-direction: column;
-  animation: slideInRight var(--dur-normal) var(--ease-out);
 }
-.ds-nav__mobile.open { display: flex; }
+.ds-nav__mobile.open { display: flex; animation: slideInRight var(--dur-normal) var(--ease-out); }
 
 .ds-nav__mobile-header {
   display: flex; align-items: center; justify-content: space-between;

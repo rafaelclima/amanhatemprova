@@ -29,22 +29,22 @@ const DS = {
     if (!btn || !panel || !overlay) return;
 
     const open = () => {
-      panel.hidden = false;
-      overlay.hidden = false;
+      panel.classList.add('open');
+      overlay.classList.add('open');
       btn.setAttribute('aria-expanded', 'true');
       document.body.style.overflow = 'hidden';
       closeBtn?.focus();
     };
     const close = () => {
-      panel.hidden = true;
-      overlay.hidden = true;
+      panel.classList.remove('open');
+      overlay.classList.remove('open');
       btn.setAttribute('aria-expanded', 'false');
       document.body.style.overflow = '';
       btn.focus();
     };
 
     btn.addEventListener('click', () => {
-      panel.hidden ? open() : close();
+      panel.classList.contains('open') ? close() : open();
     });
     closeBtn?.addEventListener('click', close);
     overlay.addEventListener('click', close);
@@ -56,7 +56,7 @@ const DS = {
 
     // Close on Escape
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !panel.hidden) close();
+      if (e.key === 'Escape' && panel.classList.contains('open')) close();
     });
   },
 
