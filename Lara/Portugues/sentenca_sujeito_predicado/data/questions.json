@@ -1,0 +1,607 @@
+{
+  "serie": "Primeiro Ano do Ensino Médio",
+  "disciplina": "Português",
+  "assuntos": ["Sentença simples", "Sujeito e predicado", "Termos que integram o sentido de nome e verbos", "Morfossintaxe da sentença simples"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Sentença simples",
+      "enunciado": "Uma sentença simples é caracterizada por possuir:",
+      "alternativas": [
+        { "letra": "A", "texto": "Dois ou mais verbos conjugados", "correta": false },
+        { "letra": "B", "texto": "Apenas um verbo (ou locução verbal), formando um único predicado", "correta": true },
+        { "letra": "C", "texto": "Pelo menos duas orações coordenadas", "correta": false },
+        { "letra": "D", "texto": "Uma oração principal e uma subordinada", "correta": false }
+      ],
+      "explicacao": "A sentença simples (ou período simples) possui apenas uma oração, ou seja, um único verbo (ou locução verbal) que estrutura um predicado. Exemplo: 'O aluno estudou para a prova.'"
+    },
+    {
+      "id": 2,
+      "assunto": "Sentença simples",
+      "enunciado": "Qual das alternativas apresenta um período simples?",
+      "alternativas": [
+        { "letra": "A", "texto": "Eu estudei, mas não passei na prova.", "correta": false },
+        { "letra": "B", "texto": "Quando cheguei, a aula já havia começado.", "correta": false },
+        { "letra": "C", "texto": "Os alunos assistiram ao documentário.", "correta": true },
+        { "letra": "D", "texto": "Ela disse que viria mais cedo.", "correta": false }
+      ],
+      "explicacao": "'Os alunos assistiram ao documentário' possui apenas um verbo ('assistiram'), formando uma única oração — portanto, é um período simples. As demais alternativas possuem dois ou mais verbos, configurando períodos compostos."
+    },
+    {
+      "id": 3,
+      "assunto": "Sentença simples",
+      "enunciado": "Na sentença 'A criança brincava alegremente no parque', o núcleo do predicado é:",
+      "alternativas": [
+        { "letra": "A", "texto": "criança", "correta": false },
+        { "letra": "B", "texto": "parque", "correta": false },
+        { "letra": "C", "texto": "brincava", "correta": true },
+        { "letra": "D", "texto": "alegremente", "correta": false }
+      ],
+      "explicacao": "O núcleo do predicado é sempre o verbo (ou a forma verbal principal). Nesta sentença, 'brincava' é o verbo que estrutura todo o predicado."
+    },
+    {
+      "id": 4,
+      "assunto": "Sentença simples",
+      "enunciado": "Quantas orações existem na sentença 'O professor explicou a matéria com clareza'?",
+      "alternativas": [
+        { "letra": "A", "texto": "Uma", "correta": true },
+        { "letra": "B", "texto": "Duas", "correta": false },
+        { "letra": "C", "texto": "Três", "correta": false },
+        { "letra": "D", "texto": "Nenhuma, pois não há verbo", "correta": false }
+      ],
+      "explicacao": "Há apenas um verbo ('explicou'), portanto há uma única oração. Trata-se de um período simples."
+    },
+    {
+      "id": 5,
+      "assunto": "Sentença simples",
+      "enunciado": "Assinale a alternativa que NÃO contém um período simples:",
+      "alternativas": [
+        { "letra": "A", "texto": "A chuva caiu forte durante a noite.", "correta": false },
+        { "letra": "B", "texto": "Nós vamos ao cinema hoje.", "correta": false },
+        { "letra": "C", "texto": "Ele estudou muito porque a prova será difícil.", "correta": true },
+        { "letra": "D", "texto": "O cachorro correu pelo quintal.", "correta": false }
+      ],
+      "explicacao": "'Ele estudou muito porque a prova será difícil' possui dois verbos ('estudou' e 'será'), formando duas orações — é um período composto. As demais possuem apenas um verbo."
+    },
+    {
+      "id": 6,
+      "assunto": "Sentença simples",
+      "enunciado": "Em uma sentença simples, o elemento indispensável que estrutura a oração é:",
+      "alternativas": [
+        { "letra": "A", "texto": "O sujeito", "correta": false },
+        { "letra": "B", "texto": "O verbo", "correta": true },
+        { "letra": "C", "texto": "O adjunto adverbial", "correta": false },
+        { "letra": "D", "texto": "O complemento nominal", "correta": false }
+      ],
+      "explicacao": "O verbo é o elemento indispensável da oração. Sem verbo, não há oração. O sujeito pode até ser inexistente (oração sem sujeito), mas o verbo sempre estará presente."
+    },
+    {
+      "id": 7,
+      "assunto": "Sentença simples",
+      "enunciado": "'Choveu muito ontem.' Essa sentença é simples e possui:",
+      "alternativas": [
+        { "letra": "A", "texto": "Sujeito oculto", "correta": false },
+        { "letra": "B", "texto": "Sujeito indeterminado", "correta": false },
+        { "letra": "C", "texto": "Oração sem sujeito (verbo impessoal)", "correta": true },
+        { "letra": "D", "texto": "Sujeito simples", "correta": false }
+      ],
+      "explicacao": "O verbo 'chover', quando indica fenômeno da natureza, é impessoal — não possui sujeito. A oração é formada apenas pelo predicado."
+    },
+    {
+      "id": 8,
+      "assunto": "Sentença simples",
+      "enunciado": "Qual a diferença entre período simples e período composto?",
+      "alternativas": [
+        { "letra": "A", "texto": "O período simples tem adjetivos; o composto, advérbios", "correta": false },
+        { "letra": "B", "texto": "O período simples tem uma oração; o composto, duas ou mais", "correta": true },
+        { "letra": "C", "texto": "O período simples é sempre mais curto que o composto", "correta": false },
+        { "letra": "D", "texto": "O período simples não tem verbo; o composto, tem", "correta": false }
+      ],
+      "explicacao": "A diferença está no número de orações: o período simples possui uma única oração (um verbo), enquanto o composto possui duas ou mais orações (dois ou mais verbos)."
+    },
+    {
+      "id": 9,
+      "assunto": "Sentença simples",
+      "enunciado": "Na sentença 'Faz calor no verão', o verbo 'faz' indica fenômeno climático. Nesse caso, trata-se de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Oração com sujeito simples", "correta": false },
+        { "letra": "B", "texto": "Oração com sujeito composto", "correta": false },
+        { "letra": "C", "texto": "Oração sem sujeito", "correta": true },
+        { "letra": "D", "texto": "Oração com sujeito oculto", "correta": false }
+      ],
+      "explicacao": "O verbo 'fazer' indicando fenômeno climático é impessoal — não tem sujeito. A oração é constituída apenas pelo predicado."
+    },
+    {
+      "id": 10,
+      "assunto": "Sentença simples",
+      "enunciado": "Assinale a sentença simples com locução verbal:",
+      "alternativas": [
+        { "letra": "A", "texto": "O aluno está estudando para o exame.", "correta": true },
+        { "letra": "B", "texto": "O aluno estudou e passou.", "correta": false },
+        { "letra": "C", "texto": "O aluno que estudou passou.", "correta": false },
+        { "letra": "D", "texto": "O aluno estudou, mas não passou.", "correta": false }
+      ],
+      "explicacao": "'Está estudando' é uma locução verbal (verbo auxiliar 'estar' + gerúndio do verbo principal). Há apenas uma oração, portanto é período simples. As demais têm dois verbos independentes."
+    },
+    {
+      "id": 11,
+      "assunto": "Sentença simples",
+      "enunciado": "'Existem muitos livros na biblioteca.' O verbo 'existir' nesse caso:",
+      "alternativas": [
+        { "letra": "A", "texto": "É impessoal — não há sujeito", "correta": false },
+        { "letra": "B", "texto": "Concorda com 'muitos livros', que é o sujeito", "correta": true },
+        { "letra": "C", "texto": "Está no plural por atração ao complemento", "correta": false },
+        { "letra": "D", "texto": "Poderia ficar no singular sem erro", "correta": false }
+      ],
+      "explicacao": "Diferente de 'haver' (que é impessoal), o verbo 'existir' é pessoal e concorda normalmente com o sujeito. 'Muitos livros' é o sujeito simples, e o verbo concorda com ele no plural."
+    },
+    {
+      "id": 12,
+      "assunto": "Sentença simples",
+      "enunciado": "Qual alternativa apresenta um período simples com sujeito oculto?",
+      "alternativas": [
+        { "letra": "A", "texto": "Compramos os ingressos ontem.", "correta": true },
+        { "letra": "B", "texto": "Os alunos compraram os ingressos.", "correta": false },
+        { "letra": "C", "texto": "Choveu durante toda a madrugada.", "correta": false },
+        { "letra": "D", "texto": "Havia muitos alunos na fila.", "correta": false }
+      ],
+      "explicacao": "'Compramos' está na 1ª pessoa do plural — o sujeito é 'nós', que está oculto (desinencial). Nas demais: B tem sujeito simples ('Os alunos'), C e D são orações sem sujeito."
+    },
+    {
+      "id": 13,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Na frase 'A professora explicou a lição', o sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "explicou a lição", "correta": false },
+        { "letra": "B", "texto": "A professora", "correta": true },
+        { "letra": "C", "texto": "a lição", "correta": false },
+        { "letra": "D", "texto": "explicou", "correta": false }
+      ],
+      "explicacao": "O sujeito é o termo sobre o qual se faz uma declaração. 'A professora' é quem pratica a ação de explicar — é o sujeito simples da oração."
+    },
+    {
+      "id": 14,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Em 'Chegaram cedo os convidados', o sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "cedo", "correta": false },
+        { "letra": "B", "texto": "os convidados", "correta": true },
+        { "letra": "C", "texto": "inexistente", "correta": false },
+        { "letra": "D", "texto": "Chegaram", "correta": false }
+      ],
+      "explicacao": "Perguntamos ao verbo: 'Quem chegou?' → 'Os convidados'. O sujeito aparece posposto ao verbo (ordem inversa), mas continua sendo 'os convidados'."
+    },
+    {
+      "id": 15,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Qual o tipo de sujeito em 'Nós viajaremos amanhã'?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sujeito simples", "correta": true },
+        { "letra": "B", "texto": "Sujeito composto", "correta": false },
+        { "letra": "C", "texto": "Sujeito oculto", "correta": false },
+        { "letra": "D", "texto": "Sujeito indeterminado", "correta": false }
+      ],
+      "explicacao": "O sujeito é 'Nós' — um único núcleo explícito na oração. Portanto, é sujeito simples."
+    },
+    {
+      "id": 16,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Em 'Pedro e Maria foram ao parque', o sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Simples", "correta": false },
+        { "letra": "B", "texto": "Composto", "correta": true },
+        { "letra": "C", "texto": "Oculto", "correta": false },
+        { "letra": "D", "texto": "Indeterminado", "correta": false }
+      ],
+      "explicacao": "O sujeito possui dois núcleos: 'Pedro' e 'Maria'. Quando há mais de um núcleo, o sujeito é classificado como composto."
+    },
+    {
+      "id": 17,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "'Falaram mal do diretor.' O sujeito dessa oração é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Sujeito simples", "correta": false },
+        { "letra": "B", "texto": "Sujeito oculto", "correta": false },
+        { "letra": "C", "texto": "Sujeito indeterminado", "correta": true },
+        { "letra": "D", "texto": "Oração sem sujeito", "correta": false }
+      ],
+      "explicacao": "O verbo 'falaram' está na 3ª pessoa do plural sem referência a um sujeito identificado no contexto. Não se sabe quem praticou a ação — sujeito indeterminado."
+    },
+    {
+      "id": 18,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Em 'Precisa-se de funcionários', o sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "funcionários", "correta": false },
+        { "letra": "B", "texto": "Indeterminado (partícula 'se' como índice de indeterminação)", "correta": false },
+        { "letra": "C", "texto": "Simples ('se')", "correta": false },
+        { "letra": "D", "texto": "Paciente ('funcionários' com partícula apassivadora 'se')", "correta": true }
+      ],
+      "explicacao": "O verbo 'precisar' é transitivo indireto (precisa DE). Com verbo transitivo indireto + 'se', o 'se' é índice de indeterminação do sujeito. O sujeito é, portanto, indeterminado."
+    },
+    {
+      "id": 19,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Qual alternativa apresenta predicado nominal?",
+      "alternativas": [
+        { "letra": "A", "texto": "O aluno estudou bastante.", "correta": false },
+        { "letra": "B", "texto": "A menina está feliz.", "correta": true },
+        { "letra": "C", "texto": "O cachorro correu pelo jardim.", "correta": false },
+        { "letra": "D", "texto": "Ela comprou um livro.", "correta": false }
+      ],
+      "explicacao": "O predicado é nominal quando o verbo é de ligação ('estar') e o núcleo é um nome ('feliz' — predicativo do sujeito). Nas demais, o núcleo é verbo significativo."
+    },
+    {
+      "id": 20,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Em 'O céu ficou nublado', o predicativo do sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "O céu", "correta": false },
+        { "letra": "B", "texto": "ficou", "correta": false },
+        { "letra": "C", "texto": "nublado", "correta": true },
+        { "letra": "D", "texto": "não há predicativo", "correta": false }
+      ],
+      "explicacao": "'Nublado' é o predicativo do sujeito — atribui uma qualidade ao sujeito 'O céu' por meio do verbo de ligação 'ficou'."
+    },
+    {
+      "id": 21,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "'Os alunos correram pelo pátio.' O predicado dessa oração é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Predicado nominal", "correta": false },
+        { "letra": "B", "texto": "Predicado verbal", "correta": true },
+        { "letra": "C", "texto": "Predicado verbo-nominal", "correta": false },
+        { "letra": "D", "texto": "Não há predicado", "correta": false }
+      ],
+      "explicacao": "O verbo 'correr' é significativo (de ação) e o núcleo do predicado é o próprio verbo. Não há predicativo — portanto, é predicado verbal."
+    },
+    {
+      "id": 22,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Em 'O juiz chegou cansado', temos um predicado:",
+      "alternativas": [
+        { "letra": "A", "texto": "Nominal, pois 'cansado' é adjetivo", "correta": false },
+        { "letra": "B", "texto": "Verbal, pois 'chegou' é verbo de ação", "correta": false },
+        { "letra": "C", "texto": "Verbo-nominal, com dois núcleos: 'chegou' e 'cansado'", "correta": true },
+        { "letra": "D", "texto": "Nominal, pois o verbo é de ligação", "correta": false }
+      ],
+      "explicacao": "O predicado verbo-nominal possui dois núcleos: um verbo significativo ('chegou') e um predicativo ('cansado'). O verbo indica ação e o predicativo atribui qualidade ao sujeito."
+    },
+    {
+      "id": 23,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Qual o núcleo do predicado em 'As crianças brincavam felizes'?",
+      "alternativas": [
+        { "letra": "A", "texto": "crianças", "correta": false },
+        { "letra": "B", "texto": "brincavam", "correta": false },
+        { "letra": "C", "texto": "felizes", "correta": false },
+        { "letra": "D", "texto": "brincavam e felizes (dois núcleos)", "correta": true }
+      ],
+      "explicacao": "Trata-se de predicado verbo-nominal: 'brincavam' (verbo significativo = ação) e 'felizes' (predicativo do sujeito = estado). Ambos são núcleos do predicado."
+    },
+    {
+      "id": 24,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Na oração 'É proibida a entrada', o sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "oculto", "correta": false },
+        { "letra": "B", "texto": "a entrada", "correta": true },
+        { "letra": "C", "texto": "indeterminado", "correta": false },
+        { "letra": "D", "texto": "inexistente", "correta": false }
+      ],
+      "explicacao": "'A entrada' é o sujeito paciente (sofre a ação). O verbo 'é' é de ligação e 'proibida' é o predicativo. A ordem é inversa: predicado antes do sujeito."
+    },
+    {
+      "id": 25,
+      "assunto": "Sujeito e predicado",
+      "enunciado": "Em 'Nesta escola, faltam professores qualificados', o sujeito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Nesta escola", "correta": false },
+        { "letra": "B", "texto": "professores qualificados", "correta": true },
+        { "letra": "C", "texto": "inexistente", "correta": false },
+        { "letra": "D", "texto": "indeterminado", "correta": false }
+      ],
+      "explicacao": "O verbo 'faltar' é pessoal e concorda com o sujeito. 'Quem falta?' → 'professores qualificados'. 'Nesta escola' é adjunto adverbial de lugar."
+    },
+    {
+      "id": 26,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "O objeto direto é o termo que complementa o sentido do verbo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Com preposição obrigatória", "correta": false },
+        { "letra": "B", "texto": "Sem preposição obrigatória", "correta": true },
+        { "letra": "C", "texto": "Sempre com preposição 'de'", "correta": false },
+        { "letra": "D", "texto": "Apenas com verbos intransitivos", "correta": false }
+      ],
+      "explicacao": "O objeto direto complementa verbos transitivos diretos sem necessidade de preposição. Exemplo: 'Comi o bolo' — 'o bolo' é objeto direto, sem preposição."
+    },
+    {
+      "id": 27,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'A mãe deu um presente ao filho', o objeto indireto é:",
+      "alternativas": [
+        { "letra": "A", "texto": "um presente", "correta": false },
+        { "letra": "B", "texto": "ao filho", "correta": true },
+        { "letra": "C", "texto": "A mãe", "correta": false },
+        { "letra": "D", "texto": "deu", "correta": false }
+      ],
+      "explicacao": "O objeto indireto complementa o verbo com preposição. 'Dar' é VTDI: deu algo (OD: 'um presente') a alguém (OI: 'ao filho')."
+    },
+    {
+      "id": 28,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'O aluno precisa de atenção', o termo 'de atenção' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto direto", "correta": false },
+        { "letra": "B", "texto": "Objeto indireto", "correta": true },
+        { "letra": "C", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "D", "texto": "Complemento nominal", "correta": false }
+      ],
+      "explicacao": "O verbo 'precisar' é transitivo indireto — exige complemento com preposição 'de'. 'De atenção' é objeto indireto."
+    },
+    {
+      "id": 29,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Qual alternativa apresenta um verbo transitivo direto?",
+      "alternativas": [
+        { "letra": "A", "texto": "O bebê dormiu.", "correta": false },
+        { "letra": "B", "texto": "Ela gosta de chocolate.", "correta": false },
+        { "letra": "C", "texto": "O menino comprou um sorvete.", "correta": true },
+        { "letra": "D", "texto": "Nós precisamos de ajuda.", "correta": false }
+      ],
+      "explicacao": "'Comprar' é verbo transitivo direto — exige complemento sem preposição: 'comprou um sorvete' (objeto direto). 'Dormir' é intransitivo; 'gostar' e 'precisar' são transitivos indiretos."
+    },
+    {
+      "id": 30,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'Tenho certeza da sua aprovação', o termo 'da sua aprovação' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto indireto", "correta": false },
+        { "letra": "B", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "C", "texto": "Complemento nominal", "correta": true },
+        { "letra": "D", "texto": "Objeto direto", "correta": false }
+      ],
+      "explicacao": "O complemento nominal completa o sentido de um nome (substantivo, adjetivo ou advérbio) com preposição. 'Certeza' é substantivo abstrato que exige complemento: 'da sua aprovação'."
+    },
+    {
+      "id": 31,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Qual a diferença entre objeto indireto e complemento nominal?",
+      "alternativas": [
+        { "letra": "A", "texto": "O objeto indireto completa verbo; o complemento nominal completa nome", "correta": true },
+        { "letra": "B", "texto": "O objeto indireto completa nome; o complemento nominal completa verbo", "correta": false },
+        { "letra": "C", "texto": "Ambos completam verbo, mas com preposições diferentes", "correta": false },
+        { "letra": "D", "texto": "Não há diferença — são a mesma coisa", "correta": false }
+      ],
+      "explicacao": "O objeto indireto complementa verbos transitivos indiretos. O complemento nominal completa nomes (substantivos, adjetivos, advérbios). Ambos usam preposição, mas completam classes gramaticais diferentes."
+    },
+    {
+      "id": 32,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'A leitura do livro foi prazerosa', o termo 'do livro' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Complemento nominal", "correta": false },
+        { "letra": "B", "texto": "Objeto indireto", "correta": false },
+        { "letra": "C", "texto": "Adjunto adnominal", "correta": true },
+        { "letra": "D", "texto": "Adjunto adverbial", "correta": false }
+      ],
+      "explicacao": "Quando o termo preposicionado indica posse ou agente da ação em relação a um substantivo concreto ou abstrato, é adjunto adnominal. 'Do livro' especifica qual leitura — é adjunto adnominal."
+    },
+    {
+      "id": 33,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'Ela é favorável à reforma', o termo 'à reforma' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto indireto", "correta": false },
+        { "letra": "B", "texto": "Complemento nominal", "correta": true },
+        { "letra": "C", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "D", "texto": "Predicativo do sujeito", "correta": false }
+      ],
+      "explicacao": "'Favorável' é adjetivo que exige complemento com preposição 'a'. O termo 'à reforma' completa o sentido do adjetivo — é complemento nominal."
+    },
+    {
+      "id": 34,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'Vi o filme ontem', o termo 'o filme' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Sujeito", "correta": false },
+        { "letra": "B", "texto": "Objeto indireto", "correta": false },
+        { "letra": "C", "texto": "Objeto direto", "correta": true },
+        { "letra": "D", "texto": "Adjunto adverbial", "correta": false }
+      ],
+      "explicacao": "O verbo 'ver' é transitivo direto. 'O filme' complementa o verbo sem preposição — é objeto direto."
+    },
+    {
+      "id": 35,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'O artista pintou o quadro a óleo', 'a óleo' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto indireto", "correta": false },
+        { "letra": "B", "texto": "Complemento nominal", "correta": false },
+        { "letra": "C", "texto": "Adjunto adverbial de modo", "correta": true },
+        { "letra": "D", "texto": "Adjunto adnominal", "correta": false }
+      ],
+      "explicacao": "'A óleo' indica o modo/meio como o artista pintou — é adjunto adverbial de modo. Não complementa verbo nem nome, mas acrescenta uma circunstância."
+    },
+    {
+      "id": 36,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'O medo da escuridão é comum', 'da escuridão' é complemento nominal porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "Completa o sentido do verbo 'é'", "correta": false },
+        { "letra": "B", "texto": "Completa o substantivo abstrato 'medo' com valor passivo", "correta": true },
+        { "letra": "C", "texto": "Indica posse em relação ao sujeito", "correta": false },
+        { "letra": "D", "texto": "É objeto indireto do verbo implícito", "correta": false }
+      ],
+      "explicacao": "'Medo' é substantivo abstrato que exige complemento: sente-se medo DE algo. 'Da escuridão' tem valor passivo (a escuridão é que causa medo) — é complemento nominal."
+    },
+    {
+      "id": 37,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'A destruição da cidade chocou a todos', 'da cidade' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Adjunto adnominal (agente da destruição)", "correta": false },
+        { "letra": "B", "texto": "Complemento nominal (paciente da destruição)", "correta": true },
+        { "letra": "C", "texto": "Objeto indireto", "correta": false },
+        { "letra": "D", "texto": "Adjunto adverbial", "correta": false }
+      ],
+      "explicacao": "'Destruição' é substantivo derivado de verbo transitivo direto. 'Da cidade' é o paciente (aquilo que foi destruído) — portanto, complemento nominal."
+    },
+    {
+      "id": 38,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Qual alternativa apresenta objeto direto preposicionado?",
+      "alternativas": [
+        { "letra": "A", "texto": "Eu preciso de você.", "correta": false },
+        { "letra": "B", "texto": "Aos pobres, devemos ajudar.", "correta": true },
+        { "letra": "C", "texto": "Ela gosta de música.", "correta": false },
+        { "letra": "D", "texto": "Nós confiamos nos amigos.", "correta": false }
+      ],
+      "explicacao": "'Aos pobres' é objeto direto preposicionado de 'ajudar' (ajudar alguém). A preposição 'a' é facultativa aqui, usada por se tratar de complemento antecipado. As demais são objetos indiretos."
+    },
+    {
+      "id": 39,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'O estudante obedeceu ao regulamento', 'ao regulamento' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto direto", "correta": false },
+        { "letra": "B", "texto": "Objeto indireto", "correta": true },
+        { "letra": "C", "texto": "Complemento nominal", "correta": false },
+        { "letra": "D", "texto": "Adjunto adverbial", "correta": false }
+      ],
+      "explicacao": "O verbo 'obedecer' é transitivo indireto — exige preposição 'a'. 'Ao regulamento' é o complemento com preposição — objeto indireto."
+    },
+    {
+      "id": 40,
+      "assunto": "Termos que integram o sentido de nome e verbos",
+      "enunciado": "Em 'Ela chamou o irmão de mentiroso', 'o irmão' e 'de mentiroso' são, respectivamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto indireto e predicativo do objeto", "correta": false },
+        { "letra": "B", "texto": "Objeto direto e predicativo do objeto", "correta": true },
+        { "letra": "C", "texto": "Objeto direto e complemento nominal", "correta": false },
+        { "letra": "D", "texto": "Sujeito e predicativo do sujeito", "correta": false }
+      ],
+      "explicacao": "'Chamar' neste sentido é VTD + predicativo do objeto: 'o irmão' = objeto direto; 'de mentiroso' = predicativo do objeto (qualidade atribuída ao objeto)."
+    },
+    {
+      "id": 41,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "A análise morfossintática de uma sentença simples examina:",
+      "alternativas": [
+        { "letra": "A", "texto": "Apenas a classe gramatical de cada palavra", "correta": false },
+        { "letra": "B", "texto": "Apenas a função sintática de cada termo", "correta": false },
+        { "letra": "C", "texto": "A classe gramatical (morfologia) e a função sintática (sintaxe) dos termos", "correta": true },
+        { "letra": "D", "texto": "Apenas a semântica da frase", "correta": false }
+      ],
+      "explicacao": "A análise morfossintática combina dois níveis: o morfológico (classe gramatical: substantivo, verbo, adjetivo etc.) e o sintático (função: sujeito, objeto, adjunto etc.)."
+    },
+    {
+      "id": 42,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Na sentença 'O gato preto dormiu', a palavra 'preto' é morfologicamente um adjetivo e sintaticamente um:",
+      "alternativas": [
+        { "letra": "A", "texto": "Adjunto adverbial", "correta": false },
+        { "letra": "B", "texto": "Predicativo do sujeito", "correta": false },
+        { "letra": "C", "texto": "Adjunto adnominal", "correta": true },
+        { "letra": "D", "texto": "Complemento nominal", "correta": false }
+      ],
+      "explicacao": "'Preto' caracteriza o substantivo 'gato' diretamente, sem mediação de verbo de ligação. Quando o adjetivo se liga diretamente ao substantivo, é adjunto adnominal."
+    },
+    {
+      "id": 43,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Em 'Os alunos estudiosos passaram', 'estudiosos' é adjunto adnominal. Se a frase fosse 'Os alunos estão estudiosos', 'estudiosos' seria:",
+      "alternativas": [
+        { "letra": "A", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "B", "texto": "Predicativo do sujeito", "correta": true },
+        { "letra": "C", "texto": "Objeto direto", "correta": false },
+        { "letra": "D", "texto": "Complemento nominal", "correta": false }
+      ],
+      "explicacao": "Com verbo de ligação ('estão'), o adjetivo 'estudiosos' passa a ser predicativo do sujeito — atribui qualidade ao sujeito por meio do verbo."
+    },
+    {
+      "id": 44,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Na sentença 'A menina correu rápido', a palavra 'rápido' exerce a função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "B", "texto": "Predicativo do sujeito", "correta": false },
+        { "letra": "C", "texto": "Adjunto adverbial de modo", "correta": true },
+        { "letra": "D", "texto": "Objeto direto", "correta": false }
+      ],
+      "explicacao": "'Rápido' modifica o verbo 'correu', indicando modo. Quando uma palavra (mesmo que seja adjetivo usado como advérbio) modifica o verbo, é adjunto adverbial."
+    },
+    {
+      "id": 45,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Em 'O livro de história é interessante', 'de história' é morfossintaticamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "Locução adjetiva com função de adjunto adnominal", "correta": true },
+        { "letra": "B", "texto": "Complemento nominal", "correta": false },
+        { "letra": "C", "texto": "Objeto indireto", "correta": false },
+        { "letra": "D", "texto": "Adjunto adverbial", "correta": false }
+      ],
+      "explicacao": "'De história' é uma locução prepositiva + substantivo que funciona como locução adjetiva, caracterizando o substantivo 'livro'. Sintaticamente, é adjunto adnominal."
+    },
+    {
+      "id": 46,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Na análise morfossintática de 'Nós compramos flores', o pronome 'Nós' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pronome pessoal com função de objeto direto", "correta": false },
+        { "letra": "B", "texto": "Pronome pessoal com função de sujeito", "correta": true },
+        { "letra": "C", "texto": "Pronome demonstrativo com função de sujeito", "correta": false },
+        { "letra": "D", "texto": "Pronome pessoal com função de adjunto adnominal", "correta": false }
+      ],
+      "explicacao": "'Nós' é pronome pessoal do caso reto (forma de sujeito). Exerce a função sintática de sujeito simples da oração."
+    },
+    {
+      "id": 47,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Em 'O professor entregou a prova aos alunos', a análise correta é:",
+      "alternativas": [
+        { "letra": "A", "texto": "'a prova' = objeto indireto; 'aos alunos' = objeto direto", "correta": false },
+        { "letra": "B", "texto": "'a prova' = objeto direto; 'aos alunos' = objeto indireto", "correta": true },
+        { "letra": "C", "texto": "'a prova' = sujeito; 'aos alunos' = objeto direto", "correta": false },
+        { "letra": "D", "texto": "'a prova' = complemento nominal; 'aos alunos' = adjunto adverbial", "correta": false }
+      ],
+      "explicacao": "'Entregar' é VTDI: entregar algo (OD: 'a prova', sem preposição) a alguém (OI: 'aos alunos', com preposição 'a')."
+    },
+    {
+      "id": 48,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Na sentença 'A situação parece difícil', 'difícil' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "B", "texto": "Predicativo do sujeito", "correta": true },
+        { "letra": "C", "texto": "Adjunto adverbial", "correta": false },
+        { "letra": "D", "texto": "Complemento nominal", "correta": false }
+      ],
+      "explicacao": "'Parecer' é verbo de ligação neste contexto. 'Difícil' atribui qualidade ao sujeito 'A situação' — é predicativo do sujeito."
+    },
+    {
+      "id": 49,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Em 'Todos assistiram ao jogo animados', 'animados' é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "B", "texto": "Adjunto adverbial de modo", "correta": false },
+        { "letra": "C", "texto": "Predicativo do sujeito", "correta": true },
+        { "letra": "D", "texto": "Objeto direto", "correta": false }
+      ],
+      "explicacao": "'Animados' refere-se ao sujeito 'Todos' (estado dos espectadores), não ao verbo. É predicativo do sujeito em um predicado verbo-nominal."
+    },
+    {
+      "id": 50,
+      "assunto": "Morfossintaxe da sentença simples",
+      "enunciado": "Qual alternativa apresenta a análise morfossintática INCORRETA de 'O vento forte derrubou as árvores'?",
+      "alternativas": [
+        { "letra": "A", "texto": "'O vento' = sujeito simples (substantivo)", "correta": false },
+        { "letra": "B", "texto": "'forte' = adjunto adnominal (adjetivo)", "correta": false },
+        { "letra": "C", "texto": "'as árvores' = objeto direto (substantivo)", "correta": false },
+        { "letra": "D", "texto": "'derrubou' = predicativo do sujeito (verbo)", "correta": true }
+      ],
+      "explicacao": "'Derrubou' é o núcleo do predicado verbal — é verbo transitivo direto, NÃO predicativo do sujeito. O predicativo seria um atributo do sujeito ligado por verbo de ligação."
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../index.html" class="ds-nav__back" aria-label="Voltar para Português">← Voltar</a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <button class="ds-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+        <span class="ds-nav__hamburger"></span>
+      </button>
+      <nav aria-label="Navegação principal" class="ds-nav__menu" id="nav-menu">
+        <ul class="ds-nav__list" id="nav-list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="ds-progress-bar__fill"></div>
+      </div>
+
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Português — Sentença Simples, Sujeito e Predicado</h1>
+        <p class="ds-lead">Revisão completa de análise sintática da sentença simples para o Primeiro Ano do Ensino Médio. Estude a estrutura da oração, tipos de sujeito e predicado, termos integrantes e morfossintaxe.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+          <section class="ds-study-block">
+            <h2>Sentença Simples (Período Simples</h2>
+            <p>A sentença simples é aquela formada por <strong>apenas uma oração</strong>, ou seja, contém um único verbo (ou locução verbal) que estrutura o predicado. É a unidade mínima de comunicação com sentido completo.</p>
+            <div class="ds-highlight ds-highlight--formula">Estrutura: Sujeito + Verbo + Complementos (opcionais) | Exemplo: "O aluno estudou." | Locução verbal conta como um único núcleo: "está estudando" = 1 oração</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir período simples com composto: conte os verbos (ou locuções verbais). Cada verbo conjugado ou locução = 1 oração. Outro erro: achar que sentença simples precisa ter sujeito explícito — orações sem sujeito (ex: "Choveu") ou com sujeito oculto (ex: "Estudamos") também são simples. Atenção: verbos impessoais (haver, fazer clima, ser, estar) não têm sujeito.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> "Nós vamos ao cinema." → 1 verbo ("vamos") = 1 oração = período simples. Já "Nós vamos ao cinema e depois jantamos" tem 2 verbos = período composto.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Sujeito e Predicado</h2>
+            <p>Toda oração se divide em dois termos essenciais: <strong>sujeito</strong> (de quem se fala) e <strong>predicado</strong> (o que se diz do sujeito). O sujeito pode ser simples (1 núcleo), composto (2+ núcleos), oculto, indeterminado ou inexistente. O predicado classifica-se em verbal (núcleo = verbo significativo), nominal (núcleo = predicativo com verbo de ligação) ou verbo-nominal (dois núcleos).</p>
+            <div class="ds-highlight ds-highlight--formula">Tipos de sujeito: Simples ("O gato dormiu") | Composto ("Pedro e Maria saíram") | Oculto ("Estudamos" → nós) | Indeterminado ("Falaram mal") | Inexistente ("Choveu", "Havia pessoas") | Tipos de predicado: Verbal ("Ele correu") | Nominal ("Ela está feliz") | Verbo-nominal ("Ele chegou cansado")</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro frequente: achar que sujeito sempre vem antes do verbo. Na ordem inversa ("Chegaram os convidados"), o sujeito aparece depois. Outro erro: confundir sujeito indeterminado com oração sem sujeito — no indeterminado, alguém praticou a ação, mas não se sabe quem; na oração sem sujeito, simplesmente não existe sujeito (verbos impessoais). Para identificar predicativo: se há verbo de ligação (ser, estar, parecer, ficar, permanecer, tornar-se), o atributo do sujeito é predicativo.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> "O juiz chegou cansado." → Sujeito: "O juiz" (simples) | Predicado: verbo-nominal (núcleos: "chegou" + "cansado").</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Termos que Integram o Sentido de Nome e Verbos</h2>
+            <p>São termos que completam o sentido de verbos transitivos ou de nomes (substantivos, adjetivos, advérbios). Incluem: <strong>objeto direto</strong> (sem preposição), <strong>objeto indireto</strong> (com preposição), <strong>complemento nominal</strong> (completa nome) e <strong>agente da passiva</strong> (na voz passiva).</p>
+            <div class="ds-highlight ds-highlight--formula">Objeto direto: "Comi o bolo" (sem preposição) | Objeto indireto: "Preciso de ajuda" (com preposição) | Complemento nominal: "Tenho medo da escuridão" (completa nome) | Agente da passiva: "O livro foi escrito por Machado" | ODI vs. CN: OI completa verbo; CN completa nome</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">A maior confusão é entre objeto indireto e complemento nominal: ambos usam preposição. A diferença é o que completam — OI completa VERBO; CN completa NOME (substantivo, adjetivo, advérbio). Outro erro: confundir adjunto adnominal com complemento nominal. Quando o termo preposicionado tem valor de agente/paciente em relação a substantivo abstrato, é CN. Quando indica posse ou especificação, é adjunto adnominal. Ex: "amor de mãe" (ela ama = adj. adnominal) vs. "amor à mãe" (ela é amada = CN).</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> "A mãe deu um presente ao filho." → "um presente" = OD (deu algo); "ao filho" = OI (deu a alguém).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Morfossintaxe da Sentença Simples</h2>
+            <p>A análise morfossintática examina simultaneamente a <strong>classe gramatical</strong> (morfologia: substantivo, verbo, adjetivo etc.) e a <strong>função sintática</strong> (sintaxe: sujeito, objeto, adjunto etc.) de cada termo. Um mesmo vocábulo pode ter funções diferentes dependendo do contexto.</p>
+            <div class="ds-highlight ds-highlight--formula">Morfologia = classe gramatical | Sintaxe = função na oração | Exemplo: "preto" em "gato preto" = adjetivo (morf.) + adj. adnominal (sint.) | "preto" em "o gato está preto" = adjetivo (morf.) + predicativo do sujeito (sint.) | Locução adjetiva ("de história") = adj. adnominal</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro clássico: confundir adjunto adnominal com predicativo do sujeito. Se o adjetivo se liga DIRETAMENTE ao substantivo (sem verbo de ligação), é adjunto adnominal. Se há verbo de ligação entre eles, é predicativo. Outro erro: achar que advérbio só pode ser formado por palavra terminada em "-mente". Adjetivos podem funcionar como advérbios ("correu rápido") — nesse caso, são adjuntos adverbiais. Cuidado também com o predicativo do objeto: "Ela chamou o irmão de mentiroso" → "de mentiroso" é predicativo do objeto "o irmão".</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> "O vento forte derrubou as árvores." → "O vento" = sujeito (substantivo); "forte" = adj. adnominal (adjetivo); "derrubou" = verbo (núcleo do predicado); "as árvores" = objeto direto (substantivo).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei identificar um período simples contando os verbos/locuções verbais</li>
+              <li>Reconheço os tipos de sujeito: simples, composto, oculto, indeterminado e inexistente</li>
+              <li>Diferencio predicado verbal, nominal e verbo-nominal pelos seus núcleos</li>
+              <li>Identifico predicativo do sujeito (com verbo de ligação) e predicativo do objeto</li>
+              <li>Distingo objeto direto (sem preposição) de objeto indireto (com preposição)</li>
+              <li>Diferencio objeto indireto (completa verbo) de complemento nominal (completa nome)</li>
+              <li>Distingo adjunto adnominal (posse/especificação) de complemento nominal (paciente)</li>
+              <li>Consigo fazer análise morfossintática: classe gramatical + função sintática de cada termo</li>
+              <li>Identifico locuções adjetivas com função de adjunto adnominal</li>
+              <li>Reconheço verbos impessoais (haver, fazer clima, ser, estar) e orações sem sujeito</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Na análise sintática, SEMPRE comece pelo verbo. Pergunte ao verbo: "Quem?" (sujeito), "O quê?" (OD), "A quê/De quê?" (OI). Depois identifique os adjuntos e complementos nominais.
+            </div>
+          </section>
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>
