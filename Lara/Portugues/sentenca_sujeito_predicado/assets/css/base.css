@@ -99,7 +99,7 @@ p { margin-bottom: var(--space-4); color: var(--ds-text-light); }
 
 /* Layout & Utils */
 .container { width: 100%; max-width: 1120px; margin: 0 auto; padding: 0 var(--space-4); box-sizing: border-box; }
-main { overflow-x: hidden; }
+main { overflow: visible; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
 .skip-link {
   position: absolute; top: -40px; left: 0; background: var(--ds-primary); color: #fff;
