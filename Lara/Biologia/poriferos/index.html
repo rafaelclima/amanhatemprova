@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../index.html" class="ds-nav__back" aria-label="Voltar para Biologia">← Voltar</a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <button class="ds-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+        <span class="ds-nav__hamburger"></span>
+      </button>
+      <nav aria-label="Navegação principal" class="ds-nav__menu" id="nav-menu">
+        <ul class="ds-nav__list" id="nav-list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="ds-progress-bar__fill"></div>
+      </div>
+
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Biologia — Poríferos (Esponjas)</h1>
+        <p class="ds-lead">Revisão completa de Poríferos para o Primeiro Ano do Ensino Médio. Estude a anatomia, fisiologia, classificação e importância ecológica das esponjas.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+          <section class="ds-study-block">
+            <h2>Características Gerais dos Poríferos</h2>
+            <p>Os poríferos (filo Porifera), conhecidos como <strong>esponjas</strong>, são os animais multicelulares mais simples. São <strong>parazoários</strong> — não possuem tecidos verdadeiros nem órgãos. São sésseis (fixos ao substrato), aquáticos (principalmente marinhos) e <strong>filtradores</strong>.</p>
+            <div class="ds-highlight ds-highlight--formula">Filo Porifera | Parazoários (sem tecidos verdadeiros) | Sésseis e filtradores | Simetria: assimétrica ou radial | Habitat: aquático (majoritariamente marinho) | Digestão: exclusivamente intracelular</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro frequente: confundir poríferos com cnidários. Poríferos NÃO possuem tecidos verdadeiros, nem sistema nervoso, nem digestão extracelular. Outro erro: achar que esponjas são plantas — são animais heterótrofos. Não possuem sistema digestório, circulatório, respiratório ou excretor — tudo ocorre por difusão direta.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Uma esponja fixa em uma rocha marinha filtra água constantemente: entra pelos óstios, passa pela espongiocele e sai pelo ósculo, retendo partículas alimentares.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Anatomia e Tipos Celulares</h2>
+            <p>O corpo da esponja é organizado em camadas celulares com funções específicas: <strong>pinacócitos</strong> (revestimento externo), <strong>coanócitos</strong> (filtragem e circulação), <strong>amebócitos</strong> (distribuição de nutrientes e diferenciação celular) e <strong>porócitos</strong> (formam os poros de entrada). Entre as camadas fica o <strong>mesênquio</strong> (matriz gelatinosa).</p>
+            <div class="ds-highlight ds-highlight--formula">Pinacócitos → pinacoderme (revestimento externo) | Coanócitos → coanoderme (revestimento interno, com flagelos e colarinho) | Amebócitos → mesênquio (distribuição e diferenciação) | Porócitos → óstios (poros de entrada) | Mesênquio → matriz gelatinosa com espículas</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir óstios com ósculo: óstios = poros de ENTRADA (múltiplos, pequenos); ósculo = abertura de SAÍDA (único, grande). Outro erro: achar que coanócitos fazem digestão extracelular — eles fagocitam partículas, mas a digestão é intracelular. Os amebócitos recebem nutrientes dos coanócitos e os distribuem.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Os coanócitos batem seus flagelos → criam corrente de água → partículas ficam presas no colarinho → são fagocitadas → digestão intracelular.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Tipos Estruturais (Asconoide, Siconoide, Leuconoide)</h2>
+            <p>As esponjas são classificadas em três tipos estruturais conforme a complexidade do sistema de canais: <strong>asconoide</strong> (mais simples, vaso único), <strong>siconoide</strong> (invaginações com coanócitos) e <strong>leuconoide</strong> (mais complexo, câmeras vibráteis). Quanto mais complexo, maior o tamanho possível da esponja.</p>
+            <div class="ds-highlight ds-highlight--formula">Asconoide: corpo em vaso, espongiocele única, coanócitos revestem toda a espongiocele | Siconoide: paredes com dobras (cânais radiais) revestidas por coanócitos | Leuconoide: câmeras flageladas independentes, espongiocele reduzida, permite maior porte</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro comum: achar que o tipo leuconoide é o mais simples — na verdade é o mais complexo! A sequência de complexidade é: asconoide → siconoide → leuconoide. Outro erro: confundir espongiocele com câmeras vibráteis. No leuconoide, a espongiocele é reduzida e os coanócitos estão nas câmeras.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Leucosolenia = asconoide (simples, pequena) | Sycon = siconoide (intermediário) | Spongia officinalis = leuconoide (complexa, grande).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Esqueleto e Classificação</h2>
+            <p>O esqueleto das esponjas é formado por <strong>espículas</strong> (estruturas pontiagudas de calcário ou sílica) e/ou fibras de <strong>espongina</strong> (proteína). A composição do esqueleto define as três classes: <strong>Calcarea</strong> (espículas de calcário), <strong>Hexactinellida</strong> (espículas de sílica com 6 raios) e <strong>Demospongiae</strong> (espículas de sílica e/ou espongina — a classe mais diversa).</p>
+            <div class="ds-highlight ds-highlight--formula">Calcarea → espículas de CaCO₃ (calcário) | Hexactinellida → espículas de sílica com 6 raios (esponjas de vidro) | Demospongiae → espículas de sílica e/ou fibras de espongina (80-90% das espécies) | Escleroblastos → células que produzem espículas</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir as classes: Calcarea = calcário (CaCO₃), NÃO sílica. Hexactinellida = sílica com 6 raios (hexaxonas). Demospongiae = sílica e/ou espongina (NÃO calcário). Outro erro: achar que a esponja-do-banho tem espículas — ela tem apenas fibras de espongina.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Esponja-do-banho comercial = Demospongiae (espongina, sem espículas) | Euplectella = Hexactinellida (espículas de vidro, 6 raios) | Leucosolenia = Calcarea (espículas calcárias).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Fisiologia (Digestão, Respiração, Excreção)</h2>
+            <p>Esponjas não possuem sistemas especializados. A <strong>digestão é exclusivamente intracelular</strong> (coanócitos fagocitam, amebócitos completam e distribuem). A <strong>respiração e excreção ocorrem por difusão direta</strong> entre as células e a água circulante. Não há sistema circulatório — a água que circula transporta O₂, nutrientes e remove CO₂ e amônia.</p>
+            <div class="ds-highlight ds-highlight--formula">Digestão: intracelular (coanócitos + amebócitos) | Respiração: difusão direta (O₂ entra, CO₂ sai) | Excreção: difusão direta (amônia) | Circulação: água circulante (não há sangue nem coração) | Nutrientes: distribuídos pelos amebócitos</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro grave: afirmar que esponjas têm digestão extracelular — elas NÃO possuem cavidade digestiva. Outro erro: dizer que possuem sistema circulatório — a água que circula NÃO é sangue. A excreção é por amônia (amoniotélicas), eliminada por difusão.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Partícula alimentar → fagocitada pelo coanócito → digestão intracelular → nutrientes passam para amebócito → amebócito distribui para outras células.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Reprodução</h2>
+            <p>Esponjas possuem reprodução <strong>assexuada</strong> (brotamento, fragmentação e gemúlas em água doce) e <strong>sexuada</strong> (fecundação interna, desenvolvimento de larva anfípula ciliada). São geralmente <strong>hermafroditas</strong> (monoicos), mas os gametas amadurecem em épocas diferentes, favorecendo fecundação cruzada.</p>
+            <div class="ds-highlight ds-highlight--formula">Assexuada: brotamento (gemas), fragmentação (regeneração), gemúlas (água doce, resistência) | Sexuada: fecundação interna, larva anfípula/parenquímula (ciliada, livre-natante) | Hermafroditas: produzem espermatozoides e óvulos | Gametas: originados de coanócitos ou amebócitos</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Confundir larvas: anfípula/parenquímula = esponjas; plânula = cnidários. Outro erro: achar que gemúlas existem em esponjas marinhas — são exclusivas de água doce. A fecundação é interna (espermatozoide entra com a água e fecunda o óvulo no mesênquio), NÃO externa.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Fragmento de esponja se desprende → células se reorganizam → nova esponja funcional (reprodução assexuada por fragmentação + regeneração).</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Importância Ecológica e Econômica</h2>
+            <p>Esponjas são <strong>filtradoras eficientes</strong> (milhares de litros/dia), reciclando nutrientes e mantendo a qualidade da água. Servem de <strong>habitat</strong> para diversos organismos. Comercialmente, a esponja-do-banho (espongina) é usada para higiene. Na farmacologia, produzem <strong>substâncias bioativas</strong> com potencial antitumoral, antiviral e antibacteriano.</p>
+            <div class="ds-highlight ds-highlight--formula">Ecológica: filtração de água, ciclo de nutrientes, habitat para fauna | Econômica: esponja-do-banho (Demospongiae) | Farmacológica: metabólitos com atividade antitumoral, antiviral, antibacteriana | Bioindicadoras: sensíveis à poluição</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro: afirmar que esponjas são produtoras primárias — elas são consumidoras (heterótrofas filtradoras). Outro erro: confundir a esponja-do-banho com esponjas de calcário — a comercial é Demospongiae com fibras de espongina, sem espículas.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Uma esponja de 10 cm pode filtrar mais de 20 litros de água por hora, removendo bactérias e partículas orgânicas.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei que poríferos são parazoários sem tecidos verdadeiros</li>
+              <li>Identifico os tipos celulares: pinacócitos, coanócitos, amebócitos, porócitos</li>
+              <li>Entendo o fluxo de água: óstios → espongiocele → ósculo</li>
+              <li>Diferencio os tipos estruturais: asconoide, siconoide e leuconoide</li>
+              <li>Classifico as esponjas pelo esqueleto: Calcarea, Hexactinellida, Demospongiae</li>
+              <li>Sei que a digestão é exclusivamente intracelular</li>
+              <li>Entendo que respiração e excreção ocorrem por difusão direta</li>
+              <li>Conheço os tipos de reprodução: brotamento, fragmentação, gemúlas e sexuada</li>
+              <li>Reconheço a larva anfípula/parenquímula como larva das esponjas</li>
+              <li>Compreendo a importância ecológica (filtração) e econômica (espongina, fármacos)</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Lembre-se — esponjas são os animais mais simples. Tudo nelas é básico: sem tecidos, sem órgãos, sem sistemas. A água que circula faz tudo: alimenta, respira, excreta.
+            </div>
+          </section>
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: calc(72px + var(--space-12)); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

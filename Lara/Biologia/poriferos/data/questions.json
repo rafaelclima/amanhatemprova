@@ -1,0 +1,607 @@
+{
+  "serie": "Primeiro Ano do Ensino Médio",
+  "disciplina": "Biologia",
+  "assuntos": ["Poríferos"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Poríferos",
+      "enunciado": "Os poríferos, conhecidos como esponjas, são animais que se caracterizam por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Possuir tecidos verdadeiros e órgãos bem definidos", "correta": false },
+        { "letra": "B", "texto": "Serem filtradores sésseis sem tecidos verdadeiros", "correta": true },
+        { "letra": "C", "texto": "Possuir simetria bilateral e sistema nervoso", "correta": false },
+        { "letra": "D", "texto": "Serem organismos exclusivamente marinhos com concha", "correta": false }
+      ],
+      "explicacao": "Poríferos são animais sésseis (fixos), filtradores, que não possuem tecidos verdadeiros nem órgãos. São os animais mais simples conhecidos."
+    },
+    {
+      "id": 2,
+      "assunto": "Poríferos",
+      "enunciado": "As células responsáveis pela circulação da água no interior das esponjas são os:",
+      "alternativas": [
+        { "letra": "A", "texto": "Amebócitos", "correta": false },
+        { "letra": "B", "texto": "Coanócitos", "correta": true },
+        { "letra": "C", "texto": "Porócitos", "correta": false },
+        { "letra": "D", "texto": "Escleroblastos", "correta": false }
+      ],
+      "explicacao": "Os coanócitos possuem flagelos que movimentam a água, criando a corrente que entra pelos óstios e sai pelo ósculo."
+    },
+    {
+      "id": 3,
+      "assunto": "Poríferos",
+      "enunciado": "A estrutura de sustentação das esponjas é formada por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ossos e cartilagens", "correta": false },
+        { "letra": "B", "texto": "Espículas de calcário ou sílica e fibras de espongina", "correta": true },
+        { "letra": "C", "texto": "Exoesqueleto de quitina", "correta": false },
+        { "letra": "D", "texto": "Concha calcária", "correta": false }
+      ],
+      "explicacao": "As esponjas possuem espículas (estruturas pontiagudas de carbonato de cálcio ou sílica) e/ou fibras de espongina (proteína) para sustentação."
+    },
+    {
+      "id": 4,
+      "assunto": "Poríferos",
+      "enunciado": "Os poros de entrada de água nas esponjas são chamados de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ósculos", "correta": false },
+        { "letra": "B", "texto": "Óstios", "correta": true },
+        { "letra": "C", "texto": "Espículas", "correta": false },
+        { "letra": "D", "texto": "Coanócitos", "correta": false }
+      ],
+      "explicacao": "Os óstios são os pequenos poros de entrada da água. O ósculo é a abertura de saída."
+    },
+    {
+      "id": 5,
+      "assunto": "Poríferos",
+      "enunciado": "A digestão nas esponjas ocorre:",
+      "alternativas": [
+        { "letra": "A", "texto": "Extracelularmente no átrio", "correta": false },
+        { "letra": "B", "texto": "Intracelularmente nos coanócitos e amebócitos", "correta": true },
+        { "letra": "C", "texto": "No estômago central", "correta": false },
+        { "letra": "D", "texto": "No sistema digestório completo", "correta": false }
+      ],
+      "explicacao": "Esponjas não possuem sistema digestório. A digestão é intracelular: os coanócitos capturam partículas e os amebócitos completam a digestão e distribuem nutrientes."
+    },
+    {
+      "id": 6,
+      "assunto": "Poríferos",
+      "enunciado": "Qual tipo de esponja possui a estrutura mais simples, com um único átrio (espongiocele)?",
+      "alternativas": [
+        { "letra": "A", "texto": "Asconoide", "correta": true },
+        { "letra": "B", "texto": "Siconoide", "correta": false },
+        { "letra": "C", "texto": "Leuconoide", "correta": false },
+        { "letra": "D", "texto": "Espongioide", "correta": false }
+      ],
+      "explicacao": "O tipo asconoide é o mais simples: corpo em forma de vaso com uma única espongiocele central revestida por coanócitos."
+    },
+    {
+      "id": 7,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas do tipo leuconoide se caracterizam por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Possuir um único átrio central", "correta": false },
+        { "letra": "B", "texto": "Possuir várias câmeras vibráteis interconectadas", "correta": true },
+        { "letra": "C", "texto": "Não possuir coanócitos", "correta": false },
+        { "letra": "D", "texto": "Ser exclusivamente de água doce", "correta": false }
+      ],
+      "explicacao": "O tipo leuconoide é o mais complexo: a espongiocele é reduzida e os coanócitos se concentram em câmeras vibráteis (câmeras flageladas)."
+    },
+    {
+      "id": 8,
+      "assunto": "Poríferos",
+      "enunciado": "A reprodução assexuada das esponjas pode ocorrer por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Fecundação cruzada", "correta": false },
+        { "letra": "B", "texto": "Brotamento e fragmentação", "correta": true },
+        { "letra": "C", "texto": "Metagênese", "correta": false },
+        { "letra": "D", "texto": "Autofecundação", "correta": false }
+      ],
+      "explicacao": "Esponjas se reproduzem assexuadamente por brotamento (formação de gemas) e fragmentação (pedaços que se regeneram)."
+    },
+    {
+      "id": 9,
+      "assunto": "Poríferos",
+      "enunciado": "As gemúlas são estruturas de resistência produzidas por esponjas de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ambiente marinho", "correta": false },
+        { "letra": "B", "texto": "Água doce", "correta": true },
+        { "letra": "C", "texto": "Ambiente terrestre", "correta": false },
+        { "letra": "D", "texto": "Ambiente de águas profundas", "correta": false }
+      ],
+      "explicacao": "Gemúlas são estruturas de resistência típicas de esponjas de água doce, que sobrevivem a condições adversas como seca e frio."
+    },
+    {
+      "id": 10,
+      "assunto": "Poríferos",
+      "enunciado": "Na reprodução sexuada das esponjas, os gametas são produzidos por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Coanócitos ou amebócitos", "correta": true },
+        { "letra": "B", "texto": "Porócitos", "correta": false },
+        { "letra": "C", "texto": "Espículas", "correta": false },
+        { "letra": "D", "texto": "Células da pinacoderme", "correta": false }
+      ],
+      "explicacao": "Coanócitos e amebócitos podem se diferenciar em células reprodutivas, produzindo espermatozoides e óvulos."
+    },
+    {
+      "id": 11,
+      "assunto": "Poríferos",
+      "enunciado": "A larva das esponjas é chamada de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Plânula", "correta": false },
+        { "letra": "B", "texto": "Anfípula (ou parenquímula)", "correta": true },
+        { "letra": "C", "texto": "Trocófora", "correta": false },
+        { "letra": "D", "texto": "Bipinária", "correta": false }
+      ],
+      "explicacao": "A larva anfípula (ou parenquímula) é ciliada e livre-natante. A plânula é larva de cnidários."
+    },
+    {
+      "id": 12,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas são animais filtradores. O alimento que entra com a água é capturado por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pinacócitos", "correta": false },
+        { "letra": "B", "texto": "Coanócitos", "correta": true },
+        { "letra": "C", "texto": "Porócitos", "correta": false },
+        { "letra": "D", "texto": "Amebócitos", "correta": false }
+      ],
+      "explicacao": "Os coanócitos possuem um colarinho (glicocálix) que retém as partículas alimentares da água que passa."
+    },
+    {
+      "id": 13,
+      "assunto": "Poríferos",
+      "enunciado": "Qual a função dos amebócitos nas esponjas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Produzir a corrente de água", "correta": false },
+        { "letra": "B", "texto": "Distribuir nutrientes e originar outras células", "correta": true },
+        { "letra": "C", "texto": "Formar os poros de entrada", "correta": false },
+        { "letra": "D", "texto": "Proteger o corpo da esponja", "correta": false }
+      ],
+      "explicacao": "Os amebócitos são células móveis que recebem nutrientes dos coanócitos, distribuem pelo corpo e podem se diferenciar em outros tipos celulares."
+    },
+    {
+      "id": 14,
+      "assunto": "Poríferos",
+      "enunciado": "A camada externa do corpo das esponjas é formada por células achatadas chamadas:",
+      "alternativas": [
+        { "letra": "A", "texto": "Coanócitos", "correta": false },
+        { "letra": "B", "texto": "Pinacócitos", "correta": true },
+        { "letra": "C", "texto": "Amebócitos", "correta": false },
+        { "letra": "D", "texto": "Porócitos", "correta": false }
+      ],
+      "explicacao": "Os pinacócitos formam a pinacoderme, a camada externa que reveste o corpo da esponja."
+    },
+    {
+      "id": 15,
+      "assunto": "Poríferos",
+      "enunciado": "A espongiocele é:",
+      "alternativas": [
+        { "letra": "A", "texto": "A célula reprodutiva da esponja", "correta": false },
+        { "letra": "B", "texto": "A cavidade central por onde circula a água", "correta": true },
+        { "letra": "C", "texto": "O esqueleto da esponja", "correta": false },
+        { "letra": "D", "texto": "O poro de saída da água", "correta": false }
+      ],
+      "explicacao": "A espongiocele (ou átrio ou espongiocélio) é a cavidade central por onde a água circula antes de sair pelo ósculo."
+    },
+    {
+      "id": 16,
+      "assunto": "Poríferos",
+      "enunciado": "O ósculo nas esponjas é:",
+      "alternativas": [
+        { "letra": "A", "texto": "O poro de entrada de água", "correta": false },
+        { "letra": "B", "texto": "A abertura de saída da água", "correta": true },
+        { "letra": "C", "texto": "A célula digestiva", "correta": false },
+        { "letra": "D", "texto": "O órgão reprodutor", "correta": false }
+      ],
+      "explicacao": "O ósculo é a grande abertura por onde a água filtrada sai do corpo da esponja."
+    },
+    {
+      "id": 17,
+      "assunto": "Poríferos",
+      "enunciado": "Sobre a classificação das esponjas quanto ao tipo de esqueleto, as esponjas da classe Demospongiae possuem:",
+      "alternativas": [
+        { "letra": "A", "texto": "Espículas de calcário apenas", "correta": false },
+        { "letra": "B", "texto": "Espículas de sílica e/ou fibras de espongina", "correta": true },
+        { "letra": "C", "texto": "Concha calcária", "correta": false },
+        { "letra": "D", "texto": "Esqueleto de quitina", "correta": false }
+      ],
+      "explicacao": "Demospongiae é a classe mais diversa, com espículas de sílica (não de calcário) e/ou fibras de espongina."
+    },
+    {
+      "id": 18,
+      "assunto": "Poríferos",
+      "enunciado": "Qual das classes de poríferos possui espículas exclusivamente de carbonato de cálcio?",
+      "alternativas": [
+        { "letra": "A", "texto": "Demospongiae", "correta": false },
+        { "letra": "B", "texto": "Hexactinellida", "correta": false },
+        { "letra": "C", "texto": "Calcarea", "correta": true },
+        { "letra": "D", "texto": "Sclerospongiae", "correta": false }
+      ],
+      "explicacao": "Calcarea (ou esponjas calcárias) possuem espículas de carbonato de cálcio (calcita) e são geralmente asconoides ou siconoides."
+    },
+    {
+      "id": 19,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas de vidro (classe Hexactinellida) são conhecidas por possuir espículas:",
+      "alternativas": [
+        { "letra": "A", "texto": "De calcário com 4 raios", "correta": false },
+        { "letra": "B", "texto": "De sílica com 6 raios", "correta": true },
+        { "letra": "C", "texto": "De espongina flexível", "correta": false },
+        { "letra": "D", "texto": "De quitina rígida", "correta": false }
+      ],
+      "explicacao": "Hexactinellida possuem espículas silicosas com 6 raios (hexaxonas), formando uma estrutura que lembra vidro."
+    },
+    {
+      "id": 20,
+      "assunto": "Poríferos",
+      "enunciado": "A capacidade de regeneração das esponjas é notável porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "Possuem células-tronco que se diferenciam em qualquer tipo celular", "correta": true },
+        { "letra": "B", "texto": "Possuem sistema nervoso que coordena a regeneração", "correta": false },
+        { "letra": "C", "texto": "Se regeneram apenas em ambiente marinho", "correta": false },
+        { "letra": "D", "texto": "Não possuem capacidade de regeneração", "correta": false }
+      ],
+      "explicacao": "Os amebócitos funcionam como células-tronco, podendo se diferenciar em qualquer tipo celular, permitindo regeneração mesmo a partir de fragmentos."
+    },
+    {
+      "id": 21,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas são consideradas animais:",
+      "alternativas": [
+        { "letra": "A", "texto": "Diblásticos com simetria radial", "correta": false },
+        { "letra": "B", "texto": "Parazoários, sem tecidos verdadeiros", "correta": true },
+        { "letra": "C", "texto": "Eumetazoários com simetria bilateral", "correta": false },
+        { "letra": "D", "texto": "Triblásticos acelomados", "correta": false }
+      ],
+      "explicacao": "Poríferos são parazoários — animais que não possuem tecidos verdadeiros organizados, diferindo dos eumetazoários (todos os outros animais)."
+    },
+    {
+      "id": 22,
+      "assunto": "Poríferos",
+      "enunciado": "O mesênquio (ou mesoilo) nas esponjas é:",
+      "alternativas": [
+        { "letra": "A", "texto": "A cavidade digestiva", "correta": false },
+        { "letra": "B", "texto": "Uma matriz gelatinosa entre a pinacoderme e os coanócitos", "correta": true },
+        { "letra": "C", "texto": "O esqueleto da esponja", "correta": false },
+        { "letra": "D", "texto": "O poro de saída", "correta": false }
+      ],
+      "explicacao": "O mesênquio é uma matriz gelatinosa (mesogleia) localizada entre a camada externa (pinacoderme) e a interna (coanoderme), onde ficam os amebócitos e espículas."
+    },
+    {
+      "id": 23,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas realizam trocas gasosas e excreção por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Sistema circulatório fechado", "correta": false },
+        { "letra": "B", "texto": "Difusão direta entre as células e a água", "correta": true },
+        { "letra": "C", "texto": "Brânquias especializadas", "correta": false },
+        { "letra": "D", "texto": "Túbulos de Malpighi", "correta": false }
+      ],
+      "explicacao": "Sem sistemas especializados, as trocas gasosas (O₂/CO₂) e a excreção (amônia) ocorrem por difusão direta entre cada célula e a água que circula."
+    },
+    {
+      "id": 24,
+      "assunto": "Poríferos",
+      "enunciado": "Qual a importância ecológica das esponjas marinhas?",
+      "alternativas": [
+        { "letra": "A", "texto": "São os principais produtores primários dos oceanos", "correta": false },
+        { "letra": "B", "texto": "Filtram grandes volumes de água e servem de abrigo para outros organismos", "correta": true },
+        { "letra": "C", "texto": "São predadores de topo na cadeia alimentar", "correta": false },
+        { "letra": "D", "texto": "Produzem oxigênio por fotossíntese", "correta": false }
+      ],
+      "explicacao": "Esponjas filtram enormes volumes de água, reciclando nutrientes, e servem de habitat e abrigo para diversas espécies marinhas."
+    },
+    {
+      "id": 25,
+      "assunto": "Poríferos",
+      "enunciado": "A esponja-do-banho, usada comercialmente, pertence à classe:",
+      "alternativas": [
+        { "letra": "A", "texto": "Calcarea", "correta": false },
+        { "letra": "B", "texto": "Hexactinellida", "correta": false },
+        { "letra": "C", "texto": "Demospongiae", "correta": true },
+        { "letra": "D", "texto": "Cnidaria", "correta": false }
+      ],
+      "explicacao": "A esponja-do-banho é uma demospongia que possui fibras de espongina (proteína flexível) como esqueleto, sem espículas."
+    },
+    {
+      "id": 26,
+      "assunto": "Poríferos",
+      "enunciado": "O tipo siconoide de esponja se diferencia do asconoide por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Possuir invaginações da parede com coanócitos", "correta": true },
+        { "letra": "B", "texto": "Não possuir coanócitos", "correta": false },
+        { "letra": "C", "texto": "Ser exclusivamente de água doce", "correta": false },
+        { "letra": "D", "texto": "Possuir sistema digestório completo", "correta": false }
+      ],
+      "explicacao": "No tipo siconoide, a parede do corpo possui dobras (invaginações) revestidas por coanócitos, aumentando a superfície de filtragem."
+    },
+    {
+      "id": 27,
+      "assunto": "Poríferos",
+      "enunciado": "Os porócitos nas esponjas são células que formam:",
+      "alternativas": [
+        { "letra": "A", "texto": "A camada interna do corpo", "correta": false },
+        { "letra": "B", "texto": "Os canais de entrada de água (óstios)", "correta": true },
+        { "letra": "C", "texto": "O esqueleto da esponja", "correta": false },
+        { "letra": "D", "texto": "Os gametas", "correta": false }
+      ],
+      "explicacao": "Os porócitos são células tubulares que formam os óstios (poros de entrada) por onde a água penetra no corpo da esponja."
+    },
+    {
+      "id": 28,
+      "assunto": "Poríferos",
+      "enunciado": "Na reprodução sexuada das esponjas, a fecundação é geralmente:",
+      "alternativas": [
+        { "letra": "A", "texto": "Externa, na água", "correta": false },
+        { "letra": "B", "texto": "Interna, com desenvolvimento de larva no mesênquio", "correta": true },
+        { "letra": "C", "texto": "Cruzada entre indivíduos diferentes com fecundação externa", "correta": false },
+        { "letra": "D", "texto": "Autofecundação no interior dos coanócitos", "correta": false }
+      ],
+      "explicacao": "Os espermatozoides entram com a água e fecundam os óvulos no mesênquio (fecundação interna). O zigoto se desenvolve em larva que é liberada."
+    },
+    {
+      "id": 29,
+      "assunto": "Poríferos",
+      "enunciado": "Qual alternativa apresenta corretamente a sequência do fluxo de água em uma esponja?",
+      "alternativas": [
+        { "letra": "A", "texto": "Ósculo → espongiocele → óstios", "correta": false },
+        { "letra": "B", "texto": "Óstios → espongiocele → ósculo", "correta": true },
+        { "letra": "C", "texto": "Óstios → ósculo → espongiocele", "correta": false },
+        { "letra": "D", "texto": "Espongiocele → óstios → ósculo", "correta": false }
+      ],
+      "explicacao": "A água entra pelos óstios (poros), passa pela espongiocele (cavidade central) e sai pelo ósculo (abertura de saída)."
+    },
+    {
+      "id": 30,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas são animais que vivem predominantemente em ambiente:",
+      "alternativas": [
+        { "letra": "A", "texto": "Terrestre úmido", "correta": false },
+        { "letra": "B", "texto": "Aquático, principalmente marinho", "correta": true },
+        { "letra": "C", "texto": "Aéreo", "correta": false },
+        { "letra": "D", "texto": "Exclusivamente de água doce", "correta": false }
+      ],
+      "explicacao": "A grande maioria das esponjas é marinha. Apenas uma família (Spongillidae) vive em água doce."
+    },
+    {
+      "id": 31,
+      "assunto": "Poríferos",
+      "enunciado": "A simetria das esponjas adultas é geralmente:",
+      "alternativas": [
+        { "letra": "A", "texto": "Bilateral", "correta": false },
+        { "letra": "B", "texto": "Radial", "correta": false },
+        { "letra": "C", "texto": "Assimétrica ou radial", "correta": true },
+        { "letra": "D", "texto": "Pentarradial", "correta": false }
+      ],
+      "explicacao": "A maioria das esponjas é assimétrica (sem plano de simetria), embora algumas possam apresentar simetria radial."
+    },
+    {
+      "id": 32,
+      "assunto": "Poríferos",
+      "enunciado": "As toxinas produzidas por algumas esponjas marinhas têm como função principal:",
+      "alternativas": [
+        { "letra": "A", "texto": "Atrair parceiros reprodutivos", "correta": false },
+        { "letra": "B", "texto": "Defesa contra predadores", "correta": true },
+        { "letra": "C", "texto": "Auxiliar na digestão", "correta": false },
+        { "letra": "D", "texto": "Facilitar a locomoção", "correta": false }
+      ],
+      "explicacao": "Como são sésseis e não podem fugir, muitas esponjas produzem substâncias tóxicas ou de sabor desagradável como defesa química."
+    },
+    {
+      "id": 33,
+      "assunto": "Poríferos",
+      "enunciado": "Qual a principal diferença entre esponjas e cnidários?",
+      "alternativas": [
+        { "letra": "A", "texto": "Esponjas possuem tentáculos; cnidários, não", "correta": false },
+        { "letra": "B", "texto": "Cnidários possuem tecidos verdadeiros; esponjas, não", "correta": true },
+        { "letra": "C", "texto": "Esponjas são predadoras; cnidários, filtradores", "correta": false },
+        { "letra": "D", "texto": "Cnidários são assimétricos; esponjas têm simetria bilateral", "correta": false }
+      ],
+      "explicacao": "Cnidários são eumetazoários (possuem tecidos verdadeiros), enquanto esponjas são parazoários (sem tecidos organizados)."
+    },
+    {
+      "id": 34,
+      "assunto": "Poríferos",
+      "enunciado": "O colarinho dos coanócitos é formado por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Microvilosidades e glicocálix", "correta": true },
+        { "letra": "B", "texto": "Cílios curtos", "correta": false },
+        { "letra": "C", "texto": "Espículas de sílica", "correta": false },
+        { "letra": "D", "texto": "Fibras de colágeno", "correta": false }
+      ],
+      "explicacao": "O colarinho dos coanócitos é formado por microvilosidades recobertas por glicocálix, que retêm as partículas alimentares."
+    },
+    {
+      "id": 35,
+      "assunto": "Poríferos",
+      "enunciado": "A esponja Ephydatia fluviatilis é um exemplo de esponja de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Água salgada", "correta": false },
+        { "letra": "B", "texto": "Água doce", "correta": true },
+        { "letra": "C", "texto": "Ambiente terrestre", "correta": false },
+        { "letra": "D", "texto": "Águas termais", "correta": false }
+      ],
+      "explicacao": "Ephydatia fluviatilis é uma esponja de água doce comum em rios e lagos, que produz gemúlas como estrutura de resistência."
+    },
+    {
+      "id": 36,
+      "assunto": "Poríferos",
+      "enunciado": "A classe Demospongiae representa aproximadamente que porcentagem das espécies de esponjas?",
+      "alternativas": [
+        { "letra": "A", "texto": "10%", "correta": false },
+        { "letra": "B", "texto": "30%", "correta": false },
+        { "letra": "C", "texto": "80-90%", "correta": true },
+        { "letra": "D", "texto": "50%", "correta": false }
+      ],
+      "explicacao": "Demospongiae é a classe mais diversa, representando cerca de 80-90% de todas as espécies de poríferos conhecidas."
+    },
+    {
+      "id": 37,
+      "assunto": "Poríferos",
+      "enunciado": "Os cnidócitos são células típicas dos cnidários. Nas esponjas, as células equivalentes em função de defesa são:",
+      "alternativas": [
+        { "letra": "A", "texto": "Coanócitos", "correta": false },
+        { "letra": "B", "texto": "Não possuem células especializadas em defesa como cnidócitos", "correta": true },
+        { "letra": "C", "texto": "Pinacócitos", "correta": false },
+        { "letra": "D", "texto": "Porócitos", "correta": false }
+      ],
+      "explicacao": "Esponjas não possuem células urticantes equivalentes aos cnidócitos. Sua defesa é química (toxinas) e estrutural (espículas)."
+    },
+    {
+      "id": 38,
+      "assunto": "Poríferos",
+      "enunciado": "A filtração de água por esponjas é importante porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "Elas consomem todo o oxigênio da água", "correta": false },
+        { "letra": "B", "texto": "Podem filtrar volumes enormes de água por dia, reciclando nutrientes", "correta": true },
+        { "letra": "C", "texto": "Eliminam todos os microrganismos da água", "correta": false },
+        { "letra": "D", "texto": "Produzem correntes marítimas", "correta": false }
+      ],
+      "explicacao": "Uma única esponja pode filtrar milhares de litros de água por dia, removendo partículas orgânicas e bactérias, contribuindo para a qualidade da água."
+    },
+    {
+      "id": 39,
+      "assunto": "Poríferos",
+      "enunciado": "As espículas das esponjas podem ser produzidas por células chamadas:",
+      "alternativas": [
+        { "letra": "A", "texto": "Coanócitos", "correta": false },
+        { "letra": "B", "texto": "Escleroblastos", "correta": true },
+        { "letra": "C", "texto": "Pinacócitos", "correta": false },
+        { "letra": "D", "texto": "Porócitos", "correta": false }
+      ],
+      "explicacao": "Os escleroblastos são células do mesênquio responsáveis pela produção das espículas (esqueleto da esponja)."
+    },
+    {
+      "id": 40,
+      "assunto": "Poríferos",
+      "enunciado": "Qual característica impede as esponjas de serem classificadas como plantas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Elas são verdes", "correta": false },
+        { "letra": "B", "texto": "São heterótrofas e não realizam fotossíntese", "correta": true },
+        { "letra": "C", "texto": "Possuem raízes", "correta": false },
+        { "letra": "D", "texto": "Possuem cloroplastos", "correta": false }
+      ],
+      "explicacao": "Esponjas são animais heterótrofos que se alimentam por filtração. Não possuem cloroplastos nem realizam fotossíntese."
+    },
+    {
+      "id": 41,
+      "assunto": "Poríferos",
+      "enunciado": "O fenômeno de 'reorganização celular' em esponjas demonstra que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Elas possuem sistema nervoso primitivo", "correta": false },
+        { "letra": "B", "texto": "Suas células podem se reconhecer e se reorganizar após separação", "correta": true },
+        { "letra": "C", "texto": "Elas são organismos unicelulares", "correta": false },
+        { "letra": "D", "texto": "Possuem capacidade de locomoção", "correta": false }
+      ],
+      "explicacao": "Experimentos clássicos mostraram que células de esponjas separadas podem se reagrupar e reorganizar em uma nova esponja funcional."
+    },
+    {
+      "id": 42,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas são animais sésseis. Isso significa que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Se locomovem rapidamente", "correta": false },
+        { "letra": "B", "texto": "Vivem fixos a um substrato", "correta": true },
+        { "letra": "C", "texto": "São parasitas", "correta": false },
+        { "letra": "D", "texto": "Vivem em colônias móveis", "correta": false }
+      ],
+      "explicacao": "Sésseis significa que os adultos vivem fixos a um substrato (rochas, corais, fundo marinho), sem capacidade de locomoção."
+    },
+    {
+      "id": 43,
+      "assunto": "Poríferos",
+      "enunciado": "A respiração das esponjas é do tipo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pulmonar", "correta": false },
+        { "letra": "B", "texto": "Branquial", "correta": false },
+        { "letra": "C", "texto": "Cutânea/difusão direta", "correta": true },
+        { "letra": "D", "texto": "Traqueal", "correta": false }
+      ],
+      "explicacao": "Sem órgãos respiratórios, as esponjas realizam trocas gasosas por difusão direta entre cada célula e a água circulante."
+    },
+    {
+      "id": 44,
+      "assunto": "Poríferos",
+      "enunciado": "Qual substância compõe as fibras flexíveis do esqueleto de algumas esponjas?",
+      "alternativas": [
+        { "letra": "A", "texto": "Quitina", "correta": false },
+        { "letra": "B", "texto": "Celulose", "correta": false },
+        { "letra": "C", "texto": "Espongina", "correta": true },
+        { "letra": "D", "texto": "Queratina", "correta": false }
+      ],
+      "explicacao": "A espongina é uma proteína escleroproteica que forma fibras flexíveis no esqueleto de algumas demospongias."
+    },
+    {
+      "id": 45,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas podem se alimentar de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Apenas grandes peixes", "correta": false },
+        { "letra": "B", "texto": "Bactérias, algas microscópicas e detritos orgânicos", "correta": true },
+        { "letra": "C", "texto": "Apenas algas macroscópicas", "correta": false },
+        { "letra": "D", "texto": "Apenas matéria inorgânica", "correta": false }
+      ],
+      "explicacao": "Esponjas filtram da água bactérias, protistas, algas microscópicas e partículas orgânicas em suspensão."
+    },
+    {
+      "id": 46,
+      "assunto": "Poríferos",
+      "enunciado": "A larva das esponjas é ciliada e livre-natante. Essa característica é importante porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "Permite a dispersão da espécie para novos habitats", "correta": true },
+        { "letra": "B", "texto": "Permite a captura de presas maiores", "correta": false },
+        { "letra": "C", "texto": "Protege contra predadores", "correta": false },
+        { "letra": "D", "texto": "Facilita a reprodução assexuada", "correta": false }
+      ],
+      "explicacao": "A larva ciliada nada e se dispersa, colonizando novos substratos. Após a fixação, sofre metamorfose em esponja adulta séssil."
+    },
+    {
+      "id": 47,
+      "assunto": "Poríferos",
+      "enunciado": "Qual dos seguintes compostos bioativos é extraído de esponjas marinhas para uso farmacêutico?",
+      "alternativas": [
+        { "letra": "A", "texto": "Insulina", "correta": false },
+        { "letra": "B", "texto": "Substâncias com atividade antitumoral e antiviral", "correta": true },
+        { "letra": "C", "texto": "Penicilina", "correta": false },
+        { "letra": "D", "texto": "Aspirina", "correta": false }
+      ],
+      "explicacao": "Esponjas marinhas produzem metabólitos secundários com potencial farmacológico, incluindo substâncias antitumorais, antivirais e antibacterianas."
+    },
+    {
+      "id": 48,
+      "assunto": "Poríferos",
+      "enunciado": "As esponjas não possuem sistema nervoso. Isso significa que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Não respondem a nenhum estímulo", "correta": false },
+        { "letra": "B", "texto": "Respondem a estímulos de forma celular individual, sem coordenação central", "correta": true },
+        { "letra": "C", "texto": "Possuem cérebro primitivo", "correta": false },
+        { "letra": "D", "texto": "Se comunicam por sinais elétricos complexos", "correta": false }
+      ],
+      "explicacao": "Sem sistema nervoso, as esponjas respondem a estímulos (como fechar óstios) de forma celular individual, sem coordenação centralizada."
+    },
+    {
+      "id": 49,
+      "assunto": "Poríferos",
+      "enunciado": "Qual a principal vantagem do tipo leuconoide sobre os tipos asconoide e siconoide?",
+      "alternativas": [
+        { "letra": "A", "texto": "Permite que a esponja atinja tamanhos maiores com maior eficiência de filtração", "correta": true },
+        { "letra": "B", "texto": "Elimina a necessidade de coanócitos", "correta": false },
+        { "letra": "C", "texto": "Permite locomoção", "correta": false },
+        { "letra": "D", "texto": "Elimina a necessidade de espículas", "correta": false }
+      ],
+      "explicacao": "O tipo leuconoide, com suas múltiplas câmeras flageladas, permite maior superfície de filtragem, possibilitando esponjas de maior porte."
+    },
+    {
+      "id": 50,
+      "assunto": "Poríferos",
+      "enunciado": "Sobre a evolução dos poríferos, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "São os animais mais recentes na escala evolutiva", "correta": false },
+        { "letra": "B", "texto": "São considerados o grupo mais basal (antigo) dos animais multicelulares", "correta": true },
+        { "letra": "C", "texto": "Evoluíram a partir dos cnidários", "correta": false },
+        { "letra": "D", "texto": "São mais evoluídos que os platelmintos", "correta": false }
+      ],
+      "explicacao": "Poríferos são o grupo mais basal dos metazoários, representando um dos primeiros ramos na árvore evolutiva dos animais multicelulares."
+    }
+  ]
+}
