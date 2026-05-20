@@ -31,17 +31,14 @@ const DS = {
     this.state.currentSection = sectionId;
 
     document.querySelectorAll('.ds-section').forEach(sec => sec.hidden = sec.id !== sectionId);
-    document.querySelectorAll('.ds-nav__link, .ds-mobile-menu__link').forEach(link => {
+    document.querySelectorAll('.ds-nav__link').forEach(link => {
       const isActive = link.dataset.section === sectionId;
       link.classList.toggle('active', isActive);
       link.setAttribute('aria-current', isActive ? 'page' : 'false');
     });
 
-    // Show progress bar only on resumo section
     const progressBar = document.getElementById('reading-progress');
-    if (progressBar) {
-      progressBar.classList.toggle('ds-progress-bar--visible', sectionId === 'resumo');
-    }
+    if (progressBar) progressBar.style.display = sectionId === 'resumo' ? '' : 'none';
 
     if (pushState) history.pushState({}, '', `#${sectionId}`);
     this.focusActiveSection();

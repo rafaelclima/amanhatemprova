@@ -75,6 +75,9 @@ const DS = {
       link.setAttribute('aria-current', isActive ? 'page' : 'false');
     });
 
+    const progressBar = document.getElementById('reading-progress');
+    if (progressBar) progressBar.style.display = sectionId === 'resumo' ? '' : 'none';
+
     if (pushState) history.pushState({}, '', `#${sectionId}`);
     this.focusActiveSection();
   },
