@@ -60,7 +60,7 @@ Each topic is a directory containing:
 
 ## Deployment
 
-GitHub Pages deploys automatically on push to `main` via `.github/workflows/deploy.yml`. Repository is auto-deployed — commit directly to `main` when content is ready.
+GitHub Pages deploys automatically on push to `master` via `.github/workflows/deploy.yml`. Repository is auto-deployed — commit directly to `master` when content is ready.
 
 ## Adding New Content
 

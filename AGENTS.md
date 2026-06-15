@@ -39,7 +39,7 @@ Gen 1 accent: Lara purple `#6366f1`, Liz pink `#f472b6`.
 
 ## Deployment
 
-Push to `main` → workflow `pages build and deployment` triggers. No manual steps. Commit directly to `main`.
+Push to `master` → workflow `pages build and deployment` triggers. No manual steps. Commit directly to `master`.
 
 ## .gitignore (root)
 
