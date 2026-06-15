@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../index.html" class="ds-nav__back" aria-label="Voltar para Literatura">← Voltar</a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <button class="ds-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+        <span class="ds-nav__hamburger"></span>
+      </button>
+      <nav aria-label="Navegação principal" class="ds-nav__menu" id="nav-menu">
+        <ul class="ds-nav__list" id="nav-list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="ds-progress-bar__fill"></div>
+    </div>
+
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Literatura — Crônica e cotidiano</h1>
+        <p class="ds-lead">Revisão completa de Crônica e cotidiano para o Ensino Médio. Estude as características do gênero, sua evolução histórica, principais autores e técnicas de análise.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+          <section class="ds-study-block">
+            <h2>O que é crônica?</h2>
+            <p>A crônica é um gênero textual narrativo que se caracteriza por <strong>relatar situações do cotidiano</strong> sob uma perspectiva pessoal e, muitas vezes, crítica ou bem-humorada. Publicada originalmente em jornais e revistas, a crônica estabelece um diálogo próximo com o leitor, usando linguagem coloquial e tom subjetivo.</p>
+            <div class="ds-highlight ds-highlight--formula">Características essenciais: narrativa curta | linguagem simples e coloquial | tom subjetivo | crítica social ou ironia | foco no cotidiano | tempo cronológico curto | poucos personagens</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">O erro mais comum é confundir crônica com conto. Ambos são narrativas curtas, mas a crônica parte de um fato do cotidiano real, enquanto o conto é essencialmente ficcional. Outro erro: achar que crônica precisa ser engraçada — ela pode ser séria, reflexiva ou poética. Atenção também ao fato de que crônica não é artigo de opinião: o artigo defende uma tese com argumentos; a crônica narra, descreve e sugere, sem necessariamente defender um ponto de vista de forma estruturada.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> "Hoje acordei e vi o caos do trânsito pela janela. Motoristas buzinavam, pedestres se arriscavam entre os carros. E ali, no meio da confusão, um senhor vendia amendoim. Sorria. A cidade pode ser cruel, mas há quem insista em espalhar gentileza." — Note a linguagem simples, a cena cotidiana e a reflexão pessoal.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Origem e evolução histórica</h2>
+            <p>A crônica tem origem remota nas publicações periódicas do <strong>século XIX</strong>, quando os folhetins franceses publicavam relatos leves sobre a vida parisiense. No Brasil, o gênero ganhou força com <strong>Machado de Assis</strong> (que escreveu crônicas com pseudônimos) e se consolidou ao longo do século XX com autores que transformaram fatos banais em literatura refinada.</p>
+
+            <p>O gênero evoluiu do registro pitoresco para uma <strong>forma de intervenção crítica</strong>. Nos anos 1930 e 1940, cronistas como Rubem Braga e Cecília Meireles elevaram a crônica ao status de arte literária. A partir dos anos 1960, com o regime militar, a crônica assumiu tons de resistência e denúncia disfarçada de leveza.</p>
+
+            <p>No século XXI, a crônica migrou para blogs, redes sociais e podcasts, mantendo sua essência: <strong>olhar atento ao ordinário</strong> e capacidade de extrair significado profundo do que parece insignificante.</p>
+            <div class="ds-highlight ds-highlight--formula">Cronistas brasileiros fundamentais: Machado de Assis (séc. XIX) | Rubem Braga (1913–1990) | Cecília Meireles (1901–1964) | Paulo Mendes Campos (1922–1991) | Fernando Sabino (1923–2004) | Luis Fernando Verissimo (1936–presente) | Martha Medeiros (1961–presente)</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Não confunda a crônica literária brasileira com a crônica jornalística esportiva ou policial — embora publicadas em jornais, estas são predominantemente informativas, não literárias. Outro erro: achar que a crônica morreu com os jornais impressos — ela se adaptou ao meio digital. Também é comum confundir cronista com repórter: o cronista interpreta a realidade, não apenas a registra.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Elementos estruturais da crônica</h2>
+            <p>Apesar de sua liberdade formal, a crônica costuma apresentar elementos estruturais recorrentes que ajudam na análise do texto.</p>
+            <div class="ds-highlight ds-highlight--formula">Estrutura típica: 1. Abertura (cena cotidiana que chama atenção) | 2. Desenvolvimento (reflexão ou aprofundamento da cena) | 3. Fechamento (conclusão, muitas vezes surpreendente ou poética) | Personagens: anônimos ou tipos sociais comuns | Tempo: presente ou passado recente | Espaço: urbano, doméstico ou familiar</div>
+            <p>A linguagem da crônica é marcada por <strong>oralidade deliberada</strong>: frases curtas, perguntas retóricas, interjeições, pontuação expressiva (reticências, exclamações), gírias e expressões coloquiais. O narrador geralmente é em <strong>primeira pessoa</strong>, testemunha ou protagonista da cena narrada, e estabelece cumplicidade com o leitor.</p>
+
+            <p>Recursos estilísticos frequentes incluem: <strong>ironia</strong> (dizer o contrário do que se pensa), <strong>humor</strong> (leve, não agressivo), <strong>metáforas cotidianas</strong>, <strong>comparacões</strong>, <strong>antíteses</strong> e <strong>personificações</strong>. A intertextualidade com outras obras literárias, músicas e filmes também é comum.</p>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Muitos estudantes confundem narrador em primeira pessoa com biografia. O "eu" da crônica é uma construção literária, não necessariamente o autor real. Outro erro: achar que crônica não tem estrutura — ela tem, embora flexível. Identificar a abertura, o desenvolvimento e o fechamento ajuda muito na interpretação. Cuidado também com a confusão entre ironia e sarcasmo: a ironia na crônica é sutil e construtiva, não agressiva.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Crônica e outros gêneros narrativos</h2>
+            <p>Para evitar confusões nos vestibulares, é fundamental saber diferenciar a crônica dos gêneros próximos.</p>
+            <div class="ds-highlight ds-highlight--formula">Crônica vs. Conto: crônica parte do real cotidiano; conto é ficcional | Crônica vs. Artigo de opinião: crônica narra e sugere; artigo defende tese com argumentos | Crônica vs. Memórias: crônica foca no presente ou passado recente impessoal; memórias são autobiográficas e retrospectivas | Crônica vs. Reportagem: crônica é subjetiva e literária; reportagem é objetiva e jornalística</div>
+            <p>No Enem e vestibulares, a crônica costuma aparecer como texto-base para questões de interpretação, análise de recursos expressivos e identificação do gênero. As questões frequentemente exploram o <strong>tom do texto</strong> (irônico, nostálgico, crítico, humorístico), a <strong>relação entre narrador e leitor</strong>, e os <strong>recursos linguísticos</strong> que produzem efeitos de sentido.</p>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Na hora da prova, o erro mais comum é classificar qualquer texto em primeira pessoa sobre o cotidiano como crônica. Verifique: há narração de uma cena específica? O tom é subjetivo/literário? Se for apenas uma reflexão pessoal sem narrativa, pode ser um texto de opinião. Outro erro: achar que crônica é sempre sobre o autor — ela pode narrar a vida de outras pessoas, animais ou até objetos. Atenção também à data de publicação: crônicas de Machado de Assis no século XIX usam linguagem mais formal, mas ainda são crônicas! A linguagem coloquial é uma tendência, não uma regra absoluta.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei identificar uma crônica pela narrativa de um fato cotidiano com tom subjetivo</li>
+              <li>Diferencio crônica de conto, artigo de opinião, memórias e reportagem</li>
+              <li>Reconheço cronistas brasileiros importantes: Rubem Braga, Fernando Sabino, Luis Fernando Verissimo, Martha Medeiros</li>
+              <li>Identifico a estrutura típica: abertura (cena), desenvolvimento (reflexão), fechamento (conclusão)</li>
+              <li>Percebo recursos estilísticos: ironia, humor, metáforas cotidianas, intertextualidade</li>
+              <li>Analiso o tom do texto (nostálgico, crítico, irônico, poético) e sua relação com o efeito de sentido</li>
+              <li>Reconheço a linguagem coloquial como marca do gênero (sem confundir com falta de literariedade)</li>
+              <li>Compreendo que o narrador em primeira pessoa é uma construção literária, não o autor real</li>
+              <li>Entendo a evolução histórica: folhetins do séc. XIX → consolidação no séc. XX → migração digital</li>
+              <li>Sei que a crônica pode ter tons variados: humorístico, sério, reflexivo, poético, crítico</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Na interpretação de crônicas, comece identificando o fato cotidiano que motivou o texto. Depois, analise como o cronista transforma esse fato em reflexão — aí está a chave do gênero: o ordinário elevado à condição literária.
+            </div>
+          </section>
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: calc(72px + var(--space-12)); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>
