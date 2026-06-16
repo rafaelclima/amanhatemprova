@@ -127,6 +127,12 @@ For Liz topic pages (Gen 1, child-friendly), **still start from the template** �
 - `data/questions.json`: remove; embed questions directly in `script.js`
 - Keep `prompt.md`, `.claude/`, `.gitignore` from template
 
+**Quiz behavior**: Questions appear one at a time. User clicks an answer → immediate feedback shows (correct/incorrect + explanation) before advancing. Progress indicator shows current question. After last question, results screen appears. See `script.js` → `responderQuiz()` / `proximaQuestaoQuiz()`.
+
+**Simulado behavior**: All 10 questions shown at once with "Finalizar" button. No immediate feedback — results appear after submission. See `finalizarSimulado()`.
+
+**Jogo behavior**: Timed-response game. Random multiplication questions with score, streak counter, and points system. See `responderJogo()`.
+
 ## Deployment
 
 Push to `master` → GitHub Actions (`.github/workflows/deploy.yml`) deploys to Pages. Commit directly to `master`.

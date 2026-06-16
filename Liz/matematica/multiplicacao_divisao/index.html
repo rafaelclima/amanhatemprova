@@ -125,10 +125,12 @@
             <div id="quiz" class="tab-content">
                 <div class="card">
                     <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">❓ Quiz de Multiplicação e Divisão</h2>
-                    <p style="color:var(--text);margin-bottom:20px;">Responda as 10 perguntas e veja seu resultado!</p>
+                    <p style="color:var(--text);margin-bottom:20px;">Responda as 10 perguntas — cada uma tem feedback na hora!</p>
+                    <div id="quiz-progress" class="progress-text">Questão 1/10</div>
                     <div id="quiz-container"></div>
-                    <div style="text-align:center;margin-top:20px;">
-                        <button class="btn" onclick="finalizarQuiz()">✅ Finalizar Quiz</button>
+                    <div id="quiz-feedback" class="feedback-area hidden"></div>
+                    <div id="quiz-buttons" style="text-align:center;margin-top:20px;">
+                        <button id="quiz-next-btn" class="btn hidden" onclick="proximaQuestaoQuiz()">➡️ Próxima</button>
                     </div>
                     <div id="quiz-result" class="result-card hidden">
                         <h3>📊 Resultado</h3>

@@ -307,55 +307,92 @@ function selecionarQuestoes() {
 }
 
 // ===== QUIZ =====
+let quizIndex = 0;
+let quizAcertos = 0;
+
 function carregarQuiz() {
   if (questoesQuiz.length === 0) questoesQuiz = selecionarQuestoes();
+  quizIndex = 0;
+  quizAcertos = 0;
+  document.getElementById('quiz-result').classList.add('hidden');
+  document.getElementById('quiz-feedback').classList.add('hidden');
+  document.getElementById('quiz-next-btn').classList.add('hidden');
+  mostrarQuestaoQuiz();
+}
+
+function mostrarQuestaoQuiz() {
+  const q = questoesQuiz[quizIndex];
   const container = document.getElementById('quiz-container');
-  let html = '';
-  questoesQuiz.forEach((q, i) => {
-    html += `<div class="questao-card" data-questao="${i}">
-      <p><strong>Questão ${i + 1}:</strong> ${q.q}</p>
-      <div class="alternativas-container">
-        ${q.alternativas.map((alt, j) => `
-          <label class="alternativa-item">
-            <input type="radio" name="quiz-${i}" value="${j}" data-correta="${alt.correta}">
-            <span class="alternativa-texto">${alt.texto}</span>
-          </label>
-        `).join('')}
-      </div>
-    </div>`;
+  document.getElementById('quiz-progress').textContent = `Questão ${quizIndex + 1}/${questoesQuiz.length}`;
+  document.getElementById('quiz-feedback').classList.add('hidden');
+  document.getElementById('quiz-next-btn').classList.add('hidden');
+
+  let html = `<div class="questao-card">
+    <p><strong>${q.q}</strong></p>
+    <div class="alternativas-container">`;
+  q.alternativas.forEach((alt, j) => {
+    html += `<label class="alternativa-item" onclick="responderQuiz(${j})">
+      <span class="alternativa-texto">${alt.texto}</span>
+    </label>`;
   });
+  html += `</div></div>`;
   container.innerHTML = html;
 }
 
-function finalizarQuiz() {
-  const container = document.getElementById('quiz-container');
-  const cartoes = container.querySelectorAll('.questao-card');
-  let acertos = 0;
-  cartoes.forEach((cartao, i) => {
-    const selecionado = cartao.querySelector(`input[name="quiz-${i}"]:checked`);
-    const alternativas = cartao.querySelectorAll('.alternativa-item');
-    const questao = questoesQuiz[i];
-    alternativas.forEach((alt, j) => {
-      alt.classList.remove('correta', 'incorreta');
-      if (questao.alternativas[j].correta) {
-        alt.classList.add('correta');
-        alt.innerHTML += `<div class="explicacao">✓ ${questao.alternativas[j].explicacao}</div>`;
-      } else if (input && selecionado && selecionado.getAttribute('data-correta') === 'false' && selecionado.value == j) {
-        alt.classList.add('incorreta');
-        alt.innerHTML += `<div class="explicacao">✗ ${questao.alternativas[j].explicacao}</div>`;
-      }
+function responderQuiz(respostaIdx) {
+  const q = questoesQuiz[quizIndex];
+  const labels = document.querySelectorAll('.alternativa-item');
+  labels.forEach(l => l.style.pointerEvents = 'none');
+
+  const certa = q.alternativas[respostaIdx].correta;
+  const feedback = document.getElementById('quiz-feedback');
+  feedback.classList.remove('acertou', 'errou', 'hidden');
+
+  if (certa) {
+    quizAcertos++;
+    labels[respostaIdx].classList.add('correta');
+    feedback.className = 'feedback-area acertou';
+    feedback.innerHTML = `<span class="feedback-emoji">✅</span>
+      <strong>Correto!</strong>
+      <div class="feedback-explicacao">${q.alternativas[respostaIdx].explicacao}</div>`;
+  } else {
+    labels[respostaIdx].classList.add('incorreta');
+    q.alternativas.forEach((alt, j) => {
+      if (alt.correta) labels[j].classList.add('correta');
     });
-    if (selecionado && selecionado.getAttribute('data-correta') === 'true') acertos++;
-  });
-  const pct = Math.round((acertos / 10) * 100);
-  let msg = '';
-  if (pct === 100) msg = '🎉 Incrível! Você acertou tudo!';
-  else if (pct >= 70) msg = '👍 Muito bem! Continue assim!';
-  else if (pct >= 50) msg = '📚 Bom! Continue estudando!';
-  else msg = '💪 Não desanime! Tente de novo!';
-  document.getElementById('quiz-result').classList.remove('hidden');
-  document.querySelector('#quiz-result .score-text').textContent = `${acertos}/10 (${pct}%)`;
-  document.querySelector('#quiz-result .message-text').textContent = msg;
+    feedback.className = 'feedback-area errou';
+    feedback.innerHTML = `<span class="feedback-emoji">❌</span>
+      <strong>Errado!</strong>
+      <div class="feedback-explicacao">${q.alternativas[respostaIdx].explicacao}</div>`;
+  }
+
+  document.getElementById('quiz-next-btn').classList.remove('hidden');
+  if (quizIndex >= questoesQuiz.length - 1) {
+    document.getElementById('quiz-next-btn').textContent = '📊 Ver Resultado';
+  } else {
+    document.getElementById('quiz-next-btn').textContent = '➡️ Próxima';
+  }
+}
+
+function proximaQuestaoQuiz() {
+  if (quizIndex >= questoesQuiz.length - 1) {
+    document.getElementById('quiz-container').innerHTML = '';
+    document.getElementById('quiz-feedback').classList.add('hidden');
+    document.getElementById('quiz-next-btn').classList.add('hidden');
+    document.getElementById('quiz-progress').textContent = '';
+    const pct = Math.round((quizAcertos / questoesQuiz.length) * 100);
+    let msg = '';
+    if (pct === 100) msg = '🎉 Incrível! Você acertou tudo!';
+    else if (pct >= 70) msg = '👍 Muito bem! Continue assim!';
+    else if (pct >= 50) msg = '📚 Bom! Continue estudando!';
+    else msg = '💪 Não desanime! Tente de novo!';
+    document.getElementById('quiz-result').classList.remove('hidden');
+    document.querySelector('#quiz-result .score-text').textContent = `${quizAcertos}/${questoesQuiz.length} (${pct}%)`;
+    document.querySelector('#quiz-result .message-text').textContent = msg;
+  } else {
+    quizIndex++;
+    mostrarQuestaoQuiz();
+  }
 }
 
 function reiniciarQuiz() {
