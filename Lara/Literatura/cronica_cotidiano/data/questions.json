@@ -2,5 +2,162 @@
   "serie": "Ensino Médio",
   "disciplina": "Literatura",
   "assuntos": ["Crônica", "Cotidiano"],
-  "questoes": []
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Crônica",
+      "enunciado": "Assinale a característica fundamental da crônica como gênero textual.",
+      "alternativas": [
+        { "letra": "A", "texto": "Defesa de uma tese com argumentos lógicos", "correta": false },
+        { "letra": "B", "texto": "Narrativa curta baseada em fatos do cotidiano com tom subjetivo", "correta": true },
+        { "letra": "C", "texto": "Registro objetivo de acontecimentos históricos", "correta": false },
+        { "letra": "D", "texto": "Texto instrucional com sequência de comandos", "correta": false },
+        { "letra": "E", "texto": "Narrativa ficcional longa com múltiplos personagens", "correta": false }
+      ],
+      "explicacao": "A crônica é uma narrativa curta que parte de situações do cotidiano real, narradas com subjetividade e, frequentemente, com tom crítico ou bem-humorado."
+    },
+    {
+      "id": 2,
+      "assunto": "Crônica",
+      "enunciado": "Qual das alternativas abaixo diferencia corretamente crônica de conto?",
+      "alternativas": [
+        { "letra": "A", "texto": "A crônica é ficcional; o conto é baseado em fatos reais", "correta": false },
+        { "letra": "B", "texto": "A crônica parte do cotidiano real; o conto é essencialmente ficcional", "correta": true },
+        { "letra": "C", "texto": "A crônica usa linguagem formal; o conto usa linguagem coloquial", "correta": false },
+        { "letra": "D", "texto": "A crônica é sempre engraçada; o conto é sempre sério", "correta": false },
+        { "letra": "E", "texto": "A crônica tem narrador em terceira pessoa; o conto em primeira", "correta": false }
+      ],
+      "explicacao": "A principal diferença está na origem do material narrado: a crônica parte do cotidiano real (um fato observado), enquanto o conto é construção ficcional."
+    },
+    {
+      "id": 3,
+      "assunto": "Crônica",
+      "enunciado": "São cronistas brasileiros de grande relevância, EXCETO:",
+      "alternativas": [
+        { "letra": "A", "texto": "Rubem Braga", "correta": false },
+        { "letra": "B", "texto": "Luis Fernando Verissimo", "correta": false },
+        { "letra": "C", "texto": "Fernando Sabino", "correta": false },
+        { "letra": "D", "texto": "José de Alencar", "correta": true },
+        { "letra": "E", "texto": "Martha Medeiros", "correta": false }
+      ],
+      "explicacao": "José de Alencar foi romancista do Romantismo, não cronista. Rubem Braga, Verissimo, Sabino e Martha Medeiros são cronistas consagrados."
+    },
+    {
+      "id": 4,
+      "assunto": "Crônica",
+      "enunciado": "Leia o trecho: 'O relógio da praça marcava seis horas. Os passarinhos começaram a cantar, e o padeiro passou assobiando. Nada de especial, pensei. Mas foi aí que eu vi: o velho que todos os dias dormia no banco não estava mais lá.' O trecho acima apresenta características típicas de qual gênero textual?",
+      "alternativas": [
+        { "letra": "A", "texto": "Conto fantástico", "correta": false },
+        { "letra": "B", "texto": "Artigo de opinião", "correta": false },
+        { "letra": "C", "texto": "Crônica", "correta": true },
+        { "letra": "D", "texto": "Reportagem", "correta": false },
+        { "letra": "E", "texto": "Memórias literárias", "correta": false }
+      ],
+      "explicacao": "O trecho apresenta uma cena cotidiana aparentemente banal (seis horas, passarinhos, padeiro) que leva a uma reflexão pessoal do narrador — marca típica da crônica."
+    },
+    {
+      "id": 5,
+      "assunto": "Crônica",
+      "enunciado": "A crônica brasileira tem origem histórica ligada a:",
+      "alternativas": [
+        { "letra": "A", "texto": "Os romances de cavalaria medievais", "correta": false },
+        { "letra": "B", "texto": "As publicações periódicas (jornais e revistas) a partir do século XIX", "correta": true },
+        { "letra": "C", "texto": "As epopeias do período colonial", "correta": false },
+        { "letra": "D", "texto": "Os cordéis nordestinos do século XVIII", "correta": false },
+        { "letra": "E", "texto": "As cartas dos viajantes europeus", "correta": false }
+      ],
+      "explicacao": "A crônica nasceu nos folhetins de jornais do século XIX, como um relato leve sobre a vida cotidiana, e se consolidou como gênero literário no Brasil ao longo do século XX."
+    },
+    {
+      "id": 6,
+      "assunto": "Crônica",
+      "enunciado": "Em uma crônica, o narrador geralmente se apresenta em:",
+      "alternativas": [
+        { "letra": "A", "texto": "Terceira pessoa onisciente", "correta": false },
+        { "letra": "B", "texto": "Primeira pessoa, como testemunha ou protagonista da cena", "correta": true },
+        { "letra": "C", "texto": "Segunda pessoa, dirigindo-se diretamente ao leitor", "correta": false },
+        { "letra": "D", "texto": "Terceira pessoa observadora apenas", "correta": false },
+        { "letra": "E", "texto": "Narrador múltiplo com vozes alternadas", "correta": false }
+      ],
+      "explicacao": "A crônica tipicamente usa narrador em primeira pessoa, estabelecendo cumplicidade com o leitor e dando um tom pessoal e subjetivo ao relato."
+    },
+    {
+      "id": 7,
+      "assunto": "Crônica",
+      "enunciado": "Sobre a linguagem da crônica, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "É sempre formal e rebuscada, com vocabulário erudito", "correta": false },
+        { "letra": "B", "texto": "É marcada pela oralidade, com frases curtas e expressões coloquiais", "correta": true },
+        { "letra": "C", "texto": "Utiliza exclusivamente linguagem técnica e especializada", "correta": false },
+        { "letra": "D", "texto": "É idêntica à linguagem jornalística, impessoal e objetiva", "correta": false },
+        { "letra": "E", "texto": "É predominantemente poética, com versos e rimas", "correta": false }
+      ],
+      "explicacao": "A crônica se caracteriza pela oralidade deliberada: linguagem próxima da fala, frases curtas, gírias, interjeições e tom de conversa com o leitor."
+    },
+    {
+      "id": 8,
+      "assunto": "Crônica",
+      "enunciado": "Um recurso estilístico muito presente nas crônicas é a ironia. Assinale a alternativa que melhor define esse recurso no contexto do gênero:",
+      "alternativas": [
+        { "letra": "A", "texto": "Agressão direta e explícita ao leitor", "correta": false },
+        { "letra": "B", "texto": "Repetição de sons vocálicos para criar ritmo", "correta": false },
+        { "letra": "C", "texto": "Dizer o contrário do que se pensa, de forma sutil e crítica", "correta": true },
+        { "letra": "D", "texto": "Exagero proposital sem intenção crítica", "correta": false },
+        { "letra": "E", "texto": "Descrição detalhada de paisagens e ambientes", "correta": false }
+      ],
+      "explicacao": "A ironia na crônica é sutil e construtiva: o cronista diz o oposto do que realmente pensa para provocar reflexão ou crítica, sem agressividade."
+    },
+    {
+      "id": 9,
+      "assunto": "Crônica",
+      "enunciado": "Para identificar corretamente uma crônica em um texto, o leitor deve observar principalmente:",
+      "alternativas": [
+        { "letra": "A", "texto": "A presença de dados estatísticos e referências bibliográficas", "correta": false },
+        { "letra": "B", "texto": "A narração de um fato cotidiano transformado em reflexão pessoal", "correta": true },
+        { "letra": "C", "texto": "A estrutura de introdução, desenvolvimento e conclusão argumentativa", "correta": false },
+        { "letra": "D", "texto": "A ausência total de elementos narrativos", "correta": false },
+        { "letra": "E", "texto": "O uso de linguagem predominantemente técnica", "correta": false }
+      ],
+      "explicacao": "A chave para identificar uma crônica está na transformação de um fato banal do dia a dia em uma reflexão de valor literário, com tom pessoal e subjetivo."
+    },
+    {
+      "id": 10,
+      "assunto": "Crônica",
+      "enunciado": "Assinale a alternativa que apresenta um tema típico de crônica:",
+      "alternativas": [
+        { "letra": "A", "texto": "A descoberta da penicilina por Alexander Fleming", "correta": false },
+        { "letra": "B", "texto": "O funcionamento do motor de combustão interna", "correta": false },
+        { "letra": "C", "texto": "A fila do banco em uma manhã de segunda-feira", "correta": true },
+        { "letra": "D", "texto": "A classificação dos seres vivos em cinco reinos", "correta": false },
+        { "letra": "E", "texto": "As etapas da fotossíntese nas plantas", "correta": false }
+      ],
+      "explicacao": "A crônica se alimenta do ordinário: filas, trânsito, vizinhos, conversas de elevador — situações comuns que ganham significado literário pelo olhar do cronista."
+    },
+    {
+      "id": 11,
+      "assunto": "Crônica",
+      "enunciado": "O cronista brasileiro Rubem Braga é conhecido por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Escrever apenas romances regionalistas", "correta": false },
+        { "letra": "B", "texto": "Elevar a crônica ao status de arte literária no Brasil", "correta": true },
+        { "letra": "C", "texto": "Ser o principal autor do teatro brasileiro moderno", "correta": false },
+        { "letra": "D", "texto": "Criar o movimento concretista na poesia", "correta": false },
+        { "letra": "E", "texto": "Ser o introdutor do Realismo no Brasil", "correta": false }
+      ],
+      "explicacao": "Rubem Braga (1913-1990) é considerado o maior cronista brasileiro, responsável por consolidar a crônica como gênero literário de alto valor artístico."
+    },
+    {
+      "id": 12,
+      "assunto": "Crônica",
+      "enunciado": "Crônica e artigo de opinião se diferenciam porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "A crônica defende uma tese; o artigo narra uma história", "correta": false },
+        { "letra": "B", "texto": "A crônica narra e sugere; o artigo defende uma tese com argumentos", "correta": true },
+        { "letra": "C", "texto": "A crônica é objetiva; o artigo é subjetivo", "correta": false },
+        { "letra": "D", "texto": "Ambos são idênticos em estrutura e propósito", "correta": false },
+        { "letra": "E", "texto": "O artigo usa linguagem coloquial; a crônica usa linguagem formal", "correta": false }
+      ],
+      "explicacao": "Enquanto a crônica narra uma cena cotidiana e sugere uma reflexão, o artigo de opinião tem estrutura argumentativa clara com defesa de um ponto de vista."
+    }
+  ]
 }

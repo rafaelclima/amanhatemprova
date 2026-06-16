@@ -2,5 +2,162 @@
   "serie": "Ensino Médio",
   "disciplina": "Literatura",
   "assuntos": ["Romance", "Narrativa ficcional", "Literatura brasileira"],
-  "questoes": []
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Romance",
+      "enunciado": "O romance moderno diferencia-se da epopeia clássica principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Exaltar heróis mitológicos e deuses", "correta": false },
+        { "letra": "B", "texto": "Focar no indivíduo comum, seus conflitos íntimos e relações sociais", "correta": true },
+        { "letra": "C", "texto": "Ser escrito exclusivamente em versos", "correta": false },
+        { "letra": "D", "texto": "Apresentar apenas personagens planas e previsíveis", "correta": false },
+        { "letra": "E", "texto": "Ter enredo sempre linear e cronológico", "correta": false }
+      ],
+      "explicacao": "O romance moderno volta-se para o indivíduo comum e sua complexidade psicológica, ao contrário da epopeia clássica que celebrava heróis e feitos grandiosos."
+    },
+    {
+      "id": 2,
+      "assunto": "Romance",
+      "enunciado": "O romance moderno surgiu no século XVIII, na Inglaterra, com obras como Robinson Crusoe (Defoe) e Pamela (Richardson). Esse surgimento está relacionado:",
+      "alternativas": [
+        { "letra": "A", "texto": "Ao declínio da nobreza e à ascensão da burguesia", "correta": true },
+        { "letra": "B", "texto": "Ao fortalecimento do poder da Igreja Católica", "correta": false },
+        { "letra": "C", "texto": "À invenção da imprensa por Gutenberg", "correta": false },
+        { "letra": "D", "texto": "Ao período das Grandes Navegações", "correta": false },
+        { "letra": "E", "texto": "À queda do Império Romano", "correta": false }
+      ],
+      "explicacao": "O romance moderno reflete a ascensão da burguesia e o novo interesse pelo indivíduo, sua psicologia e suas relações sociais típicas do mundo moderno."
+    },
+    {
+      "id": 3,
+      "assunto": "Romance",
+      "enunciado": "No Brasil, o romance teve início no século XIX com qual obra de José de Alencar?",
+      "alternativas": [
+        { "letra": "A", "texto": "Dom Casmurro", "correta": false },
+        { "letra": "B", "texto": "Memórias Póstumas de Brás Cubas", "correta": false },
+        { "letra": "C", "texto": "O Guarani", "correta": true },
+        { "letra": "D", "texto": "Vidas Secas", "correta": false },
+        { "letra": "E", "texto": "Grande Sertão: Veredas", "correta": false }
+      ],
+      "explicacao": "O Guarani (1857), de José de Alencar, é considerado o marco inicial do romance brasileiro, inaugurando uma tradição que se consolidaria com Machado de Assis."
+    },
+    {
+      "id": 4,
+      "assunto": "Romance",
+      "enunciado": "Assinale a alternativa que apresenta corretamente os elementos fundamentais de uma narrativa romanesca:",
+      "alternativas": [
+        { "letra": "A", "texto": "Versos, rimas, métrica e estrofes", "correta": false },
+        { "letra": "B", "texto": "Enredo, personagens, narrador, tempo e espaço", "correta": true },
+        { "letra": "C", "texto": "Tese, antítese, síntese e argumentação", "correta": false },
+        { "letra": "D", "texto": "Roteiro, diálogos, rubricas e atos", "correta": false },
+        { "letra": "E", "texto": "Introdução, desenvolvimento e conclusão argumentativa", "correta": false }
+      ],
+      "explicacao": "O romance estrutura-se em torno de cinco elementos narrativos: enredo, personagens, narrador (foco narrativo), tempo e espaço."
+    },
+    {
+      "id": 5,
+      "assunto": "Romance",
+      "enunciado": "Em Memórias Póstumas de Brás Cubas (1881), Machado de Assis revolucionou a narrativa brasileira ao utilizar um recurso inovador. Qual foi esse recurso?",
+      "alternativas": [
+        { "letra": "A", "texto": "Narrador em terceira pessoa onisciente", "correta": false },
+        { "letra": "B", "texto": "Narrador defunto que narra após a morte", "correta": true },
+        { "letra": "C", "texto": "Narrador criança com linguagem infantil", "correta": false },
+        { "letra": "D", "texto": "Múltiplos narradores sem conexão entre si", "correta": false },
+        { "letra": "E", "texto": "Narrador robotizado e imparcial", "correta": false }
+      ],
+      "explicacao": "Machado de Assis inovou ao criar um narrador defunto (Brás Cubas) que narra suas memórias após a morte, quebrando convenções e estabelecendo o Realismo no Brasil."
+    },
+    {
+      "id": 6,
+      "assunto": "Romance",
+      "enunciado": "O que é um narrador não confiável?",
+      "alternativas": [
+        { "letra": "A", "texto": "Narrador que narra apenas fatos verdadeiros e verificáveis", "correta": false },
+        { "letra": "B", "texto": "Narrador cuja versão dos fatos o leitor tem motivos para questionar", "correta": true },
+        { "letra": "C", "texto": "Narrador que sempre conta a verdade absoluta", "correta": false },
+        { "letra": "D", "texto": "Narrador que usa exclusivamente linguagem formal", "correta": false },
+        { "letra": "E", "texto": "Narrador que não participa da história", "correta": false }
+      ],
+      "explicacao": "O narrador não confiável apresenta uma versão dos fatos que o leitor desconfia ser tendenciosa ou incompleta, como Bentinho em Dom Casmurro."
+    },
+    {
+      "id": 7,
+      "assunto": "Romance",
+      "enunciado": "Assinale a alternativa que classifica corretamente o tipo de romance representado por O Cortiço (1890), de Aluísio Azevedo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Romance romântico indianista", "correta": false },
+        { "letra": "B", "texto": "Romance naturalista, com determinismo biológico e social", "correta": true },
+        { "letra": "C", "texto": "Romance modernista experimental", "correta": false },
+        { "letra": "D", "texto": "Romance psicológico intimista", "correta": false },
+        { "letra": "E", "texto": "Romance de formação pedagógica", "correta": false }
+      ],
+      "explicacao": "O Cortiço é o principal romance naturalista brasileiro, caracterizado pelo determinismo do meio e dos instintos sobre as personagens."
+    },
+    {
+      "id": 8,
+      "assunto": "Romance",
+      "enunciado": "Vidas Secas (1938), de Graciliano Ramos, é um marco do Modernismo brasileiro. Sobre essa obra, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Idealiza a vida no campo como um paraíso", "correta": false },
+        { "letra": "B", "texto": "Retrata a seca nordestina e a miséria com linguagem enxuta e densa", "correta": true },
+        { "letra": "C", "texto": "Exalta os grandes feitos dos bandeirantes", "correta": false },
+        { "letra": "D", "texto": "É um romance histórico sobre a independência do Brasil", "correta": false },
+        { "letra": "E", "texto": "Utiliza linguagem rebuscada e erudita", "correta": false }
+      ],
+      "explicacao": "Vidas Secas é um romance modernista que retrata a realidade da seca no Nordeste com linguagem econômica e seca, refletindo a aridez do ambiente."
+    },
+    {
+      "id": 9,
+      "assunto": "Romance",
+      "enunciado": "A técnica do fluxo de consciência, utilizada por autores como Virginia Woolf e James Joyce, caracteriza-se por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Narrativa estritamente cronológica e linear", "correta": false },
+        { "letra": "B", "texto": "Reprodução do pensamento em seu estado bruto, associativo e não linear", "correta": true },
+        { "letra": "C", "texto": "Uso exclusivo de diálogos entre personagens", "correta": false },
+        { "letra": "D", "texto": "Narrador onisciente que tudo explica", "correta": false },
+        { "letra": "E", "texto": "Descrição detalhada de cenários naturais", "correta": false }
+      ],
+      "explicacao": "O fluxo de consciência busca representar o pensamento humano em seu funcionamento real: associativo, fragmentado, com saltos temporais, sem filtro racional."
+    },
+    {
+      "id": 10,
+      "assunto": "Romance",
+      "enunciado": "Grande Sertão: Veredas (1956), de Guimarães Rosa, é considerado um marco da literatura brasileira porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "Segue rigidamente a estrutura do romance romântico", "correta": false },
+        { "letra": "B", "texto": "Inova na linguagem, recriando o sertão e a fala sertaneja com experimentalismo", "correta": true },
+        { "letra": "C", "texto": "É um romance histórico sobre a Independência", "correta": false },
+        { "letra": "D", "texto": "Defende a monarquia como forma de governo", "correta": false },
+        { "letra": "E", "texto": "Utiliza apenas linguagem jornalística e objetiva", "correta": false }
+      ],
+      "explicacao": "Guimarães Rosa revolucionou a prosa brasileira ao criar uma linguagem única, mesclando neologismos, regionalismos e experimentação formal para recriar o universo sertanejo."
+    },
+    {
+      "id": 11,
+      "assunto": "Romance",
+      "enunciado": "Qual é a principal diferença entre tempo cronológico e tempo psicológico no romance?",
+      "alternativas": [
+        { "letra": "A", "texto": "Não há diferença; ambos são sinônimos", "correta": false },
+        { "letra": "B", "texto": "O tempo cronológico segue a ordem do relógio; o psicológico é subjetivo e pode saltar ou se alongar", "correta": true },
+        { "letra": "C", "texto": "O tempo psicológico é sempre mais rápido que o cronológico", "correta": false },
+        { "letra": "D", "texto": "O tempo cronológico só existe em romances do século XX", "correta": false },
+        { "letra": "E", "texto": "O tempo psicológico é objetivo e mensurável", "correta": false }
+      ],
+      "explicacao": "O tempo cronológico é linear e mensurável (horas, dias); o tempo psicológico é subjetivo, podendo condensar anos ou expandir segundos conforme a percepção da personagem."
+    },
+    {
+      "id": 12,
+      "assunto": "Romance",
+      "enunciado": "Sobre a classificação dos romances, assinale a afirmação correta:",
+      "alternativas": [
+        { "letra": "A", "texto": "O romance realista idealiza a realidade e os sentimentos", "correta": false },
+        { "letra": "B", "texto": "O romance naturalista defende o livre-arbítrio absoluto", "correta": false },
+        { "letra": "C", "texto": "O romance modernista brasileiro buscou experimentação formal e crítica social", "correta": true },
+        { "letra": "D", "texto": "O romance romântico analisa psicologicamente as personagens", "correta": false },
+        { "letra": "E", "texto": "O romance contemporâneo abandonou qualquer crítica social", "correta": false }
+      ],
+      "explicacao": "O Modernismo brasileiro (1922-1945) caracterizou-se pela experimentação formal, linguagem coloquial e crítica à sociedade brasileira."
+    }
+  ]
 }
