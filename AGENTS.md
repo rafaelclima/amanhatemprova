@@ -16,8 +16,7 @@ Liz/index.html          → Cards link directly to topic pages (no subject index
 template/               → Gen 2 topic page template
 ```
 
-- **Lara nav depth**: root → Lara/ → subject/ → topic/index.html
-- **Liz nav depth**: root → Liz/ → topic/index.html (no subject index)
+- **Nav depth**: root → {Lara|Liz}/ → subject/ → topic/index.html
 - All pages `lang="pt-BR"`, relative paths only.
 
 ## Two Page Generations
