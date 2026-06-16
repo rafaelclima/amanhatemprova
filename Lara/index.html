@@ -290,16 +290,30 @@
     }
 
     .subjects-grid--subjects {
-      flex-direction: column;
-      max-width: 400px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 900px;
+      gap: 1.25rem;
     }
 
     .subject-card--large {
-      width: 100%;
       min-width: unset;
+      width: auto;
+    }
+
+    @media (max-width: 900px) {
+      .subjects-grid--subjects {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+      }
     }
 
     @media (max-width: 600px) {
+      .subjects-grid--subjects {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+      }
+
       .subjects-grid {
         flex-direction: column;
         align-items: center;
