@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicação e Divisão - 4º Ano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <a href="../../index.html" class="btn-back" title="Voltar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Voltar</span>
+            </a>
+            <h1 class="main-title">Multiplicação e Divisão 🧮</h1>
+            <p class="subtitle">4º Ano — Tabuada, propriedades e contas básicas</p>
+        </header>
+
+        <nav class="tabs-nav" role="tablist">
+            <button class="tab-btn active" data-tab="resumo" role="tab" aria-selected="true">📚 Resumo</button>
+            <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false">❓ Quiz (10)</button>
+            <button class="tab-btn" data-tab="simulado" role="tab" aria-selected="false">📝 Simulado (10)</button>
+            <button class="tab-btn" data-tab="jogo" role="tab" aria-selected="false">🎮 Jogo da Tabuada</button>
+        </nav>
+
+        <div class="content-area">
+
+            <!-- ==================== RESUMO ==================== -->
+            <div id="resumo" class="tab-content active">
+                <div class="card summary-card">
+                    <h2>Multiplicação e Divisão 🧮</h2>
+
+                    <div class="topic-section">
+                        <h3>➗ O que é multiplicação?</h3>
+                        <p>Multiplicação é uma forma rápida de somar o mesmo número várias vezes. Em vez de fazer 3 + 3 + 3 + 3, você pode fazer 3 × 4 e o resultado é o mesmo: 12!</p>
+                        <div class="destaque">3 × 4 = 12 &nbsp;&nbsp;|&nbsp;&nbsp; 3 + 3 + 3 + 3 = 12</div>
+                        <p>Na multiplicação, os números que você multiplica são chamados de <strong>fatores</strong>, e o resultado é o <strong>produto</strong>.</p>
+                        <div class="dica">🧠 Dica: Pense na multiplicação como "grupos iguais". 3 × 4 significa "3 grupos de 4" ou "4 grupos de 3".</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>📋 Tabuada da multiplicação</h3>
+                        <p>A tabuada é uma tabela que mostra o resultado de todas as multiplicações de 1 a 10. Saber a tabuada de cor ajuda muito a fazer contas rápido!</p>
+                        <table>
+                            <tr><th>×</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th></tr>
+                            <tr><td><strong>1</strong></td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+                            <tr><td><strong>2</strong></td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td></tr>
+                            <tr><td><strong>3</strong></td><td>3</td><td>6</td><td>9</td><td>12</td><td>15</td><td>18</td><td>21</td><td>24</td><td>27</td><td>30</td></tr>
+                            <tr><td><strong>4</strong></td><td>4</td><td>8</td><td>12</td><td>16</td><td>20</td><td>24</td><td>28</td><td>32</td><td>36</td><td>40</td></tr>
+                            <tr><td><strong>5</strong></td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td></tr>
+                            <tr><td><strong>6</strong></td><td>6</td><td>12</td><td>18</td><td>24</td><td>30</td><td>36</td><td>42</td><td>48</td><td>54</td><td>60</td></tr>
+                            <tr><td><strong>7</strong></td><td>7</td><td>14</td><td>21</td><td>28</td><td>35</td><td>42</td><td>49</td><td>56</td><td>63</td><td>70</td></tr>
+                            <tr><td><strong>8</strong></td><td>8</td><td>16</td><td>24</td><td>32</td><td>40</td><td>48</td><td>56</td><td>64</td><td>72</td><td>80</td></tr>
+                            <tr><td><strong>9</strong></td><td>9</td><td>18</td><td>27</td><td>36</td><td>45</td><td>54</td><td>63</td><td>72</td><td>81</td><td>90</td></tr>
+                            <tr><td><strong>10</strong></td><td>10</td><td>20</td><td>30</td><td>40</td><td>50</td><td>60</td><td>70</td><td>80</td><td>90</td><td>100</td></tr>
+                        </table>
+                        <div class="dica">🧠 Dica: A tabuada do 2 é o dobro dos números. A do 5 sempre termina em 0 ou 5. A do 10 sempre termina em 0!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🔄 Propriedades da multiplicação</h3>
+                        <p>As propriedades são regras especiais que a multiplicação segue. Conhecê-las ajuda a fazer contas mais rápido!</p>
+
+                        <p><strong>1. Propriedade comutativa</strong> — A ordem dos fatores não altera o produto. 3 × 5 é igual a 5 × 3.</p>
+                        <div class="destaque">3 × 5 = 15 &nbsp;&nbsp;|&nbsp;&nbsp; 5 × 3 = 15</div>
+
+                        <p><strong>2. Propriedade associativa</strong> — Quando multiplicamos três ou mais números, podemos agrupar de maneiras diferentes que o resultado é o mesmo.</p>
+                        <div class="destaque">(2 × 3) × 4 = 6 × 4 = 24<br>2 × (3 × 4) = 2 × 12 = 24</div>
+
+                        <p><strong>3. Elemento neutro</strong> — O número 1 é o elemento neutro da multiplicação. Qualquer número multiplicado por 1 continua sendo ele mesmo!</p>
+                        <div class="destaque">7 × 1 = 7 &nbsp;&nbsp;|&nbsp;&nbsp; 1 × 9 = 9</div>
+
+                        <div class="dica">🧠 Dica: A comutativa quer dizer que você pode trocar a ordem. 8 × 2 = 2 × 8 = 16. A associativa quer dizer que você pode escolher qual conta fazer primeiro.</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🔀 Propriedade distributiva</h3>
+                        <p>A propriedade distributiva (também chamada de "chuveirinho") relaciona a multiplicação com a adição ou subtração. Ela diz que multiplicar um número por uma soma é o mesmo que multiplicar esse número por cada parcela e depois somar os resultados.</p>
+                        <div class="destaque">3 × (4 + 5) = (3 × 4) + (3 × 5) = 12 + 15 = 27</div>
+                        <p>Ou com subtração:</p>
+                        <div class="destaque">3 × (7 − 2) = (3 × 7) − (3 × 2) = 21 − 6 = 15</div>
+                        <p>O nome "distributiva" vem do fato de que o número de fora "se distribui" para cada número de dentro dos parênteses!</p>
+                        <div class="dica">🧠 Dica: Pense no "chuveirinho" — o número de fora molha (multiplica) cada número que está dentro dos parênteses!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>📐 Divisão e seus termos</h3>
+                        <p>A divisão é a operação inversa da multiplicação. Ela serve para repartir uma quantidade em partes iguais.</p>
+                        <p>Os termos da divisão são:</p>
+                        <div class="destaque">Dividendo ÷ Divisor = Quociente (com resto, às vezes)</div>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.8;">
+                            <li><strong>Dividendo:</strong> o número que será dividido (o total)</li>
+                            <li><strong>Divisor:</strong> o número que vai dividir (em quantas partes)</li>
+                            <li><strong>Quociente:</strong> o resultado da divisão</li>
+                            <li><strong>Resto:</strong> o que sobra quando a divisão não é exata</li>
+                        </ul>
+                        <div class="destaque">15 ÷ 3 = 5 &nbsp;&nbsp;(15 é o dividendo, 3 é o divisor, 5 é o quociente, resto = 0)</div>
+                        <p>Quando o resto é zero, a divisão é <strong>exata</strong>. Quando sobra algo, é <strong>não exata</strong>.</p>
+                        <div class="destaque">17 ÷ 5 = 3 e sobra 2 &nbsp;&nbsp;(resto = 2, divisão não exata)</div>
+                        <p>Para verificar se a divisão está correta, use a prova real: <strong>Divisor × Quociente + Resto = Dividendo</strong>.</p>
+                        <div class="dica">🧠 Dica: A divisão é o contrário da multiplicação! Se 4 × 5 = 20, então 20 ÷ 5 = 4 e 20 ÷ 4 = 5.</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>✅ Dicas finais</h3>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:2;">
+                            <li>📌 Decore a tabuada do 1 ao 10 — vai ajudar em todas as contas!</li>
+                            <li>📌 Na multiplicação, a ordem não importa (comutativa).</li>
+                            <li>📌 Na divisão, a ordem importa! 10 ÷ 2 é diferente de 2 ÷ 10.</li>
+                            <li>📌 Use a prova real para conferir se a divisão está certa.</li>
+                            <li>📌 O "chuveirinho" (distributiva) ajuda a fazer contas grandes mais rápido.</li>
+                            <li>📌 Qualquer número × 1 = ele mesmo. Qualquer número × 0 = 0.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== QUIZ ==================== -->
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">❓ Quiz de Multiplicação e Divisão</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Responda as 10 perguntas e veja seu resultado!</p>
+                    <div id="quiz-container"></div>
+                    <div style="text-align:center;margin-top:20px;">
+                        <button class="btn" onclick="finalizarQuiz()">✅ Finalizar Quiz</button>
+                    </div>
+                    <div id="quiz-result" class="result-card hidden">
+                        <h3>📊 Resultado</h3>
+                        <div class="score-text">0/10</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarQuiz()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== SIMULADO ==================== -->
+            <div id="simulado" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">📝 Simulado</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Responda com calma. No final, veja seu desempenho!</p>
+                    <div id="simulado-container"></div>
+                    <div style="text-align:center;margin-top:20px;">
+                        <button class="btn" onclick="finalizarSimulado()">✅ Finalizar Simulado</button>
+                    </div>
+                    <div id="simulado-result" class="result-card hidden">
+                        <h3>📊 Resultado do Simulado</h3>
+                        <div class="score-text">0/10</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarSimulado()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== JOGO ==================== -->
+            <div id="jogo" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">🎮 Jogo da Tabuada</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Escolha a resposta certa para cada conta!</p>
+                    <div id="jogo-container" class="jogo-container">
+                        <div class="jogo-info">
+                            <span>Acertos: <strong id="jogo-acertos">0</strong></span>
+                            <span>Pontos: <strong id="jogo-pontos">0</strong></span>
+                            <span>Sequência: <strong id="jogo-sequencia">0</strong> 🔥</span>
+                        </div>
+                        <div class="jogo-pergunta" id="jogo-pergunta">2 × 3 = ?</div>
+                        <div class="jogo-opcoes" id="jogo-opcoes"></div>
+                        <div id="jogo-mensagem" style="text-align:center;margin-top:20px;font-size:1.2rem;font-weight:700;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="main-footer">
+            <p>Feito pelo Papi ❤️ — 4º Ano • Ensino Fundamental</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
