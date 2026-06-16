@@ -84,15 +84,49 @@ section#simulado  → hidden by default, activated via JS
 }
 ```
 
-## Adding New Content
+## ⚠️ MUST: Always Use the Template
 
-1. Create `student/subject/topic_name/` directory
-2. Copy `index.html` from `template/` (Gen 2) or same-generation topic
-3. Copy `assets/` from template (`css/base.css`, `css/components.css`, `js/app.js`)
-4. Create `data/questions.json` with at least 10 questions
-5. Include `prompt.md` (references `@orchestrator.md`) + `.gitignore` (ignores `/prompt.md` and `/.claude`)
-6. **Update parent index page**: fix "X assunto(s) disponível(is)" count and add topic link card
-7. **Verify relative paths**: back button in topic page → `../index.html` (subject index), assets at `assets/css/*`
+**Every new topic page MUST start from `template/`.** This is the only source of truth for new content.
+
+```
+template/
+├── index.html              → Copy as topic/index.html, then replace content
+├── assets/
+│   ├── css/base.css        → Copy as topic/assets/css/base.css
+│   ├── css/components.css  → Copy as topic/assets/css/components.css
+│   └── js/app.js           → Copy as topic/assets/js/app.js (Gen 2) OR
+│                              replace with custom script.js (Liz Gen 1)
+├── data/
+│   └── questions.json      → Copy as topic/data/questions.json, replace questions
+├── prompt.md               → Copy as topic/prompt.md, fill placeholders
+└── .claude/                → Copy as topic/.claude/
+```
+
+Steps:
+1. `mkdir -p student/subject/topic_name/assets/css student/subject/topic_name/assets/js student/subject/topic_name/data`
+2. Copy `template/index.html` → `topic/index.html`
+3. Copy `template/assets/css/base.css` → `topic/assets/css/base.css`
+4. Copy `template/assets/css/components.css` → `topic/assets/css/components.css`
+5. Copy `template/assets/js/app.js` → `topic/assets/js/app.js` (Lara Gen 2 topics)
+6. Copy `template/data/questions.json` → `topic/data/questions.json`, replace with 10+ questions
+7. Copy `template/prompt.md` → `topic/prompt.md`, fill `[PLACEHOLDERS]`
+8. Copy `template/.claude/` → `topic/.claude/` (dev tooling config, gitignored)
+9. Create `topic/.gitignore`:
+   ```
+   /prompt.md
+   /.claude
+   ```
+10. **Update parent index page**: fix "X assunto(s) disponível(is)" count and add topic link card
+11. **Verify relative paths**: back button in topic page → `../index.html` (subject index), assets at `assets/css/*`
+
+### Liz Variation
+
+For Liz topic pages (Gen 1, child-friendly), **still start from the template** — then adapt:
+- `index.html`: replace with Liz inline-style tab-nav pattern (Nunito, dark gradient, glassmorphism, 4 tabs: Resumo/Quiz/Simulado/Jogo)
+- `assets/css/`: remove; all styles go inline in `index.html` or a single `styles.css`
+- `assets/js/app.js`: replace with custom `script.js` (questions embedded, no external JSON, includes game section)
+- `data/questions.json`: remove; embed questions directly in `script.js`
+- Keep `prompt.md`, `.claude/`, `.gitignore` from template
 
 ## Deployment
 
