@@ -216,6 +216,18 @@
       animation: fadeInUp 1s ease-out 0.3s both;
     }
 
+    .subjects-grid--subjects {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      max-width: 900px;
+      gap: 1.25rem;
+    }
+
+    .subject-card--large {
+      min-width: unset;
+      width: auto;
+    }
+
     @keyframes fadeInUp {
       from {
         opacity: 0;
@@ -289,7 +301,19 @@
       padding: 3rem;
     }
 
+    @media (max-width: 900px) {
+      .subjects-grid--subjects {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 600px;
+      }
+    }
+
     @media (max-width: 600px) {
+      .subjects-grid--subjects {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+      }
+
       .subjects-grid {
         flex-direction: column;
         align-items: center;
@@ -298,6 +322,10 @@
       .subject-card {
         width: 100%;
         max-width: 300px;
+      }
+
+      .subject-card--large {
+        max-width: 100%;
       }
 
       .student-name {
@@ -332,8 +360,8 @@
 
     <p class="section-title">Escolha uma matéria para estudar</p>
 
-    <div class="subjects-grid">
-      <a href="matematica/" class="subject-card">
+    <div class="subjects-grid subjects-grid--subjects">
+      <a href="matematica/" class="subject-card subject-card--large">
         <div class="subject-icon">🔢</div>
         <div class="subject-info">
           <h3>Matemática</h3>
@@ -346,7 +374,7 @@
         </div>
       </a>
 
-      <a href="historia/" class="subject-card">
+      <a href="historia/" class="subject-card subject-card--large">
         <div class="subject-icon">🏛️</div>
         <div class="subject-info">
           <h3>História</h3>
@@ -359,7 +387,7 @@
         </div>
       </a>
 
-      <a href="geografia/" class="subject-card">
+      <a href="geografia/" class="subject-card subject-card--large">
         <div class="subject-icon">🗺️</div>
         <div class="subject-info">
           <h3>Geografia</h3>
