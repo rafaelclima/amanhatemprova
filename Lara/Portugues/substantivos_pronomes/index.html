@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Estuda+ | Plataforma de Estudos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <a href="../index.html" class="ds-nav__back" aria-label="Voltar para Português">← Voltar</a>
+      <span class="ds-nav__brand">Estuda+</span>
+      <button class="ds-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+        <span class="ds-nav__hamburger"></span>
+      </button>
+      <nav aria-label="Navegação principal" class="ds-nav__menu" id="nav-menu">
+        <ul class="ds-nav__list" id="nav-list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="ds-progress-bar__fill"></div>
+    </div>
+
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Português — Substantivos e Pronomes</h1>
+        <p class="ds-lead">Revisão completa de Substantivos e Pronomes para o Primeiro Ano do Ensino Médio. Estude a classificação, o emprego e as funções dessas classes gramaticais essenciais para a análise textual.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+
+          <section class="ds-study-block">
+            <h2>Substantivo — Classificação Semântica</h2>
+            <p>O substantivo é a classe de palavras que <strong>nomeia os seres</strong> (pessoas, animais, lugares, coisas, sentimentos, ideias). Quanto ao significado, os substantivos classificam-se em:</p>
+            <ul>
+              <li><strong>Comum × Próprio</strong>: Comum nomeia qualquer ser da mesma espécie (<em>cidade, menino, rio</em>). Próprio nomeia um ser específico, com letra maiúscula (<em>Brasil, Maria, Amazonas</em>).</li>
+              <li><strong>Concreto × Abstrato</strong>: Concreto nomeia seres com existência real ou imaginada, que existem por si mesmos (<em>casa, fada, vento, Deus</em>). Abstrato nomeia ações, qualidades, estados e sentimentos, que dependem de um ser para existir (<em>coragem, beleza, amor, corrida</em>).</li>
+              <li><strong>Coletivo</strong>: Nomeia um conjunto de seres da mesma espécie no singular (<em>cardume, matilha, frota, arquipélago</em>).</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Diferença chave: Concreto = existe por si (real ou imaginado). Abstrato = depende de outro ser para existir (sentimentos, ações, qualidades). Ex: "A <strong>alegria</strong> da <strong>criança</strong>" — alegria é abstrata, criança é concreta.</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Erro frequente: achar que substantivos abstratos são apenas sentimentos. Ações (corrida, leitura), qualidades (beleza, bondade) e estados (saúde, doença) também são abstratos. Outro erro: confundir substantivo próprio com adjetivo pátrio. "Brasileiro" é adjetivo ou substantivo dependendo do contexto. E lembre-se: deus/Deus — com minúscula, é concreto comum; com maiúscula, é concreto próprio.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Na frase "A <em>sabedoria</em> do <em>professor</em> encantava os <em>alunos</em>", temos: sabedoria (abstrato), professor e alunos (concretos, comuns). Se fosse "Mestre <em>Júlio</em> encantava os alunos", Júlio seria concreto próprio.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Substantivo — Classificação Morfológica</h2>
+            <p>Quanto à <strong>forma</strong>, os substantivos classificam-se em:</p>
+            <ul>
+              <li><strong>Simples × Composto</strong>: Simples tem um só radical (<em>sol, chuva, pé</em>). Composto tem mais de um radical (<em>girassol, guarda-chuva, pé-de-moleque</em>).</li>
+              <li><strong>Primitivo × Derivado</strong>: Primitivo não deriva de outra palavra (<em>pedra, dente, terra</em>). Derivado forma-se a partir de outra palavra (<em>pedreira, dentista, enterrar</em>).</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Composto = dois ou mais radicais (guarda-chuva). Derivado = um radical + afixos (pedr<strong>eira</strong>). Um substantivo pode ser composto E derivado ao mesmo tempo: <em>girassol</em> (composto) → <em>girassolzinho</em> (composto e derivado).</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Não confunda composto com derivado. "Guarda-roupa" é composto (guarda + roupa). "Roupagem" é derivado (roupa + agem). O plural dos compostos segue regras específicas: com hífen, variam os elementos variáveis (couve-flores, amores-perfeitos); sem hífen, só o último varia (girassóis).</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Emprego dos Substantivos Concretos e Abstratos</h2>
+            <p>No texto, a escolha entre substantivos concretos e abstratos produz <strong>efeitos de sentido</strong> distintos:</p>
+            <ul>
+              <li><strong>Substantivos concretos</strong>: criam imagens sensoriais, aproximam o leitor da realidade material, dão tangibilidade à narrativa. São típicos de descrições objetivas e narrativas realistas. Ex: "O <em>chão</em> de <em>terra batida</em>, o <em>cheiro</em> de <em>mofo</em>, a <em>luz</em> fraca do <em>candeeiro</em>."</li>
+              <li><strong>Substantivos abstratos</strong>: expressam conceitos, reflexões, estados interiores. São típicos de textos argumentativos, poéticos e filosóficos. Ex: "A <em>solidão</em> e o <em>desamparo</em> tomavam conta de sua <em>alma</em>."</li>
+              <li><strong>Alternância</strong>: a mescla de concretos e abstratos enriquece o texto. Concretos ancoram a cena; abstratos revelam a interpretação subjetiva.</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Na redação: para tornar uma ideia abstrata mais palpável, use metáforas com substantivos concretos. Ex: ao invés de "a <strong>injustiça</strong> social" (abstrato), escreva "o <strong>prato vazio</strong> na <strong>mesa</strong> das <strong>crianças</strong>" (concretos).</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Um mesmo substantivo pode ser concreto ou abstrato dependendo do contexto. Ex: "criação" — "a criação da galinha" (ação de criar, abstrato) vs. "a criação fugiu do galinheiro" (conjunto de criaturas, concreto). Atenção ao uso em questões de interpretação!</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Funções Substantivas na Sentença</h2>
+            <p>O substantivo (ou expressão substantivada) pode exercer diversas <strong>funções sintáticas</strong> na oração:</p>
+            <ul>
+              <li><strong>Núcleo do sujeito</strong>: "O <em>professor</em> explicou a matéria."</li>
+              <li><strong>Núcleo do objeto direto</strong>: "Comprei um <em>livro</em>."</li>
+              <li><strong>Núcleo do objeto indireto</strong>: "Preciso de <em>ajuda</em>." (preposição + substantivo)</li>
+              <li><strong>Núcleo do predicativo do sujeito</strong>: "Ela é <em>professora</em>."</li>
+              <li><strong>Núcleo do complemento nominal</strong>: "Tenho medo de <em>escuro</em>."</li>
+              <li><strong>Núcleo do agente da passiva</strong>: "O livro foi escrito pelo <em>autor</em>."</li>
+              <li><strong>Vocativo</strong>: "<em>Alunos</em>, prestem atenção!"</li>
+              <li><strong>Adjunto adnominal</strong>: quando um adjetivo ou locução adjetiva acompanha o substantivo: "O <em>cabelo</em> da <em>menina</em> é lindo."</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Em qualquer função sintática listada acima, o elemento central — aquele que recebe os modificadores e determina a concordância — é o substantivo (ou palavra substantivada). Identificá-lo é o primeiro passo da análise sintática.</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Não confunda adjunto adnominal (termo acessório que acompanha o substantivo) com complemento nominal (termo integrante regido por preposição, ligado a substantivo abstrato, adjetivo ou advérbio). Ex: "A leitura <strong>do livro</strong>" pode ser adjunto adnominal (o livro é lido) ou complemento nominal (alguém lê o livro) — a diferença está na voz ativa/passiva implícita.</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Pronomes — Classificação</h2>
+            <p>Pronome é a palavra que <strong>substitui ou acompanha</strong> um substantivo, situando-o no tempo, espaço ou discurso. Classificam-se em:</p>
+            <ul>
+              <li><strong>Pessoais</strong>: do caso reto (eu, tu, ele/ela, nós, vós, eles/elas) — função de sujeito; do caso oblíquo (me, mim, comigo, te, ti, contigo, se, si, consigo, o, a, lhe, nos, conosco, vos, convosco, os, as, lhes) — função de complemento.</li>
+              <li><strong>Possessivos</strong>: meu(s), minha(s), teu(s), tua(s), seu(s), sua(s), nosso(s), nossa(s), vosso(s), vossa(s) — indicam posse.</li>
+              <li><strong>Demonstrativos</strong>: este(s), esta(s), esse(s), essa(s), aquele(s), aquela(s), isto, isso, aquilo, o, a, mesmo, próprio, tal — situam no espaço, tempo ou discurso.</li>
+              <li><strong>Indefinidos</strong>: algum, nenhum, todo, vários, qualquer, alguém, ninguém, tudo, nada, etc. — referem-se de forma imprecisa.</li>
+              <li><strong>Interrogativos</strong>: que, quem, qual, quanto — usados em perguntas diretas ou indiretas.</li>
+              <li><strong>Relativos</strong>: que, quem, o qual, cujo, onde, quanto — retomam um termo anterior (antecedente) e introduzem orações subordinadas adjetivas.</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Dica: decore a tabela de pronomes pessoais — retos (sujeito) vs. oblíquos (complemento). Erro comum: usar "eu" como objeto ("vi eu" em vez de "vi-me") ou "mim" como sujeito ("mim fiz" em vez de "eu fiz").</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">"Seu/sua" pode ser ambíguo: "João disse que Pedro pegou seu livro" — o livro é de João ou de Pedro? Para evitar ambiguidade, prefira "o livro dele(a)". Outro erro: confundir "onde" (lugar físico) com "em que" / "no qual" (não-lugar). Ex: "A situação <strong>em que</strong> (e não 'onde') me encontro é difícil."</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>O Caráter Fórico dos Pronomes</h2>
+            <p>Os pronomes estabelecem <strong>relações de referência</strong> dentro do texto — essa é a propriedade fórica. Classificam-se em:</p>
+            <ul>
+              <li><strong>Anáfora</strong>: retoma um termo já mencionado. Ex: "Comprei um <em>livro</em>. <strong>Ele</strong> é muito interessante." (Ele retoma livro)</li>
+              <li><strong>Catáfora</strong>: antecipa um termo que ainda será mencionado. Ex: "<strong>Isto</strong> é o que mais importa: <em>o respeito ao próximo</em>." (Isto antecipa a explicação)</li>
+              <li><strong>Dêixis</strong>: refere-se a elementos da situação comunicativa (pessoas, tempo, espaço). Ex: "<strong>Eu</strong> estou <strong>aqui</strong> <strong>agora</strong>." (depende do contexto da fala)</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Para a interpretação textual: identifique o referente do pronome. Pergunte-se: "A quem ou a que este pronome se refere?" A anáfora é o recurso mais comum para garantir a <strong>coesão referencial</strong> do texto.</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">O pronome relativo "que" pode gerar ambiguidade se houver mais de um antecedente possível. Ex: "Encontrei o amigo da irmã <strong>que</strong> estava viajando." Quem viajava? Reescreva para evitar dúvida. Outra pegadinha: o "que" relativo pode ser substituído por "o(a) qual", "os(as) quais" para verificar se é mesmo pronome relativo.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> "Maria e João discutiram. <strong>Ela</strong> (anáfora: Maria) disse <strong>isto</strong> (catáfora): '<strong>Nós</strong> (dêixis pessoal) precisamos conversar <strong>agora</strong> (dêixis temporal).'"</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Morfossintaxe — Funções do Pronome</h2>
+            <p>Cada tipo de pronome exerce <strong>funções sintáticas específicas</strong> na oração:</p>
+            <ul>
+              <li><strong>Pronomes pessoais retos</strong> (eu, tu, ele...): função de <strong>sujeito</strong> ou <strong>predicativo do sujeito</strong>. Ex: "<strong>Ele</strong> estuda." / "O vencedor sou <strong>eu</strong>."</li>
+              <li><strong>Pronomes pessoais oblíquos</strong> (me, te, se, o, a, lhe, nos, vos, os, as, lhes): função de <strong>complemento</strong> (objeto direto, indireto) ou <strong>parte integrante do verbo</strong>. Ex: "Vi-<strong>o</strong>." (OD) / "Dei-<strong>lhe</strong> o presente." (OI)</li>
+              <li><strong>Pronomes possessivos</strong>: exercem função de <strong>adjunto adnominal</strong> (quando acompanham o substantivo) ou <strong>predicativo</strong>. Ex: "<strong>Meu</strong> livro" (adj. adnominal) / "Este livro é <strong>meu</strong>." (predicativo)</li>
+              <li><strong>Pronomes demonstrativos</strong>: podem ser <strong>núcleo do sujeito</strong>, <strong>objeto</strong> ou <strong>adjunto adnominal</strong>. Ex: "<strong>Este</strong> é o melhor." (sujeito) / "Conheço <strong>aquele</strong>." (objeto)</li>
+              <li><strong>Pronomes relativos</strong>: exercem função de <strong>sujeito</strong>, <strong>objeto</strong>, <strong>complemento nominal</strong> ou <strong>adjunto adverbial</strong> dentro da oração adjetiva que introduzem. Ex: "O livro <strong>que</strong> li é ótimo." (que = objeto direto de li)</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Regra prática: substitua o pronome por um substantivo para identificar sua função sintática. Ex: "Comprei-<strong>o</strong>" → "Comprei <strong>o livro</strong>" → funciona como objeto direto. "Dei-<strong>lhe</strong> um presente" → "Dei <strong>ao menino</strong> um presente" → objeto indireto.</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">O pronome "se" é camaleão: pode ser pronome oblíquo reflexivo (lavou-se), parte integrante do verbo (arrependeu-se), índice de indeterminação do sujeito (precisa-se de ajudantes) ou partícula apassivadora (vendem-se casas). Para identificar, analise a transitividade do verbo e a concordância. Outro erro: usar "eu" após preposição — o correto é "mim" (exceto quando for sujeito de infinitivo: "para eu fazer").</div>
+              </div>
+            </details>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei diferenciar substantivo comum de próprio, concreto de abstrato</li>
+              <li>Identifico substantivos simples, compostos, primitivos e derivados</li>
+              <li>Compreendo o efeito de sentido do uso de concretos vs. abstratos em textos</li>
+              <li>Reconheço as funções sintáticas que o substantivo pode exercer</li>
+              <li>Memorizei a classificação dos pronomes (pessoais, possessivos, demonstrativos, indefinidos, interrogativos, relativos)</li>
+              <li>Entendo o caráter fórico: anáfora, catáfora e dêixis</li>
+              <li>Sei identificar a função sintática de cada tipo de pronome</li>
+              <li>Domino os casos especiais do pronome "se" e evito confundir "eu" com "mim"</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: Na interpretação de texto, sempre localize o referente dos pronomes. Essa habilidade é essencial para resolver questões de coesão textual e evitar ambiguidades. Nos exercícios de análise morfossintática, classifique primeiro a palavra (qual classe?), depois a função (qual papel na oração?).
+            </div>
+          </section>
+
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

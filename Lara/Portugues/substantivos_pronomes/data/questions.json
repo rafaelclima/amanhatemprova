@@ -1,0 +1,367 @@
+{
+  "serie": "Primeiro Ano do Ensino Médio",
+  "disciplina": "Português",
+  "assuntos": ["Substantivos", "Pronomes"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Substantivos",
+      "enunciado": "Assinale a alternativa em que todos os substantivos são abstratos:",
+      "alternativas": [
+        { "letra": "A", "texto": "casa, livro, árvore", "correta": false },
+        { "letra": "B", "texto": "amor, coragem, tristeza", "correta": true },
+        { "letra": "C", "texto": "pedra, vento, nuvem", "correta": false },
+        { "letra": "D", "texto": "Brasil, Maria, Amazonas", "correta": false }
+      ],
+      "explicacao": "Substantivos abstratos nomeiam ações, qualidades, estados e sentimentos, que dependem de outro ser para existir. Amor, coragem e tristeza são sentimentos — portanto, abstratos."
+    },
+    {
+      "id": 2,
+      "assunto": "Substantivos",
+      "enunciado": "Qual das palavras é um substantivo composto?",
+      "alternativas": [
+        { "letra": "A", "texto": "pedreira", "correta": false },
+        { "letra": "B", "texto": "girassol", "correta": true },
+        { "letra": "C", "texto": "dentista", "correta": false },
+        { "letra": "D", "texto": "floresta", "correta": false }
+      ],
+      "explicacao": "Girassol é formado por dois radicais: 'gira' + 'sol' — portanto, é substantivo composto. As demais são derivadas (pedreira, dentista) ou primitiva (floresta)."
+    },
+    {
+      "id": 3,
+      "assunto": "Substantivos",
+      "enunciado": "Na frase 'A bondade daquela senhora emocionou a todos', o substantivo 'bondade' classifica-se como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Concreto e comum", "correta": false },
+        { "letra": "B", "texto": "Abstrato e primitivo", "correta": true },
+        { "letra": "C", "texto": "Concreto e derivado", "correta": false },
+        { "letra": "D", "texto": "Abstrato e composto", "correta": false }
+      ],
+      "explicacao": "'Bondade' é abstrato (nomeia uma qualidade, dependente de um ser) e primitivo (não deriva de outra palavra da língua — 'bom' é adjetivo, 'bondade' é forma primitiva na classe dos substantivos)."
+    },
+    {
+      "id": 4,
+      "assunto": "Substantivos",
+      "enunciado": "Assinale a opção em que o substantivo destacado exerce função de núcleo do objeto direto:",
+      "alternativas": [
+        { "letra": "A", "texto": "O menino comprou um livro.", "correta": true },
+        { "letra": "B", "texto": "A professora explicou a matéria.", "correta": false },
+        { "letra": "C", "texto": "Precisamos de ajuda.", "correta": false },
+        { "letra": "D", "texto": "Ela é médica.", "correta": false }
+      ],
+      "explicacao": "Em 'O menino comprou um livro', 'livro' é núcleo do objeto direto (complemento verbal sem preposição). 'Professora' é núcleo do sujeito, 'ajuda' é objeto indireto, 'médica' é predicativo do sujeito."
+    },
+    {
+      "id": 5,
+      "assunto": "Substantivos",
+      "enunciado": "Qual é a função sintática do substantivo destacado em 'O livro foi escrito pelo autor'?",
+      "alternativas": [
+        { "letra": "A", "texto": "Sujeito", "correta": false },
+        { "letra": "B", "texto": "Objeto direto", "correta": false },
+        { "letra": "C", "texto": "Agente da passiva", "correta": true },
+        { "letra": "D", "texto": "Complemento nominal", "correta": false }
+      ],
+      "explicacao": "Em 'O livro foi escrito pelo autor', 'autor' é o agente da passiva — termo que pratica a ação na voz passiva analítica, introduzido pela preposição 'por'."
+    },
+    {
+      "id": 6,
+      "assunto": "Substantivos",
+      "enunciado": "Em 'Alunos, estudem para a prova!', a palavra 'Alunos' exerce função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Sujeito", "correta": false },
+        { "letra": "B", "texto": "Vocativo", "correta": true },
+        { "letra": "C", "texto": "Objeto direto", "correta": false },
+        { "letra": "D", "texto": "Adjunto adnominal", "correta": false }
+      ],
+      "explicacao": "'Alunos' é vocativo — termo usado para chamar ou invocar o interlocutor, isolado por vírgula e sem relação sintática com o verbo."
+    },
+    {
+      "id": 7,
+      "assunto": "Substantivos",
+      "enunciado": "Na frase 'A leitura do livro é fascinante', a expressão 'do livro' exerce função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto indireto", "correta": false },
+        { "letra": "B", "texto": "Adjunto adnominal", "correta": true },
+        { "letra": "C", "texto": "Complemento nominal", "correta": false },
+        { "letra": "D", "texto": "Agente da passiva", "correta": false }
+      ],
+      "explicacao": "'Do livro' é adjunto adnominal porque acompanha o substantivo 'leitura' indicando posse ou especificação. Se 'leitura' fosse abstrato e houvesse ideia de passividade (leitura feita por alguém), seria complemento nominal."
+    },
+    {
+      "id": 8,
+      "assunto": "Substantivos",
+      "enunciado": "Qual dos substantivos abaixo é classificado como coletivo?",
+      "alternativas": [
+        { "letra": "A", "texto": "archote", "correta": false },
+        { "letra": "B", "texto": "arquipélago", "correta": true },
+        { "letra": "C", "texto": "arquivo", "correta": false },
+        { "letra": "D", "texto": "arcanjo", "correta": false }
+      ],
+      "explicacao": "Arquipélago é coletivo: nomeia um conjunto de ilhas no singular. Archote é tocha, arquivo é móvel ou conjunto documental, arcanjo é anjo — nenhum é coletivo."
+    },
+    {
+      "id": 9,
+      "assunto": "Substantivos",
+      "enunciado": "Assinale a alternativa que contém um substantivo abstrato:",
+      "alternativas": [
+        { "letra": "A", "texto": "O vento balançava as árvores.", "correta": false },
+        { "letra": "B", "texto": "A corrida matinal faz bem à saúde.", "correta": true },
+        { "letra": "C", "texto": "O gato dormia no sofá.", "correta": false },
+        { "letra": "D", "texto": "Comprei pão fresco na padaria.", "correta": false }
+      ],
+      "explicacao": "'Corrida' é substantivo abstrato pois nomeia uma ação. Vento, gato, sofá, pão e padaria são substantivos concretos — existem por si mesmos."
+    },
+    {
+      "id": 10,
+      "assunto": "Substantivos",
+      "enunciado": "Em 'Tenho medo de escuro', 'escuro' exerce função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Objeto direto", "correta": false },
+        { "letra": "B", "texto": "Complemento nominal", "correta": true },
+        { "letra": "C", "texto": "Adjunto adnominal", "correta": false },
+        { "letra": "D", "texto": "Predicativo do sujeito", "correta": false }
+      ],
+      "explicacao": "'De escuro' é complemento nominal porque completa o sentido do substantivo abstrato 'medo', sendo regido pela preposição 'de'."
+    },
+    {
+      "id": 11,
+      "assunto": "Substantivos",
+      "enunciado": "A palavra 'cidadão' é um substantivo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Simples, primitivo e concreto", "correta": true },
+        { "letra": "B", "texto": "Composto, derivado e abstrato", "correta": false },
+        { "letra": "C", "texto": "Simples, derivado e abstrato", "correta": false },
+        { "letra": "D", "texto": "Composto, primitivo e concreto", "correta": false }
+      ],
+      "explicacao": "'Cidadão' é simples (um radical), primitivo (não deriva de outra palavra) e concreto (nomeia um ser com existência própria)."
+    },
+    {
+      "id": 12,
+      "assunto": "Substantivos",
+      "enunciado": "Na frase 'A beleza da paisagem encantava os turistas', quantos substantivos abstratos há?",
+      "alternativas": [
+        { "letra": "A", "texto": "Um: beleza", "correta": true },
+        { "letra": "B", "texto": "Dois: beleza e paisagem", "correta": false },
+        { "letra": "C", "texto": "Nenhum", "correta": false },
+        { "letra": "D", "texto": "Três: beleza, paisagem e turistas", "correta": false }
+      ],
+      "explicacao": "Apenas 'beleza' é abstrato (qualidade). 'Paisagem' e 'turistas' são concretos — existem por si mesmos, independentemente de outro ser."
+    },
+    {
+      "id": 13,
+      "assunto": "Substantivos",
+      "enunciado": "Assinale a alternativa em que o substantivo destacado funciona como núcleo do sujeito:",
+      "alternativas": [
+        { "letra": "A", "texto": "Comprei um carro novo.", "correta": false },
+        { "letra": "B", "texto": "A professora explicou a lição.", "correta": true },
+        { "letra": "C", "texto": "Precisamos de paz.", "correta": false },
+        { "letra": "D", "texto": "Ela parece cansada.", "correta": false }
+      ],
+      "explicacao": "Em 'A professora explicou a lição', 'professora' é o núcleo do sujeito 'A professora' — termo sobre o qual se declara algo. 'Carro' é OD, 'paz' é OI, 'cansaço' não aparece."
+    },
+    {
+      "id": 14,
+      "assunto": "Substantivos",
+      "enunciado": "Qual das palavras abaixo é substantivo derivado?",
+      "alternativas": [
+        { "letra": "A", "texto": "pedra", "correta": false },
+        { "letra": "B", "texto": "dentista", "correta": true },
+        { "letra": "C", "texto": "sol", "correta": false },
+        { "letra": "D", "texto": "mar", "correta": false }
+      ],
+      "explicacao": "'Dentista' é derivado: formado a partir de 'dente' + sufixo '-ista'. Pedra, sol e mar são primitivos — não derivam de outras palavras."
+    },
+    {
+      "id": 15,
+      "assunto": "Substantivos",
+      "enunciado": "Em 'Ela tem amor à vida', 'amor' e 'vida' classificam-se, respectivamente, como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Concreto e abstrato", "correta": false },
+        { "letra": "B", "texto": "Abstrato e concreto", "correta": true },
+        { "letra": "C", "texto": "Abstrato e abstrato", "correta": false },
+        { "letra": "D", "texto": "Concreto e concreto", "correta": false }
+      ],
+      "explicacao": "'Amor' é abstrato (sentimento) e 'vida' é concreto (embora denote um estado biológico, a vida é considerada existente por si mesma na classificação tradicional dos substantivos)."
+    },
+    {
+      "id": 16,
+      "assunto": "Pronomes",
+      "enunciado": "Na frase 'Este livro é meu', 'Este' e 'meu' classificam-se, respectivamente, como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pronome demonstrativo e pronome possessivo", "correta": true },
+        { "letra": "B", "texto": "Pronome indefinido e pronome pessoal", "correta": false },
+        { "letra": "C", "texto": "Pronome interrogativo e pronome possessivo", "correta": false },
+        { "letra": "D", "texto": "Pronome demonstrativo e pronome relativo", "correta": false }
+      ],
+      "explicacao": "'Este' é pronome demonstrativo (indica posição no espaço/discurso) e 'meu' é pronome possessivo (indica posse)."
+    },
+    {
+      "id": 17,
+      "assunto": "Pronomes",
+      "enunciado": "Assinale a alternativa em que o pronome destacado exerce função de sujeito:",
+      "alternativas": [
+        { "letra": "A", "texto": "Vi-o ontem na escola.", "correta": false },
+        { "letra": "B", "texto": "Ele chegou atrasado.", "correta": true },
+        { "letra": "C", "texto": "Dei-lhe um presente.", "correta": false },
+        { "letra": "D", "texto": "Amo-te profundamente.", "correta": false }
+      ],
+      "explicacao": "'Ele' é pronome pessoal do caso reto, função de sujeito. 'O' e 'te' são oblíquos (objeto direto), 'lhe' é oblíquo (objeto indireto)."
+    },
+    {
+      "id": 18,
+      "assunto": "Pronomes",
+      "enunciado": "Na frase 'O livro que li é muito bom', o pronome 'que' classifica-se como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pronome interrogativo", "correta": false },
+        { "letra": "B", "texto": "Pronome indefinido", "correta": false },
+        { "letra": "C", "texto": "Pronome relativo", "correta": true },
+        { "letra": "D", "texto": "Pronome demonstrativo", "correta": false }
+      ],
+      "explicacao": "'Que' retoma 'livro' (antecedente) e introduz a oração subordinada adjetiva 'que li' — portanto, é pronome relativo."
+    },
+    {
+      "id": 19,
+      "assunto": "Pronomes",
+      "enunciado": "Em 'Isto é o que importa: a honestidade', a palavra 'Isto' exerce função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Anáfora — retoma 'honestidade'", "correta": false },
+        { "letra": "B", "texto": "Catáfora — antecipa 'honestidade'", "correta": true },
+        { "letra": "C", "texto": "Dêixis — refere-se ao contexto", "correta": false },
+        { "letra": "D", "texto": "Elipse — omite o referente", "correta": false }
+      ],
+      "explicacao": "'Isto' é catáfora porque antecipa um termo que ainda será mencionado ('a honestidade'), criando expectativa no leitor."
+    },
+    {
+      "id": 20,
+      "assunto": "Pronomes",
+      "enunciado": "Na frase 'João e Maria discutiram. Ela saiu chorando', o pronome 'Ela' estabelece:",
+      "alternativas": [
+        { "letra": "A", "texto": "Catáfora", "correta": false },
+        { "letra": "B", "texto": "Dêixis", "correta": false },
+        { "letra": "C", "texto": "Anáfora", "correta": true },
+        { "letra": "D", "texto": "Elipse", "correta": false }
+      ],
+      "explicacao": "'Ela' é anáfora: retoma 'Maria', termo já mencionado anteriormente no texto, garantindo a coesão referencial."
+    },
+    {
+      "id": 21,
+      "assunto": "Pronomes",
+      "enunciado": "Qual das alternativas apresenta um pronome possessivo exercendo função de adjunto adnominal?",
+      "alternativas": [
+        { "letra": "A", "texto": "Este caderno é meu.", "correta": false },
+        { "letra": "B", "texto": "Meu caderno está sobre a mesa.", "correta": true },
+        { "letra": "C", "texto": "O caderno é meu.", "correta": false },
+        { "letra": "D", "texto": "Aquele caderno é teu.", "correta": false }
+      ],
+      "explicacao": "Em 'Meu caderno', 'meu' acompanha o substantivo 'caderno' — função de adjunto adnominal. Nas demais, o possessivo está em função predicativa (após verbo de ligação)."
+    },
+    {
+      "id": 22,
+      "assunto": "Pronomes",
+      "enunciado": "Assinale a opção em que 'se' é pronome reflexivo:",
+      "alternativas": [
+        { "letra": "A", "texto": "Precisa-se de funcionários.", "correta": false },
+        { "letra": "B", "texto": "Ela se arrependeu do que fez.", "correta": false },
+        { "letra": "C", "texto": "Ele se feriu com a faca.", "correta": true },
+        { "letra": "D", "texto": "Vendem-se casas.", "correta": false }
+      ],
+      "explicacao": "Em 'Ele se feriu com a faca', 'se' é reflexivo pois indica que o sujeito pratica e sofre a ação (feriu a si mesmo). Nas outras: arrependeu-se é parte do verbo, 'Precisa-se' é IIS, 'Vendem-se' é apassivador."
+    },
+    {
+      "id": 23,
+      "assunto": "Pronomes",
+      "enunciado": "Na frase 'A aluna cujo pai é médico passou no vestibular', o pronome 'cujo' indica:",
+      "alternativas": [
+        { "letra": "A", "texto": "Posse entre 'pai' e 'aluna'", "correta": true },
+        { "letra": "B", "texto": "Lugar onde o pai trabalha", "correta": false },
+        { "letra": "C", "texto": "Tempo da ação", "correta": false },
+        { "letra": "D", "texto": "Dúvida sobre o pai", "correta": false }
+      ],
+      "explicacao": "'Cujo' é pronome relativo que estabelece relação de posse entre o possuidor (aluna) e o possuído (pai). Equivale a 'da qual'."
+    },
+    {
+      "id": 24,
+      "assunto": "Pronomes",
+      "enunciado": "Em 'Não vi ninguém na sala', 'ninguém' é pronome:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pessoal", "correta": false },
+        { "letra": "B", "texto": "Demonstrativo", "correta": false },
+        { "letra": "C", "texto": "Indefinido", "correta": true },
+        { "letra": "D", "texto": "Interrogativo", "correta": false }
+      ],
+      "explicacao": "'Ninguém' é pronome indefinido — refere-se a uma pessoa de forma vaga e imprecisa, sem especificar quem."
+    },
+    {
+      "id": 25,
+      "assunto": "Pronomes",
+      "enunciado": "Assinale a frase em que 'onde' é usado corretamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "A situação onde me encontro é difícil.", "correta": false },
+        { "letra": "B", "texto": "A escola onde estudei fica longe.", "correta": true },
+        { "letra": "C", "texto": "O momento onde tudo mudou foi especial.", "correta": false },
+        { "letra": "D", "texto": "A ideia onde acredito é justa.", "correta": false }
+      ],
+      "explicacao": "'Onde' deve ser usado apenas para lugar físico. 'A escola onde estudei' está correto. Nas demais, o correto seria 'em que' ou 'no qual' (situação, momento, ideia)."
+    },
+    {
+      "id": 26,
+      "assunto": "Pronomes",
+      "enunciado": "Em 'Mim não gosta de estudar' há um erro de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Regência verbal", "correta": false },
+        { "letra": "B", "texto": "Uso do pronome oblíquo como sujeito", "correta": true },
+        { "letra": "C", "texto": "Concordância nominal", "correta": false },
+        { "letra": "D", "texto": "Colocação pronominal", "correta": false }
+      ],
+      "explicacao": "'Mim' é pronome oblíquo e não pode exercer função de sujeito. O correto é 'Eu não gosto de estudar' (pronome reto como sujeito)."
+    },
+    {
+      "id": 27,
+      "assunto": "Pronomes",
+      "enunciado": "Na frase 'Aquela menina é minha prima', os pronomes destacados são, respectivamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "Demonstrativo e possessivo", "correta": true },
+        { "letra": "B", "texto": "Possessivo e demonstrativo", "correta": false },
+        { "letra": "C", "texto": "Indefinido e possessivo", "correta": false },
+        { "letra": "D", "texto": "Demonstrativo e relativo", "correta": false }
+      ],
+      "explicacao": "'Aquela' é pronome demonstrativo (indica posição distante) e 'minha' é pronome possessivo (indica posse)."
+    },
+    {
+      "id": 28,
+      "assunto": "Pronomes",
+      "enunciado": "Em 'Ela mesma fez o bolo', a palavra 'mesma' classifica-se como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Pronome possessivo", "correta": false },
+        { "letra": "B", "texto": "Pronome indefinido", "correta": false },
+        { "letra": "C", "texto": "Pronome demonstrativo (reforço)", "correta": true },
+        { "letra": "D", "texto": "Pronome relativo", "correta": false }
+      ],
+      "explicacao": "'Mesma' aqui é pronome demonstrativo com valor de reforço ou identidade, equivalente a 'em pessoa'. Reforça que foi ela própria quem fez."
+    },
+    {
+      "id": 29,
+      "assunto": "Pronomes",
+      "enunciado": "Assinale a alternativa em que 'lhe' exerce função de objeto indireto:",
+      "alternativas": [
+        { "letra": "A", "texto": "Vi-lhe o rosto emocionado.", "correta": false },
+        { "letra": "B", "texto": "Entreguei-lhe o pacote.", "correta": true },
+        { "letra": "C", "texto": "Amarre-lhe as mãos.", "correta": false },
+        { "letra": "D", "texto": "Cortei-lhe o cabelo.", "correta": false }
+      ],
+      "explicacao": "Em 'Entreguei-lhe o pacote', 'lhe' é objeto indireto (entregar algo A alguém). Nas demais, 'lhe' funciona como adjunto adnominal (posse: o rosto dele, as mãos dele, o cabelo dele)."
+    },
+    {
+      "id": 30,
+      "assunto": "Pronomes",
+      "enunciado": "Na tirinha '— Você vai ao cinema? — Não, eu fico em casa', o pronome 'Você' exemplifica:",
+      "alternativas": [
+        { "letra": "A", "texto": "Anáfora", "correta": false },
+        { "letra": "B", "texto": "Catáfora", "correta": false },
+        { "letra": "C", "texto": "Dêixis pessoal", "correta": true },
+        { "letra": "D", "texto": "Elipse", "correta": false }
+      ],
+      "explicacao": "'Você' é dêixis pessoal — refere-se ao interlocutor no contexto da fala, dependendo da situação comunicativa para ter sentido completo."
+    }
+  ]
+}
