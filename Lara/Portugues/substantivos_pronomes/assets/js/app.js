@@ -441,7 +441,7 @@ const DS = {
   },
 
   startExam() {
-    const shuffled = this.shuffleArray(this.questions).slice(0, 20).map(q => ({
+    const shuffled = this.shuffleArray(this.questions).slice(0, 10).map(q => ({
       ...q,
       alternativas: this.shuffleArray(q.alternativas).map((alt, idx) => ({
         ...alt, letra: String.fromCharCode(65 + idx)

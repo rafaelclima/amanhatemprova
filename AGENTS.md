@@ -56,7 +56,7 @@ section#simulado  → hidden by default, activated via JS
 ### Simulado
 
 - 45-minute countdown timer with pause/resume
-- **20 questions** (shuffled order + shuffled alternatives on every page load)
+- **10 questions** (shuffled order + shuffled alternatives on every page load) — simula uma prova real
 - Question navigator bar (numbered buttons)
 - Free navigation between questions; saves to `localStorage`
 - Results with per-subject breakdown, auto-finish when timer hits 0
@@ -131,7 +131,7 @@ For Liz topic pages (Gen 1, child-friendly), **still start from the template** �
 
 **Quiz behavior**: Questions appear one at a time. User clicks an answer → immediate feedback shows (correct/incorrect + explanation) before advancing. Progress indicator shows current question. After last question, results screen appears. **20 questions, shuffled order + shuffled alternatives** on every load. See `script.js` → `responderQuiz()` / `proximaQuestaoQuiz()`.
 
-**Simulado behavior**: All **20 questions** shown at once with "Finalizar" button. **Shuffled order + shuffled alternatives** on every load. No immediate feedback — results appear after submission. See `finalizarSimulado()`.
+**Simulado behavior**: All **10 questions** shown at once with "Finalizar" button. **Shuffled order + shuffled alternatives** on every load. No immediate feedback — results appear after submission. See `finalizarSimulado()`.
 
 **Jogo behavior**: Timed-response game. Random multiplication questions with score, streak counter, and points system. See `responderJogo()`.
 

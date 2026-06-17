@@ -316,6 +316,17 @@ function selecionarQuestoes() {
   return sel;
 }
 
+function selecionarQuestoesSimulado() {
+  const qs = [...bancoQuestoes];
+  const sel = [];
+  for (let i = 0; i < 10; i++) {
+    const idx = Math.floor(Math.random() * qs.length);
+    const q = qs.splice(idx, 1)[0];
+    sel.push({ ...q, alternativas: shuffleArray(q.alternativas) });
+  }
+  return sel;
+}
+
 // ===== QUIZ =====
 let quizIndex = 0;
 let quizAcertos = 0;
@@ -413,7 +424,7 @@ function reiniciarQuiz() {
 
 // ===== SIMULADO =====
 function carregarSimulado() {
-  if (questoesSimulado.length === 0) questoesSimulado = selecionarQuestoes();
+  if (questoesSimulado.length === 0) questoesSimulado = selecionarQuestoesSimulado();
   const container = document.getElementById('simulado-container');
   let html = '';
   questoesSimulado.forEach((q, i) => {
@@ -452,19 +463,19 @@ function finalizarSimulado() {
     });
     if (selecionado && selecionado.getAttribute('data-correta') === 'true') acertos++;
   });
-  const pct = Math.round((acertos / 10) * 100);
+  const pct = Math.round((acertos / questoesSimulado.length) * 100);
   let msg = '';
   if (pct === 100) msg = '🏆 Perfeito! Você arrasou!';
   else if (pct >= 70) msg = '👏 Muito bem! Nota boa!';
   else if (pct >= 50) msg = '📖 Bom trabalho! Continue!';
   else msg = '📝 Revise e tente novamente!';
   document.getElementById('simulado-result').classList.remove('hidden');
-  document.querySelector('#simulado-result .score-text').textContent = `${acertos}/10 (${pct}%)`;
+  document.querySelector('#simulado-result .score-text').textContent = `${acertos}/${questoesSimulado.length} (${pct}%)`;
   document.querySelector('#simulado-result .message-text').textContent = msg;
 }
 
 function reiniciarSimulado() {
-  questoesSimulado = selecionarQuestoes();
+  questoesSimulado = selecionarQuestoesSimulado();
   document.getElementById('simulado-result').classList.add('hidden');
   carregarSimulado();
 }
