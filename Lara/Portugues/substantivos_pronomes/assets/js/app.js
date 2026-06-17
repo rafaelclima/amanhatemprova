@@ -329,7 +329,7 @@ const DS = {
 
     container._currentQuestion = q;
     container.querySelectorAll('.ds-option-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => this.handleQuizAnswer(e, shuffledQuestion));
+      btn.addEventListener('click', (e) => this.handleQuizAnswer(e, q));
     });
     const nextBtn = container.querySelector('#quiz-next');
     if (nextBtn) {
