@@ -288,7 +288,12 @@ const DS = {
 
   startQuiz() {
     if (!this.questions || this.questions.length === 0) return;
-    const shuffled = this.shuffleArray(this.questions).slice(0, 10);
+    const shuffled = this.shuffleArray(this.questions).slice(0, 20).map(q => ({
+      ...q,
+      alternativas: this.shuffleArray(q.alternativas).map((alt, idx) => ({
+        ...alt, letra: String.fromCharCode(65 + idx)
+      }))
+    }));
     this.state.quiz = { index: 0, total: shuffled.length, questions: shuffled, answered: [], score: 0, locked: false };
     this.renderQuizQuestion();
   },
@@ -324,7 +329,7 @@ const DS = {
 
     container._currentQuestion = q;
     container.querySelectorAll('.ds-option-btn').forEach(btn => {
-      btn.addEventListener('click', (e) => this.handleQuizAnswer(e, q));
+      btn.addEventListener('click', (e) => this.handleQuizAnswer(e, shuffledQuestion));
     });
     const nextBtn = container.querySelector('#quiz-next');
     if (nextBtn) {
@@ -436,7 +441,12 @@ const DS = {
   },
 
   startExam() {
-    const shuffled = this.shuffleArray(this.questions).slice(0, 10);
+    const shuffled = this.shuffleArray(this.questions).slice(0, 20).map(q => ({
+      ...q,
+      alternativas: this.shuffleArray(q.alternativas).map((alt, idx) => ({
+        ...alt, letra: String.fromCharCode(65 + idx)
+      }))
+    }));
     this.state.exam = {
       ...this.state.exam,
       questions: shuffled,

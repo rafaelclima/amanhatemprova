@@ -158,6 +158,240 @@
         { "letra": "E", "texto": "O romance contemporâneo abandonou qualquer crítica social", "correta": false }
       ],
       "explicacao": "O Modernismo brasileiro (1922-1945) caracterizou-se pela experimentação formal, linguagem coloquial e crítica à sociedade brasileira."
+    },
+    {
+      "id": 13,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "Em uma narrativa ficcional, o elemento que corresponde ao local onde a história se passa é chamado de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Enredo", "correta": false },
+        { "letra": "B", "texto": "Personagem", "correta": false },
+        { "letra": "C", "texto": "Espaço", "correta": true },
+        { "letra": "D", "texto": "Tempo", "correta": false },
+        { "letra": "E", "texto": "Foco narrativo", "correta": false }
+      ],
+      "explicacao": "O espaço é o elemento da narrativa que indica o local (físico ou social) onde as ações se desenvolvem."
+    },
+    {
+      "id": 14,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "O narrador que participa da história como personagem é classificado como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Narrador observador", "correta": false },
+        { "letra": "B", "texto": "Narrador onisciente", "correta": false },
+        { "letra": "C", "texto": "Narrador onipresente", "correta": false },
+        { "letra": "D", "texto": "Narrador personagem", "correta": true },
+        { "letra": "E", "texto": "Narrador câmera", "correta": false }
+      ],
+      "explicacao": "O narrador personagem narra em primeira pessoa e participa ativamente dos acontecimentos da história."
+    },
+    {
+      "id": 15,
+      "assunto": "Romance",
+      "enunciado": "Assinale a obra que NÃO pertence ao Romantismo brasileiro:",
+      "alternativas": [
+        { "letra": "A", "texto": "Senhora, de José de Alencar", "correta": false },
+        { "letra": "B", "texto": "Iracema, de José de Alencar", "correta": false },
+        { "letra": "C", "texto": "Dom Casmurro, de Machado de Assis", "correta": true },
+        { "letra": "D", "texto": "A Moreninha, de Joaquim Manuel de Macedo", "correta": false },
+        { "letra": "E", "texto": "O Guarani, de José de Alencar", "correta": false }
+      ],
+      "explicacao": "Dom Casmurro é obra do Realismo brasileiro (Machado de Assis), não do Romantismo."
+    },
+    {
+      "id": 16,
+      "assunto": "Romance",
+      "enunciado": "O romance \"Vidas Secas\", de Graciliano Ramos, é um exemplo de:",
+      "alternativas": [
+        { "letra": "A", "texto": "Romance urbano", "correta": false },
+        { "letra": "B", "texto": "Romance regionalista da segunda fase modernista", "correta": true },
+        { "letra": "C", "texto": "Romance romântico indianista", "correta": false },
+        { "letra": "D", "texto": "Romance naturalista", "correta": false },
+        { "letra": "E", "texto": "Romance de formação", "correta": false }
+      ],
+      "explicacao": "Vidas Secas é um marco do romance regionalista brasileiro da segunda fase do Modernismo (1930-1945), retratando a seca e a miséria no sertão nordestino."
+    },
+    {
+      "id": 17,
+      "assunto": "Romance",
+      "enunciado": "A técnica narrativa do fluxo de consciência foi amplamente utilizada por qual autor?",
+      "alternativas": [
+        { "letra": "A", "texto": "José de Alencar", "correta": false },
+        { "letra": "B", "texto": "Clarice Lispector", "correta": true },
+        { "letra": "C", "texto": "Aluísio Azevedo", "correta": false },
+        { "letra": "D", "texto": "José Lins do Rego", "correta": false },
+        { "letra": "E", "texto": "Bernardo Guimarães", "correta": false }
+      ],
+      "explicacao": "Clarice Lispector é conhecida por usar o fluxo de consciência, uma técnica que reproduz o pensamento livre e associativo das personagens."
+    },
+    {
+      "id": 18,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "O conflito em uma narrativa pode ser classificado como:",
+      "alternativas": [
+        { "letra": "A", "texto": "Apenas externo, entre personagens", "correta": false },
+        { "letra": "B", "texto": "Externo (personagem vs. personagem/sociedade/natureza) ou interno (personagem vs. si mesma)", "correta": true },
+        { "letra": "C", "texto": "Sempre interno, psicológico", "correta": false },
+        { "letra": "D", "texto": "Apenas entre o bem e o mal", "correta": false },
+        { "letra": "E", "texto": "Inexistente nas narrativas modernas", "correta": false }
+      ],
+      "explicacao": "O conflito é o motor da narrativa e pode ser externo (entre personagens, ou personagem vs. sociedade/natureza) ou interno (dilemas psicológicos da personagem)."
+    },
+    {
+      "id": 19,
+      "assunto": "Romance",
+      "enunciado": "O romance \"Grande Sertão: Veredas\", de Guimarães Rosa, caracteriza-se por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Linguagem simples e estrutura linear", "correta": false },
+        { "letra": "B", "texto": "Experimentação linguística e narrativa não linear", "correta": true },
+        { "letra": "C", "texto": "Ser um romance de folhetim do século XIX", "correta": false },
+        { "letra": "D", "texto": "Abordar exclusivamente a vida urbana", "correta": false },
+        { "letra": "E", "texto": "Seguir o estilo do Realismo naturalista", "correta": false }
+      ],
+      "explicacao": "Grande Sertão: Veredas é conhecido pela recriação da linguagem, narrativa fragmentada e fluxo de consciência, sendo uma das obras mais importantes do Modernismo brasileiro."
+    },
+    {
+      "id": 20,
+      "assunto": "Romance",
+      "enunciado": "Qual das alternativas descreve corretamente o romance de folhetim do século XIX?",
+      "alternativas": [
+        { "letra": "A", "texto": "Era publicado em capítulos nos jornais, com linguagem acessível e apelo popular", "correta": true },
+        { "letra": "B", "texto": "Era vendido apenas em livrarias especializadas", "correta": false },
+        { "letra": "C", "texto": "Tinha linguagem hermética para poucos leitores", "correta": false },
+        { "letra": "D", "texto": "Era escrito exclusivamente por autores franceses", "correta": false },
+        { "letra": "E", "texto": "Não tinha capítulos, sendo publicado de uma só vez", "correta": false }
+      ],
+      "explicacao": "O romance-folhetim era publicado em capítulos diários ou semanais nos rodapés dos jornais, com cliffhangers para prender a atenção do público."
+    },
+    {
+      "id": 21,
+      "assunto": "Romance",
+      "enunciado": "O romance naturalista brasileiro, exemplificado por \"O Cortiço\", de Aluísio Azevedo, caracteriza-se por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Idealizar a realidade e os sentimentos", "correta": false },
+        { "letra": "B", "texto": "Abordar o ser humano como produto do meio, raça e momento histórico", "correta": true },
+        { "letra": "C", "texto": "Focar exclusivamente na vida no campo", "correta": false },
+        { "letra": "D", "texto": "Usar linguagem rebuscada e erudita", "correta": false },
+        { "letra": "E", "texto": "Defender a monarquia como sistema de governo", "correta": false }
+      ],
+      "explicacao": "O Naturalismo aplica ao romance as teorias científicas deterministas: o comportamento humano é determinado pelo meio social, hereditariedade e momento histórico."
+    },
+    {
+      "id": 22,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "Assinale a alternativa que apresenta corretamente a definição de protagonista:",
+      "alternativas": [
+        { "letra": "A", "texto": "Personagem secundária que ajuda o herói", "correta": false },
+        { "letra": "B", "texto": "Personagem principal da narrativa, em torno de quem a história se desenvolve", "correta": true },
+        { "letra": "C", "texto": "Narrador da história", "correta": false },
+        { "letra": "D", "texto": "Personagem que se opõe ao herói", "correta": false },
+        { "letra": "E", "texto": "Figura secundária que comenta os eventos", "correta": false }
+      ],
+      "explicacao": "Protagonista é a personagem central da narrativa, também chamada de herói, mesmo que não tenha características heroicas tradicionais."
+    },
+    {
+      "id": 23,
+      "assunto": "Romance",
+      "enunciado": "Machado de Assis inaugurou o Realismo no Brasil com qual obra?",
+      "alternativas": [
+        { "letra": "A", "texto": "Dom Casmurro", "correta": false },
+        { "letra": "B", "texto": "Memórias Póstumas de Brás Cubas", "correta": true },
+        { "letra": "C", "texto": "Quincas Borba", "correta": false },
+        { "letra": "D", "texto": "Helena", "correta": false },
+        { "letra": "E", "texto": "Iaiá Garcia", "correta": false }
+      ],
+      "explicacao": "Memórias Póstumas de Brás Cubas (1881) é considerada a obra inaugural do Realismo brasileiro, com seu narrador defunto, ironia e análise psicológica."
+    },
+    {
+      "id": 24,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "Qual é a diferença entre conto e romance?",
+      "alternativas": [
+        { "letra": "A", "texto": "O conto é mais longo que o romance", "correta": false },
+        { "letra": "B", "texto": "O conto tem uma única unidade dramática; o romance pode ter múltiplas tramas", "correta": true },
+        { "letra": "C", "texto": "O romance não tem personagens", "correta": false },
+        { "letra": "D", "texto": "O conto não tem conflito", "correta": false },
+        { "letra": "E", "texto": "Ambos têm exatamente a mesma estrutura", "correta": false }
+      ],
+      "explicacao": "O conto é uma narrativa curta com unidade dramática condensada, enquanto o romance é extenso e comporta múltiplas tramas, subtramas e personagens."
+    },
+    {
+      "id": 25,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "O que é o clímax em uma narrativa?",
+      "alternativas": [
+        { "letra": "A", "texto": "O início da história", "correta": false },
+        { "letra": "B", "texto": "O momento de maior tensão ou conflito", "correta": true },
+        { "letra": "C", "texto": "A conclusão da história", "correta": false },
+        { "letra": "D", "texto": "A descrição dos personagens", "correta": false },
+        { "letra": "E", "texto": "A apresentação do espaço", "correta": false }
+      ],
+      "explicacao": "O clímax é o ponto de maior tensão dramática na narrativa, geralmente onde o conflito principal atinge seu momento decisivo."
+    },
+    {
+      "id": 26,
+      "assunto": "Romance",
+      "enunciado": "O romance memorialista é aquele em que:",
+      "alternativas": [
+        { "letra": "A", "texto": "O narrador conta a história de um herói mitológico", "correta": false },
+        { "letra": "B", "texto": "O narrador relata suas próprias lembranças e experiências passadas", "correta": true },
+        { "letra": "C", "texto": "A história se passa em um futuro distópico", "correta": false },
+        { "letra": "D", "texto": "Não há narrador definido", "correta": false },
+        { "letra": "E", "texto": "Apenas cartas e documentos compõem a narrativa", "correta": false }
+      ],
+      "explicacao": "O romance memorialista é narrado em primeira pessoa e tem como matéria-prima as memórias e recordações do narrador-personagem."
+    },
+    {
+      "id": 27,
+      "assunto": "Narrativa ficcional",
+      "enunciado": "O que é o tempo cronológico em uma narrativa?",
+      "alternativas": [
+        { "letra": "A", "texto": "O tempo subjetivo vivido pelos personagens", "correta": false },
+        { "letra": "B", "texto": "O tempo medido por relógios e calendários, com sucessão linear de eventos", "correta": true },
+        { "letra": "C", "texto": "A ausência de passagem do tempo", "correta": false },
+        { "letra": "D", "texto": "O tempo dos sonhos e devaneios", "correta": false },
+        { "letra": "E", "texto": "O tempo que para durante o clímax", "correta": false }
+      ],
+      "explicacao": "O tempo cronológico é objetivo e mensurável, organizando os eventos em ordem linear de acordo com horas, dias, meses e anos."
+    },
+    {
+      "id": 28,
+      "assunto": "Romance",
+      "enunciado": "\"Capitães da Areia\", de Jorge Amado, retrata:",
+      "alternativas": [
+        { "letra": "A", "texto": "A vida de capitães do mar português", "correta": false },
+        { "letra": "B", "texto": "Meninos de rua em Salvador e sua luta pela sobrevivência", "correta": true },
+        { "letra": "C", "texto": "A Guerra do Paraguai", "correta": false },
+        { "letra": "D", "texto": "A corte portuguesa no Brasil", "correta": false },
+        { "letra": "E", "texto": "A vida de imigrantes japoneses em São Paulo", "correta": false }
+      ],
+      "explicacao": "Capitães da Areia aborda a vida de crianças abandonadas que vivem em um trapiche em Salvador, denunciando a desigualdade social."
+    },
+    {
+      "id": 29,
+      "assunto": "Romance",
+      "enunciado": "O romance psicológico tem como foco principal:",
+      "alternativas": [
+        { "letra": "A", "texto": "As ações e aventuras externas", "correta": false },
+        { "letra": "B", "texto": "A exploração do mundo interior, emoções e conflitos psíquicos dos personagens", "correta": true },
+        { "letra": "C", "texto": "A descrição detalhada de paisagens naturais", "correta": false },
+        { "letra": "D", "texto": "Os fatos históricos e políticos", "correta": false },
+        { "letra": "E", "texto": "As descobertas científicas", "correta": false }
+      ],
+      "explicacao": "O romance psicológico prioriza a introspecção, explorando os estados mentais, emoções e conflitos internos das personagens."
+    },
+    {
+      "id": 30,
+      "assunto": "Romance",
+      "enunciado": "O que é um romance de formação (Bildungsroman)?",
+      "alternativas": [
+        { "letra": "A", "texto": "Um romance que ensina regras gramaticais", "correta": false },
+        { "letra": "B", "texto": "Um romance que acompanha o desenvolvimento físico, moral e psicológico de um personagem da juventude à maturidade", "correta": true },
+        { "letra": "C", "texto": "Um romance sobre a formação de um país", "correta": false },
+        { "letra": "D", "texto": "Um romance sem enredo definido", "correta": false },
+        { "letra": "E", "texto": "Um romance composto apenas por poemas", "correta": false }
+      ],
+      "explicacao": "O Bildungsroman é um subgênero que narra o processo de amadurecimento e formação do protagonista, como em \"O Aprendiz\" ou \"David Copperfield\"."
     }
   ]
 }

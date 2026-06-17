@@ -296,12 +296,22 @@ document.addEventListener('DOMContentLoaded', () => {
   tabBtns[0].click();
 });
 
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 function selecionarQuestoes() {
   const qs = [...bancoQuestoes];
   const sel = [];
-  for (let i = 0; i < 10; i++) {
+  for (let i = 0; i < 20; i++) {
     const idx = Math.floor(Math.random() * qs.length);
-    sel.push(qs.splice(idx, 1)[0]);
+    const q = qs.splice(idx, 1)[0];
+    sel.push({ ...q, alternativas: shuffleArray(q.alternativas) });
   }
   return sel;
 }

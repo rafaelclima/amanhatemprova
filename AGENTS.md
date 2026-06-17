@@ -48,13 +48,15 @@ section#simulado  → hidden by default, activated via JS
 ### Quiz
 
 - Loads questions from `data/questions.json` via `fetch()`
-- Shuffles and picks 10 random questions
+- Shuffles and picks **20 random questions**
+- **Alternatives shuffled** on every page load — correct answer position varies each time
 - Multiple choice; shows correct/incorrect + explanation after each answer
 - Results screen with per-subject performance breakdown
 
 ### Simulado
 
 - 45-minute countdown timer with pause/resume
+- **20 questions** (shuffled order + shuffled alternatives on every page load)
 - Question navigator bar (numbered buttons)
 - Free navigation between questions; saves to `localStorage`
 - Results with per-subject breakdown, auto-finish when timer hits 0
@@ -107,7 +109,7 @@ Steps:
 3. Copy `template/assets/css/base.css` → `topic/assets/css/base.css`
 4. Copy `template/assets/css/components.css` → `topic/assets/css/components.css`
 5. Copy `template/assets/js/app.js` → `topic/assets/js/app.js` (Lara Gen 2 topics)
-6. Copy `template/data/questions.json` → `topic/data/questions.json`, replace with 10+ questions
+6. Copy `template/data/questions.json` → `topic/data/questions.json`, replace with **30+ questions** (minimum 30 to ensure variety when shuffling 20)
 7. Copy `template/prompt.md` → `topic/prompt.md`, fill `[PLACEHOLDERS]`
 8. Copy `template/.claude/` → `topic/.claude/` (dev tooling config, gitignored)
 9. Create `topic/.gitignore`:
@@ -127,9 +129,9 @@ For Liz topic pages (Gen 1, child-friendly), **still start from the template** �
 - `data/questions.json`: remove; embed questions directly in `script.js`
 - Keep `prompt.md`, `.claude/`, `.gitignore` from template
 
-**Quiz behavior**: Questions appear one at a time. User clicks an answer → immediate feedback shows (correct/incorrect + explanation) before advancing. Progress indicator shows current question. After last question, results screen appears. See `script.js` → `responderQuiz()` / `proximaQuestaoQuiz()`.
+**Quiz behavior**: Questions appear one at a time. User clicks an answer → immediate feedback shows (correct/incorrect + explanation) before advancing. Progress indicator shows current question. After last question, results screen appears. **20 questions, shuffled order + shuffled alternatives** on every load. See `script.js` → `responderQuiz()` / `proximaQuestaoQuiz()`.
 
-**Simulado behavior**: All 10 questions shown at once with "Finalizar" button. No immediate feedback — results appear after submission. See `finalizarSimulado()`.
+**Simulado behavior**: All **20 questions** shown at once with "Finalizar" button. **Shuffled order + shuffled alternatives** on every load. No immediate feedback — results appear after submission. See `finalizarSimulado()`.
 
 **Jogo behavior**: Timed-response game. Random multiplication questions with score, streak counter, and points system. See `responderJogo()`.
 

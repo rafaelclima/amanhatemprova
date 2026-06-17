@@ -158,6 +158,240 @@
         { "letra": "E", "texto": "O artigo usa linguagem coloquial; a crônica usa linguagem formal", "correta": false }
       ],
       "explicacao": "Enquanto a crônica narra uma cena cotidiana e sugere uma reflexão, o artigo de opinião tem estrutura argumentativa clara com defesa de um ponto de vista."
+    },
+    {
+      "id": 13,
+      "assunto": "Crônica",
+      "enunciado": "Qual das características a seguir é própria da crônica narrativa?",
+      "alternativas": [
+        { "letra": "A", "texto": "Apresenta personagens, enredo e tempo, de forma breve", "correta": true },
+        { "letra": "B", "texto": "Defende uma tese com dados estatísticos", "correta": false },
+        { "letra": "C", "texto": "Descreve detalhadamente um experimento científico", "correta": false },
+        { "letra": "D", "texto": "Apresenta instruções passo a passo", "correta": false },
+        { "letra": "E", "texto": "É composta exclusivamente por diálogos", "correta": false }
+      ],
+      "explicacao": "A crônica narrativa conta uma história curta com personagens, espaço e tempo, assim como um miniconto, mas partindo geralmente de situações do cotidiano."
+    },
+    {
+      "id": 14,
+      "assunto": "Crônica",
+      "enunciado": "A crônica \"O Padeiro\", de Rubem Braga, é um exemplo clássico que ilustra:",
+      "alternativas": [
+        { "letra": "A", "texto": "A vida de um herói nacional", "correta": false },
+        { "letra": "B", "texto": "A beleza poética encontrada em figuras e gestos do cotidiano", "correta": true },
+        { "letra": "C", "texto": "Uma crítica feroz ao sistema político", "correta": false },
+        { "letra": "D", "texto": "A descrição de uma paisagem natural exuberante", "correta": false },
+        { "letra": "E", "texto": "Um conto fantástico sobre um padeiro mágico", "correta": false }
+      ],
+      "explicacao": "Rubem Braga transforma o encontro matinal com o padeiro em uma reflexão poética sobre a dignidade do trabalho e a simplicidade da vida."
+    },
+    {
+      "id": 15,
+      "assunto": "Crônica",
+      "enunciado": "O tom predominante na maioria das crônicas de Luis Fernando Verissimo é:",
+      "alternativas": [
+        { "letra": "A", "texto": "Solenidade e formalidade", "correta": false },
+        { "letra": "B", "texto": "Ironia e humor inteligente", "correta": true },
+        { "letra": "C", "texto": "Tragédia e dramaticidade", "correta": false },
+        { "letra": "D", "texto": "Indignação e revolta", "correta": false },
+        { "letra": "E", "texto": "Lirismo romântico exagerado", "correta": false }
+      ],
+      "explicacao": "Luis Fernando Verissimo é conhecido por suas crônicas que usam ironia e humor para abordar situações cotidianas e criticar comportamentos sociais."
+    },
+    {
+      "id": 16,
+      "assunto": "Crônica",
+      "enunciado": "A crônica jornalística se diferencia da reportagem porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "A crônica é imparcial; a reportagem é opinativa", "correta": false },
+        { "letra": "B", "texto": "A crônica tem liberdade estética e tom pessoal; a reportagem busca objetividade", "correta": true },
+        { "letra": "C", "texto": "Ambas têm exatamente a mesma estrutura", "correta": false },
+        { "letra": "D", "texto": "A crônica é publicada apenas em revistas; a reportagem em jornais", "correta": false },
+        { "letra": "E", "texto": "A reportagem usa linguagem literária; a crônica usa linguagem técnica", "correta": false }
+      ],
+      "explicacao": "Enquanto a reportagem busca imparcialidade e objetividade, a crônica jornalística permite ao autor opinar e usar recursos literários."
+    },
+    {
+      "id": 17,
+      "assunto": "Crônica",
+      "enunciado": "Qual é a principal função da linguagem coloquial na crônica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Dificultar a compreensão do leitor", "correta": false },
+        { "letra": "B", "texto": "Criar proximidade e identificação com o leitor", "correta": true },
+        { "letra": "C", "texto": "Seguir as regras da gramática normativa", "correta": false },
+        { "letra": "D", "texto": "Impressional o leitor com vocabulário rebuscado", "correta": false },
+        { "letra": "E", "texto": "Obedecer ao padrão culto da língua", "correta": false }
+      ],
+      "explicacao": "A linguagem coloquial aproxima o cronista do leitor, criando uma conversa informal e tornando a leitura mais fluida e prazerosa."
+    },
+    {
+      "id": 18,
+      "assunto": "Crônica",
+      "enunciado": "Na crônica \"Felicidade Clandestina\", de Clarice Lispector, o tema central é:",
+      "alternativas": [
+        { "letra": "A", "texto": "A descoberta do amor adolescente", "correta": false },
+        { "letra": "B", "texto": "O prazer da leitura e o significado de um livro para uma menina", "correta": true },
+        { "letra": "C", "texto": "A relação conflituosa entre mãe e filha", "correta": false },
+        { "letra": "D", "texto": "A crítica ao sistema educacional brasileiro", "correta": false },
+        { "letra": "E", "texto": "A descrição de uma paisagem do Recife", "correta": false }
+      ],
+      "explicacao": "A crônica narra a história de uma menina que empresta um livro a outra, explorando o prazer da leitura e a maldade infantil, com a felicidade de finalmente poder ler o livro desejado."
+    },
+    {
+      "id": 19,
+      "assunto": "Crônica",
+      "enunciado": "Assinale a alternativa que apresenta um tema TÍPICO de crônica:",
+      "alternativas": [
+        { "letra": "A", "texto": "A descoberta de uma nova partícula subatômica", "correta": false },
+        { "letra": "B", "texto": "A fila do supermercado e os personagens anônimos que a compõem", "correta": true },
+        { "letra": "C", "texto": "A guerra de independência de um país africano", "correta": false },
+        { "letra": "D", "texto": "A biografia detalhada de um imperador romano", "correta": false },
+        { "letra": "E", "texto": "O manual de instruções de um eletrodoméstico", "correta": false }
+      ],
+      "explicacao": "A crônica se alimenta de situações banais do dia a dia, como esperar em uma fila de supermercado, para extrair reflexões e observações significativas."
+    },
+    {
+      "id": 20,
+      "assunto": "Crônica",
+      "enunciado": "A crônica \"O Peru\", de Carlos Drummond de Andrade, narra:",
+      "alternativas": [
+        { "letra": "A", "texto": "A história de um peru que aprendeu a falar", "correta": false },
+        { "letra": "B", "texto": "O drama de um peru que escapa do natal e vira animal de estimação", "correta": true },
+        { "letra": "C", "texto": "Um tratado sobre a criação de perus", "correta": false },
+        { "letra": "D", "texto": "A luta entre um peru e um galo", "correta": false },
+        { "letra": "E", "texto": "A descrição de uma fazenda de perus", "correta": false }
+      ],
+      "explicacao": "Drummond narra com humor e sensibilidade a história de um peru que, ao escapar do abate natalino, torna-se o animal de estimação da família."
+    },
+    {
+      "id": 21,
+      "assunto": "Crônica",
+      "enunciado": "Em relação ao tempo na crônica, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "Sempre se passa em um futuro distante", "correta": false },
+        { "letra": "B", "texto": "Geralmente é o presente ou passado próximo, ligado ao momento da escrita", "correta": true },
+        { "letra": "C", "texto": "Nunca há referência temporal", "correta": false },
+        { "letra": "D", "texto": "É sempre um tempo mítico e indeterminado", "correta": false },
+        { "letra": "E", "texto": "A crônica só pode narrar fatos do futuro", "correta": false }
+      ],
+      "explicacao": "A crônica está ancorada no presente ou passado próximo, muitas vezes vinculada ao dia da publicação no jornal, criando uma sensação de acontecimento recente."
+    },
+    {
+      "id": 22,
+      "assunto": "Crônica",
+      "enunciado": "Qual destes escritores NÃO é conhecido por sua produção como cronista?",
+      "alternativas": [
+        { "letra": "A", "texto": "Rubem Braga", "correta": false },
+        { "letra": "B", "texto": "Machado de Assis", "correta": false },
+        { "letra": "C", "texto": "Carlos Drummond de Andrade", "correta": false },
+        { "letra": "D", "texto": "Monteiro Lobato", "correta": false },
+        { "letra": "E", "texto": "Guimarães Rosa", "correta": true }
+      ],
+      "explicacao": "Guimarães Rosa é famoso por seus contos e romances regionalistas (Grande Sertão: Veredas), mas não produziu crônicas regularmente, ao contrário dos demais."
+    },
+    {
+      "id": 23,
+      "assunto": "Crônica",
+      "enunciado": "A crônica argumentativa se caracteriza por:",
+      "alternativas": [
+        { "letra": "A", "texto": "Narrar uma história sem emitir opinião", "correta": false },
+        { "letra": "B", "texto": "Apresentar um ponto de vista sobre um tema, com leveza e tom pessoal", "correta": true },
+        { "letra": "C", "texto": "Ser idêntica a um editorial de jornal", "correta": false },
+        { "letra": "D", "texto": "Usar exclusivamente dados e estatísticas", "correta": false },
+        { "letra": "E", "texto": "Evitar qualquer marca de subjetividade", "correta": false }
+      ],
+      "explicacao": "A crônica argumentativa mescla a opinião pessoal do autor com uma abordagem leve e acessível, diferenciando-se do artigo de opinião mais formal."
+    },
+    {
+      "id": 24,
+      "assunto": "Crônica",
+      "enunciado": "Sobre a crônica de Clarice Lispector, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "São essencialmente políticas e panfletárias", "correta": false },
+        { "letra": "B", "texto": "Exploram o fluxo de consciência e a introspecção a partir de situações banais", "correta": true },
+        { "letra": "C", "texto": "Seguem rigorosamente a estrutura do soneto", "correta": false },
+        { "letra": "D", "texto": "São narrativas de aventura e ação", "correta": false },
+        { "letra": "E", "texto": "Imitam o estilo dos cronistas portugueses do século XIX", "correta": false }
+      ],
+      "explicacao": "Clarice Lispector transforma cenas cotidianas em profundas reflexões existenciais, usando o fluxo de consciência para explorar o mundo interior de suas personagens."
+    },
+    {
+      "id": 25,
+      "assunto": "Crônica",
+      "enunciado": "Qual dos seguintes elementos é mais característico da crônica em comparação com outros gêneros textuais?",
+      "alternativas": [
+        { "letra": "A", "texto": "Estrutura rígida em versos metrificados", "correta": false },
+        { "letra": "B", "texto": "Uso de linguagem figurada e tom pessoal sobre temas cotidianos", "correta": true },
+        { "letra": "C", "texto": "Ausência total de diálogos", "correta": false },
+        { "letra": "D", "texto": "Obrigatoriedade de final feliz", "correta": false },
+        { "letra": "E", "texto": "Referências exclusivas a fatos históricos", "correta": false }
+      ],
+      "explicacao": "O diferencial da crônica é justamente a combinação de linguagem figurada (recursos literários) com tom pessoal aplicado a temas do cotidiano."
+    },
+    {
+      "id": 26,
+      "assunto": "Crônica",
+      "enunciado": "A crônica \"Ai de ti, Copacabana\", de Rubem Braga, tem como cenário principal:",
+      "alternativas": [
+        { "letra": "A", "texto": "O bairro de Copacabana no Rio de Janeiro", "correta": true },
+        { "letra": "B", "texto": "A cidade de São Paulo", "correta": false },
+        { "letra": "C", "texto": "Uma praia do Nordeste brasileiro", "correta": false },
+        { "letra": "D", "texto": "O interior de Minas Gerais", "correta": false },
+        { "letra": "E", "texto": "A cidade de Brasília", "correta": false }
+      ],
+      "explicacao": "Rubem Braga imortalizou o bairro de Copacabana em várias de suas crônicas, retratando seu cotidiano com sensibilidade e humor."
+    },
+    {
+      "id": 27,
+      "assunto": "Crônica",
+      "enunciado": "A crônica pode ser considerada um gênero híbrido porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "Mistura elementos de jornalismo e literatura", "correta": true },
+        { "letra": "B", "texto": "É escrita em versos e prosa simultaneamente", "correta": false },
+        { "letra": "C", "texto": "Pertence exclusivamente ao cinema", "correta": false },
+        { "letra": "D", "texto": "Não se encaixa em nenhuma categoria textual", "correta": false },
+        { "letra": "E", "texto": "É apenas um subgênero do conto", "correta": false }
+      ],
+      "explicacao": "A crônica situa-se entre o jornalismo (nasce de fatos do cotidiano, publicada em veículos de imprensa) e a literatura (uso de recursos estéticos e subjetividade)."
+    },
+    {
+      "id": 28,
+      "assunto": "Crônica",
+      "enunciado": "Qual característica NÃO é típica da linguagem da crônica?",
+      "alternativas": [
+        { "letra": "A", "texto": "Tom coloquial e próximo do leitor", "correta": false },
+        { "letra": "B", "texto": "Uso de figuras de linguagem como ironia e metáfora", "correta": false },
+        { "letra": "C", "texto": "Linguagem rebuscada e erudita", "correta": true },
+        { "letra": "D", "texto": "Frases curtas e ritmo ágil", "correta": false },
+        { "letra": "E", "texto": "Presença de humor e leveza", "correta": false }
+      ],
+      "explicacao": "A crônica busca a linguagem acessível e coloquial, não o rebuscamento erudito, justamente para criar intimidade com o leitor."
+    },
+    {
+      "id": 29,
+      "assunto": "Crônica",
+      "enunciado": "A crônica de Verissimo \"A Mesa\" aborda ironicamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "A tecnologia e seus excessos e o convívio familiar", "correta": true },
+        { "letra": "B", "texto": "A política internacional", "correta": false },
+        { "letra": "C", "texto": "A reforma agrária", "correta": false },
+        { "letra": "D", "texto": "As competições esportivas", "correta": false },
+        { "letra": "E", "texto": "A literatura clássica", "correta": false }
+      ],
+      "explicacao": "Em \"A Mesa\", Verissimo ironiza como os aparelhos eletrônicos afastam as pessoas durante as refeições em família, tema cotidiano e contemporâneo."
+    },
+    {
+      "id": 30,
+      "assunto": "Crônica",
+      "enunciado": "A principal diferença entre a crônica e a memória literária está no fato de que:",
+      "alternativas": [
+        { "letra": "A", "texto": "A crônica parte do presente ou passado recente; a memória literária resgata um passado mais distante com valor nostálgico", "correta": true },
+        { "letra": "B", "texto": "Ambas são idênticas em estrutura e propósito", "correta": false },
+        { "letra": "C", "texto": "A memória literária é sempre ficcional; a crônica é sempre real", "correta": false },
+        { "letra": "D", "texto": "A crônica é mais longa que a memória literária", "correta": false },
+        { "letra": "E", "texto": "A memória literária usa linguagem coloquial; a crônica usa linguagem formal", "correta": false }
+      ],
+      "explicacao": "A crônica geralmente aborda o cotidiano recente, enquanto a memória literária resgata o passado com valor afetivo e nostálgico, em tom mais reflexivo."
     }
   ]
 }
