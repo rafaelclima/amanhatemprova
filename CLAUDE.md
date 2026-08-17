@@ -16,10 +16,11 @@ Lara/                   → Lara's study materials
   Fisica/               → Subject index → topic pages
   Biologia/             → Subject index → topic pages
 Liz/                    → Liz's study materials
-  index.html            → Subject cards linking directly to topic pages
-  matematica/           → Topic pages
-  historia/             → Topic pages
-  geografia/            → Topic pages
+  index.html            → Subject list (Matemática, História, Geografia, Português)
+  matematica/           → Subject index → topic pages
+  historia/             → Subject index → topic pages
+  geografia/            → Subject index → topic pages
+  Portugues/            → Subject index → topic pages
 site/                   → Secondary/alternate landing page
 .github/workflows/      → GitHub Pages deploy (pushes on merge to main)
 ```
@@ -27,7 +28,7 @@ site/                   → Secondary/alternate landing page
 ### Navigation hierarchy
 
 - **Lara**: Home → Lara index → Subject index (e.g., Matemática) → Topic page (e.g., gandezas_medidas)
-- **Liz**: Home → Liz index → Topic page directly (subject index pages are skipped; cards link straight to topics)
+- **Liz**: Home → Liz index → Subject index (e.g., Português) → Topic page (e.g., generos_textuais_gramatica)
 
 ### Topic page structure (leaf pages)
 
