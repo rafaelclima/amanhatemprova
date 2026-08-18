@@ -16,11 +16,12 @@ Lara/                   → Lara's study materials
   Fisica/               → Subject index → topic pages
   Biologia/             → Subject index → topic pages
 Liz/                    → Liz's study materials
-  index.html            → Subject list (Matemática, História, Geografia, Português)
+  index.html            → Subject list (Matemática, História, Geografia, Português, Ciências)
   matematica/           → Subject index → topic pages
   historia/             → Subject index → topic pages
   geografia/            → Subject index → topic pages
   Portugues/            → Subject index → topic pages
+  Ciencias/             → Subject index → topic pages
 site/                   → Secondary/alternate landing page
 .github/workflows/      → GitHub Pages deploy (pushes on merge to main)
 ```

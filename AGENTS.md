@@ -12,7 +12,7 @@ No package scripts, no dev server. The only operation is committing to `master` 
 index.html              → Landing → Lara/ or Liz/
 Lara/index.html         → Subject list (Matemática, Física, Biologia, Português, Literatura)
 Lara/{Materia}/         → Subject index → topic leaf pages
-Liz/index.html          → Subject list (Matemática, História, Geografia, Português)
+Liz/index.html          → Subject list (Matemática, História, Geografia, Português, Ciências)
 Liz/{Materia}/          → Subject index → topic leaf pages
 template/               → Gen 2 topic page template
 ```
