@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plataforma de estudos para Ensino Fundamental e Médio">
+  <title>Biologia — Imunidade, Tecidos Musculares e Sistema Digestório</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <header class="ds-header">
+    <div class="container ds-nav">
+      <span class="ds-nav__brand">Estuda+</span>
+      <button class="ds-nav__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-list">
+        <span class="ds-nav__hamburger"></span>
+      </button>
+      <nav aria-label="Navegação principal" class="ds-nav__menu" id="nav-menu">
+        <ul class="ds-nav__list" id="nav-list" role="list">
+          <li><a href="#resumo" class="ds-nav__link" data-section="resumo" aria-current="page">Resumo</a></li>
+          <li><a href="#quiz" class="ds-nav__link" data-section="quiz">Quiz</a></li>
+          <li><a href="#simulado" class="ds-nav__link" data-section="simulado">Simulado</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="container">
+    <div class="ds-progress-bar" id="reading-progress" aria-label="Progresso de leitura" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="ds-progress-bar__fill"></div>
+    </div>
+
+    <section id="resumo" class="ds-section" aria-label="Sessão de Resumo">
+      <article class="ds-summary-card ds-card">
+        <h1 id="summary-title">Biologia — Imunidade, Tecidos Musculares e Sistema Digestório</h1>
+        <p class="ds-lead">Revisão completa para o Primeiro Ano do Ensino Médio: imunidade inata e adaptativa (sistema imunitário 1 e 2), os três tipos de tecido muscular e o sistema digestório — anatomia, enzimas e absorção. Estude os conceitos e evite os erros mais comuns.</p>
+
+        <div class="ds-summary-content" id="summary-content">
+
+          <section class="ds-study-block">
+            <h2>🛡️ Sistema Imunitário 1 — Imunidade Inata (Inespecífica)</h2>
+            <p>A imunidade <strong>inata</strong> (também chamada inespecífica ou natural) é a <strong>primeira linha de defesa</strong> do corpo: está presente desde o nascimento, age contra qualquer invasor e não cria memória. Ela inclui as <strong>barreiras físicas</strong> — pele (queratina), mucosas, secreções (suco gástrico, lágrima com lisozima) — e as <strong>defesas celulares e químicas</strong>.</p>
+            <div class="ds-highlight ds-highlight--formula">Barreiras: pele + mucosas + secreções (lisozima, pH ácido gástrico) | Células: macrófagos, neutrófilos, células NK | Química: sistema complemento, interferons, citocinas | Processos: fagocitose, resposta inflamatória, febre</div>
+            <ul>
+              <li><strong>Fagócitos</strong>: macrófagos e neutrófilos "engolem" microrganismos (fagocitose). Os macrófagos também apresentam antígenos aos linfócitos (ponte com a imunidade adaptativa).</li>
+              <li><strong>Células NK (natural killer)</strong>: destroem células infectadas por vírus e células tumorais, sem necessidade de reconhecimento prévio.</li>
+              <li><strong>Inflamação</strong>: resposta local com <strong>rubor, calor, dor, edema e perda de função</strong>; a histamina dilata os vasos e atrai células de defesa.</li>
+              <li><strong>Interferons</strong>: proteínas liberadas por células infectadas por vírus que "avisam" as células vizinhas a produzirem defesas antivirais.</li>
+              <li><strong>Complemento</strong>: conjunto de proteínas plasmáticas que marca o patógeno, facilita a fagocitose (opsonização) e pode perfurar a membrana do microrganismo.</li>
+            </ul>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">A imunidade inata NÃO possui memória imunológica — não "lembra" de um invasor para a próxima vez. A febre NÃO é o problema, é uma defesa: muitos patógenos se multiplicam menos em temperaturas maiores. Células NK NÃO são fagócitos: elas destroem células alteradas pela liberação de proteínas, não as fagocitam.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Você corta o dedo e ele fica vermelho, quente e dolorido — isso é a resposta inflamatória atraindo macrófagos e neutrófilos para defender a região. Sem qualquer memória específica, a mesma resposta ocorre para qualquer corte.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>💉 Sistema Imunitário 2 — Imunidade Adaptativa (Específica)</h2>
+            <p>A imunidade <strong>adaptativa</strong> é <strong>específica</strong> e possui <strong>memória imunológica</strong>: atua de forma dirigida contra antígenos determinados e reage mais rápido e forte a um segundo contato. Seus protagonistas são os <strong>linfócitos</strong> (B e T) e os <strong>anticorpos</strong>.</p>
+            <div class="ds-highlight ds-highlight--formula">Humoral: linfócitos B → anticorpos (plasmócitos) | Celular: linfócitos T CD8 (citotóxicos) e CD4 (auxiliares) | Memória: linfócitos de memória (resposta secundária rápida) | Especificidade: MHC + reconhecimento de antígeno</div>
+            <ul>
+              <li><strong>Linfócitos B</strong>: produzem <strong>anticorpos</strong> (imunoglobulinas). Quando ativados, diferenciam-se em <strong>plasmócitos</strong> (fábricas de anticorpos) e células de memória. IgG, IgA, IgM, IgE e IgD são as principais classes.</li>
+              <li><strong>Linfócitos T auxiliares (CD4)</strong>: coordenam a resposta, ativando B e CD8. Alvo clássico do <strong>HIV</strong>, por isso a AIDS resulta em imunodeficiência.</li>
+              <li><strong>Linfócitos T citotóxicos (CD8)</strong>: destroem células infectadas por vírus e células tumorais, reconhecendo antígenos apresentados via <strong>MHC classe I</strong>.</li>
+              <li><strong>MHC (complexo principal de histocompatibilidade)</strong>: moléculas que apresentam fragmentos de antígenos às células T — base da <strong>resposta de rejeição de transplantes</strong>.</li>
+              <li><strong>Memória imunológica</strong>: na <strong>resposta primária</strong>, a produção de anticorpos é lenta; na <strong>secundária</strong>, os linfócitos de memória respondem em dias — base das <strong>vacinas</strong>.</li>
+              <li><strong>Vacinas × soros</strong>: vacina = antígeno morto/atenuado → ativa a memória (imunização <strong>ativa</strong>). Soro = anticorpos prontos (imunização <strong>passiva</strong>) — usado em emergências (tétano, raiva, picadas de serpente).</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula">Ativa: anticorpos produzidos pelo próprio corpo (vacina ou infecção) | Passiva: anticorpos recebidos prontos (soro ou mãe→feto via placenta/leite) | Natural: contato real com o patógeno | Artificial: vacina ou soro | Imunodeficiência: AIDS (HIV destrói linfócitos CD4) | Autoimunidade: o sistema ataca o próprio corpo (ex.: diabetes tipo 1, lúpus)</div>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Vacina NÃO é soro: vacina gera memória (ativa), soro dá anticorpos prontos (passiva) e não gera memória duradoura. A vacina NÃO causa a doença (usa antígeno morto/atenuado), mas o soro NÃO protege por longo prazo. O HIV NÃO destrói todos os linfócitos: destrói especificamente os T CD4 auxiliares, desorganizando toda a resposta. Transplantes são rejeitados por reconhecimento do MHC do doador como estranho — por isso se usam imunossupressores.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Ao se vacinar contra gripe, seu corpo produziu anticorpos de forma ativa (natural ou artificial, conforme a vacina). Se tomar soro antiofídico após picada de cobra, recebe anticorpos prontos — passiva e artificial, protegendo apenas por um tempo.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>💪 Tecidos Musculares — Esquelético, Liso e Cardíaco</h2>
+            <p>O tecido muscular é responsável pelo <strong>movimento</strong> e é formado por células alongadas (fibras) ricas em filamentos das proteínas <strong>actina e miosina</strong>. Há três tipos, cada um com características próprias de estriação, controle e número de núcleos:</p>
+            <div class="ds-highlight ds-highlight--formula">Esquelético: estriado, voluntário, multinucleado, preso aos ossos | Liso: não estriado, involuntário, mononucleado, nas vísceras e vasos | Cardíaco: estriado, involuntário, mononucleado, discos intercalares, contração rítmica (marca-passo próprio)</div>
+            <ul>
+              <li><strong>Esquelético</strong>: contração rápida e forte, mas fadiga rapidamente; as células são <strong>longas e multinucleadas</strong> (núcleos periféricos), organizadas em <strong>sarcômeros</strong> — unidade funcional entre duas linhas Z, formada por filamentos de actina e miosina.</li>
+              <li><strong>Liso</strong>: presente nas vísceras (estômago, intestino, bexiga), vasos sanguíneos e vias respiratórias; células <strong>fusiformes</strong> com um único núcleo central; controle <strong>involuntário</strong> pelo sistema nervoso autônomo.</li>
+              <li><strong>Cardíaco</strong>: encontra-se <strong>apenas no coração</strong>; estriado e involuntário; células geralmente <strong>mononucleadas</strong> conectadas por <strong>discos intercalares</strong> (junções comunicantes que fazem o coração bater em sincronia); contração rítmica e praticamente sem fadiga — as mitocôndrias ocupam até 40% do volume (muita respiração aeróbica).</li>
+              <li><strong>Mecanismo de contração</strong>: o impulso chega pela <strong>placa motora</strong> (junção neuromuscular) e libera acetilcolina; o cálcio liberado do retículo sarcoplasmático permite o deslizamento dos filamentos (teoria do filamento deslizante), com gasto de <strong>ATP</strong>. Sem reciclagem de ATP, ocorre a fadiga muscular (e a rigidez cadavérica).</li>
+              <li><strong>Fontes de energia</strong>: creatina-fosfato (imediatos), glicose (fermentação láctica), ácidos graxos e O₂ (aeróbico).</li>
+            </ul>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">Não confunda estriação com controle voluntário: o coração é estriado E involuntário! O músculo liso não é o único involuntário. Esqueleto = esquelético, mas o coração NÃO é esquelético. O esquelético é o único voluntário e multinucleado; o cardíaco é mononucleado como o liso. A placa motora ocorre apenas no esquelético.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Ao levantar um peso, o bíceps (esquelético, voluntário) contrai pela placa motora. Já o estômago (liso) e o coração (cardíaco) trabalham sem você mandar — mas só o coração tem estrias e discos intercalares.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>🍽️ Sistema Digestório 1 — Anatomia, Enzimas e Absorção</h2>
+            <p>O sistema digestório transforma os alimentos em nutrientes absorvíveis. Ele é formado pelo <strong>tubo digestório</strong> (contínuo, da boca ao ânus) e pelas <strong>glândulas anexas</strong> (salivares, pâncreas e fígado — este último não produz enzimas, mas a <strong>bile</strong>, que emulsiona gorduras).</p>
+            <div class="ds-highlight ds-highlight--formula">Boca → faringe → esôfago → estômago → intestino delgado → intestino grosso → ânus | Anexas: salivares, pâncreas (suco pancreático), fígado (bile) | Digestão mecânica: mastigação + peristaltismo + bile (emulsificação) | Digestão química: enzimas quebrando moléculas</div>
+            <ul>
+              <li><strong>Boca</strong>: mastigação e <strong>amilase salivar (ptialina)</strong>, que digere amido (carboidratos) em maltose. Enzima que atua em pH neutro.</li>
+              <li><strong>Esôfago</strong>: conduz o bolo alimentar ao estômago pelo <strong>peristaltismo</strong> (ondas de contração muscular).</li>
+              <li><strong>Estômago</strong>: suco gástrico com <strong>HCl</strong> (pH ácido, mata bactérias e ativa enzimas) e <strong>pepsina</strong> (digerindo <strong>proteínas</strong> em peptídeos). A <strong>gastrina</strong> estimula a secreção gástrica.</li>
+              <li><strong>Intestino delgado</strong>: principal local de <strong>digestão e absorção</strong>. Recebe <strong>suco pancreático</strong> (tripsina/quimotripsina p/ proteínas, <strong>lipase</strong> p/ gorduras, amilase p/ amido), <strong>bile</strong> (emulsificação de gorduras, sem enzimas) e <strong>suco entérico</strong> (maltase/sacarase — dissacarídeos, peptidases). Os nutrientes são absorvidos pelas <strong>vilosidades e microvilosidades</strong>, ricas em capilares sanguíneos e linfáticos (quilíferos para gorduras).</li>
+              <li><strong>Intestino grosso</strong>: absorve <strong>água e sais</strong>, formando as fezes; abriga a microbiota intestinal (produção de vitaminas K e do complexo B).</li>
+              <li><strong>Hormônios</strong>: <strong>gastrina</strong> (estômago), <strong>secretina</strong> (estimula pâncreas a liberar bicarbonato) e <strong>colecistocinina/CCK</strong> (contração da vesícula biliar e liberação de suco pancreático).</li>
+            </ul>
+            <details class="ds-collapsible">
+              <summary>Erros comuns & pegadinhas</summary>
+              <div class="ds-collapsible__content">
+                <div class="ds-highlight ds-highlight--warning">A bile NÃO digere gordura com enzimas: ela apenas a <strong>emulsifica</strong> (quebra em gotículas menores) para a lipase atuar. A digestão de proteínas NÃO começa no estômago na boca: amido começa na boca, proteínas no estômago (pepsina) e gorduras no intestino delgado (lipase). Quase toda a <strong>absorção</strong> ocorre no intestino delgado, não no estômago. O fígado produz bile, mas ela é <strong>armazenada na vesícula biliar</strong>.</div>
+              </div>
+            </details>
+            <p><strong>Exemplo rápido:</strong> Pão (amido) é quebrado na boca pela amilase salivar. Feijão (proteína) é quebrado no estômago pela pepsina e depois no intestino por tripsina. Manteiga (gordura) é emulsificada pela bile e digerida pela lipase no intestino delgado — onde tudo é absorvido pelas vilosidades.</p>
+          </section>
+
+          <section class="ds-study-block">
+            <h2>Checklist de Preparação</h2>
+            <ul>
+              <li>Sei diferenciar imunidade inata (inespecífica, sem memória) da adaptativa (específica, com memória)</li>
+              <li>Domino o papel dos fagócitos, células NK, complemento, interferons e da inflamação</li>
+              <li>Entendo o papel dos linfócitos B (anticorpos), T CD4 (auxiliares) e T CD8 (citotóxicos)</li>
+              <li>Diferencio vacina (ativa) de soro (passiva) e os quatro tipos de imunização</li>
+              <li>Sei que o HIV ataca linfócitos T CD4 e explico por que isso causa imunodeficiência</li>
+              <li>Diferencio os três músculos: esquelético (estriado/voluntário/multinucleado), liso (involuntário/mononucleado), cardíaco (estriado/involuntário/discos intercalares)</li>
+              <li>Entendo a contração muscular: placa motora, actina/miosina, cálcio e ATP</li>
+              <li>Sei o caminho do alimento: boca → esôfago → estômago → intestino delgado → grosso → ânus</li>
+              <li>Relaciono cada enzima ao seu nutriente e local: amilase (amido, boca), pepsina/tripsina (proteínas), lipase (gorduras)</li>
+              <li>Sei que a bile emulsiona gorduras (não digere) e que a absorção ocorre nas vilosidades do intestino delgado</li>
+            </ul>
+            <div class="ds-highlight ds-highlight--formula" style="margin-top: var(--space-4);">
+              Dica final: para questões de imunidade, pergunte sempre "ativa ou passiva?" e "natural ou artificial?"; para músculos, compare as três linhas (estriação, controle, núcleos); para digestão, associe enzima → nutriente → órgão. Esses três pares caem sempre!
+            </div>
+          </section>
+        </div>
+      </article>
+    </section>
+
+    <section id="quiz" class="ds-section" aria-label="Sessão de Quiz" hidden>
+      <div class="ds-quiz-container">
+        <article class="ds-question-card ds-card" id="current-question" aria-live="polite">
+          <div class="ds-options" role="radiogroup" aria-label="Alternativas">
+          </div>
+          <div class="ds-feedback-panel" id="quiz-feedback" aria-live="assertive" hidden></div>
+          <div style="text-align: right; margin-top: var(--space-6);">
+            <button class="ds-btn ds-btn--primary" id="quiz-next" disabled>Próxima Questão</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="simulado" class="ds-section" aria-label="Sessão de Simulado" hidden>
+      <div class="ds-exam-panel">
+        <div class="ds-exam-info">
+          <time class="ds-timer-display" id="exam-timer" aria-live="off">45:00</time>
+          <p style="font-size: var(--fs-sm); color: var(--ds-text-light); margin: 0;">Tempo restante</p>
+        </div>
+        <nav class="ds-question-nav" id="question-navigator" aria-label="Navegação entre questões"></nav>
+        <div class="ds-exam-actions">
+          <button class="ds-btn ds-btn--secondary" id="exam-pause">Pausar</button>
+          <button class="ds-btn ds-btn--primary" id="exam-finish">Finalizar</button>
+        </div>
+      </div>
+
+      <div class="ds-exam-content" style="margin-top: var(--space-8); padding-bottom: var(--space-12);">
+        <article class="ds-question-card ds-card" id="exam-question-view">
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/app.js" type="module"></script>
+</body>
+</html>

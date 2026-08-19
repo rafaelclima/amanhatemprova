@@ -1,0 +1,970 @@
+{
+  "serie": "Primeiro ano do ensino médio",
+  "disciplina": "Biologia",
+  "assuntos": ["Imunidade inata", "Imunidade adaptativa", "Tecidos musculares", "Sistema digestório"],
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Imunidade inata",
+      "enunciado": "A imunidade inata é considerada inespecífica porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "atua apenas contra vírus específicos", "correta": false },
+        { "letra": "B", "texto": "responde da mesma forma a qualquer invasor", "correta": true },
+        { "letra": "C", "texto": "depende de memória imunológica prévia", "correta": false },
+        { "letra": "D", "texto": "produz anticorpos neutralizantes", "correta": false }
+      ],
+      "explicacao": "A imunidade inata responde de forma igual (inespecífica) a qualquer microrganismo invasor, sem distinção entre eles e sem memória imunológica. Anticorpos e memória são características da imunidade adaptativa."
+    },
+    {
+      "id": 2,
+      "assunto": "Imunidade inata",
+      "enunciado": "São barreiras físicas e químicas da imunidade inata, EXCETO:",
+      "alternativas": [
+        { "letra": "A", "texto": "pele e mucosas", "correta": false },
+        { "letra": "B", "texto": "lisozima presente na lágrima", "correta": false },
+        { "letra": "C", "texto": "acidez do suco gástrico", "correta": false },
+        { "letra": "D", "texto": "anticorpos circulantes no sangue", "correta": true }
+      ],
+      "explicacao": "Anticorpos são produzidos pelos linfócitos B da imunidade adaptativa. Pele, mucosas, lisozima e o pH ácido gástrico são barreiras da imunidade inata."
+    },
+    {
+      "id": 3,
+      "assunto": "Imunidade inata",
+      "enunciado": "Células responsáveis pela fagocitose de microrganismos na imunidade inata:",
+      "alternativas": [
+        { "letra": "A", "texto": "macrófagos e neutrófilos", "correta": true },
+        { "letra": "B", "texto": "linfócitos B e T", "correta": false },
+        { "letra": "C", "texto": "hemácias e plaquetas", "correta": false },
+        { "letra": "D", "texto": "plasmócitos e células NK", "correta": false }
+      ],
+      "explicacao": "Macrófagos e neutrófilos são os principais fagócitos: englobam e digerem microrganismos. Linfócitos B e T pertencem à imunidade adaptativa; hemácias e plaquetas não fagocitam."
+    },
+    {
+      "id": 4,
+      "assunto": "Imunidade inata",
+      "enunciado": "As células NK (natural killer) atuam na imunidade inata:",
+      "alternativas": [
+        { "letra": "A", "texto": "produzindo anticorpos específicos", "correta": false },
+        { "letra": "B", "texto": "destruindo células infectadas por vírus e células tumorais", "correta": true },
+        { "letra": "C", "texto": "apresentando antígenos ao linfócito B", "correta": false },
+        { "letra": "D", "texto": "fagocitando bactérias no sangue", "correta": false }
+      ],
+      "explicacao": "As células NK reconhecem e destroem células do próprio corpo que estão alteradas (infectadas por vírus ou tumorais), liberando proteínas que induzem a morte dessas células. Não produzem anticorpos nem fagocitam."
+    },
+    {
+      "id": 5,
+      "assunto": "Imunidade inata",
+      "enunciado": "Os sinais cardinais da inflamação incluem:",
+      "alternativas": [
+        { "letra": "A", "texto": "rubor, calor, dor e edema", "correta": true },
+        { "letra": "B", "texto": "febre, diarréia, tosse e calafrio", "correta": false },
+        { "letra": "C", "texto": "perda de apetite, sono e mal-estar", "correta": false },
+        { "letra": "D", "texto": "coceira, lacrimejamento e espirro", "correta": false }
+      ],
+      "explicacao": "A inflamação (reposta inata local) é caracterizada por rubor e calor (vasodilatação), dor e edema (aumento da permeabilidade vascular que extravasa líquido). Os demais itens não são os sinais cardinais clássicos."
+    },
+    {
+      "id": 6,
+      "assunto": "Imunidade inata",
+      "enunciado": "Qual substância liberada por células infectadas por vírus protege as células vizinhas?",
+      "alternativas": [
+        { "letra": "A", "texto": "interferon", "correta": true },
+        { "letra": "B", "texto": "lisozima", "correta": false },
+        { "letra": "C", "texto": "histamina", "correta": false },
+        { "letra": "D", "texto": "pepsina", "correta": false }
+      ],
+      "explicacao": "O interferon é produzido por células infectadas por vírus e 'avisa' as células vizinhas a ativarem defesas antivirais. A lisozima é bactericida de secreções; a histamina participa da inflamação/alergia."
+    },
+    {
+      "id": 7,
+      "assunto": "Imunidade inata",
+      "enunciado": "Sobre o sistema complemento, é correto afirmar que:",
+      "alternativas": [
+        { "letra": "A", "texto": "é um conjunto de proteínas plasmáticas que marca patógenos e facilita a fagocitose", "correta": true },
+        { "letra": "B", "texto": "é uma barreira física presente na pele", "correta": false },
+        { "letra": "C", "texto": "produz anticorpos contra bactérias", "correta": false },
+        { "letra": "D", "texto": "é secreção ácida do estômago", "correta": false }
+      ],
+      "explicacao": "O complemento é um conjunto de proteínas do plasma que opsoniza (marca) microrganismos, facilitando a fagocitose, além de poder perfurar membranas. Não é barreira física nem produz anticorpos."
+    },
+    {
+      "id": 8,
+      "assunto": "Imunidade inata",
+      "enunciado": "A febre é considerada uma defesa do organismo porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "alguns patógenos se multiplicam menos em temperaturas elevadas", "correta": true },
+        { "letra": "B", "texto": "dissolve as toxinas bacterianas", "correta": false },
+        { "letra": "C", "texto": "aumenta a produção de anticorpos específicos", "correta": false },
+        { "letra": "D", "texto": "impede a ação das células NK", "correta": false }
+      ],
+      "explicacao": "A elevação da temperatura corporal inibe a multiplicação de muitos microrganismos sensíveis ao calor e pode acelerar reações de defesa. Ela não dissolve toxinas nem produz anticorpos."
+    },
+    {
+      "id": 9,
+      "assunto": "Imunidade inata",
+      "enunciado": "A lisozima é uma enzima encontrada na lágrima, na saliva e nas secreções nasais que:",
+      "alternativas": [
+        { "letra": "A", "texto": "destrói a parede celular de bactérias", "correta": true },
+        { "letra": "B", "texto": "neutraliza vírus específicos com memória", "correta": false },
+        { "letra": "C", "texto": "estimula a produção de saliva", "correta": false },
+        { "letra": "D", "texto": "fagocita microrganismos", "correta": false }
+      ],
+      "explicacao": "A lisozima é uma enzima bactericida que rompe componentes da parede celular bacteriana. Faz parte das barreiras químicas da imunidade inata, agindo de forma inespecífica."
+    },
+    {
+      "id": 10,
+      "assunto": "Imunidade inata",
+      "enunciado": "A histamina liberada durante a resposta inflamatória provoca:",
+      "alternativas": [
+        { "letra": "A", "texto": "vasodilatação e aumento da permeabilidade dos vasos", "correta": true },
+        { "letra": "B", "texto": "produção de anticorpos", "correta": false },
+        { "letra": "C", "texto": "ativação da memória imunológica", "correta": false },
+        { "letra": "D", "texto": "digestão extracelular de bactérias", "correta": false }
+      ],
+      "explicacao": "A histamina, liberada por mastócitos e basófilos, dilata os vasos (rubor e calor) e aumenta sua permeabilidade, facilitando a chegada de células de defesa ao local (edema). Não produz anticorpos."
+    },
+    {
+      "id": 11,
+      "assunto": "Imunidade inata",
+      "enunciado": "A principal diferença entre a imunidade inata e a adaptativa é que a inata:",
+      "alternativas": [
+        { "letra": "A", "texto": "não possui memória imunológica", "correta": true },
+        { "letra": "B", "texto": "é específica para cada antígeno", "correta": false },
+        { "letra": "C", "texto": "depende exclusivamente de anticorpos", "correta": false },
+        { "letra": "D", "texto": "é adquirida após uma infecção", "correta": false }
+      ],
+      "explicacao": "A imunidade inata atua desde o nascimento, de forma inespecífica e sem memória. Especificidade, anticorpos e memória são marcas da adaptativa."
+    },
+    {
+      "id": 12,
+      "assunto": "Imunidade inata",
+      "enunciado": "Macrófagos, além de fagocitar microrganismos, também:",
+      "alternativas": [
+        { "letra": "A", "texto": "apresentam antígenos aos linfócitos, ligando as duas imunidades", "correta": true },
+        { "letra": "B", "texto": "produzem anticorpos específicos", "correta": false },
+        { "letra": "C", "texto": "degradam hemácias velhas no fígado", "correta": false },
+        { "letra": "D", "texto": "secretam suco gástrico", "correta": false }
+      ],
+      "explicacao": "Os macrófagos são células apresentadoras de antígenos (APCs): após fagocitar o invasor, exibem fragmentos dele via MHC aos linfócitos T, iniciando a resposta adaptativa — a ponte entre as duas imunidades."
+    },
+    {
+      "id": 13,
+      "assunto": "Imunidade inata",
+      "enunciado": "Qual célula da imunidade inata pode perfurar a membrana de células-alvo secretando proteínas tóxicas?",
+      "alternativas": [
+        { "letra": "A", "texto": "célula NK", "correta": true },
+        { "letra": "B", "texto": "linfócito B", "correta": false },
+        { "letra": "C", "texto": "plasmócito", "correta": false },
+        { "letra": "D", "texto": "hemácia", "correta": false }
+      ],
+      "explicacao": "As células NK liberam perforinas e granzimas, proteínas que formam poros na membrana e induzem a morte da célula-alvo (infectada por vírus ou tumoral), sem precisar de sensibilização prévia."
+    },
+    {
+      "id": 14,
+      "assunto": "Imunidade inata",
+      "enunciado": "O processo de opsonização realizado pelo sistema complemento consiste em:",
+      "alternativas": [
+        { "letra": "A", "texto": "marcar o microrganismo facilitando sua fagocitose", "correta": true },
+        { "letra": "B", "texto": "neutralizar toxinas bacterianas", "correta": false },
+        { "letra": "C", "texto": "produzir proteínas de fase aguda", "correta": false },
+        { "letra": "D", "texto": "promover a febre", "correta": false }
+      ],
+      "explicacao": "Opsonização é o revestimento do patógeno com proteínas do complemento (ou anticorpos), o que 'marca' o invasor e torna a fagocitose pelos macrófagos e neutrófilos muito mais eficiente."
+    },
+    {
+      "id": 15,
+      "assunto": "Imunidade inata",
+      "enunciado": "O pus presente em uma ferida infectada é formado principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "neutrófilos mortos, restos celulares e microrganismos", "correta": true },
+        { "letra": "B", "texto": "plasma e anticorpos", "correta": false },
+        { "letra": "C", "texto": "apenas bactérias vivas", "correta": false },
+        { "letra": "D", "texto": "células da pele descamadas", "correta": false }
+      ],
+      "explicacao": "O pus é o acúmulo de neutrófilos mortos após combater a infecção, junto com restos celulares e microrganismos destruídos — sinal de resposta inflamatória em andamento."
+    },
+    {
+      "id": 16,
+      "assunto": "Imunidade inata",
+      "enunciado": "As citocinas são:",
+      "alternativas": [
+        { "letra": "A", "texto": "moléculas sinalizadoras que coordenam as células de defesa", "correta": true },
+        { "letra": "B", "texto": "anticorpos que matam bactérias", "correta": false },
+        { "letra": "C", "texto": "barreiras físicas da pele", "correta": false },
+        { "letra": "D", "texto": "enzimas digestivas do sangue", "correta": false }
+      ],
+      "explicacao": "Citocinas são proteínas sinalizadoras (como as interleucinas) que comunicam e coordenam as células do sistema imune, incluindo a indução da febre e o recrutamento de fagócitos ao local da infecção."
+    },
+    {
+      "id": 17,
+      "assunto": "Imunidade inata",
+      "enunciado": "Um organismo que perde a imunidade inata, mas mantém a adaptativa, provavelmente:",
+      "alternativas": [
+        { "letra": "A", "texto": "continuaria respondendo de forma específica, mas perderia a primeira linha de defesa rápida", "correta": true },
+        { "letra": "B", "texto": "perderia todos os anticorpos", "correta": false },
+        { "letra": "C", "texto": "perderia a memória imunológica", "correta": false },
+        { "letra": "D", "texto": "não teria nenhuma alteração", "correta": false }
+      ],
+      "explicacao": "A imunidade inata é a primeira linha (barreiras, fagócitos, complemento). Sem ela, a adaptativa ainda seria específica, mas o organismo ficaria muito mais vulnerável a infecções rápidas e disseminadas."
+    },
+    {
+      "id": 18,
+      "assunto": "Imunidade inata",
+      "enunciado": "O pH ácido do estômago atua como defesa porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "impede a sobrevivência da maioria dos microrganismos ingeridos", "correta": true },
+        { "letra": "B", "texto": "produz anticorpos anti-DNA", "correta": false },
+        { "letra": "C", "texto": "ativa linfócitos T citotóxicos", "correta": false },
+        { "letra": "D", "texto": "digere células tumorais", "correta": false }
+      ],
+      "explicacao": "A acidez gástrica (HCl) mata ou inativa grande parte dos microrganismos que chegam pela boca, funcionando como barreira química da imunidade inata."
+    },
+    {
+      "id": 19,
+      "assunto": "Imunidade inata",
+      "enunciado": "A inflamação pode ser definida como:",
+      "alternativas": [
+        { "letra": "A", "texto": "resposta local de defesa com vasodilatação e migração de células", "correta": true },
+        { "letra": "B", "texto": "produção de anticorpos contra o tecido lesado", "correta": false },
+        { "letra": "C", "texto": "mecanismo de formação de memória", "correta": false },
+        { "letra": "D", "texto": "processo exclusivamente destrutivo sem defesa", "correta": false }
+      ],
+      "explicacao": "A inflamação é uma resposta inata local: vasodilatação, aumento de permeabilidade e recrutamento de células de defesa para conter a lesão ou infecção. Não produz anticorpos nem memória."
+    },
+    {
+      "id": 20,
+      "assunto": "Imunidade inata",
+      "enunciado": "É exemplo de imunidade inata:",
+      "alternativas": [
+        { "letra": "A", "texto": "o reconhecimento de padrões bacterianos por receptores dos fagócitos", "correta": true },
+        { "letra": "B", "texto": "a produção de IgG após vacinação", "correta": false },
+        { "letra": "C", "texto": "a resposta secundária após reexposição ao antígeno", "correta": false },
+        { "letra": "D", "texto": "a rejeição acelerada de um segundo transplante", "correta": false }
+      ],
+      "explicacao": "Receptores de reconhecimento de padrões (PRRs) dos fagócitos identificam estruturas comuns a muitos microrganismos e ativam a resposta inata, sem especificidade fina nem memória. Os demais itens pertencem à imunidade adaptativa."
+    },
+
+    {
+      "id": 21,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "As células responsáveis pela produção de anticorpos são:",
+      "alternativas": [
+        { "letra": "A", "texto": "linfócitos B", "correta": true },
+        { "letra": "B", "texto": "linfócitos T citotóxicos", "correta": false },
+        { "letra": "C", "texto": "neutrófilos", "correta": false },
+        { "letra": "D", "texto": "células NK", "correta": false }
+      ],
+      "explicacao": "Os linfócitos B, quando ativados, diferenciam-se em plasmócitos, que são as verdadeiras 'fábricas' de anticorpos. Os T citotóxicos matam células infectadas; neutrófilos e NK pertencem à inata."
+    },
+    {
+      "id": 22,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Um plasmócito é:",
+      "alternativas": [
+        { "letra": "A", "texto": "linfócito B diferenciado, especializado em secretar anticorpos", "correta": true },
+        { "letra": "B", "texto": "tipo de célula sanguínea que transporta oxigênio", "correta": false },
+        { "letra": "C", "texto": "fagócito presente nas mucosas", "correta": false },
+        { "letra": "D", "texto": "celeular de memória que morre após a infecção", "correta": false }
+      ],
+      "explicacao": "Após reconhecer um antígeno com a ajuda de linfócitos T auxiliares, o linfócito B se diferencia em plasmócito, uma célula secretora de anticorpos com retículo endoplasmático rugoso muito desenvolvido."
+    },
+    {
+      "id": 23,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A imunidade humoral é mediada principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "anticorpos solúveis produzidos pelos plasmócitos", "correta": true },
+        { "letra": "B", "texto": "fagócitos que englobam patógenos", "correta": false },
+        { "letra": "C", "texto": "células T que lisam células-alvo", "correta": false },
+        { "letra": "D", "texto": "proteínas do complemento apenas", "correta": false }
+      ],
+      "explicacao": "A imunidade humoral é mediada por anticorpos (moléculas solúveis no plasma, mucosas etc.), produzidos por plasmócitos derivados de linfócitos B. A resposta mediada por células T é a imunidade celular."
+    },
+    {
+      "id": 24,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Os linfócitos T citotóxicos (CD8) atuam:",
+      "alternativas": [
+        { "letra": "A", "texto": "destruindo células infectadas por vírus e células tumorais", "correta": true },
+        { "letra": "B", "texto": "produzindo anticorpos no sangue", "correta": false },
+        { "letra": "C", "texto": "fagocitando bactérias extracelulares", "correta": false },
+        { "letra": "D", "texto": "secretando muco nas vias aéreas", "correta": false }
+      ],
+      "explicacao": "Os CD8 reconhecem antígenos apresentados via MHC classe I em células infectadas e as destroem por contato (perforinas/granzimas ou Fas), eliminando o vírus do interior das células. Não produzem anticorpos."
+    },
+    {
+      "id": 25,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Qual vírus é conhecido por destruir especificamente os linfócitos T auxiliares (CD4)?",
+      "alternativas": [
+        { "letra": "A", "texto": "HIV, causador da AIDS", "correta": true },
+        { "letra": "B", "texto": "vírus da gripe", "correta": false },
+        { "letra": "C", "texto": "papilomavírus humano (HPV)", "correta": false },
+        { "letra": "D", "texto": "rotavírus", "correta": false }
+      ],
+      "explicacao": "O HIV infecta e destrói progressivamente os linfócitos T CD4 auxiliares, desorganizando a coordenação da resposta imune — o que caracteriza a imunodeficiência da AIDS."
+    },
+    {
+      "id": 26,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A memória imunológica é explicada por:",
+      "alternativas": [
+        { "letra": "A", "texto": "linfócitos de memória que permanecem após a infecção", "correta": true },
+        { "letra": "B", "texto": "aumento permanente dos fagócitos", "correta": false },
+        { "letra": "C", "texto": "produção contínua de interferons", "correta": false },
+        { "letra": "D", "texto": "engrossamento da pele após infecções", "correta": false }
+      ],
+      "explicacao": "Após o primeiro contato, linfócitos B e T de memória permanecem no organismo por anos. Numa segunda exposição ao mesmo antígeno, eles respondem mais rápido e com maior intensidade (resposta secundária)."
+    },
+    {
+      "id": 27,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A resposta imunológica secundária, em comparação com a primária:",
+      "alternativas": [
+        { "letra": "A", "texto": "é mais rápida, mais intensa e com mais anticorpos", "correta": true },
+        { "letra": "B", "texto": "é mais lenta e com menos anticorpos", "correta": false },
+        { "letra": "C", "texto": "produz apenas células NK", "correta": false },
+        { "letra": "D", "texto": "não envolve anticorpos", "correta": false }
+      ],
+      "explicacao": "Na resposta secundária, os linfócitos de memória já reconhecem o antígeno e se multiplicam imediatamente, gerando resposta mais rápida e com níveis de anticorpos muito superiores — princípio da eficácia das vacinas com reforço."
+    },
+    {
+      "id": 28,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A rejeição de transplantes ocorre porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "os linfócitos reconhecem as moléculas de MHC do doador como estranhas", "correta": true },
+        { "letra": "B", "texto": "o sangue doado não contém células de defesa", "correta": false },
+        { "letra": "C", "texto": "os anticorpos do órgão doado atacam o receptor", "correta": false },
+        { "letra": "D", "texto": "a pele sempre rejeita qualquer tecido", "correta": false }
+      ],
+      "explicacao": "As moléculas de MHC (antígenos de histocompatibilidade) do doador são reconhecidas como estranhas pelos linfócitos T do receptor, desencadeando a destruição do órgão. Por isso se usam imunossupressores e se buscam doadores compatíveis."
+    },
+    {
+      "id": 29,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Formulação correta sobre vacinas e soros:",
+      "alternativas": [
+        { "letra": "A", "texto": "vacina estimula a produção de anticorpos (ativa); soro fornece anticorpos prontos (passiva)", "correta": true },
+        { "letra": "B", "texto": "vacina fornece anticorpos prontos; soro estimula a memória", "correta": false },
+        { "letra": "C", "texto": "ambos produzem os mesmos efeitos e duração de proteção", "correta": false },
+        { "letra": "D", "texto": "soro gera memória duradoura; vacina protege por horas", "correta": false }
+      ],
+      "explicacao": "Vacina contém antígenos (mortos ou atenuados) e induz a produção de anticorpos e memória pelo próprio corpo — ativa. Soro contém anticorpos prontos, proteção imediata e temporária — passiva."
+    },
+    {
+      "id": 30,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Um bebê que recebe anticorpos da mãe por meio do leite materno tem imunização:",
+      "alternativas": [
+        { "letra": "A", "texto": "passiva e natural", "correta": true },
+        { "letra": "B", "texto": "ativa e natural", "correta": false },
+        { "letra": "C", "texto": "passiva e artificial", "correta": false },
+        { "letra": "D", "texto": "ativa e artificial", "correta": false }
+      ],
+      "explicacao": "A transferência de anticorpos prontos pela placenta ou pelo leite materno é imunização passiva (o bebê não produziu os anticorpos) e natural (sem intervenção médica)."
+    },
+    {
+      "id": 31,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Um indivíduo que recebe soro antitetânico após um corte contaminado está recebendo:",
+      "alternativas": [
+        { "letra": "A", "texto": "anticorpos prontos — imunização passiva artificial", "correta": true },
+        { "letra": "B", "texto": "antígenos atenuados — imunização ativa artificial", "correta": false },
+        { "letra": "C", "texto": "anticorpos naturais do próprio corpo", "correta": false },
+        { "letra": "D", "texto": "linfócitos de memória doados", "correta": false }
+      ],
+      "explicacao": "O soro é preparado com anticorpos prontos (obtidos de outros animais/pessoas) e aplicado em emergências: proteção imediata, porém breve — imunização passiva e artificial."
+    },
+    {
+      "id": 32,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "O principal órgão onde os linfócitos T amadurecem é:",
+      "alternativas": [
+        { "letra": "A", "texto": "o timo", "correta": true },
+        { "letra": "B", "texto": "o fígado", "correta": false },
+        { "letra": "C", "texto": "a medula óssea", "correta": false },
+        { "letra": "D", "texto": "o baço", "correta": false }
+      ],
+      "explicacao": "Os linfócitos T amadurecem no timo (por isso se chamam T). Os linfócitos B amadurecem na medula óssea (B = bursa/bone marrow). Ambos são produzidos na medula óssea."
+    },
+    {
+      "id": 33,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A imunidade celular está mais diretamente relacionada a:",
+      "alternativas": [
+        { "letra": "A", "texto": "linfócitos T que destroem células infectadas", "correta": true },
+        { "letra": "B", "texto": "anticorpos circulantes no soro", "correta": false },
+        { "letra": "C", "texto": "lisozima das lágrimas", "correta": false },
+        { "letra": "D", "texto": "pele e mucosas", "correta": false }
+      ],
+      "explicacao": "A imunidade celular é mediada por linfócitos T — principalmente CD8 citotóxicos, que eliminam células infectadas, e CD4 auxiliares, que coordenam a resposta. Anticorpos definem a imunidade humoral."
+    },
+    {
+      "id": 34,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Doenças autoimunes ocorrem quando:",
+      "alternativas": [
+        { "letra": "A", "texto": "o sistema imune ataca componentes do próprio corpo", "correta": true },
+        { "letra": "B", "texto": "o corpo não produz linfócitos", "correta": false },
+        { "letra": "C", "texto": "há falta de anticorpos após vacinação", "correta": false },
+        { "letra": "D", "texto": "os linfócitos desaparecem da medula", "correta": false }
+      ],
+      "explicacao": "Na autoimunidade, o sistema imune perde a tolerância e passa a reconhecer estruturas do próprio organismo como estranhas, atacando-as — como na diabetes tipo 1 e no lúpus."
+    },
+    {
+      "id": 35,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "As imunoglobulinas (anticorpos) são produzidas em maior quantidade na resposta:",
+      "alternativas": [
+        { "letra": "A", "texto": "secundária, graças aos linfócitos de memória", "correta": true },
+        { "letra": "B", "texto": "primária, pois é a primeira defesa", "correta": false },
+        { "letra": "C", "texto": "inata, que não depende de antígeno", "correta": false },
+        { "letra": "D", "texto": "apenas após transfusões", "correta": false }
+      ],
+      "explicacao": "Na resposta secundária, os linfócitos de memória respondem rapidamente com produção massiva de anticorpos — muito maior e mais veloz do que na resposta primária."
+    },
+    {
+      "id": 36,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "As vacinas funcionam porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "introduzem antígenos capazes de gerar memória imunológica", "correta": true },
+        { "letra": "B", "texto": "contêm anticorpos que matam o vírus no momento", "correta": false },
+        { "letra": "C", "texto": "aumentam a quantidade de hemácias", "correta": false },
+        { "letra": "D", "texto": "destroem diretamente os microrganismos por fagocitose", "correta": false }
+      ],
+      "explicacao": "A vacina contém antígenos (microrganismos mortos, atenuados ou partes deles) que induzem resposta adaptativa com formação de linfócitos de memória — protegendo o organismo contra a doença real no futuro."
+    },
+    {
+      "id": 37,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Qual imunoglobulina é produzida primeiramente na resposta primária?",
+      "alternativas": [
+        { "letra": "A", "texto": "IgM", "correta": true },
+        { "letra": "B", "texto": "IgG", "correta": false },
+        { "letra": "C", "texto": "IgE", "correta": false },
+        { "letra": "D", "texto": "IgD", "correta": false }
+      ],
+      "explicacao": "A IgM é a primeira classe de anticorpos produzida na resposta primária; depois há troca para IgG, que é a mais abundante e duradoura no sangue. IgE associa-se a alergias; IgD é de superfície dos linfócitos B."
+    },
+    {
+      "id": 38,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "Alérgenos como pólen e poeira desencadeiam a produção principalmente de:",
+      "alternativas": [
+        { "letra": "A", "texto": "IgE, ligada às alergias", "correta": true },
+        { "letra": "B", "texto": "IgM, da resposta primária", "correta": false },
+        { "letra": "C", "texto": "IgD, de superfície celular", "correta": false },
+        { "letra": "D", "texto": "IgA, das mucosas", "correta": false }
+      ],
+      "explicacao": "A IgE fixa-se em mastócitos e basófilos e, ao ser cruzada pelo alérgeno, induz a liberação de histamina — responsável pelos sintomas alérgicos (coceira, espirros, broncoespasmo)."
+    },
+    {
+      "id": 39,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A imunoglobulina que protege principalmente as mucosas (leite, lágrima, saliva) é:",
+      "alternativas": [
+        { "letra": "A", "texto": "IgA", "correta": true },
+        { "letra": "B", "texto": "IgM", "correta": false },
+        { "letra": "C", "texto": "IgE", "correta": false },
+        { "letra": "D", "texto": "IgG", "correta": false }
+      ],
+      "explicacao": "A IgA secretora é a principal imunoglobulina das secreções (leite materno, lágrima, saliva, mucosas), protegendo superfícies contra invasões. A IgG é a mais abundante no plasma."
+    },
+    {
+      "id": 40,
+      "assunto": "Imunidade adaptativa",
+      "enunciado": "A maior proteção prolongada após infecções naturais ou vacinas se deve a:",
+      "alternativas": [
+        { "letra": "A", "texto": "linfócitos de memória de longa duração (B e T)", "correta": true },
+        { "letra": "B", "texto": "acúmulo de neutrófilos no sangue", "correta": false },
+        { "letra": "C", "texto": "produção contínua de interferons", "correta": false },
+        { "letra": "D", "texto": "aumento permanente do timo", "correta": false }
+      ],
+      "explicacao": "A proteção duradoura vem dos linfócitos B e T de memória, que sobrevivem por muito tempo e respondem rapidamente a uma nova exposição ao mesmo antígeno."
+    },
+
+    {
+      "id": 41,
+      "assunto": "Tecidos musculares",
+      "enunciado": "O músculo esquelético é caracterizado por:",
+      "alternativas": [
+        { "letra": "A", "texto": "contração voluntária, estrias e células multinucleadas", "correta": true },
+        { "letra": "B", "texto": "contração involuntária, sem estrias e mononucleado", "correta": false },
+        { "letra": "C", "texto": "células fusiformes com núcleo central", "correta": false },
+        { "letra": "D", "texto": "presença exclusiva no coração", "correta": false }
+      ],
+      "explicacao": "O esquelético tem estrias (sarcômeros), contração voluntária pelo SNP somático e células longas multinucleadas (núcleos periféricos). Fusiforme com núcleo central é o liso."
+    },
+    {
+      "id": 42,
+      "assunto": "Tecidos musculares",
+      "enunciado": "O coração é formado pelo tecido muscular:",
+      "alternativas": [
+        { "letra": "A", "texto": "cardíaco, estriado e involuntário, com discos intercalares", "correta": true },
+        { "letra": "B", "texto": "esquelético, estriado e voluntário", "correta": false },
+        { "letra": "C", "texto": "liso, sem estrias e voluntário", "correta": false },
+        { "letra": "D", "texto": "cardíaco, sem estrias e involuntário", "correta": false }
+      ],
+      "explicacao": "O cardíaco é estriado (como o esquelético), porém involuntário (como o liso), e apresenta discos intercalares — junções comunicantes que sincronizam a contração do órgão."
+    },
+    {
+      "id": 43,
+      "assunto": "Tecidos musculares",
+      "enunciado": "As células do músculo liso:",
+      "alternativas": [
+        { "letra": "A", "texto": "são fusiformes, mononucleadas e de contração involuntária", "correta": true },
+        { "letra": "B", "texto": "são longas e multinucleadas, com estrias", "correta": false },
+        { "letra": "C", "texto": "possuem discos intercalares", "correta": false },
+        { "letra": "D", "texto": "têm contração voluntária", "correta": false }
+      ],
+      "explicacao": "O músculo liso tem células fusiformes com um único núcleo central, sem estrias, e contração involuntária controlada pelo sistema nervoso autônomo — presente em vísceras e vasos."
+    },
+    {
+      "id": 44,
+      "assunto": "Tecidos musculares",
+      "enunciado": "O sarcômero é:",
+      "alternativas": [
+        { "letra": "A", "texto": "a unidade funcional de contração entre duas linhas Z", "correta": true },
+        { "letra": "B", "texto": "a membrana que envolve a fibra muscular", "correta": false },
+        { "letra": "C", "texto": "o local onde o impulso nervoso chega ao músculo", "correta": false },
+        { "letra": "D", "texto": "a proteína que fornece energia ao músculo", "correta": false }
+      ],
+      "explicacao": "O sarcômero é a unidade contrátil do músculo estriado, delimitado por linhas Z, contendo filamentos de actina e miosina. A membrana celular da fibra é o sarcolema; a placa motora é onde o nervo encontra o músculo."
+    },
+    {
+      "id": 45,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A contração muscular ocorre pelo:",
+      "alternativas": [
+        { "letra": "A", "texto": "deslizamento dos filamentos de actina sobre os de miosina, com gasto de ATP", "correta": true },
+        { "letra": "B", "texto": "aumento do comprimento dos filamentos de actina", "correta": false },
+        { "letra": "C", "texto": "encurtamento definitivo da miosina", "correta": false },
+        { "letra": "D", "texto": "ligação direta entre os discos intercalares", "correta": false }
+      ],
+      "explicacao": "Pela teoria do filamento deslizante, os filamentos finos (actina) deslizam sobre os grossos (miosina), encurtando o sarcômero. O processo depende de ATP e da presença de cálcio."
+    },
+    {
+      "id": 46,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A placa motora (junção neuromuscular) é o local onde:",
+      "alternativas": [
+        { "letra": "A", "texto": "o neurônio motor libera neurotransmissores que estimulam a fibra", "correta": true },
+        { "letra": "B", "texto": "a fibra produz anticorpos", "correta": false },
+        { "letra": "C", "texto": "o músculo fica preso ao osso", "correta": false },
+        { "letra": "D", "texto": "os filamentos de actina se encontram", "correta": false }
+      ],
+      "explicacao": "Na placa motora, o neurônio motor libera acetilcolina na fenda sináptica, despolarizando o sarcolema e iniciando a contração da fibra esquelética. A fixação ao osso é feita por tendões."
+    },
+    {
+      "id": 47,
+      "assunto": "Tecidos musculares",
+      "enunciado": "Qual íon é fundamental para desencadear a contração muscular, liberado do retículo sarcoplasmático?",
+      "alternativas": [
+        { "letra": "A", "texto": "cálcio (Ca²⁺)", "correta": true },
+        { "letra": "B", "texto": "sódio (Na⁺)", "correta": false },
+        { "letra": "C", "texto": "cloro (Cl⁻)", "correta": false },
+        { "letra": "D", "texto": "potássio (K⁺)", "correta": false }
+      ],
+      "explicacao": "O Ca²⁺ liberado do retículo sarcoplasmático liga-se à troponina, expondo os sítios da actina para a interação com a miosina. Sem cálcio, não há contração."
+    },
+    {
+      "id": 48,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A energia utilizada imediatamente para a contração muscular vem de:",
+      "alternativas": [
+        { "letra": "A", "texto": "ATP, que pode ser regenerado pela creatina-fosfato", "correta": true },
+        { "letra": "B", "texto": "glicogênio diretamente", "correta": false },
+        { "letra": "C", "texto": "ácido lático somente", "correta": false },
+        { "letra": "D", "texto": "oxigênio puro", "correta": false }
+      ],
+      "explicacao": "A contração usa ATP diretamente. Para esforços imediatos e curtos, a creatina-fosfato (fosfocreatina) regenera ATP rapidamente; depois entram glicose e, em esforços longos, a respiração aeróbica."
+    },
+    {
+      "id": 49,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A fadiga muscular é frequentemente associada ao acúmulo de:",
+      "alternativas": [
+        { "letra": "A", "texto": "ácido lático, produzido na fermentação láctica", "correta": true },
+        { "letra": "B", "texto": "glicogênio nas fibras", "correta": false },
+        { "letra": "C", "texto": "oxigênio no sangue", "correta": false },
+        { "letra": "D", "texto": "cálcio no retículo sarcoplasmático", "correta": false }
+      ],
+      "explicacao": "Sem oxigênio suficiente, o músculo recorre à fermentação láctica: glicose vira ácido lático, que contribui para a queda de pH e a sensação de fadiga/queimação."
+    },
+    {
+      "id": 50,
+      "assunto": "Tecidos musculares",
+      "enunciado": "O músculo cardíaco se diferencia do esquelético principalmente por:",
+      "alternativas": [
+        { "letra": "A", "texto": "ser involuntário e ter células unidas por discos intercalares", "correta": true },
+        { "letra": "B", "texto": "não possuir estrias", "correta": false },
+        { "letra": "C", "texto": "ser formado por células fusiformes", "correta": false },
+        { "letra": "D", "texto": "fadigar rapidamente como o esquelético", "correta": false }
+      ],
+      "explicacao": "O cardíaco é estriado, mas involuntário, mononucleado e com discos intercalares (junções comunicantes) que permitem contração sincronizada. Ele fadiga muito pouco, graças à intensa respiração aeróbica."
+    },
+    {
+      "id": 51,
+      "assunto": "Tecidos musculares",
+      "enunciado": "Músculos envolvidos no peristaltismo intestinal, na parede dos vasos e da bexiga são do tipo:",
+      "alternativas": [
+        { "letra": "A", "texto": "liso", "correta": true },
+        { "letra": "B", "texto": "esquelético", "correta": false },
+        { "letra": "C", "texto": "cardíaco", "correta": false },
+        { "letra": "D", "texto": "estriado voluntário", "correta": false }
+      ],
+      "explicacao": "Vísceras (intestino, estômago, bexiga) e vasos sanguíneos são constituídos de músculo liso, de contração involuntária, responsável pelos movimentos peristálticos e pela regulação do calibre vascular."
+    },
+    {
+      "id": 52,
+      "assunto": "Tecidos musculares",
+      "enunciado": "As proteínas responsáveis pela contração muscular são:",
+      "alternativas": [
+        { "letra": "A", "texto": "actina e miosina", "correta": true },
+        { "letra": "B", "texto": "queratina e colágeno", "correta": false },
+        { "letra": "C", "texto": "hemoglobina e mioglobina", "correta": false },
+        { "letra": "D", "texto": "fibrina e elastina", "correta": false }
+      ],
+      "explicacao": "Actina (filamento fino) e miosina (filamento grosso) são as proteínas contráteis que deslizam entre si durante a contração. Queratina e colágeno são estruturais; hemoglobina transporta oxigênio."
+    },
+    {
+      "id": 53,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A contração do músculo liso e do cardíaco é controlada pelo sistema nervoso:",
+      "alternativas": [
+        { "letra": "A", "texto": "autônomo, sendo involuntária", "correta": true },
+        { "letra": "B", "texto": "somático, sendo voluntária", "correta": false },
+        { "letra": "C", "texto": "central, sendo consciente", "correta": false },
+        { "letra": "D", "texto": "periférico e consciente", "correta": false }
+      ],
+      "explicacao": "Músculo liso e cardíaco são inervados pelo sistema nervoso autônomo (simpático e parassimpático), portanto suas contrações são involuntárias — diferentemente do esquelético, inervado pelo somático."
+    },
+    {
+      "id": 54,
+      "assunto": "Tecidos musculares",
+      "enunciado": "O músculo esquelético é o único que:",
+      "alternativas": [
+        { "letra": "A", "texto": "possui contração voluntária e células multinucleadas", "correta": true },
+        { "letra": "B", "texto": "é estriado", "correta": false },
+        { "letra": "C", "texto": "participa dos movimentos do coração", "correta": false },
+        { "letra": "D", "texto": "tem contração involuntária", "correta": false }
+      ],
+      "explicacao": "A contração voluntária (inervação somática) e as células multinucleadas (sincício) são exclusivas do esquelético. O cardíaco também é estriado — o que costuma gerar confusão."
+    },
+    {
+      "id": 55,
+      "assunto": "Tecidos musculares",
+      "enunciado": "Discos intercalares são estruturas características de qual tecido?",
+      "alternativas": [
+        { "letra": "A", "texto": "muscular cardíaco", "correta": true },
+        { "letra": "B", "texto": "muscular esquelético", "correta": false },
+        { "letra": "C", "texto": "muscular liso", "correta": false },
+        { "letra": "D", "texto": "epitelial", "correta": false }
+      ],
+      "explicacao": "Os discos intercalares são junções especializadas (com desmossomos e junções comunicantes) entre células musculares cardíacas, garantindo a contração sincronizada de todo o coração."
+    },
+    {
+      "id": 56,
+      "assunto": "Tecidos musculares",
+      "enunciado": "O miocárdio é formado por tecido muscular:",
+      "alternativas": [
+        { "letra": "A", "texto": "estriado cardíaco", "correta": true },
+        { "letra": "B", "texto": "liso", "correta": false },
+        { "letra": "C", "texto": "esquelético estriado", "correta": false },
+        { "letra": "D", "texto": "não estriado involuntário", "correta": false }
+      ],
+      "explicacao": "O miocárdio, camada muscular do coração, é composto por tecido muscular estriado cardíaco, de contração rítmica e involuntária."
+    },
+    {
+      "id": 57,
+      "assunto": "Tecidos musculares",
+      "enunciado": "Em um esforço prolongado e aeróbico (como uma corrida longa), a principal fonte de energia muscular é:",
+      "alternativas": [
+        { "letra": "A", "texto": "ácidos graxos e glicose via respiração aeróbica", "correta": true },
+        { "letra": "B", "texto": "creatina-fosfato apenas", "correta": false },
+        { "letra": "C", "texto": "fermentação láctica predominante", "correta": false },
+        { "letra": "D", "texto": "ATP armazenado nos sarcômeros", "correta": false }
+      ],
+      "explicacao": "Em esforços longos, com oxigênio disponível, o músculo usa ácidos graxos e glicose na respiração aeróbica (mitocôndrias), produzindo muito mais ATP. A creatina-fosfato cobre apenas os primeiros segundos."
+    },
+    {
+      "id": 58,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A rigidez cadavérica ocorre porque, após a morte:",
+      "alternativas": [
+        { "letra": "A", "texto": "sem ATP, os filamentos de actina e miosina permanecem ligados", "correta": true },
+        { "letra": "B", "texto": "o cálcio é totalmente eliminado do músculo", "correta": false },
+        { "letra": "C", "texto": "as células musculares continuam contraindo", "correta": false },
+        { "letra": "D", "texto": "a acetilcolina é produzida em excesso", "correta": false }
+      ],
+      "explicacao": "Para relaxar, é preciso ATP que desligue a miosina da actina. Sem ATP, as pontes ficam fixas e o músculo permanece contraído — o rigor mortis. Ele cessa quando as proteínas se degradam."
+    },
+    {
+      "id": 59,
+      "assunto": "Tecidos musculares",
+      "enunciado": "As células musculares esqueléticas possuem muitos núcleos (são multinucleadas) porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "surgem da fusão de vários mioblastos", "correta": true },
+        { "letra": "B", "texto": "absorvem núcleos das células vizinhas", "correta": false },
+        { "letra": "C", "texto": "perdem a capacidade de divisão celular", "correta": false },
+        { "letra": "D", "texto": "possuem DNA de bactérias endossimbiontes", "correta": false }
+      ],
+      "explicacao": "Durante o desenvolvimento, mioblastos (células precursoras) se fundem formando fibras longas e multinucleadas. Por esse motivo, a fibra esquelética praticamente não se divide, sendo reparada por células-satélite."
+    },
+    {
+      "id": 60,
+      "assunto": "Tecidos musculares",
+      "enunciado": "A mioglobina, presente no músculo, tem a função de:",
+      "alternativas": [
+        { "letra": "A", "texto": "armazenar oxigênio para a contração", "correta": true },
+        { "letra": "B", "texto": "produzir ATP pela fermentação", "correta": false },
+        { "letra": "C", "texto": "transportar glicose para a fibra", "correta": false },
+        { "letra": "D", "texto": "liberar cálcio na contração", "correta": false }
+      ],
+      "explicacao": "A mioglobina é uma proteína vermelha que armazena oxigênio no músculo, liberando-o quando a demanda por respiração aeróbica aumenta. Ela dá a cor avermelhada ao tecido."
+    },
+
+    {
+      "id": 61,
+      "assunto": "Sistema digestório",
+      "enunciado": "A ordem correta do tubo digestório é:",
+      "alternativas": [
+        { "letra": "A", "texto": "boca → faringe → esôfago → estômago → intestino delgado → intestino grosso", "correta": true },
+        { "letra": "B", "texto": "boca → esôfago → faringe → estômago → intestino grosso → intestino delgado", "correta": false },
+        { "letra": "C", "texto": "boca → estômago → faringe → esôfago → intestino delgado → intestino grosso", "correta": false },
+        { "letra": "D", "texto": "boca → faringe → estômago → esôfago → intestino grosso → intestino delgado", "correta": false }
+      ],
+      "explicacao": "O caminho do alimento é: boca → faringe → esôfago → estômago → intestino delgado → intestino grosso → ânus. O intestino delgado vem antes do grosso."
+    },
+    {
+      "id": 62,
+      "assunto": "Sistema digestório",
+      "enunciado": "A digestão do amido inicia-se na boca pela ação da:",
+      "alternativas": [
+        { "letra": "A", "texto": "amilase salivar (ptialina)", "correta": true },
+        { "letra": "B", "texto": "pepsina", "correta": false },
+        { "letra": "C", "texto": "lipase", "correta": false },
+        { "letra": "D", "texto": "tripsina", "correta": false }
+      ],
+      "explicacao": "A amilase salivar (ptialina), ativa em pH neutro, digere o amido transformando-o em maltose. A pepsina age em proteínas no estômago; a lipase em gorduras; a tripsina em proteínas no intestino."
+    },
+    {
+      "id": 63,
+      "assunto": "Sistema digestório",
+      "enunciado": "A pepsina é uma enzima que digere:",
+      "alternativas": [
+        { "letra": "A", "texto": "proteínas, no estômago, em meio ácido", "correta": true },
+        { "letra": "B", "texto": "amido, na boca, em meio neutro", "correta": false },
+        { "letra": "C", "texto": "gorduras, no intestino delgado", "correta": false },
+        { "letra": "D", "texto": "lactose, no intestino grosso", "correta": false }
+      ],
+      "explicacao": "A pepsina, secretada como pepsinogênio e ativada pelo HCl, quebra proteínas em peptídeos no ambiente ácido do estômago. Ela não atua em carboidratos nem em gorduras."
+    },
+    {
+      "id": 64,
+      "assunto": "Sistema digestório",
+      "enunciado": "O suco gástrico é produzido:",
+      "alternativas": [
+        { "letra": "A", "texto": "pelo estômago", "correta": true },
+        { "letra": "B", "texto": "pelo pâncreas", "correta": false },
+        { "letra": "C", "texto": "pelo fígado", "correta": false },
+        { "letra": "D", "texto": "pelas glândulas salivares", "correta": false }
+      ],
+      "explicacao": "O suco gástrico (HCl + pepsina + muco + fator intrínseco) é produzido pelas glândulas da mucosa do estômago. O pâncreas produz o suco pancreático; o fígado, a bile."
+    },
+    {
+      "id": 65,
+      "assunto": "Sistema digestório",
+      "enunciado": "A bile é produzida pelo fígado e armazenada:",
+      "alternativas": [
+        { "letra": "A", "texto": "na vesícula biliar", "correta": true },
+        { "letra": "B", "texto": "no pâncreas", "correta": false },
+        { "letra": "C", "texto": "no intestino delgado", "correta": false },
+        { "letra": "D", "texto": "no estômago", "correta": false }
+      ],
+      "explicacao": "O fígado produz a bile continuamente, mas ela é concentrada e armazenada na vesícula biliar, sendo liberada no duodeno quando há gordura para digerir."
+    },
+    {
+      "id": 66,
+      "assunto": "Sistema digestório",
+      "enunciado": "A principal função da bile na digestão é:",
+      "alternativas": [
+        { "letra": "A", "texto": "emulsificar (emulsionar) as gorduras, sem enzimas digestivas", "correta": true },
+        { "letra": "B", "texto": "digestir proteínas com enzimas proteolíticas", "correta": false },
+        { "letra": "C", "texto": "digerir carboidratos complexos", "correta": false },
+        { "letra": "D", "texto": "neutralizar a bile no intestino grosso", "correta": false }
+      ],
+      "explicacao": "A bile não contém enzimas: seus sais biliares emulsificam as gorduras, quebrando-as em gotículas menores para a lipase atuar de forma mais eficiente."
+    },
+    {
+      "id": 67,
+      "assunto": "Sistema digestório",
+      "enunciado": "A digestão das gorduras ocorre principalmente:",
+      "alternativas": [
+        { "letra": "A", "texto": "no intestino delgado, pela lipase pancreática", "correta": true },
+        { "letra": "B", "texto": "no estômago, pela pepsina", "correta": false },
+        { "letra": "C", "texto": "na boca, pela amilase", "correta": false },
+        { "letra": "D", "texto": "no intestino grosso, pela bile", "correta": false }
+      ],
+      "explicacao": "A lipase, produzida pelo pâncreas e ativa no duodeno, digere triglicerídeos em ácidos graxos e glicerol. A bile apenas emulsifica, sem digerir."
+    },
+    {
+      "id": 68,
+      "assunto": "Sistema digestório",
+      "enunciado": "O principal local de absorção dos nutrientes é:",
+      "alternativas": [
+        { "letra": "A", "texto": "o intestino delgado, nas vilosidades e microvilosidades", "correta": true },
+        { "letra": "B", "texto": "o estômago", "correta": false },
+        { "letra": "C", "texto": "o intestino grosso", "correta": false },
+        { "letra": "D", "texto": "o esôfago", "correta": false }
+      ],
+      "explicacao": "Quase toda a absorção ocorre no intestino delgado, cuja grande área (vilosidades + microvilosidades) contém capilares sanguíneos e linfáticos (quilíferos) que captam os nutrientes."
+    },
+    {
+      "id": 69,
+      "assunto": "Sistema digestório",
+      "enunciado": "O intestino grosso tem como função principal:",
+      "alternativas": [
+        { "letra": "A", "texto": "absorver água e sais, formando as fezes", "correta": true },
+        { "letra": "B", "texto": "digerir proteínas com pepsina", "correta": false },
+        { "letra": "C", "texto": "absorver aminoácidos nas vilosidades", "correta": false },
+        { "letra": "D", "texto": "produzir suco gástrico", "correta": false }
+      ],
+      "explicacao": "No intestino grosso ocorre a reabsorção de água e sais minerais, a formação das fezes e a ação da microbiota (produção de vitaminas K e complexo B). Aminoácidos são absorvidos no delgado."
+    },
+    {
+      "id": 70,
+      "assunto": "Sistema digestório",
+      "enunciado": "Os movimentos peristálticos são contrações de músculo liso que:",
+      "alternativas": [
+        { "letra": "A", "texto": "empurram o alimento ao longo do tubo digestório", "correta": true },
+        { "letra": "B", "texto": "digerem quimicamente os alimentos", "correta": false },
+        { "letra": "C", "texto": "produzem enzimas digestivas", "correta": false },
+        { "letra": "D", "texto": "ocorrem apenas no esôfago esquelético", "correta": false }
+      ],
+      "explicacao": "O peristaltismo são ondas de contração do músculo liso que conduzem o bolo alimentar por todo o tubo. O esôfago, embora em parte esquelético, também usa peristaltismo para levar o alimento ao estômago."
+    },
+    {
+      "id": 71,
+      "assunto": "Sistema digestório",
+      "enunciado": "As glândulas anexas do sistema digestório são:",
+      "alternativas": [
+        { "letra": "A", "texto": "salivares, pâncreas e fígado", "correta": true },
+        { "letra": "B", "texto": "tireoide, hipófise e suprarrenais", "correta": false },
+        { "letra": "C", "texto": "glândulas sudoríparas e sebáceas", "correta": false },
+        { "letra": "D", "texto": "brônquios e alvéolos", "correta": false }
+      ],
+      "explicacao": "As glândulas salivares, o pâncreas e o fígado são as glândulas anexas que despejam suas secreções (saliva, suco pancreático e bile) no tubo digestório. Tireoide, hipófise e suprarrenais são endócrinas."
+    },
+    {
+      "id": 72,
+      "assunto": "Sistema digestório",
+      "enunciado": "O suco pancreático é rico em:",
+      "alternativas": [
+        { "letra": "A", "texto": "tripsina, quimotripsina, amilase e lipase", "correta": true },
+        { "letra": "B", "texto": "pepsina e HCl", "correta": false },
+        { "letra": "C", "texto": "apenas sais biliares", "correta": false },
+        { "letra": "D", "texto": "amilase salivar e muco", "correta": false }
+      ],
+      "explicacao": "O pâncreas secreta o suco pancreático com várias enzimas: tripsina e quimotripsina (proteínas), amilase pancreática (amido) e lipase (gorduras), além de bicarbonato para neutralizar o quimo ácido."
+    },
+    {
+      "id": 73,
+      "assunto": "Sistema digestório",
+      "enunciado": "As enzimas do suco entérico (intestinal) — maltase e sacarase — digerem:",
+      "alternativas": [
+        { "letra": "A", "texto": "dissacarídeos em monossacarídeos", "correta": true },
+        { "letra": "B", "texto": "proteínas em aminoácidos", "correta": false },
+        { "letra": "C", "texto": "gorduras em ácidos graxos", "correta": false },
+        { "letra": "D", "texto": "amido em glicose diretamente", "correta": false }
+      ],
+      "explicacao": "A maltase quebra maltose em glicose e a sacarase quebra sacarose em glicose + frutose. Essas enzimas do intestino delgado finalizam a digestão dos açúcares em monossacarídeos absorvíveis."
+    },
+    {
+      "id": 74,
+      "assunto": "Sistema digestório",
+      "enunciado": "O hormônio que estimula a produção de suco gástrico no estômago é:",
+      "alternativas": [
+        { "letra": "A", "texto": "a gastrina", "correta": true },
+        { "letra": "B", "texto": "a secretina", "correta": false },
+        { "letra": "C", "texto": "a colecistocinina (CCK)", "correta": false },
+        { "letra": "D", "texto": "a insulina", "correta": false }
+      ],
+      "explicacao": "A gastrina, secretada pela mucosa gástrica, estimula as células parietais e principais a produzirem HCl e pepsinogênio. A secretina e a CCK atuam no duodeno; a insulina controla a glicemia."
+    },
+    {
+      "id": 75,
+      "assunto": "Sistema digestório",
+      "enunciado": "A secretina é liberada pelo duodeno e estimula:",
+      "alternativas": [
+        { "letra": "A", "texto": "o pâncreas a secretar bicarbonato para neutralizar o quimo ácido", "correta": true },
+        { "letra": "B", "texto": "o estômago a liberar mais HCl", "correta": false },
+        { "letra": "C", "texto": "a vesícula biliar a contrair", "correta": false },
+        { "letra": "D", "texto": "a salivação na boca", "correta": false }
+      ],
+      "explicacao": "Quando o quimo ácido chega ao duodeno, a secretina é liberada e induz o pâncreas a secretar bicarbonato, elevando o pH para as enzimas intestinais atuarem. A contração da vesícula é papel da CCK."
+    },
+    {
+      "id": 76,
+      "assunto": "Sistema digestório",
+      "enunciado": "A colecistocinina (CCK) tem como função principal:",
+      "alternativas": [
+        { "letra": "A", "texto": "estimular a contração da vesícula biliar e a liberação de suco pancreático", "correta": true },
+        { "letra": "B", "texto": "inibir todas as enzimas digestivas", "correta": false },
+        { "letra": "C", "texto": "aumentar a acidez do estômago", "correta": false },
+        { "letra": "D", "texto": "estimular a mastigação", "correta": false }
+      ],
+      "explicacao": "A CCK, liberada diante de gorduras e proteínas no duodeno, faz a vesícula biliar contrair (liberando bile) e o pâncreas secretar enzimas — garantindo a digestão de lipídeos e proteínas."
+    },
+    {
+      "id": 77,
+      "assunto": "Sistema digestório",
+      "enunciado": "A digestão mecânica inclui:",
+      "alternativas": [
+        { "letra": "A", "texto": "mastigação, peristaltismo e emulsificação pela bile", "correta": true },
+        { "letra": "B", "texto": "ação da pepsina sobre proteínas", "correta": false },
+        { "letra": "C", "texto": "digestão do amido pela amilase", "correta": false },
+        { "letra": "D", "texto": "absorção de água no intestino grosso", "correta": false }
+      ],
+      "explicacao": "Digestão mecânica é a trituração e mistura do alimento sem quebra química de moléculas: mastigação, peristaltismo e a emulsificação (que só aumenta a superfície das gotículas de gordura)."
+    },
+    {
+      "id": 78,
+      "assunto": "Sistema digestório",
+      "enunciado": "A quimificação é o processo que transforma o bolo alimentar em quimo, e ocorre:",
+      "alternativas": [
+        { "letra": "A", "texto": "no estômago, pela ação do suco gástrico", "correta": true },
+        { "letra": "B", "texto": "na boca, pela saliva", "correta": false },
+        { "letra": "C", "texto": "no intestino grosso", "correta": false },
+        { "letra": "D", "texto": "no esôfago", "correta": false }
+      ],
+      "explicacao": "No estômago, o bolo alimentar é misturado ao suco gástrico, formando uma massa semifluida chamada quimo. No intestino, o quimo vira quilo após a ação dos sucos intestinais."
+    },
+    {
+      "id": 79,
+      "assunto": "Sistema digestório",
+      "enunciado": "A microbiota intestinal, presente principalmente no intestino grosso, é importante porque:",
+      "alternativas": [
+        { "letra": "A", "texto": "produz vitaminas (K e complexo B) e auxilia na proteção contra patógenos", "correta": true },
+        { "letra": "B", "texto": "digere as proteínas do alimento", "correta": false },
+        { "letra": "C", "texto": "produz bile e suco pancreático", "correta": false },
+        { "letra": "D", "texto": "absorve glicose no delgado", "correta": false }
+      ],
+      "explicacao": "As bactérias do intestino grosso produzem vitaminas K e do complexo B e competem com microrganismos patogênicos. As enzimas digestivas vêm do nosso corpo; a bile, do fígado."
+    },
+    {
+      "id": 80,
+      "assunto": "Sistema digestório",
+      "enunciado": "Produtos finais da digestão de carboidratos, proteínas e lipídeos, respectivamente:",
+      "alternativas": [
+        { "letra": "A", "texto": "monossacarídeos, aminoácidos e ácidos graxos + glicerol", "correta": true },
+        { "letra": "B", "texto": "aminoácidos, monossacarídeos e colesterol", "correta": false },
+        { "letra": "C", "texto": "glicerol, aminoácidos e peptídeos", "correta": false },
+        { "letra": "D", "texto": "dissacarídeos, dipeptídeos e ácidos graxos", "correta": false }
+      ],
+      "explicacao": "Carboidratos são reduzidos a monossacarídeos (glicose, frutose), proteínas a aminoácidos e lipídeos a ácidos graxos + glicerol — as moléculas absorvíveis pelas vilosidades intestinais."
+    }
+  ]
+}
