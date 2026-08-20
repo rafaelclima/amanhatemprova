@@ -51,7 +51,7 @@ Verifique SE e SOMENTE SE os seguintes critérios foram atendidos:
 - [ ] `fetch('./data/questions.json')` trata `file://` gracefuly (aviso dev, não trava UI)
 - [ ] ✅ RESUMO contém blocos pedagógicos para **100% dos assuntos** da entrada (sem omissões)
 - [ ] ✅ Checklist de preparação cobre todos os tópicos listados
-- [ ] ✅ **Quiz avança corretamente** por todas as 10 questões (sem travar na 2ª)
+- [ ] ✅ **Quiz avança corretamente** por todas as 20 questões (sem travar na 2ª)
 - [ ] ✅ **Feedback do quiz tem contraste legível** (texto sobre fundo verde/vermelho com contraste >= 4.5:1, usando --ds-success-text e --ds-error-text)
 - [ ] ✅ **Zero `confirm()` / `alert()`** — modais customizados com .ds-modal-overlay e aria-modal
 - [ ] ✅ **Telas de resultado completas** — score + mensagem + breakdown por assunto com barras de progresso + botão refazer

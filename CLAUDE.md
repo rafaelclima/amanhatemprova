@@ -11,7 +11,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working in this
 ```
 index.html              → Landing page (student selection: Lara / Liz)
 Lara/                   → Lara's study materials
-  index.html            → Subject list (Matemática, Física, Biologia)
+  index.html            → Subject list (Matemática, Física, Biologia, Português, Literatura)
   Matematica/           → Subject index → topic pages
   Fisica/               → Subject index → topic pages
   Biologia/             → Subject index → topic pages
@@ -23,7 +23,7 @@ Liz/                    → Liz's study materials
   Portugues/            → Subject index → topic pages
   Ciencias/             → Subject index → topic pages
 site/                   → Secondary/alternate landing page
-.github/workflows/      → GitHub Pages deploy (pushes on merge to main)
+.github/workflows/      → GitHub Pages deploy (auto-deploy on push to master)
 ```
 
 ### Navigation hierarchy

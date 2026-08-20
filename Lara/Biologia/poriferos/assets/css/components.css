@@ -7,7 +7,16 @@
   border-bottom: 1px solid var(--ds-border); padding: var(--space-4) 0;
   box-shadow: var(--shadow-sm); transition: background var(--dur-normal);
 }
-.ds-nav { display: flex; align-items: center; justify-content: space-between; }
+.ds-nav { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.ds-nav__back {
+  display: inline-flex; align-items: center; gap: var(--space-2);
+  color: var(--ds-text-light); text-decoration: none; font-size: var(--fs-sm);
+  font-weight: 500; transition: all var(--dur-fast) var(--ease-out);
+  flex-shrink: 0;
+}
+.ds-nav__back:hover { color: var(--ds-primary); }
+.ds-nav__back:hover svg { transform: translateX(-3px); }
+.ds-nav__back svg { transition: transform var(--dur-fast) var(--ease-out); }
 .ds-nav__brand { font-weight: 800; font-size: var(--fs-xl); background: linear-gradient(135deg, var(--ds-primary), var(--ds-secondary)); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .ds-nav__list { list-style: none; display: flex; gap: var(--space-2); padding: 4px; background: var(--ds-surface); border-radius: var(--radius-xl); border: 1px solid var(--ds-border); }
 .ds-nav__link {
