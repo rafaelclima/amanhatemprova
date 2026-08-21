@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandezas, Tabelas e Polígonos - 4º Ano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <a href="../index.html" class="btn-back" title="Voltar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Voltar</span>
+            </a>
+            <h1 class="main-title">Grandezas, Tabelas e Polígonos 📏</h1>
+            <p class="subtitle">4º Ano — Medidas, tabelas, gráficos e formas planas</p>
+        </header>
+
+        <nav class="tabs-nav" role="tablist">
+            <button class="tab-btn active" data-tab="resumo" role="tab" aria-selected="true">📚 Resumo</button>
+            <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false">❓ Quiz (20)</button>
+            <button class="tab-btn" data-tab="simulado" role="tab" aria-selected="false">📝 Simulado (10)</button>
+            <button class="tab-btn" data-tab="jogo" role="tab" aria-selected="false">🧮 Jogo do Cálculo</button>
+        </nav>
+
+        <div class="content-area">
+
+            <!-- ==================== RESUMO ==================== -->
+            <div id="resumo" class="tab-content active">
+                <div class="card summary-card">
+                    <h2>Grandezas, Tabelas e Polígonos 📏📊🔷</h2>
+
+                    <div class="topic-section">
+                        <h3>⏰ Capítulo 8 — Medidas de tempo (p. 66–71)</h3>
+                        <p>Medir o tempo é organizar o nosso dia! Usamos o <strong>relógio</strong> e o <strong>calendário</strong> para saber quando as coisas acontecem.</p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>⏱️ <strong>Hora, minuto e segundo:</strong> 1 hora tem <strong>60 minutos</strong> e 1 minuto tem <strong>60 segundos</strong>. O ponteiro pequeno marca a hora e o grande, os minutos.</li>
+                            <li>📅 <strong>Dia, semana, mês e ano:</strong> 1 dia tem <strong>24 horas</strong>, 1 semana tem <strong>7 dias</strong>, 1 mês tem 28 a 31 dias e 1 ano tem <strong>12 meses</strong> (ou 365 dias).</li>
+                            <li>🕐 <strong>Como ler as horas:</strong> relógio analógico (ponteiros) e digital (números). Ex.: 14h = 2h da tarde.</li>
+                            <li>🔄 <strong>Conversões:</strong> 2 h = 120 min (2 × 60) | 3 dias = 72 h (3 × 24) | 1 h e 30 min = 90 min.</li>
+                        </ul>
+                        <div class="destaque">1 h = 60 min | 1 min = 60 s | 1 dia = 24 h | 1 semana = 7 dias | 1 ano = 12 meses</div>
+                        <div class="dica">🧠 Dica: Para transformar horas em minutos, multiplique por 60. Para minutos em segundos, também × 60!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>⚖️ Medidas de massa (p. 72–74) e 📏 Medidas de comprimento (p. 75–78)</h3>
+                        <p>A <strong>massa</strong> é o "peso" das coisas e o <strong>comprimento</strong> é o tamanho/distância. Medimos os dois no dia a dia!</p>
+                        <p><strong>Massa — quanto pesa?</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>⚖️ Unidade principal: <strong>quilograma (kg)</strong>. Usamos também o <strong>grama (g)</strong> e a <strong>tonelada (t)</strong>.</li>
+                            <li>🔄 <strong>Conversões:</strong> 1 kg = <strong>1.000 g</strong> | 1 t = 1.000 kg. Ex.: 2 kg = 2.000 g | 500 g = 0,5 kg (meio quilo).</li>
+                            <li>🧃 Instrumento: <strong>balança</strong> (de cozinha, de mercado, digital).</li>
+                        </ul>
+                        <p><strong>Comprimento — qual o tamanho?</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>📏 Unidades: <strong>quilômetro (km)</strong>, <strong>metro (m)</strong>, <strong>centímetro (cm)</strong> e <strong>milímetro (mm)</strong>.</li>
+                            <li>🔄 <strong>Conversões:</strong> 1 km = <strong>1.000 m</strong> | 1 m = <strong>100 cm</strong> | 1 cm = 10 mm. Ex.: 3 m = 300 cm | 2 km = 2.000 m.</li>
+                            <li>📐 Instrumentos: <strong>régua</strong>, <strong>trena</strong>, <strong>fita métrica</strong>.</li>
+                        </ul>
+                        <div class="destaque">Massa: 1 kg = 1.000 g | Comprimento: 1 km = 1.000 m | 1 m = 100 cm</div>
+                        <div class="dica">🧠 Dica: Massa (balança) = kg e g | Comprimento (régua) = km, m e cm. Para kg→g ou km→m, × 1.000!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🧴 Medidas de capacidade (p. 79–81) e 🌡️ Medidas de temperatura (p. 82–85)</h3>
+                        <p><strong>Capacidade</strong> é quanto cabe dentro de um recipiente. <strong>Temperatura</strong> é o quanto algo está quente ou frio.</p>
+                        <p><strong>Capacidade — quanto cabe?</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🥛 Unidades: <strong>litro (L)</strong> e <strong>mililitro (mL)</strong>.</li>
+                            <li>🔄 <strong>Conversão:</strong> 1 L = <strong>1.000 mL</strong>. Ex.: 2 L = 2.000 mL | 500 mL = meio litro.</li>
+                            <li>🧃 Exemplos: garrafa de refrigerante (2 L), copo (200 mL), caixa de leite (1 L).</li>
+                        </ul>
+                        <p><strong>Temperatura — está quente ou frio?</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🌡️ Unidade: <strong>grau Celsius (°C)</strong>. Instrumento: <strong>termômetro</strong>.</li>
+                            <li>❄️🔥 Exemplos: gelo = 0 °C | febre = acima de 37,5 °C | água fervendo = 100 °C | dia quente = 30 °C.</li>
+                            <li>📈 Quanto maior o número, mais quente. Quanto menor, mais frio. Temperaturas podem ser negativas: -2 °C é frio!</li>
+                        </ul>
+                        <div class="destaque">1 L = 1.000 mL | Temperatura em °C no termômetro | 0 °C = gelo | 100 °C = água fervendo</div>
+                        <div class="dica">🧠 Dica: Capacidade (líquidos) = L e mL (× 1.000). Temperatura = °C no termômetro!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>📊 Capítulo 9 — Tabelas e gráficos (p. 98–109)</h3>
+                        <p>Tabelas e gráficos organizam informações para a gente entender rápido, comparando números e quantidades!</p>
+                        <p><strong>1. Elementos de uma tabela (p. 98–100):</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>📋 <strong>Título:</strong> diz do que a tabela fala.</li>
+                            <li>↔️ <strong>Colunas</strong> (verticais) e <strong>linhas</strong> (horizontais) — onde ficam os dados.</li>
+                            <li>🔠 <strong>Cabeçalho:</strong> primeira linha que explica cada coluna.</li>
+                            <li>📌 <strong>Fonte:</strong> de onde vieram os dados. Ex.: "Fonte: pesquisa da turma".</li>
+                        </ul>
+                        <p><strong>2. Gráfico de colunas (p. 102–107):</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>📊 Colunas <strong>verticais</strong> (em pé). Quanto mais alta a coluna, maior o valor.</li>
+                            <li>🔍 Serve para <strong>comparar</strong> quantidades. A coluna mais alta = maior número.</li>
+                            <li>Tem <strong>título</strong>, <strong>eixos</strong> (nomes embaixo e do lado) e <strong>legenda</strong>.</li>
+                        </ul>
+                        <p><strong>3. Gráfico de barras e pictográfico (p. 108–109):</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>📶 <strong>Gráfico de barras:</strong> barras <strong>horizontais</strong> (deitadas). Mesma ideia das colunas!</li>
+                            <li>🖼️ <strong>Pictográfico:</strong> usa <strong>desenhos</strong> (pictogramas) para representar quantidades. Ex.: cada desenho de bola = 10 bolas.</li>
+                            <li>⚠️ No pictográfico, atenção à <strong>legenda</strong> que diz quanto cada desenho vale!</li>
+                        </ul>
+                        <div class="destaque">Tabela = linhas + colunas | Colunas = verticais | Barras = horizontais | Pictográfico = desenhos (ver legenda!)</div>
+                        <div class="dica">🧠 Dica: Para ler um gráfico, veja o título, os eixos e qual coluna/barra é a mais alta ou mais baixa!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🔷 Capítulo 10 — Polígonos (p. 129–131)</h3>
+                        <p>Polígonos são <strong>figuras planas fechadas</strong> feitas só com <strong>segmentos de reta</strong> (linhas retas). Não têm curvas!</p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🔶 <strong>O que é um polígono?</strong> Figura fechada, sem curvas, formada por segmentos de reta. Tem <strong>lados</strong> e <strong>vértices</strong> (os cantinhos onde os lados se encontram).</li>
+                            <li>📐 <strong>Triângulo:</strong> 3 lados e 3 vértices.</li>
+                            <li>⬜ <strong>Quadrado:</strong> 4 lados <strong>iguais</strong> e 4 vértices.</li>
+                            <li>▭ <strong>Retângulo:</strong> 4 lados (2 pares iguais) e 4 vértices.</li>
+                            <li>⬠ <strong>Pentágono:</strong> 5 lados e 5 vértices.</li>
+                            <li>⬡ <strong>Hexágono:</strong> 6 lados e 6 vértices.</li>
+                            <li>⭕ <strong>Não é polígono:</strong> o <strong>círculo</strong> (tem curva!) e figuras abertas.</li>
+                        </ul>
+                        <div class="destaque">Polígono = figura fechada com segmentos de reta<br>3 lados = triângulo | 4 lados = quadrado/retângulo | 5 = pentágono | 6 = hexágono</div>
+                        <div class="dica">🧠 Dica: Conte os lados! Tri (3) - Quadri (4) - Penta (5) - Hexa (6). Se tem curva (círculo), NÃO é polígono!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>✅ Dicas finais</h3>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:2;">
+                            <li>📌 Tempo: 1 h = 60 min | 1 dia = 24 h | 1 semana = 7 dias. Multiplique para converter!</li>
+                            <li>📌 Massa: 1 kg = 1.000 g | Comprimento: 1 km = 1.000 m e 1 m = 100 cm | Capacidade: 1 L = 1.000 mL.</li>
+                            <li>📌 Temperatura em °C no termômetro: 0 °C gelo, 37 °C corpo, 100 °C fervendo.</li>
+                            <li>📌 Tabela tem título, colunas, linhas e cabeçalho. Gráfico de colunas = vertical; barras = horizontal; pictográfico = desenhos (ver legenda!)</li>
+                            <li>📌 Polígono = fechado + só retas. Triângulo (3), quadrado (4), pentágono (5), hexágono (6). Círculo NÃO é polígono!</li>
+                            <li>📌 Na prova, leia o título do gráfico/tabela com atenção e veja qual barra/coluna é a maior ou menor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== QUIZ ==================== -->
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">❓ Quiz de Grandezas e Polígonos</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Responda as 20 perguntas — calcule com calma e veja o feedback na hora!</p>
+                    <div id="quiz-progress" class="progress-text">Questão 1/20</div>
+                    <div id="quiz-container"></div>
+                    <div id="quiz-feedback" class="feedback-area hidden"></div>
+                    <div id="quiz-buttons" style="text-align:center;margin-top:20px;">
+                        <button id="quiz-next-btn" class="btn hidden" onclick="proximaQuestaoQuiz()">➡️ Próxima</button>
+                    </div>
+                    <div id="quiz-result" class="result-card hidden">
+                        <h3>📊 Resultado</h3>
+                        <div class="score-text">0/20</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarQuiz()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== SIMULADO ==================== -->
+            <div id="simulado" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">📝 Simulado</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">10 perguntas para testar seus conhecimentos!</p>
+                    <div id="simulado-container"></div>
+                    <div style="text-align:center;margin-top:20px;">
+                        <button class="btn" onclick="finalizarSimulado()">✅ Finalizar Simulado</button>
+                    </div>
+                    <div id="simulado-result" class="result-card hidden">
+                        <h3>📊 Resultado do Simulado</h3>
+                        <div class="score-text">0/10</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarSimulado()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== JOGO ==================== -->
+            <div id="jogo" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">🧮 Jogo do Cálculo</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Calcule rápido: conversões de medidas, leitura de gráficos e polígonos!</p>
+                    <div id="jogo-container" class="jogo-container">
+                        <div class="jogo-info">
+                            <span>Acertos: <strong id="jogo-acertos">0</strong></span>
+                            <span>Pontos: <strong id="jogo-pontos">0</strong></span>
+                            <span>Sequência: <strong id="jogo-sequencia">0</strong> 🔥</span>
+                        </div>
+                        <div class="jogo-pergunta" id="jogo-pergunta">Quanto é 2 h em minutos?</div>
+                        <div class="jogo-opcoes" id="jogo-opcoes"></div>
+                        <div id="jogo-mensagem" style="text-align:center;margin-top:20px;font-size:1.2rem;font-weight:700;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="main-footer">
+            <p>Feito pelo Papi ❤️ — 4º Ano • Ensino Fundamental</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
