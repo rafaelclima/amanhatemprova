@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microrganismos - 4º Ano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <a href="../index.html" class="btn-back" title="Voltar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Voltar</span>
+            </a>
+            <h1 class="main-title">Microrganismos 🦠</h1>
+            <p class="subtitle">4º Ano — Cap. 11 Um mundo quase invisível + Cap. 12 Usando os microrganismos</p>
+        </header>
+
+        <nav class="tabs-nav" role="tablist">
+            <button class="tab-btn active" data-tab="resumo" role="tab" aria-selected="true">📚 Resumo</button>
+            <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false">❓ Quiz (20)</button>
+            <button class="tab-btn" data-tab="simulado" role="tab" aria-selected="false">📝 Simulado (10)</button>
+            <button class="tab-btn" data-tab="jogo" role="tab" aria-selected="false">🦠 Micro Rush</button>
+        </nav>
+
+        <div class="content-area">
+
+            <!-- ==================== RESUMO ==================== -->
+            <div id="resumo" class="tab-content active">
+                <div class="card summary-card">
+                    <h2>Microrganismos — Um Mundo Quase Invisível 🔬🦠</h2>
+
+                    <div class="topic-section">
+                        <h3>🔬 Tão pequenos e tão importantes: o que são microrganismos?</h3>
+                        <p><strong>Microrganismos</strong> (ou micróbios) são seres vivos <strong>minúsculos</strong>, tão pequenos que só conseguimos vê-los com um <strong>microscópio</strong>! 🔬</p>
+                        <div class="destaque">micro = pequeno &nbsp;|&nbsp; organismo = ser vivo &nbsp;|&nbsp; microscópio = aparelho que aumenta a imagem</div>
+                        <p>E atenção: <strong>nem todo microrganismo faz mal</strong>! Muitos são úteis e até amigos da gente — ajudam a fazer alimentos e protegem nosso corpo. Só alguns causam doenças.</p>
+                        <div class="dica">🧠 Dica de prova: "todo microrganismo faz mal" é MITO! ❌ Muitos são úteis e necessários! ✅</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🌍 Microrganismos em todo lugar</h3>
+                        <p>Eles estão <strong>em toda parte</strong>: no ar, na água, no solo, nos alimentos... e até <strong>dentro e sobre o nosso corpo</strong>! Por isso a <strong>higiene</strong> é tão importante:</p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🧼 <strong>Lavar as mãos</strong> com água e sabão (antes de comer e depois do banheiro).</li>
+                            <li>🍎 <strong>Lavar frutas e verduras</strong> antes de comer.</li>
+                            <li>💧 <strong>Beber água tratada/filtrada</strong> e guardar bem os alimentos.</li>
+                            <li>🤧 <strong>Cobrir a boca</strong> ao tossir ou espirrar (os microrganismos viajam no ar!).</li>
+                        </ul>
+                        <div class="destaque">Higiene não acaba com TODOS os microrganismos — ela tira os que podem fazer mal! 🧼</div>
+                        <div class="dica">🧠 Dica: espirro e tosse espalham microrganismos pelo AR. Por isso usamos o antebraço ou lenço!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🦠 Vários tipos de microrganismos</h3>
+                        <p>Existem vários grupos. Conheça os 4 principais:</p>
+                        <table>
+                            <tr><th>Tipo</th><th>O que é</th><th>Exemplo</th></tr>
+                            <tr><td><strong>🦠 Vírus</strong></td><td>Minúsculo, só se multiplica dentro de outro ser vivo; causa gripes e resfriados</td><td>Vírus da gripe 🤧</td></tr>
+                            <tr><td><strong>🔬 Bactérias</strong></td><td>Seres de uma célula só; algumas causam doenças, outras são úteis (iogurte!)</td><td>Lactobacilos do iogurte 🥛</td></tr>
+                            <tr><td><strong>🍄 Fungos</strong></td><td>Incluem mofo, levedura e cogumelos; decompõem restos e fazem pão crescer</td><td>Mofo do pão, levedura 🍞</td></tr>
+                            <tr><td><strong>💧 Protozoários</strong></td><td>Seres de uma célula que vivem na água; alguns causam doenças</td><td>Protozoário da água parada 💧</td></tr>
+                        </table>
+                        <div class="destaque">Vírus → gripes 🤧 &nbsp;|&nbsp; Bactérias → algumas boas, algumas ruins &nbsp;|&nbsp; Fungos → mofo e fermento &nbsp;|&nbsp; Protozoários → vivem na água</div>
+                        <div class="dica">🧠 Dica: <strong>mofo</strong> é FUNGO! E o <strong>fermento do pão</strong> (levedura) também é fungo — um fungo amigo! 🍞</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🍞 Usando microrganismos para preparar alimentos</h3>
+                        <p>Há milhares de anos usamos microrganismos na cozinha! Eles transformam os alimentos num processo chamado <strong>fermentação</strong>:</p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🍞 <strong>Pão:</strong> as <strong>leveduras</strong> (fungos) fazem a massa <strong>crescer</strong> e ficar fofinha.</li>
+                            <li>🥛 <strong>Iogurte:</strong> os <strong>lactobacilos</strong> (bactérias) transformam o leite.</li>
+                            <li>🧀 <strong>Queijo:</strong> bactérias e fungos ajudam a dar sabor e textura.</li>
+                        </ul>
+                        <div class="destaque">Fermentação = microrganismos transformando o alimento 🍞🥛🧀</div>
+                        <div class="dica">🧠 Dica de prova: pão cresce por causa de um FUNGO (levedura) e iogurte existe por causa de uma BACTÉRIA (lactobacilo)!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🤝 Microamigos, microbiota e animais ruminantes</h3>
+                        <p><strong>Microamigos</strong> são os microrganismos que <strong>ajudam</strong> a gente! O conjunto deles que vive no nosso corpo (principalmente no intestino) se chama <strong>microbiota</strong> (ou flora intestinal). Eles ajudam na <strong>digestão</strong> e protegem contra microrganismos ruins!</p>
+                        <div class="destaque">Microbiota = comunidade de microrganismos amigos que mora na gente 🦠💛</div>
+                        <p><strong>E os ruminantes?</strong> 🐄 Animais como <strong>vaca, boi, cabra e ovelha</strong> comem capim — que é difícil de digerir! Microrganismos que moram na barriga deles ajudam a <strong>digerir a planta</strong>. Por isso eles mastigam, engolem, e depois <strong>regurgitam e mastigam de novo</strong> (ruminação)!</p>
+                        <div class="destaque">Ruminantes: vaca 🐄 + capim 🌱 + microrganismos da barriga = digestão completa!</div>
+                        <div class="dica">🧠 Dica: ruminar = mastigar duas vezes! E quem faz a mágica da digestão do capim são os MICRORGANISMOS da barriga!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>✅ Para relembrar + Checklist</h3>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:2;">
+                            <li>📌 Microrganismos: seres minúsculos, visíveis só com microscópio.</li>
+                            <li>📌 Nem todos fazem mal — muitos são úteis e amigos!</li>
+                            <li>📌 Estão em todo lugar: ar, água, solo, corpo e alimentos → higiene sempre!</li>
+                            <li>📌 4 tipos: vírus (gripes), bactérias (algumas boas), fungos (mofo, levedura), protozoários (água).</li>
+                            <li>📌 Fermentação: leveduras fazem o pão crescer; lactobacilos fazem o iogurte.</li>
+                            <li>📌 Microbiota: microrganismos amigos do nosso intestino, ajudam na digestão.</li>
+                            <li>📌 Ruminantes (vaca, cabra, ovelha) digerem capim com ajuda de microrganismos e ruminam.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== QUIZ ==================== -->
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">❓ Quiz de Microrganismos</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Responda as 20 perguntas — cada uma tem feedback na hora!</p>
+                    <div id="quiz-progress" class="progress-text">Questão 1/20</div>
+                    <div id="quiz-container"></div>
+                    <div id="quiz-feedback" class="feedback-area hidden"></div>
+                    <div id="quiz-buttons" style="text-align:center;margin-top:20px;">
+                        <button id="quiz-next-btn" class="btn hidden" onclick="proximaQuestaoQuiz()">➡️ Próxima</button>
+                    </div>
+                    <div id="quiz-result" class="result-card hidden">
+                        <h3>📊 Resultado</h3>
+                        <div class="score-text">0/20</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarQuiz()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== SIMULADO ==================== -->
+            <div id="simulado" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">📝 Simulado</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">10 perguntas para testar seus conhecimentos!</p>
+                    <div id="simulado-container"></div>
+                    <div style="text-align:center;margin-top:20px;">
+                        <button class="btn" onclick="finalizarSimulado()">✅ Finalizar Simulado</button>
+                    </div>
+                    <div id="simulado-result" class="result-card hidden">
+                        <h3>📊 Resultado do Simulado</h3>
+                        <div class="score-text">0/10</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarSimulado()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== JOGO ==================== -->
+            <div id="jogo" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">🦠 Micro Rush</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Cada rodada é diferente: escolha a resposta OU julgue Verdadeiro/Mito! Sem repetição até zerar o baralho! 🃏</p>
+                    <div id="jogo-container" class="jogo-container">
+                        <div class="jogo-info">
+                            <span>Acertos: <strong id="jogo-acertos">0</strong></span>
+                            <span>Pontos: <strong id="jogo-pontos">0</strong></span>
+                            <span>Sequência: <strong id="jogo-sequencia">0</strong> 🔥</span>
+                        </div>
+                        <div class="jogo-pergunta" id="jogo-pergunta" style="font-size:1.6rem;">Vamos começar!</div>
+                        <div class="jogo-opcoes" id="jogo-opcoes"></div>
+                        <div id="jogo-mensagem" style="text-align:center;margin-top:20px;font-size:1.2rem;font-weight:700;"></div>
+                        <div id="jogo-nivel" style="text-align:center;margin-top:10px;font-size:1rem;color:var(--text);opacity:0.85;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="main-footer">
+            <p>Feito pelo Papi ❤️ — 4º Ano • Ensino Fundamental</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
