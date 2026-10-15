@@ -29,6 +29,12 @@ template/               → Gen 2 topic page template
 
 Gen 1 accent: Lara purple `#6366f1`, Liz pink `#f472b6`.
 
+### Known legacy exceptions (do not "fix" silently)
+
+- `Lara/Biologia/nucleo_fotossintese_respiracao/` — custom `assets/js/app.js` paired with a **different schema**: `questions[]`, `alternativas[].id`, correct letter in `q.correta`. Edit JS and JSON together; the template schema does not apply here.
+- `Liz/geografia/mapas_regioes/` and `Liz/historia/pre_historia/` — legacy embedded banks (`quizData` / `allQuestions`, correct answer as an index in `correct`). Keep their `script.js` format when adding questions.
+- Older Gen 2 pages (`fungos_algas_protozoarios`, `cinematica_vetores`, `nucleo_fotossintese_respiracao`) keep pre-template nav markup, but the back link must still point to `../index.html`.
+
 ## Topic Page Features (Gen 2)
 
 Each Gen 2 topic page has 3 sections toggled by JS hash routing (`assets/js/app.js`):
@@ -118,8 +124,15 @@ Steps:
    /prompt.md
    /.claude
    ```
-10. **Update parent index page**: fix "X assunto(s) disponível(is)" count and add topic link card
+10. **Update parent index page**: fix "X assunto(s) disponível(is)" count (the number must equal the amount of topic directories) and add topic link card
 11. **Verify relative paths**: back button in topic page → `../index.html` (subject index), assets at `assets/css/*`
+
+## Adding a New Subject
+
+1. `mkdir -p {Lara|Liz}/NovaMateria`
+2. Create `NovaMateria/index.html` from an existing subject index of the same student (Lara: `Lara/Biologia/index.html`, purple `#6366f1`; Liz: `Liz/Ciencias/index.html`, pink `#f472b6`): inline-style header with subject badge, `topics-grid`, back link `../index.html`, icon in the badge.
+3. Add the subject card to `{Lara|Liz}/index.html` (icon + "N assunto(s) disponível(is)").
+4. Create the topics inside it following the template workflow above.
 
 ### Liz Variation
 
