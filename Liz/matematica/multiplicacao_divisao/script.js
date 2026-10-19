@@ -362,7 +362,7 @@ function mostrarQuestaoQuiz() {
 
 function responderQuiz(respostaIdx) {
   const q = questoesQuiz[quizIndex];
-  const labels = document.querySelectorAll('.alternativa-item');
+  const labels = document.querySelectorAll('#quiz-container .alternativa-item');
   labels.forEach(l => l.style.pointerEvents = 'none');
 
   const certa = q.alternativas[respostaIdx].correta;
@@ -455,10 +455,10 @@ function finalizarSimulado() {
       alt.classList.remove('correta', 'incorreta');
       if (questao.alternativas[j].correta) {
         alt.classList.add('correta');
-        alt.innerHTML += `<div class="explicacao">✓ ${questao.alternativas[j].explicacao}</div>`;
+        alt.insertAdjacentHTML('beforeend', `<div class="explicacao">✓ ${questao.alternativas[j].explicacao}</div>`);
       } else if (selecionado && selecionado.getAttribute('data-correta') === 'false' && selecionado.value == j) {
         alt.classList.add('incorreta');
-        alt.innerHTML += `<div class="explicacao">✗ ${questao.alternativas[j].explicacao}</div>`;
+        alt.insertAdjacentHTML('beforeend', `<div class="explicacao">✗ ${questao.alternativas[j].explicacao}</div>`);
       }
     });
     if (selecionado && selecionado.getAttribute('data-correta') === 'true') acertos++;

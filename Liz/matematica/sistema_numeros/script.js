@@ -617,10 +617,10 @@ function finalizarQuiz() {
       
       if (questao.alternativas[j].correta) {
         alt.classList.add('correta');
-        alt.innerHTML += `<div class="explicacao">✓ ${explicacao}</div>`;
+        alt.insertAdjacentHTML('beforeend', `<div class="explicacao">✓ ${explicacao}</div>`);
       } else if (input.checked && !questao.alternativas[j].correta) {
         alt.classList.add('incorreta');
-        alt.innerHTML += `<div class="explicacao">✗ ${explicacao}</div>`;
+        alt.insertAdjacentHTML('beforeend', `<div class="explicacao">✗ ${explicacao}</div>`);
       }
     });
     
@@ -698,10 +698,10 @@ function finalizarSimulado() {
       
       if (questao.alternativas[j].correta) {
         alt.classList.add('correta');
-        alt.innerHTML += `<div class="explicacao">✓ ${explicacao}</div>`;
+        alt.insertAdjacentHTML('beforeend', `<div class="explicacao">✓ ${explicacao}</div>`);
       } else if (input.checked && !questao.alternativas[j].correta) {
         alt.classList.add('incorreta');
-        alt.innerHTML += `<div class="explicacao">✗ ${explicacao}</div>`;
+        alt.insertAdjacentHTML('beforeend', `<div class="explicacao">✗ ${explicacao}</div>`);
       }
     });
     

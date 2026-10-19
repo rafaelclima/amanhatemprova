@@ -387,6 +387,21 @@ td {
   margin-right: 10px;
 }
 
+/* Alternativas: alvo de clique maior (tablet/celular) */
+.alternativa-item input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  accent-color: var(--primary);
+  vertical-align: middle;
+}
+
+.alternativa-texto {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
 .alternativa-item.correta {
   background: rgba(34, 197, 94, 0.2);
   border-color: #22c55e;
