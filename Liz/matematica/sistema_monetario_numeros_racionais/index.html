@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Monetário e Números Racionais - 4º Ano</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="main-header">
+            <a href="../index.html" class="btn-back" title="Voltar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                <span>Voltar</span>
+            </a>
+            <h1 class="main-title">Sistema Monetário e Números Racionais 💰</h1>
+            <p class="subtitle">4º Ano — Cap. 11 Novos problemas, números novos + Cap. 12 Números racionais e sua representação fracionária</p>
+        </header>
+
+        <nav class="tabs-nav" role="tablist">
+            <button class="tab-btn active" data-tab="resumo" role="tab" aria-selected="true">📚 Resumo</button>
+            <button class="tab-btn" data-tab="quiz" role="tab" aria-selected="false">❓ Quiz (20)</button>
+            <button class="tab-btn" data-tab="simulado" role="tab" aria-selected="false">📝 Simulado (10)</button>
+            <button class="tab-btn" data-tab="jogo" role="tab" aria-selected="false">🏪 Jogo da Lojinha</button>
+        </nav>
+
+        <div class="content-area">
+
+            <!-- ==================== RESUMO ==================== -->
+            <div id="resumo" class="tab-content active">
+                <div class="card summary-card">
+                    <h2>Sistema Monetário e Números Racionais 💰🍕</h2>
+
+                    <div class="topic-section">
+                        <h3>💰 Cap. 11 — Sistema monetário: o dinheiro do dia a dia (págs. 14 a 18)</h3>
+                        <p>O <strong>sistema monetário</strong> é o conjunto de <strong>moedas e cédulas</strong> que um país usa para comprar e vender. No Brasil, esse dinheiro tem nome: é o <strong>real</strong>! 💵</p>
+
+                        <p><strong>1. A moeda do Brasil é o Real (R$):</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🇧🇷 O <strong>real</strong> foi criado em <strong>1994</strong>, com o Plano Real. Antes dele existiram o cruzeiro, o cruzado e o cruzeiro novo.</li>
+                            <li>🪙 <strong>1 real = 100 centavos</strong>. Por isso o real é dividido em 100 partes iguais — e é por isso que a <strong>vírgula</strong> aparece nos preços!</li>
+                            <li>💵 <strong>Cédulas (notas):</strong> R$ 2, R$ 5, R$ 10, R$ 20, R$ 50, R$ 100 e R$ 200.</li>
+                            <li>🪙 <strong>Moedas:</strong> R$ 0,01 (centavo), R$ 0,05, R$ 0,10, R$ 0,25, R$ 0,50 e R$ 1,00.</li>
+                        </ul>
+
+                        <p><strong>2. Como escrever valores em dinheiro:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>✏️ <strong>R$ 12,50</strong> → 12 reais e 50 centavos. A vírgula separa os <strong>reais</strong> dos <strong>centavos</strong>.</li>
+                            <li>🪙 <strong>R$ 0,75</strong> → 75 centavos. <strong>R$ 0,05</strong> → 5 centavos (e não 5 reais!).</li>
+                            <li>🔢 Os centavos são <strong>partes de 1 real em 100</strong>: 1 centavo = 1/100 do real. Por isso 0,01 é a menor parte do real.</li>
+                        </ul>
+
+                        <p><strong>3. Decompondo um valor com notas e moedas:</strong></p>
+                        <table>
+                            <thead>
+                                <tr><th>Moeda / nota</th><th>Quantidade</th><th>Total</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>Nota de R$ 20,00</td><td>1</td><td>R$ 20,00</td></tr>
+                                <tr><td>Nota de R$ 5,00</td><td>1</td><td>R$ 5,00</td></tr>
+                                <tr><td>Moeda de R$ 1,00</td><td>2</td><td>R$ 2,00</td></tr>
+                                <tr><td>Moeda de R$ 0,50</td><td>1</td><td>R$ 0,50</td></tr>
+                                <tr><td><strong>Total</strong></td><td>—</td><td><strong>R$ 27,50</strong></td></tr>
+                            </tbody>
+                        </table>
+
+                        <p><strong>4. Comparar valores do dia a dia:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>⚖️ Para comparar, olhe primeiro a parte inteira: R$ 19,90 é <strong>menor</strong> que R$ 20,05 (19 < 20).</li>
+                            <li>🧾 Se a parte inteira é igual, compare os centavos: R$ 12,50 é <strong>menor</strong> que R$ 12,70.</li>
+                            <li>💵 Cálculos do dia a dia: <strong>preço</strong>, <strong>troco</strong>, <strong>quanto falta</strong> para completar um valor e <strong>quanto custa ao todo</strong>.</li>
+                        </ul>
+                        <div class="destaque">Real (R$) = 100 centavos | Notas: 2, 5, 10, 20, 50, 100 e 200 | Moedas: 0,01 a 0,50 e 1,00 | R$ 12,50 = 12 reais e 50 centavos</div>
+                        <div class="dica">🧠 Dica: no Brasil a vírgula separa os centavos. R$ 1.500,00 (mil e quinhentos) é bem diferente de R$ 1,50 (um e meio)! Cuidado com o ponto de milhar!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🧮 Cap. 11 — Operações com números decimais (págs. 19 a 31)</h3>
+                        <p>Dinheiro no dia a dia quase nunca é <strong>redondo</strong>: por isso precisamos somar, subtrair, multiplicar e dividir <strong>quantias na forma decimal</strong> (com vírgula). 💵</p>
+
+                        <p><strong>1. Soma e subtração — alinhe as vírgulas:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>➕ <strong>R$ 12,50 + R$ 7,30 = R$ 19,80</strong>. As vírgulas ficam <strong>uma embaixo da outra</strong>.</li>
+                            <li>➖ <strong>R$ 20,00 − R$ 8,35 = R$ 11,65</strong>. É assim que se calcula o <strong>troco</strong>.</li>
+                            <li>🧩 <strong>Complete com zeros à direita</strong> para alinhar: R$ 4,5 + R$ 3,00 = R$ 4,50 + R$ 3,00 = <strong>R$ 7,50</strong>.</li>
+                            <li>📝 Exemplo: 10,25 + 3,7 = 10,25 + 3,70 = <strong>13,95</strong>.</li>
+                        </ul>
+
+                        <p><strong>2. Multiplicação — preço × quantidade:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🛒 <strong>R$ 2,50 × 3 = R$ 7,50</strong> (3 cadernos de R$ 2,50).</li>
+                            <li>🥣 <strong>R$ 3,50 × 4 = R$ 14,00</strong> (4 cereais de R$ 3,50).</li>
+                            <li>🪙 <strong>R$ 0,50 × 8 = R$ 4,00</strong> (8 moedas de 50 centavos).</li>
+                            <li>✏️ Multiplique como se fossem números inteiros e <strong>coloque a vírgula</strong> somando as casas decimais (2 + 1 = 3 casas).</li>
+                        </ul>
+
+                        <p><strong>3. Divisão — dividir o dinheiro igualmente:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🍫 <strong>R$ 12,00 ÷ 3 = R$ 4,00</strong> (3 amigos, R$ 4,00 cada).</li>
+                            <li>💡 <strong>Estratégia dos centavos:</strong> transforme tudo em centavos, divida e volte para reais.<br>
+                                R$ 4,50 ÷ 3 → <strong>450 centavos ÷ 3 = 150 centavos</strong> → <strong>R$ 1,50</strong> para cada um.</li>
+                            <li>⚠️ <strong>Nunca</strong> divida só a parte inteira (4 ÷ 3) e esqueça os centavos!</li>
+                        </ul>
+                        <div class="destaque">Soma/Subtração: alinhar as vírgulas | Multiplicação: preço × quantidade | Divisão: transformer em centavos (450 ÷ 3 = 150)</div>
+                        <div class="dica">🧠 Dica: nas contas de dinheiro, complete sempre com zeros à direita (R$ 4,5 vira R$ 4,50). Assim a vírgula fica no lugar certo e o erro some!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🤝 Cap. 12 — Compartilhar, dividir, repartir (págs. 36 a 44)</h3>
+                        <p><strong>Dividir</strong> é <strong>repartir em partes iguais</strong>. É uma das ideias mais importantes da matemática! 🍕</p>
+
+                        <p><strong>1. As partes da divisão:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>📖 Em <strong>24 ÷ 6 = 4</strong>: 24 é o <strong>dividendo</strong>, 6 é o <strong>divisor</strong> e 4 é o <strong>quociente</strong>.</li>
+                            <li>🍬 24 balas ÷ 6 crianças = <strong>4 balas</strong> para cada uma.</li>
+                            <li>🍫 18 chocolates ÷ 3 crianças = <strong>6 chocolates</strong> para cada uma.</li>
+                        </ul>
+
+                        <p><strong>2. Nem sempre dá para dividir igualmente:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🍬 25 balas ÷ 4 crianças: cada uma recebe <strong>6 balas</strong> e <strong>sobra 1</strong>. Essa sobra é o <strong>resto</strong>.</li>
+                            <li>📏 O <strong>resto é sempre menor que o divisor</strong> (aqui, 1 < 4).</li>
+                            <li>🔢 Exemplo: 47 ÷ 5 = 9 e <strong>sobra 2</strong>.</li>
+                        </ul>
+
+                        <p><strong>3. Quando dividimos um todo em partes iguais, nasce a fração:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🍕 Uma pizza dividida em <strong>8 partes iguais</strong>; Liz comeu <strong>3</strong> → ela comeu <strong>3/8</strong> da pizza.</li>
+                            <li>➗ Cada parte de um todo dividido em 8 partes vale <strong>1/8</strong> do todo. A metade vale <strong>1/2</strong>.</li>
+                            <li>🧠 <strong>Números racionais</strong> são os números que podem ser escritos na forma de fração (numerador e denominador). Isso inclui as frações, os inteiros (2 = 2/1) e os decimais (0,5 = 5/10).</li>
+                        </ul>
+                        <div class="destaque">Dividir = repartir em partes iguais | Dividendo ÷ Divisor = Quociente (+ resto) | O resto é menor que o divisor | 25 ÷ 4 = 6 e sobra 1</div>
+                        <div class="dica">🧠 Dica: antes de dividir, pergunte "é para repartir igualmente?". Se sobra, não jogue fora: o resto também pode ser dividido em partes menores (metade do resto, por exemplo)!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🎨 Cap. 12 — Representações dos números racionais (págs. 45 a 47)</h3>
+                        <p>Um número racional pode ser escrito de <strong>várias maneiras</strong>: como fração, como decimal, como porcentagem ou desenhado em figuras! 🎯</p>
+
+                        <p><strong>1. A fração e suas partes:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🔢 Em <strong>3/4</strong>, o número de baixo é o <strong>denominador</strong>: em quantas partes iguais o todo foi dividido.</li>
+                            <li>🔢 O número de cima é o <strong>numerador</strong>: quantas dessas partes foram tomadas.</li>
+                            <li>🗣️ Leitura: <strong>3/4</strong> = "três quartos" | <strong>1/2</strong> = "meio" (um meio) | <strong>2/5</strong> = "dois quintos".</li>
+                        </ul>
+
+                        <p><strong>2. Frações equivalentes (mesma quantidade, escrita diferente):</strong></p>
+                        <table>
+                            <thead>
+                                <tr><th>Fração</th><th>Também pode ser</th><th>Em decimal</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr><td>1/2</td><td>2/4 = 3/6 = 4/8</td><td>0,5</td></tr>
+                                <tr><td>1/4</td><td>2/8 = 5/20</td><td>0,25</td></tr>
+                                <tr><td>1/10</td><td>2/20 = 10/100</td><td>0,1</td></tr>
+                                <tr><td>3/4</td><td>6/8 = 9/12</td><td>0,75</td></tr>
+                            </tbody>
+                        </table>
+
+                        <p><strong>3. Simplificar é encontrar a fração mais simples:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>✂️ 4/8 → dividir numerador e denominador por 4 → <strong>1/2</strong>.</li>
+                            <li>✂️ 10/100 → dividir por 10 → <strong>1/10</strong>.</li>
+                            <li>🔼 <strong>Fração imprópria</strong> (numerador maior que denominador): 5/3 = <strong>1 e 2/3</strong> (número misto) = 1,66… ≈ 1,67.</li>
+                        </ul>
+
+                        <p><strong>4. Representações por figuras e na reta numérica:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🥧 Um círculo pintado em 3 das 4 partes iguais representa <strong>3/4</strong>.</li>
+                            <li>📏 Na reta numérica de 0 a 1 dividida em 4 partes iguais, <strong>3/4</strong> fica no terceiro ponto de marcação.</li>
+                            <li>🔄 <strong>1/2 = 2/4 = 4/8 = 0,5</strong>: são quatro Representations da mesma quantidade.</li>
+                        </ul>
+                        <div class="destaque">Numerador = partes que tomamos | Denominador = total de partes iguais | 1/2 = 2/4 = 4/8 = 0,5 | 5/3 = 1 e 2/3</div>
+                        <div class="dica">🧠 Dica: para simplificar, divida o numerador e o denominador pelo mesmo número. 4/8: 4÷4 e 8÷4 = 1/2! Cuidado: nunca divida só o numerador (4÷4 = 1, mas 8÷4 = 2 também!).</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🍕 Cap. 12 — Fração de quantidades (págs. 48 a 52)</h3>
+                        <p>Agora vamos <strong>calcular</strong> quanto vale uma fração de uma quantidade de verdade: de balas, de pizzas, de horas e de dinheiro! 🧮</p>
+
+                        <p><strong>1. O caminho certo: dividir pelo denominador e multiplicar pelo numerador.</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🍬 <strong>1/4 de 20</strong> → 20 ÷ 4 = 5 → <strong>5 balas</strong> (cada uma recebeu 1/4).</li>
+                            <li>🍬 <strong>3/4 de 20</strong> → 20 ÷ 4 = 5 → 5 × 3 = <strong>15 balas</strong>.</li>
+                            <li>🍬 <strong>1/2 de 30</strong> → 30 ÷ 2 = <strong>15 balas</strong>.</li>
+                            <li>🍬 <strong>3/8 de 40 bombons</strong> → 40 ÷ 8 = 5 → 5 × 3 = <strong>15 bombons</strong>.</li>
+                        </ul>
+
+                        <p><strong>2. Fração de dinheiro:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>💰 <strong>1/4 de R$ 20,00</strong> → 20 ÷ 4 = <strong>R$ 5,00</strong>.</li>
+                            <li>💰 <strong>3/4 de R$ 40,00</strong> → 40 ÷ 4 = 10 → 10 × 3 = <strong>R$ 30,00</strong>.</li>
+                        </ul>
+
+                        <p><strong>3. Fração de tempo e de figuras:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>⏰ <strong>1/2 hora = 30 minutos</strong> | <strong>1/4 de hora = 15 minutos</strong> | <strong>3/4 de hora = 45 minutos</strong>.</li>
+                            <li>🍕 Pizza dividida em 8 pedaços: <strong>1/4 da pizza = 2 pedaços</strong>.</li>
+                            <li>➕ Somando frações de <strong>mesmo denominador</strong>: 1/4 + 2/4 = <strong>3/4</strong> (somamos só os numeradores!).</li>
+                            <li>🍰 <strong>1/2 + 1/2 = 2/2 = 1 inteiro</strong> — a pizza inteira!</li>
+                        </ul>
+                        <div class="destaque">Fração de quantidade: divida pelo DENOMINADOR e multiplique pelo NUMERADOR | 1/4 de 20 = 5 | 3/4 de 40 = 30 | 1/2 hora = 30 min</div>
+                        <div class="dica">🧠 Dica: multiplicar em vez de dividir é o erro mais comum! Para 1/4 de 20, divida 20 por 4 (5) — multiplicar daria 80, que é o quádruplo, não a quarta parte!</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>🔄 Cap. 12 — Representação decimal e fracionária dos números racionais (págs. 53 a 61)</h3>
+                        <p>Toda fração pode virar <strong>decimal</strong> e todo decimal pode virar <strong>fração</strong>. É a mesma quantidade escrita de outro jeito! 🔁</p>
+
+                        <p><strong>1. De fração para decimal:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🔢 <strong>1/10 = 0,1</strong> | <strong>1/2 = 5/10 = 0,5</strong> | <strong>1/4 = 25/100 = 0,25</strong> | <strong>3/4 = 75/100 = 0,75</strong> | <strong>1/5 = 0,2</strong>.</li>
+                            <li>🛠️ <strong>Como fazer:</strong> transforme a fração em uma de denominador 10, 100 ou 1000 e depois "leia" o decimal.</li>
+                        </ul>
+
+                        <p><strong>2. De decimal para fração:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🔙 <strong>0,5 = 5/10 = 1/2</strong> | <strong>0,25 = 25/100 = 1/4</strong> | <strong>0,75 = 3/4</strong> | <strong>0,1 = 1/10</strong> | <strong>1,5 = 15/10 = 3/2</strong>.</li>
+                            <li>📏 <strong>Regra:</strong> olhe as casas depois da vírgula. 1 casa → denominador <strong>10</strong>; 2 casas → <strong>100</strong>; 3 casas → <strong>1000</strong>.</li>
+                        </ul>
+
+                        <p><strong>3. Frações decimais e comparações:</strong></p>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:1.9;">
+                            <li>🟰 <strong>0,5 = 0,50 = 0,500</strong>: representam a <strong>mesma quantidade</strong> (metade).</li>
+                            <li>⚖️ <strong>0,25 é menor que 0,5</strong> porque 25/100 < 50/100. Para comparar decimais, compare como frações!</li>
+                            <li>🔗 <strong>1/2 = 0,5 = 50% = 2/4</strong>: quatro jeitos de escrever o mesmo número racional.</li>
+                            <li>🧠 <strong>Todo decimal é racional</strong>, porque sempre pode ser escrito como fração (0,05 = 5/100).</li>
+                        </ul>
+                        <div class="destaque">1/2 = 0,5 | 1/4 = 0,25 | 3/4 = 0,75 | 1/10 = 0,1 | 1/5 = 0,2 | 0,5 = 5/10 = 1/2 | 1 casa = /10, 2 casas = /100</div>
+                        <div class="dica">🧠 Dica: 0,5 NÃO é 1/5! 0,5 = 5/10 = 1/2 (metade). Um decimal só vira fração com denominador 10, 100 ou 1000, conforme o número de casas depois da vírgula.</div>
+                    </div>
+
+                    <div class="topic-section">
+                        <h3>✅ Para relembrar + Checklist</h3>
+                        <ul style="margin:15px 0 15px 25px; color:var(--text); line-height:2;">
+                            <li>📌 A moeda do Brasil é o <strong>real (R$)</strong>, criado em 1994. <strong>1 real = 100 centavos</strong>.</li>
+                            <li>📌 Cédulas: R$ 2, 5, 10, 20, 50, 100 e 200. Moedas: 1 centavo, 5, 10, 25, 50 centavos e R$ 1,00.</li>
+                            <li>📌 A vírgula separa reais de centavos: R$ 12,50 = 12 reais e 50 centavos. Cuidado com o ponto de milhar (R$ 1.500,00).</li>
+                            <li>📌 Decomponho valores em notas e moedas e comparo preços, trocos e o que falta.</li>
+                            <li>📌 Para somar e subtrair decimais, <strong>alinho as vírgulas</strong> e completo com zeros à direita.</li>
+                            <li>📌 Multiplico preço × quantidade e, ao dividir, transformo tudo em <strong>centavos</strong> (450 ÷ 3 = 150).</li>
+                            <li>📌 Dividir é repartir em partes iguais: dividendo ÷ divisor = quociente (+ resto). O <strong>resto é menor que o divisor</strong>.</li>
+                            <li>📌 Dividir um todo em partes iguais gera frações. <strong>Números racionais</strong> são os que podem ser escritos como fração.</li>
+                            <li>📌 Numerador = partes que tomamos; denominador = total de partes iguais. Simplificar = 4/8 → 1/2.</li>
+                            <li>📌 Para calcular a fração de uma quantidade: <strong>divido pelo denominador e multiplico pelo numerador</strong> (1/4 de 20 = 5).</li>
+                            <li>📌 Frações de tempo: 1/2 hora = 30 min, 1/4 de hora = 15 min, 3/4 de hora = 45 min.</li>
+                            <li>📌 Decimal ↔ fração: 1/2 = 0,5, 1/4 = 0,25, 3/4 = 0,75, 1/10 = 0,1, 0,5 = 5/10 = 1/2.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== QUIZ ==================== -->
+            <div id="quiz" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">❓ Quiz de Dinheiro e Frações</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Responda as 20 perguntas — cada uma tem feedback na hora!</p>
+                    <div id="quiz-progress" class="progress-text">Questão 1/20</div>
+                    <div id="quiz-container"></div>
+                    <div id="quiz-feedback" class="feedback-area hidden"></div>
+                    <div id="quiz-buttons" style="text-align:center;margin-top:20px;">
+                        <button id="quiz-next-btn" class="btn hidden" onclick="proximaQuestaoQuiz()">➡️ Próxima</button>
+                    </div>
+                    <div id="quiz-result" class="result-card hidden">
+                        <h3>📊 Resultado</h3>
+                        <div class="score-text">0/20</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarQuiz()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== SIMULADO ==================== -->
+            <div id="simulado" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">📝 Simulado</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">10 perguntas para testar seus conhecimentos!</p>
+                    <div id="simulado-container"></div>
+                    <div style="text-align:center;margin-top:20px;">
+                        <button class="btn" onclick="finalizarSimulado()">✅ Finalizar Simulado</button>
+                    </div>
+                    <div id="simulado-result" class="result-card hidden">
+                        <h3>📊 Resultado do Simulado</h3>
+                        <div class="score-text">0/10</div>
+                        <div class="message-text"></div>
+                        <button class="btn-retry" onclick="reiniciarSimulado()">🔄 Tentar Novamente</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ==================== JOGO ==================== -->
+            <div id="jogo" class="tab-content">
+                <div class="card">
+                    <h2 style="background:linear-gradient(135deg,var(--primary) 0%,var(--accent) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:20px;">🏪 Jogo da Lojinha</h2>
+                    <p style="color:var(--text);margin-bottom:20px;">Cada rodada é diferente: calcule o preço OU julgue Verdadeiro/Mito! Sem repetição até zerar o baralho! 🃏</p>
+                    <div id="jogo-container" class="jogo-container">
+                        <div class="jogo-info">
+                            <span>Acertos: <strong id="jogo-acertos">0</strong></span>
+                            <span>Pontos: <strong id="jogo-pontos">0</strong></span>
+                            <span>Sequência: <strong id="jogo-sequencia">0</strong> 🔥</span>
+                        </div>
+                        <div class="jogo-pergunta" id="jogo-pergunta" style="font-size:1.6rem;">Vamos começar!</div>
+                        <div class="jogo-opcoes" id="jogo-opcoes"></div>
+                        <div id="jogo-mensagem" style="text-align:center;margin-top:20px;font-size:1.2rem;font-weight:700;"></div>
+                        <div id="jogo-nivel" style="text-align:center;margin-top:10px;font-size:1rem;color:var(--text);opacity:0.85;"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="main-footer">
+            <p>Feito pelo Papi ❤️ — 4º Ano • Ensino Fundamental</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
